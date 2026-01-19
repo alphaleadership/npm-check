@@ -134,7 +134,7 @@ async function httpGetJson<T = unknown>(
   try {
     const response = await fetch(url, {
       headers: {
-        "User-Agent": "npm-check-preinstall-postinstall-monitor",
+        "User-Agent": "npm-scan-preinstall-postinstall-monitor",
         Accept: "application/json",
         ...headers,
       },

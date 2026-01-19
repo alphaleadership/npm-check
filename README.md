@@ -1,4 +1,4 @@
-# npm-check
+# npm-scan
 
 Monitors newly published npm package versions and flags publishes that **introduce** a `preinstall` or `postinstall` script. These lifecycle scripts can pose security risks, as they execute automatically during package installation and may be introduced in updates without users noticing.
 
