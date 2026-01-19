@@ -410,11 +410,13 @@ async function run(): Promise<void> {
             // Send Telegram notification if configured
             if (telegramBotToken && telegramChatId) {
               try {
+                const npmPackageUrl = `https://www.npmjs.com/package/${encodePackageNameForRegistry(name)}`;
                 const message =
                   `🚨 <b>${scriptLabel} script added</b>\n\n` +
                   `Package: <code>${name}@${latest}</code>\n` +
+                  `<a href="${npmPackageUrl}">View on npm</a>\n` +
                   `Previous version: ${previous ?? "none"}\n` +
-                  `${scriptLabel}: <code>${cmd.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code>`;
+                  `<code>${cmd.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code>`;
                 await sendTelegramNotification(
                   telegramBotToken,
                   telegramChatId,
