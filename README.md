@@ -4,12 +4,6 @@ Monitors newly published npm package versions and flags publishes that **introdu
 
 The tool uses npm's replicate database (`replicate.npmjs.com`) to track changes, then fetches full package metadata from the registry to compare scripts between versions.
 
-## Features
-
-- Monitors npm for new packages with `preinstall` or `postinstall` scripts.
-- Sends notifications to Telegram, Discord, or both.
-- Creates GitHub issues in the package's repository when a new script is detected.
-
 ## Configuration
 
 The application is configured using environment variables. You can set them in your shell, or by creating a `.env` file in the root of the project.
@@ -36,6 +30,7 @@ It is recommended to run this application with a process manager like PM2.
 3.  Copy `.env.example` to `.env` and fill in the values.
 4.  Start the application with `pm2 startOrReload ecosystem.config.cjs --env production`.
 5.  Save the PM2 process list with `pm2 save`.
+
 ## Hall of Fame
 
 This project has led to the following results as of January 19th, 2026:
@@ -46,7 +41,8 @@ This project has led to the following results as of January 19th, 2026:
 
 **Daniel Lockyer** <hi@daniellockyer.com>
 
+[GitHub Sponsors](https://github.com/sponsors/daniellockyer)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-[GitHub Sponsors](https://github.com/sponsors/daniellockyer)
