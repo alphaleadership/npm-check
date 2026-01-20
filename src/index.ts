@@ -615,6 +615,7 @@ async function run(): Promise<void> {
       if (changes.results.length === 0) {
         await delay(pollMs);
       }
+      changes.results=[]
     } catch (err) {
       process.stderr.write(
         `[${nowIso()}] poll error: ${getErrorMessage(err)}; retrying in ${backoffMs}ms\n`,
