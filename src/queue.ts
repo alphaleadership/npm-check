@@ -15,10 +15,10 @@ const connection = {
 export const packageQueue = new Queue<PackageJobData>("package-scan", {
   connection,
   defaultJobOptions: {
-    attempts: 3,
+    attempts: 5,
     backoff: {
       type: "exponential",
-      delay: 2000,
+      delay: 5000,
     },
     removeOnComplete: {
       age: 3600, // Keep completed jobs for 1 hour
