@@ -1,5 +1,21 @@
 [
   {
+    "packageName": "galeneai-cli",
+    "version": "0.0.10",
+    "scriptType": "postinstall",
+    "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-20T14:24:02.756Z"
+  },
+  {
+    "packageName": "baileys-ud",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-20T14:23:21.670Z"
+  },
+  {
     "packageName": "everything-search-mcp",
     "version": "1.1.0",
     "scriptType": "postinstall",
