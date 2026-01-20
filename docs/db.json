@@ -1,5 +1,29 @@
 [
   {
+    "packageName": "@namehash/namehash-ui",
+    "version": "1.5.1",
+    "scriptType": "postinstall",
+    "scriptContent": "pnpm build:css",
+    "previousVersion": "1.5.0",
+    "timestamp": "2026-01-20T13:09:49.686Z"
+  },
+  {
+    "packageName": "openspot-tui",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bun run src/scripts/postinstall.ts",
+    "previousVersion": null,
+    "timestamp": "2026-01-20T12:56:00.463Z"
+  },
+  {
+    "packageName": "neutrinos-cli",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-20T12:49:53.159Z"
+  },
+  {
     "packageName": "@choiceopen/atomemo-plugin-cli",
     "version": "0.3.0",
     "scriptType": "postinstall",
