@@ -1,5 +1,5 @@
 /**
- * PM2 ecosystem config for npm-check.
+ * PM2 ecosystem config for npm-scan.
  *
  * On the server:
  *   pm2 startOrReload ecosystem.config.cjs --env production
@@ -13,7 +13,7 @@ const path = require('path');
 module.exports = {
   apps: [
     {
-      name: process.env.PM2_APP_NAME || 'npm-check',
+      name: process.env.PM2_APP_NAME || 'npm-scan',
       script: path.join(__dirname, 'src', 'index.ts'),
       interpreter: 'node',
       autorestart: true,

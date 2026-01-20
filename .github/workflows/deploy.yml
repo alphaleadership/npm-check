@@ -36,7 +36,7 @@ jobs:
       HETZNER_HOST: ${{ secrets.HETZNER_HOST }}
       HETZNER_USER: ${{ secrets.HETZNER_USER }}
       HETZNER_DEPLOY_PATH: ${{ secrets.HETZNER_DEPLOY_PATH }}
-      PM2_APP_NAME: ${{ secrets.PM2_APP_NAME || 'npm-check' }}
+      PM2_APP_NAME: ${{ secrets.PM2_APP_NAME || 'npm-scan' }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 

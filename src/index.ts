@@ -77,6 +77,10 @@ function nowIso(): string {
   return new Date().toISOString();
 }
 
+function getErrorMessage(error: unknown): string {
+  return error instanceof Error && error.message ? error.message : String(error);
+}
+
 function isLikelyVersionKey(key: unknown): key is string {
   return typeof key === "string" && semver.valid(key) !== null;
 }
@@ -90,12 +94,8 @@ function hasScript(versionDoc: unknown, scriptName: string): boolean {
   return typeof val === "string" && val.trim().length > 0;
 }
 
-function hasPostinstall(versionDoc: unknown): boolean {
-  return hasScript(versionDoc, "postinstall");
-}
-
-function hasPreinstall(versionDoc: unknown): boolean {
-  return hasScript(versionDoc, "preinstall");
+function getScript(versionDoc: VersionDoc | undefined, scriptName: string): string {
+  return versionDoc?.scripts?.[scriptName] ?? "";
 }
 
 function pickLatestAndPreviousVersions(doc: unknown): VersionResult {
@@ -113,7 +113,9 @@ function pickLatestAndPreviousVersions(doc: unknown): VersionResult {
 
   // Prefer dist-tags.latest for the "current" publish signal.
   const latest =
-    distTags && typeof distTags.latest === "string" ? distTags.latest : null;
+    distTags?.latest && typeof distTags.latest === "string"
+      ? distTags.latest
+      : null;
 
   if (!latest || !versions[latest]) {
     return { latest: null, previous: null };
@@ -121,24 +123,17 @@ function pickLatestAndPreviousVersions(doc: unknown): VersionResult {
 
   // Find the highest previous version using semver comparison.
   // Only consider versions that are smaller than the latest version.
-  const versionKeys = Object.keys(versions).filter((v) =>
-    isLikelyVersionKey(v),
-  );
-  const sortedVersions = versionKeys
-    .filter((v) => {
-      if (v === latest) return false;
-      // Only include versions that are smaller than latest
-      const comparison = semver.compare(v, latest);
-      return comparison !== null && comparison < 0;
-    })
-    .sort((a, b) => {
-      const comparison = semver.compare(b, a);
-      return comparison !== null ? comparison : 0;
-    });
+  const previousVersions = Object.keys(versions)
+    .filter(
+      (v) =>
+        isLikelyVersionKey(v) &&
+        v !== latest &&
+        semver.compare(v, latest) !== null &&
+        semver.compare(v, latest)! < 0,
+    )
+    .sort((a, b) => semver.compare(b, a) ?? 0);
 
-  const previous = sortedVersions.length > 0 ? sortedVersions[0] : null;
-
-  return { latest, previous };
+  return { latest, previous: previousVersions[0] ?? null };
 }
 
 async function httpGetJson<T = unknown>(
@@ -151,7 +146,7 @@ async function httpGetJson<T = unknown>(
   try {
     const response = await fetch(url, {
       headers: {
-        "User-Agent": "npm-check-preinstall-postinstall-monitor",
+        "User-Agent": "npm-scan-preinstall-postinstall-monitor",
         Accept: "application/json",
         ...headers,
       },
@@ -197,26 +192,30 @@ async function fetchPackument(
   return httpGetJson<Packument>(url);
 }
 
-async function sendTelegramNotification(
-  botToken: string,
-  chatId: string,
-  message: string,
+async function httpPostJson(
+  url: string | URL,
+  body: unknown,
+  {
+    headers = {},
+    timeoutMs = 10000,
+    timeoutMessage = "request timeout",
+  }: {
+    headers?: Record<string, string>;
+    timeoutMs?: number;
+    timeoutMessage?: string;
+  } = {},
 ): Promise<void> {
-  const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
   const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 10000);
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
     const response = await fetch(url, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        ...headers,
       },
-      body: JSON.stringify({
-        chat_id: chatId,
-        text: message,
-        parse_mode: "HTML",
-      }),
+      body: JSON.stringify(body),
       signal: controller.signal,
     });
 
@@ -226,7 +225,7 @@ async function sendTelegramNotification(
     }
   } catch (error) {
     if (error instanceof Error && error.name === "AbortError") {
-      throw new Error("Telegram notification timeout");
+      throw new Error(timeoutMessage);
     }
     throw error;
   } finally {
@@ -234,37 +233,32 @@ async function sendTelegramNotification(
   }
 }
 
+async function sendTelegramNotification(
+  botToken: string,
+  chatId: string,
+  message: string,
+): Promise<void> {
+  const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+  await httpPostJson(
+    url,
+    {
+      chat_id: chatId,
+      text: message,
+      parse_mode: "HTML",
+    },
+    { timeoutMessage: "Telegram notification timeout" },
+  );
+}
+
 async function sendDiscordNotification(
   webhookUrl: string,
   message: string,
 ): Promise<void> {
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 10000);
-
-  try {
-    const response = await fetch(webhookUrl, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        content: message,
-      }),
-      signal: controller.signal,
-    });
-
-    if (!response.ok) {
-      const text = await response.text();
-      throw new Error(`HTTP ${response.status}: ${text.slice(0, 200)}`);
-    }
-  } catch (error) {
-    if (error instanceof Error && error.name === "AbortError") {
-      throw new Error("Discord notification timeout");
-    }
-    throw error;
-  } finally {
-    clearTimeout(timeoutId);
-  }
+  await httpPostJson(
+    webhookUrl,
+    { content: message },
+    { timeoutMessage: "Discord notification timeout" },
+  );
 }
 
 async function createGitHubIssue(
@@ -295,62 +289,21 @@ ${scriptContent}
 
 This could be a security risk. Please investigate.
 `;
-  console.log(issueBody)
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 10000);
 
-  try {
-    const response = await fetch(apiUrl, {
-      method: "POST",
+  await httpPostJson(
+    apiUrl,
+    {
+      title: issueTitle,
+      body: issueBody,
+    },
+    {
       headers: {
-        "Content-Type": "application/json",
         Authorization: `token ${githubToken}`,
         Accept: "application/vnd.github.v3+json",
       },
-      body: JSON.stringify({
-        title: issueTitle,
-        body: issueBody,
-      }),
-      signal: controller.signal,
-    });
-
-    if (!response.ok) {
-      const text = await response.text();
-      throw new Error(`HTTP ${response.status}: ${text.slice(0, 200)}`);
-    }
-  } catch (error) {
-    if (error instanceof Error && error.name === "AbortError") {
-      throw new Error("GitHub issue creation timeout");
-    }
-    throw error;
-  } finally {
-    clearTimeout(timeoutId);
-  }
-}
-
-async function saveFinding(finding: Finding): Promise<void> {
-  let findings: Finding[] = [];
-  try {
-    const data = await fs.readFile(DB_PATH, "utf8");
-    findings = JSON.parse(data);
-  } catch (error: any) {
-    if (error.code !== "ENOENT") {
-      process.stderr.write(
-        `[${nowIso()}] WARN could not read ${DB_PATH}: ${error.message}\n`,
-      );
-    }
-  }
-
-  // Add new finding to the top
-  findings.unshift(finding);
-
-  try {
-    await fs.writeFile(DB_PATH, JSON.stringify(findings, null, 2), "utf8");
-  } catch (error: any) {
-    process.stderr.write(
-      `[${nowIso()}] WARN could not write to ${DB_PATH}: ${error.message}\n`,
-    );
-  }
+      timeoutMessage: "GitHub issue creation timeout",
+    },
+  );
 }
 
 async function run(): Promise<void> {
@@ -371,6 +324,7 @@ async function run(): Promise<void> {
   const telegramChatId = process.env.TELEGRAM_CHAT_ID;
   const discordWebhookUrl = process.env.DISCORD_WEBHOOK_URL;
   const githubToken = process.env.GITHUB_TOKEN;
+
   const flagged = new Set<string>(); // `${name}@${version}` flagged already
   const lastSeenLatest = new Map<string, string>(); // name -> latest version processed
 
@@ -415,10 +369,8 @@ async function run(): Promise<void> {
           try {
             packument = await fetchPackument(registryBaseUrl, name);
           } catch (e) {
-            const errorMessage =
-              e instanceof Error && e.message ? e.message : String(e);
             process.stderr.write(
-              `[${nowIso()}] WARN packument fetch failed for ${name}: ${errorMessage}\n`,
+              `[${nowIso()}] WARN packument fetch failed for ${name}: ${getErrorMessage(e)}\n`,
             );
             return;
           }
@@ -426,9 +378,8 @@ async function run(): Promise<void> {
           const { latest, previous } = pickLatestAndPreviousVersions(packument);
           if (!latest) return;
 
-          const prevVersion = previous ? previous : "none";
           process.stdout.write(
-            `[${nowIso()}] ${name}: ${prevVersion} -> ${latest}\n`,
+            `[${nowIso()}] ${name}: ${previous ?? "none"} -> ${latest}\n`,
           );
 
           const last = lastSeenLatest.get(name);
@@ -442,69 +393,67 @@ async function run(): Promise<void> {
             );
           }
 
-          const versions =
-            packument.versions && typeof packument.versions === "object"
-              ? packument.versions
-              : {};
+          const versions = packument.versions ?? {};
           const latestDoc = versions[latest];
-          const prevDoc = previous ? versions[previous] : null;
+          const prevDoc = previous ? versions[previous] : undefined;
 
-          const latestHasPostinstall = hasPostinstall(latestDoc);
-          const latestHasPreinstall = hasPreinstall(latestDoc);
-          if (!latestHasPostinstall && !latestHasPreinstall) return;
+          for (const scriptType of ["postinstall", "preinstall"] as const) {
+            const latestHasScript = hasScript(latestDoc, scriptType);
+            const prevHasScript = prevDoc ? hasScript(prevDoc, scriptType) : false;
 
-          const prevHasPostinstall = prevDoc ? hasPostinstall(prevDoc) : false;
-          const prevHasPreinstall = prevDoc ? hasPreinstall(prevDoc) : false;
+            if (!latestHasScript || prevHasScript) continue;
 
-          // Check for postinstall
-          if (latestHasPostinstall && !prevHasPostinstall) {
-            const key = `${name}@${latest}:postinstall`;
-            if (!flagged.has(key)) {
-              flagged.add(key);
+            const key = `${name}@${latest}:${scriptType}`;
+            if (flagged.has(key)) continue;
 
-              const cmd =
-                latestDoc && latestDoc.scripts && latestDoc.scripts.postinstall
-                  ? latestDoc.scripts.postinstall
-                  : "";
-              const prevTxt = previous
-                ? ` (prev: ${previous})`
-                : " (first publish / unknown prev)";
-              process.stdout.write(
-                `[${nowIso()}] FLAG postinstall added: ${name}@${latest}${prevTxt}\n` +
-                `  postinstall: ${JSON.stringify(cmd)}\n`,
-              );
+            flagged.add(key);
 
-              // Save finding to database
-              const finding: Finding = {
-                packageName: name,
-                version: latest,
-                scriptType: "postinstall",
-                scriptContent: cmd,
-                previousVersion: previous,
-                timestamp: nowIso(),
-              };
-              await saveFinding(finding);
+            const cmd = getScript(latestDoc, scriptType);
+            const scriptLabel =
+              scriptType.charAt(0).toUpperCase() + scriptType.slice(1);
+            const prevTxt = previous
+              ? ` (prev: ${previous})`
+              : " (first publish / unknown prev)";
+            process.stdout.write(
+              `[${nowIso()}] FLAG ${scriptType} added: ${name}@${latest}${prevTxt}\n` +
+              `  ${scriptType}: ${JSON.stringify(cmd)}\n`,
+            );
 
-              // Send Telegram notification if configured
-              if (telegramBotToken && telegramChatId) {
-                try {
-                  const message =
-                    `🚨 <b>Postinstall script added</b>\n\n` +
-                    `Package: <code>${name}@${latest}</code>\n` +
-                    `Previous version: ${previous || "none"}\n` +
-                    `Postinstall: <code>${cmd.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code>`;
-                  await sendTelegramNotification(
-                    telegramBotToken,
-                    telegramChatId,
-                    message,
-                  );
-                } catch (e) {
-                  const errorMessage =
-                    e instanceof Error && e.message ? e.message : String(e);
-                  process.stderr.write(
-                    `[${nowIso()}] WARN Telegram notification failed: ${errorMessage}\n`,
-                  );
-                }
+            // Send Telegram notification if configured
+            if (telegramBotToken && telegramChatId) {
+              try {
+                const npmPackageUrl = `https://www.npmjs.com/package/${encodePackageNameForRegistry(name)}`;
+                const message =
+                  `🚨 <b>${scriptLabel} script added</b>\n\n` +
+                  `Package: <code>${name}@${latest}</code>\n` +
+                  `<a href="${npmPackageUrl}">View on npm</a>\n` +
+                  `Previous version: ${previous ?? "none"}\n` +
+                  `<code>${cmd.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code>`;
+                await sendTelegramNotification(
+                  telegramBotToken,
+                  telegramChatId,
+                  message,
+                );
+              } catch (e) {
+                process.stderr.write(
+                  `[${nowIso()}] WARN Telegram notification failed: ${getErrorMessage(e)}\n`,
+                );
+              }
+            }
+
+            // Send Discord notification if configured
+            if (discordWebhookUrl) {
+              try {
+                const message =
+                  `🚨 **${scriptLabel} script added**\n\n` +
+                  `**Package:** \`${name}@${latest}\`\n` +
+                  `**Previous version:** ${previous ?? "none"}\n` +
+                  `**${scriptLabel}:** \`\`\`${cmd}\`\`\``;
+                await sendDiscordNotification(discordWebhookUrl, message);
+              } catch (e) {
+                process.stderr.write(
+                  `[${nowIso()}] WARN Discord notification failed: ${getErrorMessage(e)}\n`,
+                );
               }
 
               // Send Discord notification if configured
@@ -545,57 +494,22 @@ async function run(): Promise<void> {
                 }
               }
             }
-          }
 
-          // Check for preinstall
-          if (latestHasPreinstall && !prevHasPreinstall) {
-            const key = `${name}@${latest}:preinstall`;
-            if (!flagged.has(key)) {
-              flagged.add(key);
-
-              const cmd =
-                latestDoc && latestDoc.scripts && latestDoc.scripts.preinstall
-                  ? latestDoc.scripts.preinstall
-                  : "";
-              const prevTxt = previous
-                ? ` (prev: ${previous})`
-                : " (first publish / unknown prev)";
-              process.stdout.write(
-                `[${nowIso()}] FLAG preinstall added: ${name}@${latest}${prevTxt}\n` +
-                `  preinstall: ${JSON.stringify(cmd)}\n`,
-              );
-
-              // Save finding to database
-              const finding: Finding = {
-                packageName: name,
-                version: latest,
-                scriptType: "preinstall",
-                scriptContent: cmd,
-                previousVersion: previous,
-                timestamp: nowIso(),
-              };
-              await saveFinding(finding);
-
-              // Send Telegram notification if configured
-              if (telegramBotToken && telegramChatId) {
-                try {
-                  const message =
-                    `🚨 <b>Preinstall script added</b>\n\n` +
-                    `Package: <code>${name}@${latest}</code>\n` +
-                    `Previous version: ${previous || "none"}\n` +
-                    `Preinstall: <code>${cmd.replace(/</g, "&lt;").replace(/>/g, "&gt;")}</code>`;
-                  await sendTelegramNotification(
-                    telegramBotToken,
-                    telegramChatId,
-                    message,
-                  );
-                } catch (e) {
-                  const errorMessage =
-                    e instanceof Error && e.message ? e.message : String(e);
-                  process.stderr.write(
-                    `[${nowIso()}] WARN Telegram notification failed: ${errorMessage}\n`,
-                  );
-                }
+            // Create GitHub issue if configured
+            if (githubToken && packument.repository?.url) {
+              try {
+                await createGitHubIssue(
+                  githubToken,
+                  packument.repository.url,
+                  name,
+                  latest,
+                  scriptType,
+                  cmd,
+                );
+              } catch (e) {
+                process.stderr.write(
+                  `[${nowIso()}] WARN GitHub issue creation failed: ${getErrorMessage(e)}\n`,
+                );
               }
               
               // Send Discord notification if configured
@@ -648,10 +562,8 @@ async function run(): Promise<void> {
         await delay(pollMs);
       }
     } catch (err) {
-      const errorMessage =
-        err instanceof Error && err.message ? err.message : String(err);
       process.stderr.write(
-        `[${nowIso()}] poll error: ${errorMessage}; retrying in ${backoffMs}ms\n`,
+        `[${nowIso()}] poll error: ${getErrorMessage(err)}; retrying in ${backoffMs}ms\n`,
       );
       await delay(backoffMs);
       backoffMs = Math.min(backoffMs * 2, 30000);
@@ -660,7 +572,8 @@ async function run(): Promise<void> {
 }
 
 run().catch((e) => {
-  const errorMessage = e instanceof Error && e.stack ? e.stack : String(e);
+  const errorMessage =
+    e instanceof Error && e.stack ? e.stack : getErrorMessage(e);
   process.stderr.write(`[${nowIso()}] fatal: ${errorMessage}\n`);
   process.exitCode = 1;
 });

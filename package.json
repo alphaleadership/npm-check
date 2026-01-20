@@ -1,5 +1,5 @@
 {
-  "name": "npm-check",
+  "name": "npm-scan",
   "version": "0.1.0",
   "private": true,
   "description": "Monitor npm publishes and flag newly introduced preinstall and postinstall scripts.",
@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.ts",
-    "dev": "node src/index.ts",
+    "dev": "node --watch src/index.ts",
     "typecheck": "tsc --noEmit"
   },
   "engines": {

@@ -1,4 +1,4 @@
-# npm-check
+# npm-scan
 
 Monitors newly published npm package versions and flags publishes that **introduce** a `preinstall` or `postinstall` script. These lifecycle scripts can pose security risks, as they execute automatically during package installation and may be introduced in updates without users noticing.
 
@@ -33,9 +33,13 @@ It is recommended to run this application with a process manager like PM2.
 
 ## Hall of Fame
 
-This project has led to the following results as of January 19th, 2026:
-- **6 packages** have been reported
-- **1 package** has been removed
+This project has led to the following results as of January 20th, 2026:
+- **7 packages** have been reported
+- **6 packages** has been removed
+
+Including at least 1 instance of live malware:
+
+<img width="363" height="150" alt="image" src="https://github.com/user-attachments/assets/f3d6822e-5aac-4600-a7ec-7a2c63112ea8" />
 
 ## Author
 
