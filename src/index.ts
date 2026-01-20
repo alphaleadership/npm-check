@@ -308,7 +308,7 @@ await octokit.request(`POST /repos/${owner}/${repo}/issues`, {
   title: `${issueTitle}`,
   body: `${issueBody}`,
   assignees: [
-    'octocat'
+    `${owner}`
   ],
 
   labels: [

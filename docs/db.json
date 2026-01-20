@@ -1,5 +1,13 @@
 [
   {
+    "packageName": "@choiceopen/atomemo-plugin-cli",
+    "version": "0.3.0",
+    "scriptType": "postinstall",
+    "scriptContent": "echo \"Please run 'atomemo auth login' first to ensure you have access to the Atomemo platform.\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-20T12:38:09.087Z"
+  },
+  {
     "packageName": "@vroskus/library-validator",
     "version": "2.0.0",
     "scriptType": "postinstall",
