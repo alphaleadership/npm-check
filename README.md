@@ -8,10 +8,10 @@ The tool uses npm's replicate database (`replicate.npmjs.com`) to track changes,
 
 Malicious packages are screened and reported by myself. This project has led to the following results as of January 20th, 2026:
 
-- **11 packages** have been reported
-- **7 packages** has been removed
+- **20 packages** have been reported
+- **19 packages** has been removed
 
-Including at least 1 instance of live malware:
+Including at least 6 instances of live malware:
 
 <img width="363" height="150" alt="image" src="https://github.com/user-attachments/assets/f3d6822e-5aac-4600-a7ec-7a2c63112ea8" />
 
