@@ -1,5 +1,13 @@
 [
   {
+    "packageName": "pgroll",
+    "version": "0.0.8",
+    "scriptType": "postinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": "0.0.7",
+    "timestamp": "2026-01-21T04:40:23.749Z"
+  },
+  {
     "packageName": "zenvo",
     "version": "0.1.0",
     "scriptType": "postinstall",
