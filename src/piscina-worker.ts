@@ -73,17 +73,13 @@ function pickLatestAndPreviousVersions(doc: Packument): {
   return { latest, previous };
 }
 
-export default async function processPackage(job: PackageJobData): Promise<void> {
-    const { packageName } = job;
+export default async function processPackage(): Promise<void> {
+
     const registryBaseUrl = process.env.NPM_REGISTRY_URL || DEFAULT_REGISTRY_URL;
 
     // Immediately save to pending tasks
-    await savePendingTask({
-      packageName,
-      version: "latest", // or a more specific version if available
-      timestamp: nowIso(),
-    });
-    process.stdout.write(`[${nowIso()}] Added to pending queue: ${packageName}\n`);
+  
+
     const actua=await getPendingTasks()
     const actual=actua[0];
     await removePendingTask(actual.packageName, "latest");

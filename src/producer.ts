@@ -9,6 +9,7 @@ import "dotenv/config";
 import Piscina from "piscina";
 import { setTimeout as delay } from "node:timers/promises";
   let is_shutting_down = false;
+import { savePendingTask, removePendingTask,getPendingTasks } from "./lib/pending-db.ts";
 export interface PackageJobData {
   packageName: string;
 }
@@ -140,9 +141,12 @@ export async function startProducer(piscina: Piscina): Promise<void> {
           const jobData: PackageJobData = {
             packageName: name,
           };
-          piscina.run(jobData).catch(err => {
-            console.error(`[${nowIso()}] Piscina task failed for ${name}: ${getErrorMessage(err)}`);
-          });
+            await savePendingTask({
+                packageName: jobData.packageName,
+                version: "latest", // or a more specific version if available
+                timestamp: nowIso(),
+              });
+             process.stdout.write(`[${nowIso()}] Added to pending queue: ${jobData.packageName}\n`);
          // process.stdout.write(`[${nowIso()}] Queued: ${name}\n`);
         } catch (e) {
           process.stderr.write(
@@ -163,6 +167,12 @@ export async function startProducer(piscina: Piscina): Promise<void> {
       await delay(backoffMs);
       backoffMs = Math.min(backoffMs * 2, 30000);
     }
+  }
+  let list=await getPendingTasks()
+  while(list.length>0){
+     piscina.run(list[0]).catch(err => {
+            console.error(`[${nowIso()}] Piscina task failed for ${list[0].packageName  }: ${getErrorMessage(err)}`);
+          });
   }
     
 }

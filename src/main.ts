@@ -39,5 +39,14 @@ async function main() {
 main().catch((e) => {
   const errorMessage = e instanceof Error && e.stack ? e.stack : String(e);
   console.error(`[${nowIso()}] fatal: ${errorMessage}\n`);
-  process.exitCode = 1;
+  shutdown();
+ 
 });
+process.on('SIGINT', () => {
+  console.log('Received SIGINT. Shutting down gracefully...');
+  shutdown();
+} );
+process.on('SIGTERM', () => {
+  console.log('Received SIGTERM. Shutting down gracefully...');
+  shutdown();
+} );
