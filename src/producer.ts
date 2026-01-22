@@ -102,7 +102,7 @@ export async function startProducer(piscina: Piscina): Promise<void> {
      piscina.run(num).catch(err => {
             console.error(`[${nowIso()}] Piscina task failed for ${num.packageName  }: ${getErrorMessage(err)}`);
           });
-    break; // Closes iterator, triggers return
+    // Closes iterator, triggers return
   }
 })();
   const replicateDbUrl =
@@ -188,7 +188,7 @@ export async function startProducer(piscina: Piscina): Promise<void> {
      piscina.run(num).catch(err => {
             console.error(`[${nowIso()}] Piscina task failed for ${num.packageName  }: ${getErrorMessage(err)}`);
           });
-    break; // Closes iterator, triggers return
+    // Closes iterator, triggers return
   }
 })();
  
