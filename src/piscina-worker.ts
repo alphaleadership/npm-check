@@ -8,6 +8,9 @@ import { savePendingTask, removePendingTask,getPendingTasks } from "./lib/pendin
 // This will be passed from the main thread
 export interface PackageJobData {
   packageName: string;
+  version: string;
+  timestamp: string;
+
 }
 
 const DEFAULT_REGISTRY_URL = "https://registry.npmjs.org/";
@@ -73,15 +76,14 @@ function pickLatestAndPreviousVersions(doc: Packument): {
   return { latest, previous };
 }
 
-export default async function processPackage(): Promise<void> {
+export default async function processPackage(actual: PackageJobData): Promise<void> {
 
     const registryBaseUrl = process.env.NPM_REGISTRY_URL || DEFAULT_REGISTRY_URL;
 
     // Immediately save to pending tasks
   
 
-    const actua=await getPendingTasks()
-    const actual=actua[0];
+ 
     await removePendingTask(actual.packageName, "latest");
     try {
         process.stdout.write(`[${nowIso()}] Processing: ${actual.packageName}\n`);

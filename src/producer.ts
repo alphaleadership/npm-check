@@ -187,6 +187,9 @@ export async function startProducer(piscina: Piscina): Promise<void> {
     // Expected output: 1
      piscina.run(num).catch(err => {
             console.error(`[${nowIso()}] Piscina task failed for ${num.packageName  }: ${getErrorMessage(err)}`);
+          }).then(() => {
+            process.stdout.write(`[${nowIso()}] Finished processing: ${num.packageName}\n`);
+            return
           });
     // Closes iterator, triggers return
   }
