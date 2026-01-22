@@ -1,5 +1,41 @@
 [
   {
+    "packageName": "@ibm/plex-math",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "ibmtelemetry --config=telemetry.yml",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-01-22T19:18:27.109Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@ibm/plex-sans",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "ibmtelemetry --config=telemetry.yml",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-01-22T19:18:26.364Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@ibm/plex-sans-kr",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "ibmtelemetry --config=telemetry.yml",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-01-22T19:18:25.063Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@ibm/plex-sans-thai-looped",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "ibmtelemetry --config=telemetry.yml",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-01-22T19:18:24.729Z",
+    "issuesend": false
+  },
+  {
     "packageName": "uuu8lgd",
     "version": "1.0.6",
     "scriptType": "postinstall",
