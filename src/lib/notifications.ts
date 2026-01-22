@@ -95,6 +95,7 @@ export async function createGitHubIssue(
   if (pathParts.length < 2) {
     throw new Error(`Invalid GitHub repository URL: ${repoUrl}`);
   }
+  console.log(pathParts);
   const owner = pathParts[0];
   const repo = pathParts[1].replace(/\.git$/, "");
 

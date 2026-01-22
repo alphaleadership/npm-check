@@ -135,7 +135,7 @@ export async function startProducer(piscina: Piscina): Promise<void> {
           piscina.run(jobData).catch(err => {
             console.error(`[${nowIso()}] Piscina task failed for ${name}: ${getErrorMessage(err)}`);
           });
-          process.stdout.write(`[${nowIso()}] Queued: ${name}\n`);
+         // process.stdout.write(`[${nowIso()}] Queued: ${name}\n`);
         } catch (e) {
           process.stderr.write(
             `[${nowIso()}] WARN failed to queue ${name}: ${getErrorMessage(e)}\n`,
