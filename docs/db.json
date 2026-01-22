@@ -1,5 +1,13 @@
 [
   {
+    "packageName": "flockbay",
+    "version": "0.10.15",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/unpack-tools.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-22T06:21:55.955Z"
+  },
+  {
     "packageName": "@ggdotdev/gg",
     "version": "0.9.6",
     "scriptType": "postinstall",
