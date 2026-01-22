@@ -1,5 +1,13 @@
 [
   {
+    "packageName": "@ggdotdev/gg",
+    "version": "0.9.6",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-22T04:45:21.769Z"
+  },
+  {
     "packageName": "@shoulderdev/malware-demo",
     "version": "1.0.0",
     "scriptType": "postinstall",
