@@ -187,7 +187,7 @@ export async function sendCombinedScriptAlertNotifications(
         `<a href="${npmPackageUrl}">View on npm</a>\n` +
         `Previous version: ${previous ?? "none"}\n\n` +
         alertParts.join("\n\n");
-
+      console.log(message)
       await sendTelegramNotification(telegramBotToken, telegramChatId, message);
     } catch (e) {
       process.stderr.write(

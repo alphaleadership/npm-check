@@ -9,6 +9,7 @@
     "start": "node src/main.ts",
     "dev": "node --watch src/main.ts",
     "fetch-packument": "node src/fetch-packument.ts",
+    "sync-env": "node src/sync-env.ts",
     "typecheck": "tsc --noEmit"
   },
   "engines": {
@@ -17,6 +18,7 @@
   "dependencies": {
     "@octokit/rest": "^22.0.1",
     "dotenv": "^17.2.3",
+    "libsodium-wrappers": "^0.8.1",
     "piscina": "^4.5.0",
     "semver": "^7.6.0"
   },
