@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "hammer-jquery",
+    "version": "99.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-23T15:17:05.195Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "hammer-jquery",
+    "version": "99.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-23T15:17:05.193Z",
+    "issuesend": false
+  },
+  {
     "packageName": "aids-remote-test",
     "version": "0.1.7",
     "scriptType": "postinstall",
