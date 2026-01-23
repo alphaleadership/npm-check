@@ -10,6 +10,8 @@ import Piscina from "piscina";
 import { setTimeout as delay } from "node:timers/promises";
   let is_shutting_down = false;
 import { savePendingTask, removePendingTask,getPendingTasks ,getTask} from "./lib/pending-db.ts";
+import {sendTelegramNotification} from "./lib/notifications.ts";
+import { send } from "node:process";
 export interface PackageJobData {
   packageName: string;
 }
@@ -96,6 +98,7 @@ export async function startProducer(piscina: Piscina): Promise<void> {
    
    (async () => {
     const list = await getPendingTasks();
+    sendTelegramNotification(process.env.TELEGRAM_BOT_TOKEN!, process.env.TELEGRAM_CHAT_ID!, "Démarrage du traitement des tâches en attente... taches en attente: "+(await getPendingTasks().then(l => Array.from(l).length)).toString());
   for await (const num of list) {
     console.log(num);
     // Expected output: 1
