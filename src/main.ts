@@ -13,7 +13,7 @@ if (process.env.GITHUB_ACTIONS === 'true') {
   setTimeout(() => {
     console.log("Arrêt du script après 5 minutes (GitHub Action).");
     shutdown();
-  }, 300000); // 300 000 ms = 5 minutes
+  }, 4*300000); // 300 000 ms = 5 minutes
 } else {
   console.log("Exécution locale : pas de timeout activé.");
 }
