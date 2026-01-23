@@ -11,7 +11,7 @@ import { setTimeout as delay } from "node:timers/promises";
   let is_shutting_down = false;
 import { savePendingTask, removePendingTask,getPendingTasks ,getTask} from "./lib/pending-db.ts";
 import {sendTelegramNotification} from "./lib/notifications.ts";
-import { send } from "node:process";
+
 export interface PackageJobData {
   packageName: string;
 }
