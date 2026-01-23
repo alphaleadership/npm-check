@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "lance-context",
+    "version": "1.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js || true",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-01-23T23:13:30.947Z",
+    "issuesend": true
+  },
+  {
     "packageName": "ostk-otel-autoconfig",
     "version": "2.3.2",
     "scriptType": "postinstall",
