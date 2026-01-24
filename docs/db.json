@@ -1,5 +1,41 @@
 [
   {
+    "packageName": "g-zenith",
+    "version": "0.3.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-01-24T10:13:28.716Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@davronsherbaev/claude-tools",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-24T10:13:19.167Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@constela/language-server",
+    "version": "0.1.1",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm --filter @constela/codegen generate",
+    "previousVersion": null,
+    "timestamp": "2026-01-24T10:13:03.811Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "px-jspreadsheet-ce",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run prettier:fix && npm run lint:fix",
+    "previousVersion": null,
+    "timestamp": "2026-01-24T10:13:01.296Z",
+    "issuesend": false
+  },
+  {
     "packageName": "screen-recorder-react",
     "version": "0.0.7",
     "scriptType": "prebuild",
