@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@bb-labs/bldr",
+    "version": "0.0.20",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/index.js && cd ../.. && bash scripts/link-bldr.sh",
+    "previousVersion": "0.0.19",
+    "timestamp": "2026-01-24T20:13:16.228Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "node-core-arch",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-24T20:12:58.753Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@catcheers/handover",
     "version": "1.0.0",
     "scriptType": "postinstall",
