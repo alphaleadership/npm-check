@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "@nihalcastelino/project-brain-mcp",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-24T17:14:33.118Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@izi-noir/sdk",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run copy:wasm",
+    "previousVersion": null,
+    "timestamp": "2026-01-24T17:14:31.973Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "mcp2service",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli/cli.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-24T17:13:42.421Z",
+    "issuesend": false
+  },
+  {
     "packageName": "react-msaview",
     "version": "5.0.1",
     "scriptType": "prebuild",
