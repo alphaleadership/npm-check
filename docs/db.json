@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@catcheers/handover",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "agent-skill-installer install",
+    "previousVersion": null,
+    "timestamp": "2026-01-24T18:18:16.307Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@nihalcastelino/project-brain-mcp",
     "version": "1.0.0",
     "scriptType": "postinstall",
