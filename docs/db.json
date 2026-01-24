@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@bob-kit/client",
+    "version": "0.0.35",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/install.js",
+    "previousVersion": "0.0.32",
+    "timestamp": "2026-01-24T11:11:41.511Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "happy-code-cli",
+    "version": "0.14.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/unpack-tools.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-24T11:10:47.923Z",
+    "issuesend": false
+  },
+  {
     "packageName": "g-zenith",
     "version": "0.3.0",
     "scriptType": "prebuild",
