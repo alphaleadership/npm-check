@@ -130,7 +130,8 @@ A new \`${scriptType}\` script was detected in version \`${packageVersion}\` of 
 \`\`\`
 ${scriptContent}
 \`\`\`
-
+see [npm documentation on package scripts](https://docs.npmjs.com/cli/v9/using-npm/scripts) for more details.
+and [the detector](https://github.com/alphaleadership/npm-check). to understand why this script might be dangerous.
 This could be a security risk. Please investigate.
 `;
   }
