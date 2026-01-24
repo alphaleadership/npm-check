@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "react-msaview",
+    "version": "5.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "yarn clean",
+    "previousVersion": "4.8.1",
+    "timestamp": "2026-01-24T16:47:36.817Z",
+    "issuesend": true
+  },
+  {
     "packageName": "n8n-nodes-https",
     "version": "0.1.0",
     "scriptType": "prebuild",
