@@ -1,6 +1,15 @@
 [
   {
     "packageName": "opencode-agent-tmux",
+    "version": "1.1.7",
+    "scriptType": "postinstall",
+    "scriptContent": "test -f dist/scripts/install.js && node dist/scripts/install.js || echo 'Skipping postinstall setup (dist not found)'",
+    "previousVersion": "1.1.3",
+    "timestamp": "2026-01-24T05:14:51.900Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "opencode-agent-tmux",
     "version": "1.1.3",
     "scriptType": "postinstall",
     "scriptContent": "node dist/scripts/install.js || echo 'Skipping postinstall setup (dist not found)'",
