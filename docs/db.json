@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "screen-recorder-react",
+    "version": "0.0.7",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm --filter screen-recorder-base build",
+    "previousVersion": "0.0.6",
+    "timestamp": "2026-01-24T09:13:25.031Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "rank4222wun",
+    "version": "1.0.65",
+    "scriptType": "postinstall",
+    "scriptContent": "node preinstall.js",
+    "previousVersion": "1.0.64",
+    "timestamp": "2026-01-24T09:12:54.847Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "rank4222wun",
+    "version": "1.0.65",
+    "scriptType": "preinstall",
+    "scriptContent": "node preinstall.js",
+    "previousVersion": "1.0.64",
+    "timestamp": "2026-01-24T09:12:54.843Z",
+    "issuesend": false
+  },
+  {
     "packageName": "interview-prep",
     "version": "2.3.0",
     "scriptType": "postinstall",
