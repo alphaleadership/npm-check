@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@adrozdenko/design-system",
+    "version": "2.11.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run generate-tokens && npm run validate:tokens",
+    "previousVersion": "2.3.1",
+    "timestamp": "2026-01-24T03:55:59.015Z",
+    "issuesend": true
+  },
+  {
     "packageName": "squirrelscan",
     "version": "0.0.17",
     "scriptType": "postinstall",
