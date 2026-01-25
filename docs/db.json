@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@context-engine-bridge/context-engine-mcp-bridge",
+    "version": "0.0.16",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"try{require('fs').chmodSync('bin/ctxce.js',0o755)}catch(e){}\"",
+    "previousVersion": "0.0.15",
+    "timestamp": "2026-01-25T04:45:11.859Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@pilaf/backends",
+    "version": "1.2.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/fix-prismarine-physics.cjs",
+    "previousVersion": "1.2.1",
+    "timestamp": "2026-01-25T04:45:02.404Z",
+    "issuesend": true
+  },
+  {
     "packageName": "the-android-mcp",
     "version": "0.1.1",
     "scriptType": "postinstall",
