@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "claude-fleet",
+    "version": "2.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js || true",
+    "previousVersion": "2.1.2",
+    "timestamp": "2026-01-25T22:13:32.127Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "dotnet-agent-skills",
+    "version": "1.6.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T22:12:37.399Z",
+    "issuesend": false
+  },
+  {
     "packageName": "jbrowse-plugin-msaview",
     "version": "2.2.4",
     "scriptType": "prebuild",
