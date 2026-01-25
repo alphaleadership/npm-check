@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "cheerio-core",
+    "version": "0.0.5",
+    "scriptType": "postinstall",
+    "scriptContent": "node main.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T18:19:23.595Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "atd-cli",
+    "version": "1.0.20",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js || echo Installation complete",
+    "previousVersion": "1.0.17",
+    "timestamp": "2026-01-25T18:19:11.242Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "sloth-d2c-mcp",
+    "version": "1.0.4-beta96",
+    "scriptType": "postinstall",
+    "scriptContent": "if [ \"$(id -u)\" = \"0\" ]; then sudo -u $SUDO_USER ./cli/run.js stop && sudo -u $SUDO_USER ./cli/run.js run; else ./cli/run.js stop && ./cli/run.js run; fi",
+    "previousVersion": "1.0.4-beta95",
+    "timestamp": "2026-01-25T18:18:38.788Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@silky/fizzy-mcp",
     "version": "0.1.0",
     "scriptType": "preinstall",
