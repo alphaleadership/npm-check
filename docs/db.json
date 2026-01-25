@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@kevisual/router",
+    "version": "0.0.60",
+    "scriptType": "postbuild",
+    "scriptContent": "bun run bun.config.ts",
+    "previousVersion": "0.0.59",
+    "timestamp": "2026-01-25T14:12:38.335Z",
+    "issuesend": true
+  },
+  {
     "packageName": "mcp-probe-kit",
     "version": "1.15.0",
     "scriptType": "prebuild",
