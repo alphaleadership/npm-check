@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@cliangdev/flux-plugin",
+    "version": "0.2.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs');const f='dist/server/index.js';const c=fs.readFileSync(f,'utf-8');if(!c.startsWith('#!/usr/bin/env node')){fs.writeFileSync(f,'#!/usr/bin/env node\\n'+c)}\"",
+    "previousVersion": "0.2.0-dev.dc5e2c4",
+    "timestamp": "2026-01-25T05:22:33.021Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@affylabs/affyid-sdk",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T05:22:29.373Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@context-engine-bridge/context-engine-mcp-bridge",
     "version": "0.0.16",
     "scriptType": "postinstall",
