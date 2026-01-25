@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "mcp-probe-kit",
+    "version": "1.15.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run sync-ui-data",
+    "previousVersion": "1.13.0",
+    "timestamp": "2026-01-25T13:27:22.829Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@digitalist/conventions",
     "version": "1.0.0",
     "scriptType": "postinstall",
