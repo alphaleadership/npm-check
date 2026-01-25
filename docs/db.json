@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@teishoku/cli",
+    "version": "0.0.3",
+    "scriptType": "postbuild",
+    "scriptContent": "npm publish --access public",
+    "previousVersion": "0.0.2",
+    "timestamp": "2026-01-25T09:14:10.529Z",
+    "issuesend": false
+  },
+  {
     "packageName": "mago-react",
     "version": "1.0.0",
     "scriptType": "prebuild",
