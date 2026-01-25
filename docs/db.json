@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@hanzo/dev",
+    "version": "3.0.2",
+    "scriptType": "preinstall",
+    "scriptContent": "node scripts/preinstall.js",
+    "previousVersion": "3.0.1",
+    "timestamp": "2026-01-25T11:31:08.545Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@rafael-arreola/jira-rs",
     "version": "0.1.2",
     "scriptType": "postinstall",
