@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@syntaxsidekick/riadkilani-design-system",
+    "version": "2.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/copy-types.cjs",
+    "previousVersion": "1.0.1",
+    "timestamp": "2026-01-25T15:12:13.634Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "image-nano-skill",
+    "version": "2.7.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T15:12:06.112Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@kevisual/router",
     "version": "0.0.60",
     "scriptType": "postbuild",
