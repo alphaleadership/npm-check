@@ -1,5 +1,50 @@
 [
   {
+    "packageName": "ralphy-cli",
+    "version": "4.6.0",
+    "scriptType": "prebuild",
+    "scriptContent": "bun run version:generate",
+    "previousVersion": "4.5.3",
+    "timestamp": "2026-01-25T19:13:11.670Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@msecscc/gaia",
+    "version": "99.9.9",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T19:11:59.474Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@peerbit/test-lib",
+    "version": "0.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "echo '{\"type\":\"module\"} ' | node ../../../../node_modules/.bin/json > lib/esm/package.json",
+    "previousVersion": "0.0.1-ff87533",
+    "timestamp": "2026-01-25T19:11:43.946Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "focuscast",
+    "version": "0.0.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./install.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T19:11:41.605Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "ultrascript-tools-mcp",
+    "version": "3.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"const fs=require('fs');const p=require('path');const d='dist';if(fs.existsSync(d)){fs.readdirSync(d).filter(f=>f.endsWith('.js')||f.endsWith('.js.map')).forEach(f=>fs.unlinkSync(p.join(d,f)));console.log('[prebuild] Cleaned old JS chunks from dist/')}\"",
+    "previousVersion": "2.4.0",
+    "timestamp": "2026-01-25T19:11:02.888Z",
+    "issuesend": false
+  },
+  {
     "packageName": "cheerio-core",
     "version": "0.0.5",
     "scriptType": "postinstall",
