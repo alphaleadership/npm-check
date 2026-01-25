@@ -101,8 +101,8 @@ export async function createGitHubIssue(
 
   const isChanged = previousScriptContent !== null;
   const issueTitle = isChanged
-    ? `[Security Alert] \`${scriptType}\` script changed in \`${packageName}@${packageVersion}\``
-    : `[Security Alert] New \`${scriptType}\` script added in \`${packageName}@${packageVersion}\``;
+    ? `[potential Security Alert] \`${scriptType}\` script changed in \`${packageName}@${packageVersion}\``
+    : `[potential Security Alert] New \`${scriptType}\` script added in \`${packageName}@${packageVersion}\``;
 
   let issueBody: string;
   if (isChanged) {
@@ -120,6 +120,10 @@ ${previousScriptContent}
 ${scriptContent}
 \`\`\`
 
+This could be a security risk. Please investigate.
+see [npm documentation on package scripts](https://docs.npmjs.com/cli/v9/using-npm/scripts) for more details.
+and [the detector](https://github.com/alphaleadership/npm-check). to understand why this script might be dangerous.
+to get the alert only for dangerous scripts, please visit[the telegram](t.me/npmalert)
 This could be a security risk. Please investigate.
 `;
   } else {
