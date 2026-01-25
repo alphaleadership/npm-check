@@ -1,5 +1,41 @@
 [
   {
+    "packageName": "@rafael-arreola/jira-rs",
+    "version": "0.1.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T10:13:59.266Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "hanzo-node",
+    "version": "0.6.50",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T10:13:56.186Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "hanzo-node",
+    "version": "0.6.50",
+    "scriptType": "preinstall",
+    "scriptContent": "node scripts/preinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T10:13:56.178Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "elysia-openapi-codegen",
+    "version": "0.1.4",
+    "scriptType": "postbuild",
+    "scriptContent": "rimraf tsconfig.types.tsbuildinfo",
+    "previousVersion": "0.1.3",
+    "timestamp": "2026-01-25T10:13:30.526Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@teishoku/cli",
     "version": "0.0.3",
     "scriptType": "postbuild",
