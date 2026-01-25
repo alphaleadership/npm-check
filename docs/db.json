@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@midscene/android-playground",
+    "version": "1.2.3-beta-20260125070401.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node ../android/scripts/download-scrcpy-server.js --target=bin/server.bin || true",
+    "previousVersion": "1.2.3-beta-20260125063343.0",
+    "timestamp": "2026-01-25T07:15:23.771Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "react-native-sherpa-onnx",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup-assets.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T07:15:12.786Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@cliangdev/flux-plugin",
     "version": "0.2.0",
     "scriptType": "postbuild",
