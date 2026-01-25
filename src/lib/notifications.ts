@@ -132,6 +132,7 @@ ${scriptContent}
 \`\`\`
 see [npm documentation on package scripts](https://docs.npmjs.com/cli/v9/using-npm/scripts) for more details.
 and [the detector](https://github.com/alphaleadership/npm-check). to understand why this script might be dangerous.
+to get the alert only for dangerous scripts, please visit[the telegram](t.me/npmalert)
 This could be a security risk. Please investigate.
 `;
   }
