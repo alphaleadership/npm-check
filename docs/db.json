@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@digitalist/conventions",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./install.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T12:28:23.507Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@hanzo/dev",
     "version": "3.0.2",
     "scriptType": "preinstall",
