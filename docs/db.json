@@ -1,5 +1,50 @@
 [
   {
+    "packageName": "@silky/fizzy-mcp",
+    "version": "0.1.0",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T17:11:14.550Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "slackblock",
+    "version": "1.0.0-0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": "0.5.0-beta.0",
+    "timestamp": "2026-01-25T17:11:09.100Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "happy-code-cli",
+    "version": "0.14.0-dev.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/unpack-tools.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T17:11:07.274Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "balzac",
+    "version": "0.1.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./install.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T17:10:53.755Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@pimzino/sgrep",
+    "version": "1.3.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/postbuild.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T17:10:52.717Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@syntaxsidekick/riadkilani-design-system",
     "version": "2.0.0",
     "scriptType": "postbuild",
