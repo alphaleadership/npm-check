@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "mago-react",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "find src -name '*.js' -o -name '*.d.ts' -o -name '*.map' -delete",
+    "previousVersion": null,
+    "timestamp": "2026-01-25T08:17:19.879Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@midscene/android-playground",
     "version": "1.2.3-beta-20260125070401.0",
     "scriptType": "prebuild",
