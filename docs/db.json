@@ -1,5 +1,50 @@
 [
   {
+    "packageName": "lametric-yle",
+    "version": "4.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "$npm_execpath run clean",
+    "previousVersion": "3.1.0",
+    "timestamp": "2026-01-26T16:32:32.244Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "sona-ai-voice",
+    "version": "0.2.6",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.2.4",
+    "timestamp": "2026-01-26T16:31:41.897Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@hanwen1089/helloworld",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/copy-html.js",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-01-26T16:31:30.413Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@hanwen1089/helloworld",
+    "version": "1.1.0",
+    "scriptType": "preinstall",
+    "scriptContent": "echo preinstall check",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-01-26T16:31:30.411Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@paragrav/rhf-utils",
+    "version": "0.57.0",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": "0.56.0",
+    "timestamp": "2026-01-26T16:30:47.912Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@namehash/namehash-ui",
     "version": "1.5.1",
     "scriptType": "postinstall",
