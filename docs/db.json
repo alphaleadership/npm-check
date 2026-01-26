@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@nanahira/lzma1",
+    "version": "0.2.1",
+    "scriptType": "prebuild",
+    "scriptContent": "tsc --build --clean",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T04:49:25.641Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@swek09/depsentry",
     "version": "0.2.2",
     "scriptType": "postinstall",
