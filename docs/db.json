@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@swek09/depsentry",
+    "version": "0.2.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T03:49:46.317Z",
+    "issuesend": true
+  },
+  {
     "packageName": "happy-code-cli",
     "version": "0.14.0-dev.2",
     "scriptType": "postinstall",
