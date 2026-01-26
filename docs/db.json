@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@rws-aoa/design-system",
+    "version": "0.1.9",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/copy-assets",
+    "previousVersion": "0.1.8",
+    "timestamp": "2026-01-26T09:31:52.754Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@mcpmesh/tsuite",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T09:30:53.218Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@catcuts-skills/handover",
     "version": "1.0.0",
     "scriptType": "postinstall",
