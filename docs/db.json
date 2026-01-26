@@ -1,11 +1,56 @@
 [
   {
+    "packageName": "namazu-ts",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "rimraf tsconfig.types.tsbuildinfo",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T09:15:47.944Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@livechat/backoff",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T09:10:51.201Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2594-a13d70971b58f6d8047effc568f38df250826c74",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T09:10:46.414Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@zorachki/text-normalizer-mcp",
+    "version": "1.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs');const f=fs.readFileSync('index.js','utf8');fs.writeFileSync('index.js','#!/usr/bin/env node\\n'+f);fs.chmodSync('index.js',0o755);\"",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-01-26T09:09:24.399Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "lib-mezon-meet",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "patch-package",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T09:09:22.216Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@rws-aoa/design-system",
     "version": "0.1.9",
     "scriptType": "postbuild",
     "scriptContent": "node scripts/copy-assets",
     "previousVersion": "0.1.8",
-    "timestamp": "2026-01-26T09:31:52.754Z",
+    "timestamp": "2026-01-26T08:48:29.964Z",
     "issuesend": false
   },
   {
@@ -14,7 +59,7 @@
     "scriptType": "postinstall",
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
-    "timestamp": "2026-01-26T09:30:53.218Z",
+    "timestamp": "2026-01-26T08:45:45.929Z",
     "issuesend": false
   },
   {

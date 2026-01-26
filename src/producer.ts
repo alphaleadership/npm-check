@@ -135,6 +135,14 @@ export async function startProducer(piscina: Piscina): Promise<void> {
   // Run indefinitely.
   // eslint-disable-next-line no-constant-condition
   while (!is_shutting_down) {
+    if(await getPendingTasks().then(l => Array.from(l).length) > 1000){
+        process.stdout.write(
+            `[${nowIso()}] Pending tasks exceed 1000, pausing fetching new changes...\n`,
+        );
+        shutdown();
+        await delay(pollMs);
+        continue;
+    }
     try {
       const url = new URL(changesUrl);
       url.searchParams.set("since", String(since));
