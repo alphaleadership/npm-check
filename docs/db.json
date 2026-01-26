@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@catcuts-skills/handover",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install-skill.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T07:22:10.743Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@zain-sportslive/sl-jwt-auth",
     "version": "0.1.0",
     "scriptType": "prebuild",
