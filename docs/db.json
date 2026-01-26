@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@tmustier/pi-files-widget",
+    "version": "0.1.11",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('pi-files-widget: required deps: bat, delta, glow. Install with: brew install bat git-delta glow')\"",
+    "previousVersion": "0.1.10",
+    "timestamp": "2026-01-26T20:37:10.562Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@subcon/e2b-cli",
     "version": "0.1.10",
     "scriptType": "postbuild",
