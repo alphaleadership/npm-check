@@ -1,5 +1,41 @@
 [
   {
+    "packageName": "avioflow",
+    "version": "0.1.4",
+    "scriptType": "prebuild",
+    "scriptContent": "prebuildify --napi --strip --tag-libc --build-command \"npx cmake-js compile\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T12:42:07.787Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@bark-com/consumer-shared",
+    "version": "1.0.3",
+    "scriptType": "postbuild",
+    "scriptContent": "mkdir -p dist/styles && cp ../styles/*.css dist/styles/",
+    "previousVersion": "1.0.2",
+    "timestamp": "2026-01-26T12:40:52.798Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@mantajs/core",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs');const path=require('path');const src='.medusa/server';const dest='.medusa/server/src';['api','modules','workflows','links','hooks','types','utils','index.js'].forEach(f=>{const from=path.join(src,f);const to=path.join(dest,f);if(fs.existsSync(from)&&!fs.existsSync(to)){fs.renameSync(from,to);console.log('Moved',f,'to src/')}})\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T12:40:19.654Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@ai-ad-network/frontend-sdk",
+    "version": "1.0.5",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/prebuild.cjs",
+    "previousVersion": "1.0.4",
+    "timestamp": "2026-01-26T12:39:59.947Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@tokens-studio/color-picker",
     "version": "0.0.1",
     "scriptType": "postinstall",
