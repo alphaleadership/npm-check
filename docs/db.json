@@ -1,5 +1,59 @@
 [
   {
+    "packageName": "@tonycasey/lisa",
+    "version": "2.5.5",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/postbuild-copy-templates.js && node scripts/prepare-dist-package.js && node scripts/bundle-opencode.js && node scripts/deploy-lisa.js",
+    "previousVersion": "2.2.0",
+    "timestamp": "2026-01-26T10:24:37.936Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "emessages",
+    "version": "2.2.5",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/cli.cjs",
+    "previousVersion": "2.2.4",
+    "timestamp": "2026-01-26T10:24:13.600Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "trustbroker-frontend",
+    "version": "7.7.7",
+    "scriptType": "preinstall",
+    "scriptContent": "echo \" poc possible by golu\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T10:23:39.571Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "emessages",
+    "version": "2.2.5",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/cli.cjs",
+    "previousVersion": "2.2.4",
+    "timestamp": "2026-01-26T10:23:36.023Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@playkit-js/playkit-js",
+    "version": "0.85.0-canary.0-54f78a0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.84.38-canary.0-46d6830",
+    "timestamp": "2026-01-26T10:23:28.364Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@zerorex0126/ngx-extended-pdf-viewer",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "copyfiles schematics/collection.json schematics/*/schema.json schematics/*/files/**/**/* ../../dist/ngx-extended-pdf-viewer/",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T10:23:19.871Z",
+    "issuesend": false
+  },
+  {
     "packageName": "namazu-ts",
     "version": "0.1.0",
     "scriptType": "postbuild",
