@@ -1,5 +1,59 @@
 [
   {
+    "packageName": "@namehash/namehash-ui",
+    "version": "1.5.1",
+    "scriptType": "postinstall",
+    "scriptContent": "pnpm build:css",
+    "previousVersion": "1.5.0",
+    "timestamp": "2026-01-26T13:42:24.204Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@myelmut/shared",
+    "version": "1.0.10",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist tsconfig.tsbuildinfo",
+    "previousVersion": "1.0.9",
+    "timestamp": "2026-01-26T13:41:46.459Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "datanoesis-quality-standards-node-app",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T13:41:35.884Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "datanoesis-quality-standards-node-react-app",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T13:41:25.373Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "datanoesis-quality-standards-node-supabase",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T13:41:23.190Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "datanoesis-quality-standards-supabase-app",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T13:41:22.340Z",
+    "issuesend": false
+  },
+  {
     "packageName": "avioflow",
     "version": "0.1.4",
     "scriptType": "prebuild",
