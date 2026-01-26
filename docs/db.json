@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "happy-code-cli",
+    "version": "0.14.0-dev.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/unpack-tools.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T01:07:06.052Z",
+    "issuesend": true
+  },
+  {
     "packageName": "overstock-logger",
     "version": "3.17.4",
     "scriptType": "postinstall",
