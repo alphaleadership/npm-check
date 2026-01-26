@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@tokens-studio/color-picker",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "patch-package",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T11:19:38.188Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@gits-id/nuxt-commerce",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "nuxt prepare",
+    "previousVersion": null,
+    "timestamp": "2026-01-26T11:18:48.560Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@tonycasey/lisa",
     "version": "2.5.5",
     "scriptType": "postbuild",
