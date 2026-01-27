@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "desktop-commander-enhanced",
+    "version": "0.3.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/track-installation.js && node dist/npm-scripts/verify-ripgrep.js || node -e \"process.exit(0)\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T10:38:28.890Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@skald-labs/n8n-nodes-skald",
     "version": "0.1.1",
     "scriptType": "preinstall",
