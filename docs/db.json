@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "clawdbot-skill-dolar-crypto",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "chmod +x monitor.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T04:54:43.619Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@catcuts-skills/hello-world",
+    "version": "1.0.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install-skill.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T04:54:32.118Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "get-shit-done-cc",
+    "version": "1.10.0-experimental.0",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run build:tui",
+    "previousVersion": "1.9.13",
+    "timestamp": "2026-01-27T04:53:17.855Z",
+    "issuesend": true
+  },
+  {
     "packageName": "moledb",
     "version": "0.0.1",
     "scriptType": "postinstall",
