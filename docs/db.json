@@ -1,5 +1,41 @@
 [
   {
+    "packageName": "nyannejs",
+    "version": "0.0.1-dev",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T18:58:40.448Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "50c",
+    "version": "1.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('\\n50c installed. Set FIFTYC_API_KEY env var.\\n')\"",
+    "previousVersion": "1.1.0",
+    "timestamp": "2026-01-27T18:57:26.551Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "moonwall",
+    "version": "1.0.0-dev.0",
+    "scriptType": "postbuild",
+    "scriptContent": "pnpm install",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T18:54:08.673Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@wmcadigital/ui-asset-link",
+    "version": "0.1.0-alpha.2",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist tsconfig.tsbuildinfo",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T18:51:48.377Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@croct/plug-storyblok",
     "version": "0.1.0-alpha",
     "scriptType": "postbuild",
