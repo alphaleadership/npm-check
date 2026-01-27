@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@skald-labs/n8n-nodes-skald",
+    "version": "0.1.1",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T06:48:49.532Z",
+    "issuesend": false
+  },
+  {
     "packageName": "clawdbot-skill-dolar-crypto",
     "version": "1.0.0",
     "scriptType": "postinstall",
