@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@croct/plug-storyblok",
+    "version": "0.1.0-alpha",
+    "scriptType": "postbuild",
+    "scriptContent": "./post-build.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-27T16:41:09.205Z",
+    "issuesend": true
+  },
+  {
     "packageName": "kol7a",
     "version": "99.99.1",
     "scriptType": "postinstall",
