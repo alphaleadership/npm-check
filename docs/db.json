@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "vlite3",
+    "version": "0.0.6",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/bundle-css.js",
+    "previousVersion": "0.0.4",
+    "timestamp": "2026-01-28T20:43:11.849Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@probelabs/visor",
     "version": "1.0.1",
     "scriptType": "postbuild",
