@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@veristone/nuxt-v-app",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "nuxt prepare",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T22:38:16.856Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@servicetitan/microfront",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run bootstrap && npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T22:37:04.486Z",
+    "issuesend": false
+  },
+  {
     "packageName": "vlite3",
     "version": "0.0.6",
     "scriptType": "postbuild",
