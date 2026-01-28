@@ -1,5 +1,41 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2581-38fb6bf5f7cfae86da88149a7e7962d939ca383d",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T10:39:16.708Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@pstefans/kuadrant-backstage-plugin-backend",
+    "version": "3.0.6",
+    "scriptType": "postbuild",
+    "scriptContent": "yarn export-dynamic",
+    "previousVersion": "3.0.5",
+    "timestamp": "2026-01-28T10:38:10.988Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@pstefans/backstage-plugin-catalog-backend-module-kuadrant",
+    "version": "3.0.6",
+    "scriptType": "postbuild",
+    "scriptContent": "yarn export-dynamic",
+    "previousVersion": "3.0.5",
+    "timestamp": "2026-01-28T10:38:02.619Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@pstefans/backstage-plugin-permission-backend-module-kuadrant",
+    "version": "3.0.6",
+    "scriptType": "postbuild",
+    "scriptContent": "yarn export-dynamic",
+    "previousVersion": "3.0.5",
+    "timestamp": "2026-01-28T10:37:53.007Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2588-3b1424c7f6e4badca3793911d8dd4abefd246712",
     "version": "2.72.0",
     "scriptType": "postbuild",
