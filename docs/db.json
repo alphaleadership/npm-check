@@ -1,5 +1,68 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2598-81baf05df2a25bacdc0847652bf9d58d83eb0d2d",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T04:51:55.685Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2593-6dcc62af7e73c4a28be33463402ad0395a5e3b1e",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T04:51:46.458Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@powersync/nuxt",
+    "version": "0.0.0-dev-20260128023420",
+    "scriptType": "prebuild",
+    "scriptContent": "nuxt-module-build prepare",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T04:51:44.472Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "moltbot-termux",
+    "version": "2026.1.27",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T04:51:32.939Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2438-cf46add075546f920f7408984d5f84bf671a392f",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T04:51:21.890Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@design-geniefy/ui",
+    "version": "0.0.12",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/report-adoption.js || true",
+    "previousVersion": "0.0.11",
+    "timestamp": "2026-01-28T04:50:33.677Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "cerebras-cli",
+    "version": "1.0.159",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./postinstall.mjs || true",
+    "previousVersion": "1.0.158",
+    "timestamp": "2026-01-28T04:50:30.403Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@activeadmin/activeadmin",
     "version": "4.0.0-beta9",
     "scriptType": "prebuild",
