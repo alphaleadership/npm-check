@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2588-3b1424c7f6e4badca3793911d8dd4abefd246712",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T08:44:00.196Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2594-6ed2ab028d556ce133d85a88cf576f1a8397e559",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T08:43:34.422Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@huynguyen03dev/opencode-ai",
+    "version": "0.0.0-dev-202601280704",
+    "scriptType": "postinstall",
+    "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T08:42:41.390Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@btc-vision/ecpair",
     "version": "4.0.0",
     "scriptType": "prebuild",
