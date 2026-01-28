@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@btc-vision/ecpair",
+    "version": "4.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run check:circular",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T06:49:15.790Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2598-81baf05df2a25bacdc0847652bf9d58d83eb0d2d",
     "version": "2.72.0",
     "scriptType": "postbuild",
