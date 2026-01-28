@@ -1,5 +1,50 @@
 [
   {
+    "packageName": "openapi-to-postmanv2",
+    "version": "6.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": "5.8.0",
+    "timestamp": "2026-01-28T14:41:14.862Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "sieve-secrets",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T14:40:18.984Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "nexus-orchestrator",
+    "version": "0.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T14:40:10.072Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "slmapcode",
+    "version": "0.0.0-feature-slmap-code-202601281320",
+    "scriptType": "postinstall",
+    "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T14:39:48.485Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "imagemagick-nodejs",
+    "version": "0.2.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"process.env.INIT_CWD !== process.cwd() && require('child_process').execSync('npm run download:prod', { stdio: 'inherit' });\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-28T14:38:50.770Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2581-38fb6bf5f7cfae86da88149a7e7962d939ca383d",
     "version": "2.72.0",
     "scriptType": "postbuild",
