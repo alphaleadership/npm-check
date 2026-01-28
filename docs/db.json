@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@activeadmin/activeadmin",
+    "version": "4.0.0-beta9",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run lint && rm -rf dist",
+    "previousVersion": "4.0.0-beta8",
+    "timestamp": "2026-01-28T02:23:47.103Z",
+    "issuesend": false
+  },
+  {
     "packageName": "nyannejs",
     "version": "0.0.1-dev",
     "scriptType": "prebuild",
