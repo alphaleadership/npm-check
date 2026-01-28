@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@probelabs/visor",
+    "version": "1.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli-main.js",
+    "previousVersion": "0.1.124",
+    "timestamp": "2026-01-28T16:50:40.253Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@probelabs/visor",
+    "version": "1.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.1.124",
+    "timestamp": "2026-01-28T16:50:40.250Z",
+    "issuesend": true
+  },
+  {
     "packageName": "openapi-to-postmanv2",
     "version": "6.0.0",
     "scriptType": "prebuild",
