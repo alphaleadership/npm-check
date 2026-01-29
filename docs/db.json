@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "flappa-doormal",
+    "version": "2.15.0",
+    "scriptType": "postbuild",
+    "scriptContent": "bun run test:exports",
+    "previousVersion": "2.14.2",
+    "timestamp": "2026-01-29T08:53:40.399Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2598-9574e7c53e21a92cebdc8860eb2cc6c52490254f",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T08:52:53.760Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@leverageaiapps/locus",
     "version": "1.0.3",
     "scriptType": "postinstall",
