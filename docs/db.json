@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@kurtucoben/cstm-bail",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T05:11:32.033Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "lt-script",
+    "version": "1.0.7",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run generate:natives",
+    "previousVersion": "1.0.6",
+    "timestamp": "2026-01-29T05:10:34.681Z",
+    "issuesend": true
+  },
+  {
     "packageName": "workos",
     "version": "0.2.1",
     "scriptType": "prebuild",
