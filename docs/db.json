@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@varanjith1/chatbot-widget",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "npm run build:schematics",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T13:15:42.323Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@codecenter-cli/codecenter",
     "version": "1.0.11",
     "scriptType": "postinstall",
