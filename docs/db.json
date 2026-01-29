@@ -1,5 +1,59 @@
 [
   {
+    "packageName": "@lubyzzxmods/baileys",
+    "version": "2.0.3",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T14:50:12.397Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@riktajs/ssr",
+    "version": "0.11.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T14:48:21.586Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@lingxia/cli",
+    "version": "0.0.7",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T14:48:13.481Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@mikeyfrilot/mcpt",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T14:47:45.614Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@mikeyfrilot/pathway",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T14:47:34.332Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@mikeyfrilot/a11y-ci",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T14:47:28.566Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@varanjith1/chatbot-widget",
     "version": "1.0.0",
     "scriptType": "postbuild",
