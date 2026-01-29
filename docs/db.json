@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "vibeweld",
+    "version": "0.0.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T20:41:11.717Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@lubyzzxmods/baileys",
     "version": "2.0.3",
     "scriptType": "preinstall",
