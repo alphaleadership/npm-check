@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "workos",
+    "version": "0.2.1",
+    "scriptType": "prebuild",
+    "scriptContent": "echo \"export const version = '$(node -p \"require('./package.json').version\")';\" > src/version.ts && pnpm clean",
+    "previousVersion": "0.2.0",
+    "timestamp": "2026-01-29T02:41:22.785Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@session-foundation/libsession-wasm",
+    "version": "0.0.7",
+    "scriptType": "postbuild",
+    "scriptContent": "npx tsx scripts/fix-types.js build/libsession-wasm-raw.d.ts build/libsession-wasm-fixed.d.ts && node scripts/generate-index.js",
+    "previousVersion": "0.0.6",
+    "timestamp": "2026-01-29T02:41:10.962Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@veristone/nuxt-v-app",
     "version": "0.1.0",
     "scriptType": "postinstall",
