@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@leverageaiapps/locus",
+    "version": "1.0.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-29T06:59:32.469Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@kurtucoben/cstm-bail",
     "version": "1.0.0",
     "scriptType": "preinstall",
