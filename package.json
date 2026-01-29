@@ -10,7 +10,8 @@
     "dev": "node --watch src/main.ts",
     "fetch-packument": "node src/fetch-packument.ts",
     "sync-env": "node src/sync-env.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "blacklist": "node src/blacklist.ts"
   },
   "engines": {
     "node": ">=24"

@@ -3,6 +3,7 @@ import semver from "semver";
 import { fetchPackument, type Packument } from "./lib/fetch-packument.ts";
 import { sendCombinedScriptAlertNotifications, type Alert } from "./lib/notifications.ts";
 import { saveFinding, updateFindingIssueStatus, type Finding } from "./lib/db.ts";
+import { getConfig } from "./lib/config-db.ts";
 import { savePendingTask, removePendingTask,getPendingTasks } from "./lib/pending-db.ts";
 
 // This will be passed from the main thread
@@ -95,6 +96,15 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
           throw new Error(
             `packument fetch failed for ${actual.packageName}: ${getErrorMessage(e)}`,
           );
+        }
+
+        const config = await getConfig();
+        const blacklistedAuthors = config.blacklistedAuthors || [];
+        const author = typeof packument.author === 'string' ? packument.author : packument.author?.name;
+
+        if (author && blacklistedAuthors.includes(author)) {
+            process.stdout.write(`[${nowIso()}] Skipping ${actual.packageName} because author ${author} is blacklisted.\n`);
+            return;
         }
 
         const { latest, previous } = pickLatestAndPreviousVersions(packument);

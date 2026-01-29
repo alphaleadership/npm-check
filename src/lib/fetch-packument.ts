@@ -1,5 +1,6 @@
 export interface Packument {
   name?: string;
+  author?: { name: string } | string;
   versions?: Record<string, unknown>;
   "dist-tags"?: {
     latest?: string;
