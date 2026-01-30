@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@mapbox/mcp-devkit-server",
+    "version": "0.4.7",
+    "scriptType": "postinstall",
+    "scriptContent": "patch-package || true",
+    "previousVersion": "0.4.6",
+    "timestamp": "2026-01-30T14:42:20.244Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@matrixy/auto-skill",
+    "version": "4.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist/*.whl dist/*.tar.gz dist/*.egg-info",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T14:41:34.183Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2608-a52b7e90ad9e5d835c9ce406eac7ec52247551b0",
     "version": "2.72.0",
     "scriptType": "postbuild",
