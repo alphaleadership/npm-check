@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "flutter-skill-mcp",
+    "version": "0.2.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.2.7",
+    "timestamp": "2026-01-30T18:58:49.367Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "openapi-effect",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs'); const content=fs.readFileSync('dist/cli.js','utf8'); if(!content.startsWith('#!/usr/bin/env node')) { fs.writeFileSync('dist/cli.js', '#!/usr/bin/env node\\n' + content) }\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T18:57:19.490Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@pratik-pathshala/puppeteer",
     "version": "24.36.1",
     "scriptType": "postinstall",
