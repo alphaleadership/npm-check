@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2572-f98c166edbac43e9ba347a6d2779df1ad613e366",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T05:12:55.231Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@precisionutilityguild/liquid-shadow",
     "version": "1.0.8",
     "scriptType": "postinstall",
