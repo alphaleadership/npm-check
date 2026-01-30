@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "@pratik-pathshala/puppeteer",
+    "version": "24.36.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T16:54:05.839Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@namehash/namehash-ui",
+    "version": "1.5.1",
+    "scriptType": "postinstall",
+    "scriptContent": "pnpm build:css",
+    "previousVersion": "1.5.0",
+    "timestamp": "2026-01-30T16:52:53.053Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@cliangdev/flux-plugin",
+    "version": "0.2.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs');const f='dist/server/index.js';const c=fs.readFileSync(f,'utf-8');if(!c.startsWith('#!/usr/bin/env node')){fs.writeFileSync(f,'#!/usr/bin/env node\\n'+c)}\"",
+    "previousVersion": "0.2.0-dev.e34d43b",
+    "timestamp": "2026-01-30T16:51:45.913Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@mapbox/mcp-devkit-server",
     "version": "0.4.7",
     "scriptType": "postinstall",
