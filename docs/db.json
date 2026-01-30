@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@precisionutilityguild/liquid-shadow",
+    "version": "1.0.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('\\nTo enable shell completions:\\n  bash: source <(liquid-shadow completion bash)\\n  zsh:  source <(liquid-shadow completion zsh)\\n')\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T02:41:50.972Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@writechoice/mint-cli",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "echo \"\\n⚠️  Don't forget to install Playwright browsers:\\n   npx playwright install chromium\\n\"",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T02:41:11.616Z",
+    "issuesend": false
+  },
+  {
     "packageName": "vibeweld",
     "version": "0.0.4",
     "scriptType": "postinstall",
