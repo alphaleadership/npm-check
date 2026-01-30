@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2608-a52b7e90ad9e5d835c9ce406eac7ec52247551b0",
+    "version": "2.72.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T10:44:38.395Z",
+    "issuesend": false
+  },
+  {
     "packageName": "forge-workflow",
     "version": "1.0.0",
     "scriptType": "postinstall",
