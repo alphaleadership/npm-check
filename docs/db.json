@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "forge-workflow",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./bin/forge.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T08:51:56.535Z",
+    "issuesend": true
+  },
+  {
     "packageName": "ember-mug",
     "version": "0.1.5",
     "scriptType": "postbuild",
