@@ -1,5 +1,59 @@
 [
   {
+    "packageName": "ember-mug",
+    "version": "0.1.5",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli.js",
+    "previousVersion": "0.1.4",
+    "timestamp": "2026-01-30T07:01:30.267Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@mcptoolshop/mcpt",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T07:00:51.413Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@mcptoolshop/pathway",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T07:00:49.655Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@mcptoolshop/a11y-ci",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T07:00:47.238Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@tarquinen/opencode-dcp",
+    "version": "1.3.1-beta1",
+    "scriptType": "postbuild",
+    "scriptContent": "rm -rf dist/logs",
+    "previousVersion": "1.3.1-beta.2",
+    "timestamp": "2026-01-30T07:00:36.082Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@mcptoolshop/websketch",
+    "version": "0.2.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/add-shebang.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-30T07:00:32.538Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2572-f98c166edbac43e9ba347a6d2779df1ad613e366",
     "version": "2.72.0",
     "scriptType": "postbuild",
