@@ -1,1267 +1,1042 @@
 [
   {
+    "packageName": "@styfle/vgrok",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:25:04.091Z"
+  },
+  {
+    "packageName": "astrogonia",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:25:04.090Z"
+  },
+  {
+    "packageName": "@cranberry-money/shared-types",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:25:04.090Z"
+  },
+  {
+    "packageName": "@cranberry-money/shared-constants",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:25:04.089Z"
+  },
+  {
+    "packageName": "jsii-rosetta",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:53.170Z"
+  },
+  {
+    "packageName": "@bytriska/priority-find-up",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:42.244Z"
+  },
+  {
+    "packageName": "@hemia/core",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:42.243Z"
+  },
+  {
+    "packageName": "@atlassian-test-prod/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:42.243Z"
+  },
+  {
+    "packageName": "@s-hirano-ist/s-scripts",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:31.327Z"
+  },
+  {
+    "packageName": "@neupgroup/mapper",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:20.420Z"
+  },
+  {
+    "packageName": "@s-hirano-ist/s-notification",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:20.419Z"
+  },
+  {
+    "packageName": "@s-hirano-ist/s-database",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:20.418Z"
+  },
+  {
+    "packageName": "@atlassian-test-prod/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:09.533Z"
+  },
+  {
+    "packageName": "@s-hirano-ist/s-ui",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:09.532Z"
+  },
+  {
+    "packageName": "@s-hirano-ist/s-core",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:24:09.531Z"
+  },
+  {
+    "packageName": "@music-i18n/verovio",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:23:57.141Z"
+  },
+  {
+    "packageName": "@respan/respan-sdk",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:23:57.141Z"
+  },
+  {
+    "packageName": "vantaverse-ai-reviewer",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:23:46.203Z"
+  },
+  {
+    "packageName": "@tixionn/contracts",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:23:35.292Z"
+  },
+  {
+    "packageName": "pikakit",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:23:24.365Z"
+  },
+  {
+    "packageName": "@atlassian-test-prod/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:23:24.364Z"
+  },
+  {
+    "packageName": "@s-hirano-ist/s-scripts",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:23:02.640Z"
+  },
+  {
+    "packageName": "react-native-nucleus",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:51.464Z"
+  },
+  {
+    "packageName": "@s-hirano-ist/s-notification",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:51.463Z"
+  },
+  {
+    "packageName": "@scalably/ui",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:51.462Z"
+  },
+  {
+    "packageName": "@s-hirano-ist/s-database",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:51.462Z"
+  },
+  {
+    "packageName": "@loafmarkets/shared-types",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:51.460Z"
+  },
+  {
+    "packageName": "@s-hirano-ist/s-ui",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:40.530Z"
+  },
+  {
+    "packageName": "@s-hirano-ist/s-core",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:29.681Z"
+  },
+  {
+    "packageName": "@atlassian-test-prod/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:29.590Z"
+  },
+  {
+    "packageName": "h56-github-scrapper",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:29.589Z"
+  },
+  {
+    "packageName": "openhive",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:18.692Z"
+  },
+  {
+    "packageName": "@layerzerolabs/onesig-starknet",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:22:07.808Z"
+  },
+  {
+    "packageName": "momo-ai",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:21:35.116Z"
+  },
+  {
+    "packageName": "@atlassian-test-staging/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:21:35.116Z"
+  },
+  {
+    "packageName": "@aptre/common",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:21:35.115Z"
+  },
+  {
+    "packageName": "@xcvzmoon/express-utils",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:21:24.268Z"
+  },
+  {
+    "packageName": "@atlassian-test-staging/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:21:01.039Z"
+  },
+  {
+    "packageName": "opencode-openai-codex-multi-auth",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:20:50.100Z"
+  },
+  {
+    "packageName": "@trust-ethos/cli",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:20:39.204Z"
+  },
+  {
+    "packageName": "wag-ai",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:20:39.203Z"
+  },
+  {
+    "packageName": "lucentia-ui",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:20:28.317Z"
+  },
+  {
+    "packageName": "structurecc",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:20:17.443Z"
+  },
+  {
+    "packageName": "@respan/respan-sdk",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:20:17.443Z"
+  },
+  {
+    "packageName": "tmux-agent-monitor",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:20:17.442Z"
+  },
+  {
+    "packageName": "@atomfe/oss-uploader",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:55.416Z"
+  },
+  {
+    "packageName": "china-id-card",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:55.414Z"
+  },
+  {
+    "packageName": "@lucid-agents/cli",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:42.981Z"
+  },
+  {
+    "packageName": "@lucid-agents/wallet",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:42.980Z"
+  },
+  {
+    "packageName": "@lucid-agents/tanstack",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:42.980Z"
+  },
+  {
+    "packageName": "@lucid-agents/api-sdk",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:42.979Z"
+  },
+  {
+    "packageName": "@lucid-agents/express",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:42.978Z"
+  },
+  {
+    "packageName": "@atlassian-test-staging/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:42.978Z"
+  },
+  {
+    "packageName": "@lucid-agents/core",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:42.977Z"
+  },
+  {
+    "packageName": "@lucid-agents/hono",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:42.976Z"
+  },
+  {
+    "packageName": "@lucid-agents/identity",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:42.976Z"
+  },
+  {
+    "packageName": "@lucid-agents/payments",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:42.975Z"
+  },
+  {
+    "packageName": "wag-ai",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:21.303Z"
+  },
+  {
+    "packageName": "@jh-tech/bff-update-feed-app-client",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:21.302Z"
+  },
+  {
+    "packageName": "postmessage-duplex",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:10.494Z"
+  },
+  {
+    "packageName": "@atlassian-test-staging/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:10.494Z"
+  },
+  {
+    "packageName": "@jh-tech/bff-update-feed-app-shared",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:19:10.493Z"
+  },
+  {
+    "packageName": "glin-profanity",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:58.114Z"
+  },
+  {
+    "packageName": "@cranberry-money/shared-services",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:36.463Z"
+  },
+  {
+    "packageName": "@dangao/bun-server",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:36.462Z"
+  },
+  {
+    "packageName": "@cranberry-money/shared-utils",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:36.462Z"
+  },
+  {
+    "packageName": "@cranberry-money/shared-types",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:36.461Z"
+  },
+  {
+    "packageName": "@cranberry-money/shared-constants",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:24.028Z"
+  },
+  {
+    "packageName": "wag-ai",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:24.027Z"
+  },
+  {
+    "packageName": "node-red-contrib-questdb",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:24.026Z"
+  },
+  {
+    "packageName": "@atlassian-test-staging/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:24.026Z"
+  },
+  {
+    "packageName": "cc-plugin",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:13.093Z"
+  },
+  {
+    "packageName": "@routebot/constants",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:13.092Z"
+  },
+  {
+    "packageName": "zerc20-client-sdk",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:18:02.204Z"
+  },
+  {
+    "packageName": "@aptre/common",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:40.567Z"
+  },
+  {
+    "packageName": "@devx-commerce/plugin-gati",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:40.566Z"
+  },
+  {
+    "packageName": "request-iframe",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:29.568Z"
+  },
+  {
+    "packageName": "@applicaster/zapplicaster-cli",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:29.567Z"
+  },
+  {
+    "packageName": "openclaw-productboard",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:17.224Z"
+  },
+  {
+    "packageName": "@applicaster/quick-brick-player",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:06.413Z"
+  },
+  {
+    "packageName": "@tatamicks/select",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:06.412Z"
+  },
+  {
+    "packageName": "@flowmonkey/triggers",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:06.412Z"
+  },
+  {
+    "packageName": "@flowmonkey/redis",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:06.411Z"
+  },
+  {
+    "packageName": "pupt-lib",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:06.410Z"
+  },
+  {
+    "packageName": "@applicaster/zapp-react-native-app",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:17:06.410Z"
+  },
+  {
+    "packageName": "@jh-tech/bff-update-feed-app-client",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:16:43.244Z"
+  },
+  {
+    "packageName": "@azure/arm-hybridkubernetes",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:16:43.243Z"
+  },
+  {
+    "packageName": "@applicaster/zapp-react-dom-app",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:16:43.242Z"
+  },
+  {
+    "packageName": "@jh-tech/bff-update-feed-app-shared",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:16:32.329Z"
+  },
+  {
+    "packageName": "@azure/arm-informaticadatamanagement",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:16:32.266Z"
+  },
+  {
+    "packageName": "broth-rl-sdk",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:16:32.265Z"
+  },
+  {
+    "packageName": "suwa-ui",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:16:32.264Z"
+  },
+  {
+    "packageName": "@applicaster/quick-brick-core",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:16:21.434Z"
+  },
+  {
+    "packageName": "@applicaster/zapp-react-native-ui-components",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:16:08.994Z"
+  },
+  {
+    "packageName": "@tatamicks/text",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:58.097Z"
+  },
+  {
+    "packageName": "@applicaster/zapp-react-native-bridge",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:47.186Z"
+  },
+  {
+    "packageName": "@dynlabs/react-native-immutable-file-cache",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:36.283Z"
+  },
+  {
+    "packageName": "@jellyfin/sdk",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:36.282Z"
+  },
+  {
+    "packageName": "@metaplay/metaplay-auth",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:25.341Z"
+  },
+  {
+    "packageName": "@applicaster/zapp-react-native-utils",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:25.340Z"
+  },
+  {
+    "packageName": "opencode-cloud",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:25.340Z"
+  },
+  {
+    "packageName": "@opencode-cloud/core",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:25.339Z"
+  },
+  {
+    "packageName": "@opencode-cloud/cli-node-linux-arm64-musl",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:14.421Z"
+  },
+  {
+    "packageName": "enterprise-logging-system",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:14.420Z"
+  },
+  {
+    "packageName": "@opencode-cloud/cli-node-linux-x64-musl",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:14.419Z"
+  },
+  {
+    "packageName": "@opencode-cloud/cli-node-linux-arm64",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:14.419Z"
+  },
+  {
+    "packageName": "@opencode-cloud/cli-node-linux-x64",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:03.499Z"
+  },
+  {
+    "packageName": "@azure-rest/onlineexperimentation",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:03.499Z"
+  },
+  {
+    "packageName": "@opencode-cloud/cli-node-darwin-x64",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:03.498Z"
+  },
+  {
+    "packageName": "50c",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:15:03.498Z"
+  },
+  {
+    "packageName": "@opencode-cloud/cli-node-darwin-arm64",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:52.589Z"
+  },
+  {
+    "packageName": "@azure/arm-dashboard",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:52.521Z"
+  },
+  {
+    "packageName": "@adamjanicki/markdown",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:52.520Z"
+  },
+  {
+    "packageName": "@devx-commerce/plugin-discounts-svaraa",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:52.519Z"
+  },
+  {
+    "packageName": "@rafikidota/iroh",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:52.519Z"
+  },
+  {
+    "packageName": "@projectservan8n/cnapse",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:40.014Z"
+  },
+  {
+    "packageName": "@seyamali/aurelia-editor",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:29.160Z"
+  },
+  {
+    "packageName": "vuex-modern",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:29.159Z"
+  },
+  {
+    "packageName": "@flowmonkey/redis",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:29.159Z"
+  },
+  {
+    "packageName": "openclaw-productboard",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:18.248Z"
+  },
+  {
+    "packageName": "@flowmonkey/postgres",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:18.247Z"
+  },
+  {
+    "packageName": "@flowmonkey/handlers",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:07.350Z"
+  },
+  {
+    "packageName": "easy-telegram-bot",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:14:07.349Z"
+  },
+  {
+    "packageName": "easy-telegram-bot",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:13:56.446Z"
+  },
+  {
+    "packageName": "dcs012",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:13:45.598Z"
+  },
+  {
+    "packageName": "easy-telegram-bot",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:13:45.597Z"
+  },
+  {
+    "packageName": "gomtm-cli",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:13:45.591Z"
+  },
+  {
+    "packageName": "easy-telegram-bot",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:13:22.302Z"
+  },
+  {
+    "packageName": "harshil-auth",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:13:11.381Z"
+  },
+  {
+    "packageName": "openclaw-productboard",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:13:11.380Z"
+  },
+  {
+    "packageName": "easy-telegram-bot",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:13:00.458Z"
+  },
+  {
+    "packageName": "@d3oxy/msg91",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:13:00.457Z"
+  },
+  {
+    "packageName": "easy-telegram-bot",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:12:49.554Z"
+  },
+  {
+    "packageName": "waheim-haptics",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:12:49.553Z"
+  },
+  {
+    "packageName": "vantaverse-ai-reviewer",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:12:37.116Z"
+  },
+  {
+    "packageName": "@altimateai/extension-components",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:12:37.115Z"
+  },
+  {
+    "packageName": "easy-telegram-bot",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:12:37.115Z"
+  },
+  {
+    "packageName": "@altimateai/ui-components",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:12:37.114Z"
+  },
+  {
+    "packageName": "koishi-plugin-hello-world",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:12:26.190Z"
+  },
+  {
+    "packageName": "struere",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:12:15.307Z"
+  },
+  {
+    "packageName": "@agentvet/cli",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:12:15.307Z"
+  },
+  {
+    "packageName": "@mcp-consultant-tools/azure-devops",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:12:04.385Z"
+  },
+  {
+    "packageName": "easy-telegram-bot",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:30.392Z"
+  },
+  {
+    "packageName": "@justmpm/ai-tool",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.688Z"
+  },
+  {
+    "packageName": "@dotcms/dotcli",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.688Z"
+  },
+  {
+    "packageName": "@djangocfg/ui-tools",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.687Z"
+  },
+  {
+    "packageName": "@djangocfg/seo",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.687Z"
+  },
+  {
+    "packageName": "@djangocfg/api",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.686Z"
+  },
+  {
+    "packageName": "openclaw-cn",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.686Z"
+  },
+  {
+    "packageName": "@djangocfg/layouts",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.685Z"
+  },
+  {
+    "packageName": "@djangocfg/nextjs",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.685Z"
+  },
+  {
+    "packageName": "@djangocfg/imgai",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.684Z"
+  },
+  {
+    "packageName": "@djangocfg/centrifugo",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.684Z"
+  },
+  {
+    "packageName": "@djangocfg/ui-core",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.683Z"
+  },
+  {
+    "packageName": "@djangocfg/ui-nextjs",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.683Z"
+  },
+  {
+    "packageName": "@djangocfg/typescript-config",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.682Z"
+  },
+  {
+    "packageName": "@djangocfg/eslint-config",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.682Z"
+  },
+  {
+    "packageName": "@djangocfg/i18n",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.681Z"
+  },
+  {
+    "packageName": "@djangocfg/crypto",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.681Z"
+  },
+  {
+    "packageName": "@cuboapp/ui-vue",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:11:08.680Z"
+  },
+  {
+    "packageName": "@rljson/db",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:10:57.713Z"
+  },
+  {
+    "packageName": "@shakerquiz/contracts",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:10:46.783Z"
+  },
+  {
+    "packageName": "@dobuki/hello-worker",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:10:46.783Z"
+  },
+  {
+    "packageName": "fca-uzair-memo",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:10:25.108Z"
+  },
+  {
+    "packageName": "chassi",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:10:03.402Z"
+  },
+  {
+    "packageName": "@zhex900/workshop-app",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:09:52.444Z"
+  },
+  {
+    "packageName": "@atlassian-test-prod/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:09:30.368Z"
+  },
+  {
+    "packageName": "gomtm-cli",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:09:19.554Z"
+  },
+  {
+    "packageName": "@arxdn/shared",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:56.353Z"
+  },
+  {
+    "packageName": "@atlassian-test-prod/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:56.352Z"
+  },
+  {
+    "packageName": "aig-risk-profiler-mcp",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:56.352Z"
+  },
+  {
+    "packageName": "vantaverse-ai-reviewer",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:45.436Z"
+  },
+  {
+    "packageName": "@zhex900/workshop-app",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:45.435Z"
+  },
+  {
+    "packageName": "50c",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:22.202Z"
+  },
+  {
+    "packageName": "@agi-cli/server",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:11.284Z"
+  },
+  {
+    "packageName": "@agi-cli/database",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:11.283Z"
+  },
+  {
+    "packageName": "@opencode-ai/plugin",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:11.282Z"
+  },
+  {
+    "packageName": "@agi-cli/web-ui",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:11.282Z"
+  },
+  {
+    "packageName": "@atlassian-test-prod/synth-check",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:11.281Z"
+  },
+  {
+    "packageName": "@opencode-ai/sdk",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:08:11.281Z"
+  },
+  {
+    "packageName": "@agi-cli/web-sdk",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:49.578Z"
+  },
+  {
+    "packageName": "@agi-cli/sdk",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:49.578Z"
+  },
+  {
+    "packageName": "@agi-cli/api",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:49.577Z"
+  },
+  {
+    "packageName": "opencode-ai",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:49.576Z"
+  },
+  {
+    "packageName": "opencode-windows-x64",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.389Z"
+  },
+  {
+    "packageName": "opencode-linux-x64-baseline",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.388Z"
+  },
+  {
+    "packageName": "@jh-tech/bff-update-feed-app-client",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.388Z"
+  },
+  {
+    "packageName": "opencode-linux-x64-musl",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.387Z"
+  },
+  {
+    "packageName": "opencode-linux-x64",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.387Z"
+  },
+  {
+    "packageName": "opencode-windows-x64-baseline",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.386Z"
+  },
+  {
+    "packageName": "opencode-linux-arm64",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.386Z"
+  },
+  {
+    "packageName": "opencode-linux-x64-baseline-musl",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.385Z"
+  },
+  {
+    "packageName": "opencode-linux-arm64-musl",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.385Z"
+  },
+  {
+    "packageName": "@agi-cli/install",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.384Z"
+  },
+  {
+    "packageName": "openclaw-productboard",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.384Z"
+  },
+  {
+    "packageName": "opencode-darwin-x64-baseline",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.383Z"
+  },
+  {
+    "packageName": "opencode-darwin-x64",
+    "version": "latest",
+    "timestamp": "2026-01-31T05:07:38.383Z"
+  },
+  {
     "packageName": "opencode-darwin-arm64",
     "version": "latest",
-    "timestamp": "2026-01-31T02:56:15.366Z"
+    "timestamp": "2026-01-31T05:07:38.382Z"
   },
   {
-    "packageName": "@energycap/energycap-billcapture-sdk-angular",
+    "packageName": "@jh-tech/bff-update-feed-app-shared",
     "version": "latest",
-    "timestamp": "2026-01-31T02:56:15.365Z"
+    "timestamp": "2026-01-31T05:07:27.499Z"
   },
   {
-    "packageName": "document-model",
+    "packageName": "@aptre/common",
     "version": "latest",
-    "timestamp": "2026-01-31T02:56:15.365Z"
+    "timestamp": "2026-01-31T05:07:16.609Z"
   },
   {
-    "packageName": "@powerhousedao/config",
+    "packageName": "@azure/arm-azurestackhcivm",
     "version": "latest",
-    "timestamp": "2026-01-31T02:56:15.364Z"
-  },
-  {
-    "packageName": "bingo-opgg",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:56:15.363Z"
-  },
-  {
-    "packageName": "@stdlib/blas-base-gnrm2",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:52.428Z"
-  },
-  {
-    "packageName": "x-runtime-lib",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:52.427Z"
-  },
-  {
-    "packageName": "cc1-ui",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:52.427Z"
-  },
-  {
-    "packageName": "@stdlib/blas-base-gscal",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:52.425Z"
-  },
-  {
-    "packageName": "bluera-knowledge",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:40.138Z"
-  },
-  {
-    "packageName": "@d5render/web-cli",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:40.138Z"
-  },
-  {
-    "packageName": "rapida-partner",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:40.137Z"
-  },
-  {
-    "packageName": "@kjerneverk/execution",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:29.392Z"
-  },
-  {
-    "packageName": "@industry-theme/file-city-panel",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:29.391Z"
-  },
-  {
-    "packageName": "@stdlib/blas-base-gsyr",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:29.390Z"
-  },
-  {
-    "packageName": "@chunkflowjs/upload-server",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:29.390Z"
-  },
-  {
-    "packageName": "polydev-ai",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:18.626Z"
-  },
-  {
-    "packageName": "n8n-nodes-ethereum",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:18.625Z"
-  },
-  {
-    "packageName": "@stdlib/blas-base-igamax",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:18.624Z"
-  },
-  {
-    "packageName": "clawguard",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:18.623Z"
-  },
-  {
-    "packageName": "@chunkflowjs/upload-component-vue",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:07.837Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:07.836Z"
-  },
-  {
-    "packageName": "@chunkflowjs/upload-component-react",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:07.835Z"
-  },
-  {
-    "packageName": "schedyx",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:55:07.834Z"
-  },
-  {
-    "packageName": "@chunkflowjs/upload-client-vue",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:46.450Z"
-  },
-  {
-    "packageName": "@chunkflowjs/upload-client-react",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:46.449Z"
-  },
-  {
-    "packageName": "@cucumber/pretty-formatter",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:34.145Z"
-  },
-  {
-    "packageName": "@chunkflowjs/shared",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:34.145Z"
-  },
-  {
-    "packageName": "openclaw-langcache",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:23.375Z"
-  },
-  {
-    "packageName": "@ray-db/core",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:23.375Z"
-  },
-  {
-    "packageName": "@ray-db/core-darwin-arm64",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:23.374Z"
-  },
-  {
-    "packageName": "@ray-db/core-linux-x64-gnu",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:12.630Z"
-  },
-  {
-    "packageName": "@chunkflowjs/protocol",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:12.629Z"
-  },
-  {
-    "packageName": "@ray-db/core-darwin-x64",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:12.628Z"
-  },
-  {
-    "packageName": "@ray-db/core-win32-x64-msvc",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:01.892Z"
-  },
-  {
-    "packageName": "@sudobility/indexer_client",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:54:01.891Z"
-  },
-  {
-    "packageName": "@chunkflowjs/core",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:53:50.856Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gapx",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:53:50.855Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gasumpw",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:53:40.072Z"
-  },
-  {
-    "packageName": "@rebilly/framepay-react",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:53:40.071Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-ndarray",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:53:40.070Z"
-  },
-  {
-    "packageName": "toolkitify",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:53:29.285Z"
-  },
-  {
-    "packageName": "@power-maverick/tool-data-migrator",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:53:29.284Z"
-  },
-  {
-    "packageName": "@sudobility/di_web",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:53:29.283Z"
-  },
-  {
-    "packageName": "openclaw-feishu",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:53:18.493Z"
-  },
-  {
-    "packageName": "vett",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:53:07.378Z"
+    "timestamp": "2026-01-31T05:07:16.609Z"
   },
   {
     "packageName": "@atlassian-test-prod/synth-check",
     "version": "latest",
-    "timestamp": "2026-01-31T02:53:07.377Z"
+    "timestamp": "2026-01-31T05:07:16.608Z"
   },
   {
-    "packageName": "@turbokadi/react-tech-icons",
+    "packageName": "@moltnet/guard",
     "version": "latest",
-    "timestamp": "2026-01-31T02:52:55.116Z"
+    "timestamp": "2026-01-31T05:07:16.608Z"
   },
   {
-    "packageName": "@kjerneverk/agentic",
+    "packageName": "@rafikidota/iroh-schematics",
     "version": "latest",
-    "timestamp": "2026-01-31T02:52:44.370Z"
+    "timestamp": "2026-01-31T05:06:55.037Z"
   },
   {
-    "packageName": "@stdlib/blas-ext-base-ndarray-gcusum",
+    "packageName": "use-navigation-api",
     "version": "latest",
-    "timestamp": "2026-01-31T02:52:32.084Z"
-  },
-  {
-    "packageName": "moltlaunch",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:52:32.084Z"
-  },
-  {
-    "packageName": "@sudobility/di",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:52:32.083Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gcusum",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:52:21.355Z"
-  },
-  {
-    "packageName": "@atlassian-test-prod/synth-check",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:52:21.354Z"
-  },
-  {
-    "packageName": "ardabot",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:52:10.568Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gcusumkbn",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:52:10.567Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gcusumkbn2",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:47.658Z"
-  },
-  {
-    "packageName": "@lark-apaas/nestjs-observable",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:47.658Z"
-  },
-  {
-    "packageName": "openclaw-langcache",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:47.657Z"
+    "timestamp": "2026-01-31T05:06:44.204Z"
   },
   {
     "packageName": "@atlassian-test-staging/synth-check",
     "version": "latest",
-    "timestamp": "2026-01-31T02:51:47.656Z"
+    "timestamp": "2026-01-31T05:06:33.395Z"
   },
   {
-    "packageName": "@lark-apaas/nestjs-datapaas",
+    "packageName": "@gpt-core/admin",
     "version": "latest",
-    "timestamp": "2026-01-31T02:51:47.656Z"
+    "timestamp": "2026-01-31T05:06:20.992Z"
   },
   {
-    "packageName": "@stdlib/blas-ext-base-ndarray-gcusumors",
+    "packageName": "@gpt-core/client",
     "version": "latest",
-    "timestamp": "2026-01-31T02:51:38.448Z"
-  },
-  {
-    "packageName": "@agentvet/cli",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:38.447Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gcusumors",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:26.151Z"
-  },
-  {
-    "packageName": "@lark-apaas/nestjs-common",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:26.150Z"
-  },
-  {
-    "packageName": "@lark-apaas/nestjs-authzpaas",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:26.150Z"
-  },
-  {
-    "packageName": "@rebilly/framepay-vue",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:26.149Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-ndarray-gcusumpw",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:26.148Z"
-  },
-  {
-    "packageName": "@atlassian-test-staging/synth-check",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:15.393Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gcusumpw",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:15.392Z"
-  },
-  {
-    "packageName": "@stdlib/array-filled-by",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:51:04.632Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gfill-by",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:53.853Z"
-  },
-  {
-    "packageName": "@rebilly/instruments",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:53.852Z"
-  },
-  {
-    "packageName": "@atlassian-test-staging/synth-check",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:53.851Z"
-  },
-  {
-    "packageName": "@stdlib/array-filled",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:43.066Z"
-  },
-  {
-    "packageName": "hyperclayjs",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:43.065Z"
-  },
-  {
-    "packageName": "@moveindustries/movement-client",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:43.064Z"
-  },
-  {
-    "packageName": "@moveindustries/ts-sdk",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:43.064Z"
-  },
-  {
-    "packageName": "@moveindustries/movement-cli",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:43.063Z"
-  },
-  {
-    "packageName": "@moveindustries/confidential-assets",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:43.062Z"
-  },
-  {
-    "packageName": "@moveindustries/confidential-asset-wasm-bindings",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:43.062Z"
-  },
-  {
-    "packageName": "@salesmind-ai/design-system",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:43.061Z"
-  },
-  {
-    "packageName": "@stdlib/array-full-like",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:32.230Z"
-  },
-  {
-    "packageName": "@fleettools/opencode-plugin",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:21.475Z"
-  },
-  {
-    "packageName": "@atlassian-test-staging/synth-check",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:21.474Z"
-  },
-  {
-    "packageName": "@stdlib/array-full",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:00.173Z"
-  },
-  {
-    "packageName": "@ziggy-ai/client-sdk",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:00.172Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gfill",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:50:00.172Z"
-  },
-  {
-    "packageName": "@vtx/gd-map",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:49:49.493Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-ndarray-gfind-last-index",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:49:49.492Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gfind-last-index",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:49:37.247Z"
-  },
-  {
-    "packageName": "@atlassian-test-staging/synth-check",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:49:37.246Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-ndarray-gfind-index",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:49:24.982Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gfind-index",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:49:14.238Z"
-  },
-  {
-    "packageName": "openclaw-productboard",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:49:03.528Z"
-  },
-  {
-    "packageName": "@stdlib/math-strided",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:49:03.527Z"
-  },
-  {
-    "packageName": "@odatnurd/cf-requests",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:48:51.315Z"
-  },
-  {
-    "packageName": "react-maestro-flow",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:48:51.315Z"
-  },
-  {
-    "packageName": "termites",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:48:40.574Z"
-  },
-  {
-    "packageName": "@rebilly/framepay",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:48:28.294Z"
-  },
-  {
-    "packageName": "tudu-components",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:48:17.502Z"
-  },
-  {
-    "packageName": "@stdlib/math-strided-ops",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:48:06.408Z"
-  },
-  {
-    "packageName": "@cliffy-ga/core",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:48:06.407Z"
-  },
-  {
-    "packageName": "@riotprompt/riotprompt",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:55.357Z"
-  },
-  {
-    "packageName": "agentindex-mcp",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:55.357Z"
-  },
-  {
-    "packageName": "@stdlib/math-strided-ops-add",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:55.356Z"
-  },
-  {
-    "packageName": "@stdlib/math-strided-ops-mul",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:44.607Z"
-  },
-  {
-    "packageName": "@riotprompt/riotplan",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:33.834Z"
-  },
-  {
-    "packageName": "rebilly-js-sdk",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:33.833Z"
-  },
-  {
-    "packageName": "@stdlib/math-strided-ops-sub",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:33.833Z"
-  },
-  {
-    "packageName": "@manyrows/appkit-react",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:23.031Z"
-  },
-  {
-    "packageName": "@stdlib/math-strided-special",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:12.254Z"
-  },
-  {
-    "packageName": "smolbrain",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:12.253Z"
-  },
-  {
-    "packageName": "agentindex-sdk",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:47:01.477Z"
-  },
-  {
-    "packageName": "@tsukilabs/nil-continent",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:46:38.502Z"
-  },
-  {
-    "packageName": "create-izi-noir",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:46:27.717Z"
-  },
-  {
-    "packageName": "@industry-theme/xterm-terminal-panel",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:46:17.011Z"
-  },
-  {
-    "packageName": "@regulaforensics/vp-frontend-face-components",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:46:17.010Z"
-  },
-  {
-    "packageName": "test-chat-sdk",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:46:17.009Z"
-  },
-  {
-    "packageName": "opencode-harmony-linux-arm64-musl",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:46:06.194Z"
-  },
-  {
-    "packageName": "opencode-harmony-linux-x64-baseline-musl",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:45:55.453Z"
-  },
-  {
-    "packageName": "@agentvet/cli",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:45:43.194Z"
-  },
-  {
-    "packageName": "opencode-harmony-darwin-x64",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:45:43.193Z"
-  },
-  {
-    "packageName": "@beforesemicolon/web-component",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:45:11.114Z"
-  },
-  {
-    "packageName": "openclaw-productboard",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:45:00.020Z"
-  },
-  {
-    "packageName": "@feardread/fear",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:45:00.020Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gindex-of-row",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:49.257Z"
-  },
-  {
-    "packageName": "slack-cloudflare-workers",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:49.257Z"
-  },
-  {
-    "packageName": "yolkbot",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:49.256Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-ndarray-glast-index-of",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:38.522Z"
-  },
-  {
-    "packageName": "slack-web-api-client",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:38.521Z"
-  },
-  {
-    "packageName": "@kompo-dev/create-kompo",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:38.520Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-glast-index-of",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:26.235Z"
-  },
-  {
-    "packageName": "@coderline/alphatab",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:26.157Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-ndarray-gindex-of",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:26.156Z"
-  },
-  {
-    "packageName": "slack-edge",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:26.156Z"
-  },
-  {
-    "packageName": "@azure/arm-managedapplications",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:15.336Z"
-  },
-  {
-    "packageName": "@stdlib/blas-ext-base-gindex-of",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:15.335Z"
-  },
-  {
-    "packageName": "create-izi-noir",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:04.577Z"
-  },
-  {
-    "packageName": "@stdlib/lapack-base-dlarf1f",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:44:04.576Z"
-  },
-  {
-    "packageName": "@stdlib/ndarray-base-binary-input-casting-dtype",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:43:53.758Z"
-  },
-  {
-    "packageName": "fermmap-shared",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:43:43.091Z"
-  },
-  {
-    "packageName": "@stdlib/ndarray-base-binary-output-dtype",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:43:43.090Z"
-  },
-  {
-    "packageName": "anyresponses",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:43:43.089Z"
-  },
-  {
-    "packageName": "@stdlib/ndarray-base-ternary-output-dtype",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:43:32.411Z"
-  },
-  {
-    "packageName": "@azure/arm-securitydevops",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:43:32.410Z"
-  },
-  {
-    "packageName": "@stdlib/ndarray-base-unary-output-dtype",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:43:20.173Z"
-  },
-  {
-    "packageName": "@smallthinkingmachines/semantic-code-mcp",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:43:20.172Z"
-  },
-  {
-    "packageName": "@stdlib/ndarray-base-output-dtype",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:43:20.172Z"
-  },
-  {
-    "packageName": "create-nizam-app",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:43:07.947Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:42:56.837Z"
-  },
-  {
-    "packageName": "aligned-array",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:42:35.403Z"
-  },
-  {
-    "packageName": "adofai",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:42:35.402Z"
-  },
-  {
-    "packageName": "create-izi-noir",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:42:13.963Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-max",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:42:13.962Z"
-  },
-  {
-    "packageName": "spotlight-omni-search",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:42:03.182Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-maxabs",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:42:03.181Z"
-  },
-  {
-    "packageName": "@bonitour/components",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:42:03.180Z"
-  },
-  {
-    "packageName": "@bonitour/orb-core",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:52.384Z"
-  },
-  {
-    "packageName": "@bonitour/app-functions",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:52.383Z"
-  },
-  {
-    "packageName": "@bonitour/common-functions",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:52.383Z"
-  },
-  {
-    "packageName": "@binamik/pay-checkout",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:52.382Z"
-  },
-  {
-    "packageName": "@bonitour/font",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:52.382Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-maxsorted",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:52.381Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-mean",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:41.637Z"
-  },
-  {
-    "packageName": "koishi-plugin-paintboard-status",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:41.636Z"
-  },
-  {
-    "packageName": "@velvetmonkey/flywheel-mcp",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:30.743Z"
-  },
-  {
-    "packageName": "openclaw-productboard",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:30.742Z"
-  },
-  {
-    "packageName": "@sidesuit/pkg-event-bridge",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:30.742Z"
-  },
-  {
-    "packageName": "opencode-free-fleet",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:30.741Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-meanors",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:19.933Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-meanpn",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:41:09.152Z"
-  },
-  {
-    "packageName": "opencode-harmony-linux-x64-baseline",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:58.104Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-meanpw",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:58.104Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-meanwd",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:47.338Z"
-  },
-  {
-    "packageName": "opencode-harmony-linux-x64-musl",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:47.337Z"
-  },
-  {
-    "packageName": "opencode-free-fleet",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:35.089Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-mediansorted",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:35.089Z"
-  },
-  {
-    "packageName": "opencode-harmony-windows-x64-baseline",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:35.088Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-min",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:24.065Z"
-  },
-  {
-    "packageName": "termites",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:24.065Z"
-  },
-  {
-    "packageName": "@regulaforensics/facesdk-webclient",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:24.064Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-minabs",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:24.063Z"
-  },
-  {
-    "packageName": "@velvetmonkey/vault-core",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:13.282Z"
-  },
-  {
-    "packageName": "backupctl",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:13.208Z"
-  },
-  {
-    "packageName": "opencode-harmony-linux-arm64",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:13.207Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-minsorted",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:13.207Z"
-  },
-  {
-    "packageName": "@cliffy-ga/core",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:02.478Z"
-  },
-  {
-    "packageName": "fmode-ng",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:02.477Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-mskmax",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:40:02.476Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-mskmin",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:50.132Z"
-  },
-  {
-    "packageName": "@getfoundry/foundry",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:50.132Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-mskrange",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:39.342Z"
-  },
-  {
-    "packageName": "@atlassian-test-prod/synth-check",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:39.342Z"
-  },
-  {
-    "packageName": "datafix",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:39.341Z"
-  },
-  {
-    "packageName": "n8n-nodes-ethereum",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:39.341Z"
-  },
-  {
-    "packageName": "@utsp/runtime-server",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:39.340Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanmax",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:39.340Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanmaxabs",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:27.081Z"
-  },
-  {
-    "packageName": "migratectl",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:27.080Z"
-  },
-  {
-    "packageName": "@utsp/runtime-client",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:16.392Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanmean",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:16.391Z"
-  },
-  {
-    "packageName": "tokenlean",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:16.391Z"
-  },
-  {
-    "packageName": "@grafana/ui",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:16.390Z"
-  },
-  {
-    "packageName": "@appthreat/atom",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:16.389Z"
-  },
-  {
-    "packageName": "btca-server",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:04.164Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanmeanors",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:04.164Z"
-  },
-  {
-    "packageName": "@jieyin/editor-sdk",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:04.163Z"
-  },
-  {
-    "packageName": "@utsp/network-server",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:39:04.162Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanmeanpn",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:53.411Z"
-  },
-  {
-    "packageName": "@grafana/schema",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:53.410Z"
-  },
-  {
-    "packageName": "@atlassian-test-prod/synth-check",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:53.410Z"
-  },
-  {
-    "packageName": "@utsp/network-client",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:53.409Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanmeanwd",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:53.409Z"
-  },
-  {
-    "packageName": "@grafana/runtime",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:53.408Z"
-  },
-  {
-    "packageName": "@lxgicstudios/seo-audit",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:53.407Z"
-  },
-  {
-    "packageName": "@lxgicstudios/meta-tags",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:41.113Z"
-  },
-  {
-    "packageName": "@utsp/render",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:41.113Z"
-  },
-  {
-    "packageName": "@grafana/prometheus",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:41.112Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanmin",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:41.111Z"
-  },
-  {
-    "packageName": "spessasynth_lib",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:41.111Z"
-  },
-  {
-    "packageName": "@lxgicstudios/jsonmorph",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:41.110Z"
-  },
-  {
-    "packageName": "@lxgicstudios/imgbatch",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:30.419Z"
-  },
-  {
-    "packageName": "@grafana/i18n",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:30.418Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanminabs",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:30.418Z"
-  },
-  {
-    "packageName": "@utsp/input",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:30.417Z"
-  },
-  {
-    "packageName": "@lxgicstudios/docvert",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:30.416Z"
-  },
-  {
-    "packageName": "@grafana/flamegraph",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:30.416Z"
-  },
-  {
-    "packageName": "@lxgicstudios/csvkit-next",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:18.143Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanmskmax",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:18.143Z"
-  },
-  {
-    "packageName": "@xonovex/vite-config-base",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:18.142Z"
-  },
-  {
-    "packageName": "@grafana/e2e-selectors",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:18.142Z"
-  },
-  {
-    "packageName": "@utsp/audio",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:18.141Z"
-  },
-  {
-    "packageName": "@xonovex/prettier-config",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:18.140Z"
-  },
-  {
-    "packageName": "@xonovex/vitest-config-base",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:07.398Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanmskmin",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:07.398Z"
-  },
-  {
-    "packageName": "@grafana/data",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:07.397Z"
-  },
-  {
-    "packageName": "@xonovex/eslint-config-cli",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:07.397Z"
-  },
-  {
-    "packageName": "@utsp/core",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:07.396Z"
-  },
-  {
-    "packageName": "@atlassian-test-prod/synth-check",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:07.395Z"
-  },
-  {
-    "packageName": "@agentvet/cli",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:07.395Z"
-  },
-  {
-    "packageName": "xchange-rates",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:38:07.394Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanmskrange",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:56.330Z"
-  },
-  {
-    "packageName": "@xonovex/eslint-config-base",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:56.329Z"
-  },
-  {
-    "packageName": "@grafana/alerting",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:56.328Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanrange",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:56.327Z"
-  },
-  {
-    "packageName": "@xonovex/ts-config-node",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:56.325Z"
-  },
-  {
-    "packageName": "@xonovex/ts-config-build",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:45.512Z"
-  },
-  {
-    "packageName": "@xonovex/ts-config-cli",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:45.511Z"
-  },
-  {
-    "packageName": "yt-meta-cli",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:45.511Z"
-  },
-  {
-    "packageName": "@utsp/types",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:45.510Z"
-  },
-  {
-    "packageName": "@stdlib/stats-array-nanstdev",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:45.510Z"
-  },
-  {
-    "packageName": "@xonovex/agent-cli-go-linux-arm64",
-    "version": "latest",
-    "timestamp": "2026-01-31T02:37:45.509Z"
+    "timestamp": "2026-01-31T05:06:20.992Z"
   }
 ]
