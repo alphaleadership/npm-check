@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@namehash/namehash-ui",
+    "version": "1.5.1",
+    "scriptType": "postinstall",
+    "scriptContent": "pnpm build:css",
+    "previousVersion": "1.5.0",
+    "timestamp": "2026-01-31T06:52:28.526Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@koterpillar/cloudflared",
     "version": "0.8.0",
     "scriptType": "postinstall",
