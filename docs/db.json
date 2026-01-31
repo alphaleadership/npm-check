@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "aidex-mcp",
+    "version": "1.5.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": "1.4.2",
+    "timestamp": "2026-01-31T20:34:43.830Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@goker/qr-code",
     "version": "1.0.0",
     "scriptType": "postinstall",
