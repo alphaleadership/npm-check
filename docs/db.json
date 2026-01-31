@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@chrisleekr/mcp-server-playground",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "husky .husky || true",
+    "previousVersion": "1.1.0-dev-ff904e8.1",
+    "timestamp": "2026-01-31T13:04:14.557Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "skulls",
+    "version": "1.0.6",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf templates assets && cp -r ../templates . && cp -r ../assets . && cp ../README.md .",
+    "previousVersion": "1.0.5",
+    "timestamp": "2026-01-31T13:04:00.170Z",
+    "issuesend": true
+  },
+  {
     "packageName": "codex-app-server",
     "version": "0.1.2",
     "scriptType": "postinstall",
