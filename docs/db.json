@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "codex-app-server",
+    "version": "0.1.2",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run build",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-01-31T10:34:05.306Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "create-modern-react",
+    "version": "2.3.5",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "2.3.4",
+    "timestamp": "2026-01-31T10:33:56.619Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "sqlew",
+    "version": "5.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "cd saas-connector && npm install && npm run build",
+    "previousVersion": "4.3.1",
+    "timestamp": "2026-01-31T10:33:54.487Z",
+    "issuesend": true
+  },
+  {
     "packageName": "hazo_connect",
     "version": "2.4.3",
     "scriptType": "postinstall",
