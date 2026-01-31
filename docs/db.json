@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "hazo_connect",
+    "version": "2.4.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall-setup.js",
+    "previousVersion": "2.4.2",
+    "timestamp": "2026-01-31T08:40:26.580Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "50c",
+    "version": "3.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('\\n50c Hub installed. Run: 50c install\\n')\"",
+    "previousVersion": "2.16.0",
+    "timestamp": "2026-01-31T08:39:43.996Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@namehash/namehash-ui",
     "version": "1.5.1",
     "scriptType": "postinstall",
