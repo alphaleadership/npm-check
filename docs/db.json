@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@koterpillar/cloudflared",
+    "version": "0.8.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs && node lib/cloudflared.js bin install latest",
+    "previousVersion": "0.7.0",
+    "timestamp": "2026-01-31T02:36:47.061Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@weburz/commitlint-config",
     "version": "0.1.0",
     "scriptType": "postinstall",
