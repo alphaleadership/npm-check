@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@jungjaehoon/openclaw-mama",
+    "version": "0.4.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-01T13:06:47.960Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@tyroneross/navgator",
     "version": "0.1.0",
     "scriptType": "postinstall",
