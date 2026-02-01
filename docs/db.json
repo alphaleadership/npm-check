@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "machinaos",
+    "version": "0.0.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.0.7",
+    "timestamp": "2026-02-01T18:47:22.500Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "iobroker.bshb",
+    "version": "0.6.0",
+    "scriptType": "postinstall",
+    "scriptContent": "husky && node disable-publish-semantic-release-github.cjs",
+    "previousVersion": "0.5.2",
+    "timestamp": "2026-02-01T18:47:20.996Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@felixparadox/bailes",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-01T18:47:13.815Z",
+    "issuesend": true
+  },
+  {
     "packageName": "agent-messenger",
     "version": "1.1.0",
     "scriptType": "postbuild",
