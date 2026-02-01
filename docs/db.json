@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "autosnippet",
+    "version": "1.4.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/ensure-parse-package.js && node scripts/build-native-ui.js",
+    "previousVersion": "1.4.2",
+    "timestamp": "2026-02-01T08:41:21.287Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@khalidsaidi/a2abench-mcp",
     "version": "0.1.11",
     "scriptType": "postbuild",
