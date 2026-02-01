@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@tyroneross/navgator",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-01T10:36:30.296Z",
+    "issuesend": true
+  },
+  {
     "packageName": "autosnippet",
     "version": "1.4.3",
     "scriptType": "postinstall",
