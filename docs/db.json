@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "react-fast-utilsa",
+    "version": "2.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-01T20:36:27.350Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "extension-develop",
+    "version": "3.5.0-next.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"const fs=require('fs');const path=require('path');const entry=path.join(__dirname,'dist','postinstall.cjs');if(fs.existsSync(entry))require(entry);\"",
+    "previousVersion": "3.5.0-next.0",
+    "timestamp": "2026-02-01T20:36:26.263Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@saadjs/gh-stats",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/chmod-cli.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-01T20:36:23.370Z",
+    "issuesend": false
+  },
+  {
     "packageName": "machinaos",
     "version": "0.0.8",
     "scriptType": "postinstall",
