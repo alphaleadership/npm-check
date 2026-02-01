@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "agent-messenger",
+    "version": "1.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "bun scripts/postbuild.ts",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-02-01T16:40:14.806Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "food402",
+    "version": "1.0.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/postinstall.js",
+    "previousVersion": "1.0.2",
+    "timestamp": "2026-02-01T16:40:09.972Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@jungjaehoon/openclaw-mama",
     "version": "0.4.1",
     "scriptType": "postinstall",
