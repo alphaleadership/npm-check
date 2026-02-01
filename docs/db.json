@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@khalidsaidi/a2abench-mcp",
+    "version": "0.1.11",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs');const p='dist/cli.js';const c=fs.readFileSync(p,'utf8');if(!c.startsWith('#!')){fs.writeFileSync(p,'#!/usr/bin/env node\\n'+c);}\"",
+    "previousVersion": "0.1.10",
+    "timestamp": "2026-02-01T05:25:37.998Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "yakmesh",
+    "version": "2.6.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run build:docs",
+    "previousVersion": "2.5.0",
+    "timestamp": "2026-02-01T05:24:53.667Z",
+    "issuesend": false
+  },
+  {
     "packageName": "aidex-mcp",
     "version": "1.5.0",
     "scriptType": "postinstall",
