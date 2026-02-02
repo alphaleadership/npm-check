@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "lingo-guardian-cli",
+    "version": "0.1.9",
+    "scriptType": "postinstall",
+    "scriptContent": "npx playwright install chromium --with-deps 2>/dev/null || true",
+    "previousVersion": null,
+    "timestamp": "2026-02-02T10:58:03.048Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@salutejs-ds/demo_02_feb",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "npm run generate:typings",
+    "previousVersion": null,
+    "timestamp": "2026-02-02T10:57:38.379Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@salutejs-ds/demo_02_feb",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf ./components ./es ./tokens ./theme ./css ./index.* && npm run prebuild:css",
+    "previousVersion": null,
+    "timestamp": "2026-02-02T10:57:38.376Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@namehash/namehash-ui",
     "version": "1.5.1",
     "scriptType": "postinstall",
