@@ -1,5 +1,41 @@
 [
   {
+    "packageName": "@letter-ai/lector",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "postbuild",
+    "scriptContent": "size-limit --json > size.json",
+    "previousVersion": null,
+    "timestamp": "2026-02-02T13:21:20.788Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@letter-ai/lector",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-02T13:21:20.786Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@uktrade/client-matrix-js",
+    "version": "1.0.156",
+    "scriptType": "preinstall",
+    "scriptContent": "npx npm-force-resolutions",
+    "previousVersion": "1.0.149",
+    "timestamp": "2026-02-02T13:21:00.086Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@uktrade/wdio-image-diff-js",
+    "version": "1.9.3",
+    "scriptType": "preinstall",
+    "scriptContent": "npx npm-force-resolutions",
+    "previousVersion": "1.9.2",
+    "timestamp": "2026-02-02T13:20:38.593Z",
+    "issuesend": false
+  },
+  {
     "packageName": "lingo-guardian-cli",
     "version": "0.1.9",
     "scriptType": "postinstall",
