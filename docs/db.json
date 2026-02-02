@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "launchdarkly-cpp-networking",
+    "version": "1.2.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node vishu.js",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-02-02T14:56:00.312Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "forms-angular",
+    "version": "0.12.0-pre",
+    "scriptType": "postinstall",
+    "scriptContent": "if [ -d 'node_modules/bower' ]; then bower install --config.directory=node_modules --production jquery@2.0.3 bootstrap-2-3-2=git://github.com/twbs/bootstrap.git#v2.3.2 bootstrap-3-3-7=git://github.com/twbs/bootstrap.git#v3.3.7; fi",
+    "previousVersion": "0.12.0-beta.56a",
+    "timestamp": "2026-02-02T14:55:08.704Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@vtex/shoreline-store",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-02T14:51:18.335Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@letter-ai/lector",
     "version": "0.0.0-semantically-released",
     "scriptType": "postbuild",
