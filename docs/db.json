@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "tmuxer",
+    "version": "0.0.2",
+    "scriptType": "postbuild",
+    "scriptContent": "npx tsx scripts/generate-schemas.ts && chmod +x dist/cli.js",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-02-03T20:50:49.680Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "baileys-web1",
+    "version": "0.1.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T20:50:31.456Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "nano-injector",
+    "version": "1.0.5",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "1.0.4",
+    "timestamp": "2026-02-03T20:50:28.328Z",
+    "issuesend": true
+  },
+  {
     "packageName": "cdktn-cli",
     "version": "0.22.0-pre.2",
     "scriptType": "postbuild",
