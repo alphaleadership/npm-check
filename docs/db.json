@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "@launch77-shared/plugin-auth",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/validate-plugin-json.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T02:51:07.835Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "specmem-hardwicksoftware",
+    "version": "3.5.38",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T02:51:01.214Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "specmem-hardwicksoftware",
+    "version": "3.5.38",
+    "scriptType": "preinstall",
+    "scriptContent": "node scripts/check-global-install.cjs || true",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T02:51:01.212Z",
+    "issuesend": false
+  },
+  {
     "packageName": "launchdarkly-cpp-networking",
     "version": "1.2.0",
     "scriptType": "preinstall",
