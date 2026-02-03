@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@innovatorssoft/baileys",
+    "version": "7.3.6",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": "7.3.5",
+    "timestamp": "2026-02-03T10:54:01.666Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "wcag-color-contrast",
+    "version": "0.0.2",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T10:53:30.022Z",
+    "issuesend": false
+  },
+  {
     "packageName": "carbon-mac-copy-cloner",
     "version": "1.2.1",
     "scriptType": "postinstall",
