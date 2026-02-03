@@ -1,5 +1,86 @@
 [
   {
+    "packageName": "cdktn-cli",
+    "version": "0.22.0-pre.2",
+    "scriptType": "postbuild",
+    "scriptContent": "node build.js",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-02-03T19:09:17.408Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "cdktn-cli",
+    "version": "0.22.0-pre.2",
+    "scriptType": "prebuild",
+    "scriptContent": "yarn compile-build-config",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-02-03T19:09:17.406Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@cdktn/hcl-tools",
+    "version": "0.22.0-pre.2",
+    "scriptType": "prebuild",
+    "scriptContent": "./prebuild.sh",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T19:09:10.425Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@cdktn/hcl2json",
+    "version": "0.22.0-pre.2",
+    "scriptType": "prebuild",
+    "scriptContent": "./prebuild.sh",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T19:09:07.373Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@cdktn/provider-generator",
+    "version": "0.22.0-pre.2",
+    "scriptType": "postbuild",
+    "scriptContent": "node ./lib/__tests__/edge-provider-schema/cli.js ./edge-provider-bindings",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T19:09:05.611Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "openclawd-termux",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node lib/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T19:09:03.038Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@sankyu/circle-flags-core",
+    "version": "1.5.5",
+    "scriptType": "prebuild",
+    "scriptContent": "node ../../scripts/ensure-generated.mjs",
+    "previousVersion": "1.5.4",
+    "timestamp": "2026-02-03T19:06:46.841Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@sankyu/react-circle-flags",
+    "version": "1.5.5",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm -C ../.. -F @sankyu/circle-flags-core run build",
+    "previousVersion": "1.5.4",
+    "timestamp": "2026-02-03T19:06:45.002Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@sankyu/vue-circle-flags",
+    "version": "0.0.4-beta",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm -C ../.. -F @sankyu/circle-flags-core run build",
+    "previousVersion": "0.0.3-beta",
+    "timestamp": "2026-02-03T19:06:35.699Z",
+    "issuesend": true
+  },
+  {
     "packageName": "medulla-cc",
     "version": "0.2.0",
     "scriptType": "postinstall",
