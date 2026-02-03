@@ -123,7 +123,7 @@ ${scriptContent}
 This could be a security risk. Please investigate.
 see [npm documentation on package scripts](https://docs.npmjs.com/cli/v9/using-npm/scripts) for more details.
 and [the detector](https://github.com/alphaleadership/npm-check). to understand why this script might be dangerous.
-to get the alert only for dangerous scripts, please visit[the telegram](https://t.me/npmalert)
+to get the alert only for dangerous scripts, please visit[the telegram](https://t.me/npmalert) if you want to improve the algorythm open a pull request 
 This could be a security risk. Please investigate.
 `;
   } else {
@@ -136,7 +136,7 @@ ${scriptContent}
 \`\`\`
 see [npm documentation on package scripts](https://docs.npmjs.com/cli/v9/using-npm/scripts) for more details.
 and [the detector](https://github.com/alphaleadership/npm-check). to understand why this script might be dangerous.
-to get the alert only for dangerous scripts, please visit[the telegram](https://t.me/npmalert)
+to get the alert only for dangerous scripts, please visit[the telegram](https://t.me/npmalert) if you want to improve the algorythm open a pull request 
 This could be a security risk. Please investigate.
 `;
   }
