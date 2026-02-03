@@ -1,5 +1,158 @@
 [
   {
+    "packageName": "medulla-cc",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:05:25.629Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "vue-lib-expert-starter-kit",
+    "version": "1.0.0-beta.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node postprocess-dts.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:05:10.801Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "injective-core",
+    "version": "1.17.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node lib/install.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:04:35.591Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "openclast-wallet",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./dist/postinstall.js",
+    "previousVersion": "0.1.3",
+    "timestamp": "2026-02-03T17:04:22.480Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@genexus/ngx-aws-deploy",
+    "version": "5.4.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
+    "previousVersion": "5.3.1",
+    "timestamp": "2026-02-03T17:03:33.751Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@lomray/react-native-apple-music",
+    "version": "1.3.0",
+    "scriptType": "postinstall",
+    "scriptContent": "patch-package",
+    "previousVersion": "1.2.1",
+    "timestamp": "2026-02-03T17:02:54.034Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@tezos-x/octez.js",
+    "version": "0.9.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:02:37.363Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@tezos-x/octez.js",
+    "version": "0.9.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node patch.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:02:37.361Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@tezos-x/octez.js-contracts-library",
+    "version": "0.9.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:02:36.130Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@tezos-x/octez.js-http-utils",
+    "version": "0.9.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:02:35.177Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@tezos-x/octez.js-michel-codec",
+    "version": "0.9.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:02:33.900Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@tezos-x/octez.js-michelson-encoder",
+    "version": "0.9.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:02:32.987Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@tezos-x/octez.js-rpc",
+    "version": "0.9.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:02:31.956Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@tezos-x/octez.js-signer",
+    "version": "0.9.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:02:30.872Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@tezos-x/octez.js-tzip16",
+    "version": "0.9.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:02:29.949Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@tezos-x/octez.js-wallet-connect",
+    "version": "0.9.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T17:02:28.399Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@commercetools/nimbus",
+    "version": "2.5.0",
+    "scriptType": "postinstall",
+    "scriptContent": "chakra typegen ./dist/index.es.js || true",
+    "previousVersion": "2.4.0",
+    "timestamp": "2026-02-03T17:02:19.404Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@wix/thunderbolt-app-css",
     "version": "1.0.0",
     "scriptType": "postinstall",
