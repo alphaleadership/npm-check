@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@hanworks/eslint-config",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run build",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T05:19:06.658Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@launch77-shared/plugin-auth",
     "version": "0.0.1",
     "scriptType": "prebuild",
