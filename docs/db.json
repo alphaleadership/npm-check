@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "carbon-mac-copy-cloner",
+    "version": "1.2.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup.js",
+    "previousVersion": "1.1.10",
+    "timestamp": "2026-02-03T08:52:21.261Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@variousjs/various",
+    "version": "5.2.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run lint && rm -rf dist && rm -rf public/dist",
+    "previousVersion": "5.1.5",
+    "timestamp": "2026-02-03T08:51:09.253Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@tidecloak/js",
+    "version": "0.99.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": "0.13.13",
+    "timestamp": "2026-02-03T08:50:21.350Z",
+    "issuesend": false
+  },
+  {
     "packageName": "semaphore-relayer-zee",
     "version": "1.0.0",
     "scriptType": "postinstall",
