@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@wix/thunderbolt-app-css",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "patch-package-main",
+    "previousVersion": null,
+    "timestamp": "2026-02-03T13:03:09.494Z",
+    "issuesend": false
+  },
+  {
     "packageName": "peek-carousel",
     "version": "1.0.4",
     "scriptType": "postbuild",
