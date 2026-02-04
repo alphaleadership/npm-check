@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "qlaude",
+    "version": "0.1.0-alpha.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/bin/setup-hooks.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-04T08:55:18.068Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@commercetools/nimbus",
+    "version": "2.5.0",
+    "scriptType": "postinstall",
+    "scriptContent": "chakra typegen ./dist/index.es.js || true",
+    "previousVersion": "2.4.0",
+    "timestamp": "2026-02-04T08:54:35.186Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@vibecodetown/mcp-server",
     "version": "1.3.0",
     "scriptType": "postinstall",
