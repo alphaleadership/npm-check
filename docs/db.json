@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "@vibecodetown/mcp-server",
+    "version": "1.3.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/ensure-exec.mjs postinstall && node scripts/check-musu.mjs",
+    "previousVersion": "1.2.1",
+    "timestamp": "2026-02-04T07:05:44.320Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2610-4df5a169d0dc030a2adc5243b67885bf6731ba3a",
+    "version": "2.73.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-04T07:05:41.136Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "partnerss",
+    "version": "99.9.9",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-04T07:05:30.572Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@weihaoqu/curriculum-designer-skill",
     "version": "1.1.1",
     "scriptType": "postinstall",
