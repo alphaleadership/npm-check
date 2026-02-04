@@ -1,5 +1,32 @@
 [
   {
+    "packageName": "@webbies.dev/dotenvify",
+    "version": "0.3.7",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install.js",
+    "previousVersion": "0.3.5",
+    "timestamp": "2026-02-04T02:43:42.303Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "minimem",
+    "version": "0.0.3",
+    "scriptType": "postbuild",
+    "scriptContent": "sed -i '' 's/from \"sqlite\"/from \"node:sqlite\"/g' dist/cli/index.js",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-02-04T02:43:00.468Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "sharetribe-cli",
+    "version": "1.16.8",
+    "scriptType": "postinstall",
+    "scriptContent": "printf '\\n\\033[33m⚠️  NOTICE: This is an UNOFFICIAL Sharetribe CLI (community reimplementation).\\033[0m\\n\\033[33m   For the official CLI, install: \\033[36mnpm install -g flex-cli\\033[0m\\n\\n' >&2",
+    "previousVersion": "1.16.7",
+    "timestamp": "2026-02-04T02:42:04.998Z",
+    "issuesend": true
+  },
+  {
     "packageName": "tmuxer",
     "version": "0.0.2",
     "scriptType": "postbuild",
