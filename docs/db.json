@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "@weihaoqu/curriculum-designer-skill",
+    "version": "1.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install-claude.js || true",
+    "previousVersion": "1.1.0",
+    "timestamp": "2026-02-04T05:14:31.826Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@webbies.dev/dotenvify",
     "version": "0.3.7",
     "scriptType": "postinstall",
