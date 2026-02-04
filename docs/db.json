@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "turbocsv",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bun scripts/postinstall.ts",
+    "previousVersion": null,
+    "timestamp": "2026-02-04T20:47:35.169Z",
+    "issuesend": true
+  },
+  {
     "packageName": "qlaude",
     "version": "0.1.0-alpha.1",
     "scriptType": "postinstall",
