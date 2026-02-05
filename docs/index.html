@@ -72,6 +72,15 @@
         .badge.postinstall { background-color: #d73a49; }
           .badge.prebuild { background-color: #f0b429; }
         .badge.postbuild { background-color: #d73a49; }
+        .score-badge {
+            font-weight: bold;
+            padding: 2px 8px;
+            border-radius: 12px;
+            color: white;
+        }
+        .score-low { background-color: #2da44e; }
+        .score-medium { background-color: #f0b429; }
+        .score-high { background-color: #cf222e; }
     </style>
 </head>
 <body>
@@ -86,6 +95,7 @@
                     <tr>
                         <th>Package</th>
                         <th>Version</th>
+                        <th>Score</th>
                         <th>Script Type</th>
                         <th>Script Content</th>
                         <th>Timestamp</th>
@@ -117,6 +127,31 @@
     </div>
 
     <script>
+        function calculateSuspicionScore(cmd) {
+            if (!cmd) return 0;
+            let score = 0;
+            const lowerCmd = cmd.toLowerCase();
+
+            if (lowerCmd.includes("| bash") || lowerCmd.includes("| sh") || lowerCmd.includes("| zsh")) score += 15;
+            if (lowerCmd.includes("curl ") || lowerCmd.includes("wget ")) score += 8;
+            if (lowerCmd.includes("cmd.exe") || lowerCmd.includes("powershell")) score += 5;
+            if (lowerCmd.includes("eval(") || lowerCmd.includes("exec(")) score += 5;
+            if (lowerCmd.includes("python -c") || lowerCmd.includes("perl -e") || lowerCmd.includes("node -e")) score += 5;
+            if (lowerCmd.includes("base64")) score += 4;
+            if (/\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}/.test(cmd)) score += 8;
+            if (lowerCmd.includes("rm -rf") && (lowerCmd.includes("/") || lowerCmd.includes("~"))) score += 3;
+            if (lowerCmd.includes("nslookup") || lowerCmd.includes("dig ") || lowerCmd.includes("ping ")) score += 2;
+            if (lowerCmd.includes("whoami") || lowerCmd.includes("hostname") || lowerCmd.includes("uname")) score += 2;
+            if (lowerCmd.includes("id") && (lowerCmd.includes(" -u") || lowerCmd.includes(" -g"))) score += 2;
+            if (lowerCmd.includes("env") || lowerCmd.includes("printenv")) score += 5;
+            if (lowerCmd.includes("git config") || lowerCmd.includes("npm whoami") || lowerCmd.includes("npm config")) score += 4;
+            if (lowerCmd.includes("aws configure") || lowerCmd.includes("gcloud config") || lowerCmd.includes("az account")) score += 8;
+            if (lowerCmd.includes("/etc/passwd") || lowerCmd.includes("/etc/shadow")) score += 10;
+            if (lowerCmd.includes(".ssh/") || lowerCmd.includes(".bash_history")) score += 10;
+
+            return score;
+        }
+
         async function loadFindings() {
             const tbody = document.querySelector('#findings-table tbody');
             try {
@@ -137,12 +172,19 @@
 
                 findings.forEach(finding => {
                     const row = document.createElement('tr');
+                    const score = calculateSuspicionScore(finding.scriptContent);
+                    let scoreClass = 'score-low';
+                    if (score >= 15) scoreClass = 'score-high';
+                    else if (score >= 5) scoreClass = 'score-medium';
                     
                     const packageNameCell = document.createElement('td');
                     packageNameCell.innerHTML = `<code>${escapeHtml(finding.packageName)}</code>`;
                     
                     const versionCell = document.createElement('td');
                     versionCell.textContent = finding.version;
+
+                    const scoreCell = document.createElement('td');
+                    scoreCell.innerHTML = `<span class="score-badge ${scoreClass}">${score}</span>`;
                     
                     const scriptTypeCell = document.createElement('td');
                     const scriptTypeBadge = document.createElement('span');
@@ -158,6 +200,7 @@
                     
                     row.appendChild(packageNameCell);
                     row.appendChild(versionCell);
+                    row.appendChild(scoreCell);
                     row.appendChild(scriptTypeCell);
                     row.appendChild(scriptContentCell);
                     row.appendChild(timestampCell);
