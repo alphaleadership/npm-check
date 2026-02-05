@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "node src/main.ts",
+    "start": "node src/main.ts && node count_ultra.js",
     "dev": "node --watch src/main.ts",
     "fetch-packument": "node src/fetch-packument.ts",
     "sync-env": "node src/sync-env.ts",
