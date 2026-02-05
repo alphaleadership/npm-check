@@ -159,6 +159,7 @@ export type Alert = {
   action: "added" | "changed";
   latestCmd: string;
   prevCmd: string | null;
+  suspicionScore: number;
 };
 
 export async function sendCombinedScriptAlertNotifications(
@@ -239,6 +240,11 @@ export async function sendCombinedScriptAlertNotifications(
     if (githubToken && packument.repository?.url) {
       const octokit = new Octokit({ auth: githubToken });
       for (const alert of alerts) {
+        // Only send GitHub notification if suspicion score is high (extremely suspect)
+        if (alert.suspicionScore < 10) {
+          process.stdout.write(`[${nowIso()}] Skipping GitHub issue for ${packageName} ${alert.scriptType}: suspicion score ${alert.suspicionScore} is below threshold 10.\n`);
+          continue;
+        }
         try {
         await createGitHubIssue(
           octokit,

@@ -2,6 +2,7 @@ import "dotenv/config";
 import semver from "semver";
 import { fetchPackument, type Packument } from "./lib/fetch-packument.ts";
 import { sendCombinedScriptAlertNotifications, type Alert } from "./lib/notifications.ts";
+import { calculateSuspicionScore } from "./lib/suspicion.ts";
 import { saveFinding, updateFindingIssueStatus, type Finding } from "./lib/db.ts";
 import { getConfig } from "./lib/config-db.ts";
 import { savePendingTask, removePendingTask,getPendingTasks } from "./lib/pending-db.ts";
@@ -133,9 +134,11 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
           const prevCmd = prevDoc ? getScript(prevDoc, scriptType) : "";
 
           if (latestHas && !prevHas) {
-            alerts.push({ scriptType, action: "added", latestCmd, prevCmd: null });
+            const score = calculateSuspicionScore(latestCmd);
+            alerts.push({ scriptType, action: "added", latestCmd, prevCmd: null, suspicionScore: score });
           } else if (latestHas && prevHas && latestCmd !== prevCmd) {
-            alerts.push({ scriptType, action: "changed", latestCmd, prevCmd });
+            const score = calculateSuspicionScore(latestCmd);
+            alerts.push({ scriptType, action: "changed", latestCmd, prevCmd, suspicionScore: score });
           }
         }
 
@@ -143,7 +146,7 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
           const prevTxt = previous ? ` (prev: ${previous})` : " (first publish / unknown prev)";
           for (const alert of alerts) {
             process.stdout.write(
-              `[${nowIso()}] 🚨 MALICIOUS PACKAGE DETECTED: ${alert.scriptType} ${alert.action}: ${actual.packageName}@${latest}${prevTxt}\n` +
+              `[${nowIso()}] 🚨 MALICIOUS PACKAGE DETECTED (Score: ${alert.suspicionScore}): ${alert.scriptType} ${alert.action}: ${actual.packageName}@${latest}${prevTxt}\n` +
                 (alert.action === "added"
                   ? `  ${alert.scriptType}: ${JSON.stringify(alert.latestCmd)}\n`
                   : `  Previous ${alert.scriptType}: ${JSON.stringify(alert.prevCmd)}\n` +
