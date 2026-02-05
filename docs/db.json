@@ -1,5 +1,14 @@
 [
   {
+    "packageName": "pkgnewfefame1",
+    "version": "3.2.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T13:21:12.741Z",
+    "issuesend": true
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2604-f5e1ff348da9faf04b737e5dc506e6776c1383dd",
     "version": "2.73.0",
     "scriptType": "postbuild",
