@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "sus-pm",
+    "version": "0.1.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T20:44:35.060Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@liquidmetal-ai/raindrop",
+    "version": "0.17.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.16.0",
+    "timestamp": "2026-02-05T20:43:15.710Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@tinycloud/node-sdk-wasm",
     "version": "1.0.1",
     "scriptType": "postbuild",
