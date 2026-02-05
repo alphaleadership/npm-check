@@ -1,5 +1,41 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2619-5945e9acb249b92666027a69bfc5d9cbd5995ccb",
+    "version": "2.73.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T13:48:18.657Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@engie-group/fluid-cli",
+    "version": "0.6.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf ./dist",
+    "previousVersion": "0.5.0",
+    "timestamp": "2026-02-05T13:47:12.884Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "digital-checkout",
+    "version": "99.9.99",
+    "scriptType": "postinstall",
+    "scriptContent": "echo 'digital-checkout installed successfully'",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T13:47:06.445Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "digital-checkout",
+    "version": "99.9.99",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T13:47:06.442Z",
+    "issuesend": false
+  },
+  {
     "packageName": "pkgnewfefame1",
     "version": "3.2.1",
     "scriptType": "postinstall",
