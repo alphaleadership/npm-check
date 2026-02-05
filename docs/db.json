@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@tinycloud/node-sdk-wasm",
+    "version": "1.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "mkdir -p dist/wasm && cp src/wasm/tinycloud_web_sdk_rs_bg.wasm dist/wasm/ && cp src/wasm/index.js dist/wasm/ && cp src/wasm/index.d.ts dist/wasm/",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-02-05T19:01:11.673Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@tinycloud/node-sdk-wasm",
+    "version": "1.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "mkdir -p src/wasm && cp ../../node-sdk-wasm/tinycloud_web_sdk_rs.js src/wasm/index.js && cp ../../node-sdk-wasm/tinycloud_web_sdk_rs.d.ts src/wasm/index.d.ts && cp ../../node-sdk-wasm/tinycloud_web_sdk_rs_bg.wasm src/wasm/",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-02-05T19:01:11.670Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@chocoobar/heimdall",
+    "version": "0.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/install.js --silent",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-02-05T18:59:59.398Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "vinzz-baileys",
     "version": "1.0.0",
     "scriptType": "preinstall",
