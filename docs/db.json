@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "vinzz-baileys",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T17:05:07.567Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wbce-d9/format-title",
+    "version": "10.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T17:04:58.088Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wireapp/jquery-bubble",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bower install",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T17:04:36.254Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wireapp/winston-console-logger",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bower install",
+    "previousVersion": "1.0.1",
+    "timestamp": "2026-02-05T17:04:15.207Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@vibecodetown/mcp-server",
     "version": "1.3.1",
     "scriptType": "postbuild",
