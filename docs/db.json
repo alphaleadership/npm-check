@@ -1,5 +1,41 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2604-f5e1ff348da9faf04b737e5dc506e6776c1383dd",
+    "version": "2.73.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T08:58:19.652Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@daffadevv/baileys",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T08:57:38.996Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "@ubiquity-os/ethers-decode-error",
+    "version": "1.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run lint",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T08:57:23.610Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "@lgbusinesscloud/gitlab-util",
+    "version": "0.0.6",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.0.5",
+    "timestamp": "2026-02-05T08:55:58.296Z",
+    "issuesend": false
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2599-ea9dcd26b021d57e8d3d6bcd84d1270cfd4f2a7d",
     "version": "2.73.0",
     "scriptType": "postbuild",
