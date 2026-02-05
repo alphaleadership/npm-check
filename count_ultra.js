@@ -28,8 +28,13 @@ function calculateSuspicionScore(cmd) {
 
 const db = JSON.parse(readFileSync('docs/db.json', 'utf8'));
 const ultraSuspects = new Set();
-
+db.map((item)=>{
+  item.suspicionScore=calculateSuspicionScore(item.scriptContent)
+  return item
+})
+writeFileSync('docs/db.json',JSON.stringify(db,null,2))
 db.forEach(finding => {
+
   if (calculateSuspicionScore(finding.scriptContent) >= 10) {
     ultraSuspects.add(finding.packageName);
   }

