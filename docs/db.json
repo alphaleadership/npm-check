@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "domo-tactical-storage",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "npm link",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T02:45:30.219Z",
+    "issuesend": true
+  },
+  {
+    "packageName": "shieldcortex",
+    "version": "2.4.10",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": "2.4.9",
+    "timestamp": "2026-02-05T02:44:58.415Z",
+    "issuesend": false
+  },
+  {
     "packageName": "turbocsv",
     "version": "0.1.0",
     "scriptType": "postinstall",
