@@ -21,6 +21,26 @@ The application is configured using environment variables. You can set them in y
 | `DISCORD_WEBHOOK_URL`   | The URL of the Discord webhook to send notifications to.                                                   | ` `                                 |
 | `GITHUB_TOKEN`          | Your GitHub personal access token with `public_repo` scope. Used for creating issues.                      | ` `                                 |
 
+## Suspicion Score
+
+To reduce noise and focus on the most dangerous changes, each detected script is assigned a **Suspicion Score**. This score is calculated based on several criteria:
+
+- **Extreme Risk (+15)**: Direct shell execution (e.g., `| bash`, `| sh`, `| zsh`).
+- **High Risk (+8 to +10)**: 
+    - Downloads via `curl` or `wget`.
+    - Hardcoded IP addresses.
+    - Accessing sensitive files (e.g., `/etc/passwd`, `.ssh/`, `.bash_history`).
+    - Attempting to access cloud credentials (AWS, GCP, Azure).
+- **Medium Risk (+4 to +5)**: 
+    - Information gathering (e.g., `env`, `printenv`, `git config`, `npm whoami`).
+    - Use of `base64` (obfuscation), `eval()`, or `exec()`.
+- **Low Risk (+2 to +3)**: Basic reconnaissance (`whoami`, `hostname`, `nslookup`, `ping`).
+
+### Notification Threshold
+
+- **Telegram & Discord**: Receive all alerts regardless of the score.
+- **GitHub Issues**: Only triggered if the score is **10 or higher** (extremely suspect).
+
 ## Usage
 
 It is recommended to run this application with a process manager like PM2.
