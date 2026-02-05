@@ -86,6 +86,28 @@
 <body>
     <div class="container">
         <header>
+            <h1>🚨 Ultra Suspect Findings</h1>
+            <p>Packages with a suspicion score of 10 or higher.</p>
+        </header>
+        <main>
+            <table id="ultra-findings-table">
+                <thead>
+                    <tr>
+                        <th>Package</th>
+                        <th>Version</th>
+                        <th>Score</th>
+                        <th>Script Type</th>
+                        <th>Script Content</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be inserted here -->
+                </tbody>
+            </table>
+        </main>
+        <hr>
+        <header>
             <h1>NPM Script Monitor Findings</h1>
             <p>Newly introduced <code>preinstall</code> and <code>postinstall</code> scripts.</p>
         </header>
@@ -154,6 +176,7 @@
 
         async function loadFindings() {
             const tbody = document.querySelector('#findings-table tbody');
+            const ultraTbody = document.querySelector('#ultra-findings-table tbody');
             try {
                 // Fetch the database from the root, relative to the served page
                 const response = await fetch('db.json');
@@ -163,12 +186,15 @@
                 const findings = await response.json();
 
                 if (findings.length === 0) {
-                    tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 20px;">No findings yet.</td></tr>';
+                    tbody.innerHTML = '<tr><td colspan="6" style="text-align: center; padding: 20px;">No findings yet.</td></tr>';
+                    ultraTbody.innerHTML = '<tr><td colspan="6" style="text-align: center; padding: 20px;">No ultra suspect findings.</td></tr>';
                     return;
                 }
                 
                 // Clear existing rows
                 tbody.innerHTML = '';
+                ultraTbody.innerHTML = '';
+                let ultraCount = 0;
 
                 findings.forEach(finding => {
                     const row = document.createElement('tr');
@@ -177,40 +203,32 @@
                     if (score >= 15) scoreClass = 'score-high';
                     else if (score >= 5) scoreClass = 'score-medium';
                     
-                    const packageNameCell = document.createElement('td');
-                    packageNameCell.innerHTML = `<code>${escapeHtml(finding.packageName)}</code>`;
-                    
-                    const versionCell = document.createElement('td');
-                    versionCell.textContent = finding.version;
+                    const cells = `
+                        <td><code>${escapeHtml(finding.packageName)}</code></td>
+                        <td>${escapeHtml(finding.version)}</td>
+                        <td><span class="score-badge ${scoreClass}">${score}</span></td>
+                        <td><span class="badge ${escapeHtml(finding.scriptType)}">${escapeHtml(finding.scriptType)}</span></td>
+                        <td><code class="script-content">${escapeHtml(finding.scriptContent)}</code></td>
+                        <td>${new Date(finding.timestamp).toLocaleString()}</td>
+                    `;
+                    row.innerHTML = cells;
 
-                    const scoreCell = document.createElement('td');
-                    scoreCell.innerHTML = `<span class="score-badge ${scoreClass}">${score}</span>`;
-                    
-                    const scriptTypeCell = document.createElement('td');
-                    const scriptTypeBadge = document.createElement('span');
-                    scriptTypeBadge.className = `badge ${escapeHtml(finding.scriptType)}`;
-                    scriptTypeBadge.textContent = escapeHtml(finding.scriptType);
-                    scriptTypeCell.appendChild(scriptTypeBadge);
-                    
-                    const scriptContentCell = document.createElement('td');
-                    scriptContentCell.innerHTML = `<code class="script-content">${escapeHtml(finding.scriptContent)}</code>`;
-                    
-                    const timestampCell = document.createElement('td');
-                    timestampCell.textContent = new Date(finding.timestamp).toLocaleString();
-                    
-                    row.appendChild(packageNameCell);
-                    row.appendChild(versionCell);
-                    row.appendChild(scoreCell);
-                    row.appendChild(scriptTypeCell);
-                    row.appendChild(scriptContentCell);
-                    row.appendChild(timestampCell);
-                    
+                    if (score >= 10) {
+                        ultraTbody.appendChild(row.cloneNode(true));
+                        ultraCount++;
+                    }
                     tbody.appendChild(row);
                 });
 
+                if (ultraCount === 0) {
+                    ultraTbody.innerHTML = '<tr><td colspan="6" style="text-align: center; padding: 20px;">No ultra suspect findings.</td></tr>';
+                }
+
             } catch (error) {
                 console.error('Error loading findings:', error);
-                tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 20px; color: red;">Could not load findings.</td></tr>';
+                const errorMsg = '<tr><td colspan="6" style="text-align: center; padding: 20px; color: red;">Could not load findings.</td></tr>';
+                tbody.innerHTML = errorMsg;
+                ultraTbody.innerHTML = errorMsg;
             }
         }
 
