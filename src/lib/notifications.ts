@@ -88,6 +88,7 @@ export async function createGitHubIssue(
   packageVersion: string,
   scriptType: "preinstall" | "postinstall"|"prebuild" | "postbuild",
   scriptContent: string,
+  suspicionScore: number,
   previousVersion: string | null = null,
   previousScriptContent: string | null = null,
 ): Promise<void> {
@@ -110,9 +111,12 @@ export async function createGitHubIssue(
     : `[potential Security Alert] New \`${scriptType}\` script added in \`${packageName}@${packageVersion}\``;
 
   let issueBody: string;
+  const suspicionText = `**Suspicion Score:** ${suspicionScore}/100`;
   if (isChanged) {
     issueBody = `
 The \`${scriptType}\` script was changed in version \`${packageVersion}\` of the package \`${packageName}\`.
+
+${suspicionText}
 
 **Previous version:** ${previousVersion ?? "none"}
 **Previous script:**
@@ -134,6 +138,8 @@ This could be a security risk. Please investigate.
   } else {
     issueBody = `
 A new \`${scriptType}\` script was detected in version \`${packageVersion}\` of the package \`${packageName}\`.
+
+${suspicionText}
 
 **Script content:**
 \`\`\`
@@ -186,11 +192,12 @@ export async function sendCombinedScriptAlertNotifications(
       const alertParts = alerts.map((alert) => {
         const scriptLabel = alert.scriptType.charAt(0).toUpperCase() + alert.scriptType.slice(1);
         const escapedCmd = alert.latestCmd.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+        const suspicionInfo = `(Suspicion Score: ${alert.suspicionScore})`;
         if (alert.action === "added") {
-          return `• <b>${scriptLabel} added:</b> <code>${escapedCmd}</code>`;
+          return `• <b>${scriptLabel} added ${suspicionInfo}:</b> <code>${escapedCmd}</code>`;
         } else {
           const escapedPrev = (alert.prevCmd ?? "").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-          return `• <b>${scriptLabel} changed:</b>\n  Previous: <code>${escapedPrev}</code>\n  New: <code>${escapedCmd}</code>`;
+          return `• <b>${scriptLabel} changed ${suspicionInfo}:</b>\n  Previous: <code>${escapedPrev}</code>\n  New: <code>${escapedCmd}</code>`;
         }
       });
 
@@ -214,10 +221,11 @@ export async function sendCombinedScriptAlertNotifications(
     try {
       const alertParts = alerts.map((alert) => {
         const scriptLabel = alert.scriptType.charAt(0).toUpperCase() + alert.scriptType.slice(1);
+        const suspicionInfo = `(Suspicion Score: ${alert.suspicionScore})`;
         if (alert.action === "added") {
-          return `• **${scriptLabel} added:** \`\`\`${alert.latestCmd}\`\`\``;
+          return `• **${scriptLabel} added ${suspicionInfo}:** \`\`\`${alert.latestCmd}\`\`\``;
         } else {
-          return `• **${scriptLabel} changed:**\n  Previous: \`\`\`${alert.prevCmd ?? ""}\`\`\`\n  New: \`\`\`${alert.latestCmd}\`\`\``;
+          return `• **${scriptLabel} changed ${suspicionInfo}:**\n  Previous: \`\`\`${alert.prevCmd ?? ""}\`\`\`\n  New: \`\`\`${alert.latestCmd}\`\`\``;
         }
       });
 
@@ -234,12 +242,25 @@ export async function sendCombinedScriptAlertNotifications(
       );
     }
   }
-  const old = await getFindings();
-  if (old.find(item => item.packageName === packageName && alerts.some(alert => alert.scriptType === item.scriptType))) {
+  const findings = await getFindings();
+  
     // Create GitHub issues for each alert
     if (githubToken && packument.repository?.url) {
       const octokit = new Octokit({ auth: githubToken });
       for (const alert of alerts) {
+        // Check if this specific alert has already been notified
+        const alreadyNotified = findings.some(f => 
+          f.packageName === packageName && 
+          f.version === latest && 
+          f.scriptType === alert.scriptType && 
+          f.issuesend === true
+        );
+
+        if (alreadyNotified) {
+          process.stdout.write(`[${nowIso()}] Skipping GitHub issue for ${packageName}@${latest} ${alert.scriptType}: already sent.\n`);
+          continue;
+        }
+
         // Only send GitHub notification if suspicion score is high (extremely suspect)
         if (alert.suspicionScore < 10) {
           process.stdout.write(`[${nowIso()}] Skipping GitHub issue for ${packageName} ${alert.scriptType}: suspicion score ${alert.suspicionScore} is below threshold 10.\n`);
@@ -253,6 +274,7 @@ export async function sendCombinedScriptAlertNotifications(
           latest,
           alert.scriptType,
           alert.latestCmd,
+          alert.suspicionScore,
           previous,
           alert.action === "changed" ? alert.prevCmd : null,
         );
@@ -262,7 +284,7 @@ export async function sendCombinedScriptAlertNotifications(
           `[${nowIso()}] WARN GitHub issue creation failed: ${getErrorMessage(e)}\n`,
         );
       }
-    }}
+    }
   }
   return successfulGithubAlerts; // Return collected successful alerts
 }

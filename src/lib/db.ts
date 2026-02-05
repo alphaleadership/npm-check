@@ -10,6 +10,7 @@ export interface Finding {
   previousVersion: string | null;
   timestamp: string;
   issuesend?: boolean;
+  suspicionScore?: number;
 }
 
 const db = new Db<Finding>(DB_PATH);

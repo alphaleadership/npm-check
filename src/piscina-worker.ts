@@ -3,7 +3,7 @@ import semver from "semver";
 import { fetchPackument, type Packument } from "./lib/fetch-packument.ts";
 import { sendCombinedScriptAlertNotifications, type Alert } from "./lib/notifications.ts";
 import { calculateSuspicionScore } from "./lib/suspicion.ts";
-import { saveFinding, updateFindingIssueStatus, type Finding } from "./lib/db.ts";
+import { saveFinding, updateFindingIssueStatus, type Finding, getFindings } from "./lib/db.ts";
 import { getConfig } from "./lib/config-db.ts";
 import { savePendingTask, removePendingTask,getPendingTasks } from "./lib/pending-db.ts";
 
@@ -110,16 +110,23 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
 
         const { latest, previous } = pickLatestAndPreviousVersions(packument);
 
-        process.stdout.write(
-          `[${nowIso()}] ${actual.packageName}: latest=${latest ?? "null"}, previous=${previous ?? "null"}\n`,
-        );
-
         if (!latest) {
           process.stdout.write(
             `[${nowIso()}] Skipping ${actual.packageName}: no versions found\n`,
           );
           return;
         }
+
+        // Check if we already processed this version
+        const findings = await getFindings();
+        if (findings.some(f => f.packageName === actual.packageName && f.version === latest)) {
+          process.stdout.write(`[${nowIso()}] Skipping ${actual.packageName}@${latest}: already processed.\n`);
+          return;
+        }
+
+        process.stdout.write(
+          `[${nowIso()}] ${actual.packageName}: latest=${latest ?? "null"}, previous=${previous ?? "null"}\n`,
+        );
 
         const versions = (packument.versions ?? {}) as Record<string, VersionDoc>;
         const latestDoc = versions[latest];
@@ -164,6 +171,7 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
               previousVersion: previous,
               timestamp: nowIso(),
               issuesend: false,
+              suspicionScore: alert.suspicionScore,
             };
             await saveFinding(finding);
           }
