@@ -1,6 +1,7 @@
 import { Octokit } from "@octokit/rest";
 import { type Packument, encodePackageNameForRegistry } from "./fetch-packument.ts";
 import { getFindings} from "./db.ts"
+import { getConfig}from"./config-db.ts"
 function nowIso(): string {
   return new Date().toISOString();
 }
@@ -98,7 +99,11 @@ export async function createGitHubIssue(
   console.log(pathParts);
   const owner = pathParts[0];
   const repo = pathParts[1].replace(/\.git$/, "");
-
+  const blacklist=await getConfig()
+  const bad=blacklist.blacklistedAuthors
+  if(bad.includes(owner)){
+    return
+  }
   const isChanged = previousScriptContent !== null;
   const issueTitle = isChanged
     ? `[potential Security Alert] \`${scriptType}\` script changed in \`${packageName}@${packageVersion}\``
