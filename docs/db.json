@@ -1,5 +1,23 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2599-ea9dcd26b021d57e8d3d6bcd84d1270cfd4f2a7d",
+    "version": "2.73.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-05T05:22:12.482Z",
+    "issuesend": false
+  },
+  {
+    "packageName": "n8n-nodes-waops",
+    "version": "1.1.2",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": "1.1.0",
+    "timestamp": "2026-02-05T05:21:58.224Z",
+    "issuesend": false
+  },
+  {
     "packageName": "domo-tactical-storage",
     "version": "0.1.0",
     "scriptType": "postbuild",
