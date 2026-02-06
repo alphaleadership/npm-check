@@ -1,5 +1,75 @@
 [
   {
+    "packageName": "create-crx-app-plus",
+    "version": "0.2.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs');const path=require('path');const pkg=require('./package.json');const distIndex=path.join(__dirname,'dist','index.js');if(!fs.existsSync(distIndex)){console.error('ERROR: dist/index.js not found after build!');process.exit(1);}fs.writeFileSync('./dist/package.json',JSON.stringify({...pkg,bin:{'create-crx-app-plus':'./dist/index.js'}},null,2));\"",
+    "previousVersion": "0.1.7",
+    "timestamp": "2026-02-06T10:54:32.945Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "create-crx-app-plus",
+    "version": "0.2.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"const fs=require('fs');const path=require('path');const distPath=path.join(__dirname,'dist');if(fs.existsSync(distPath)){fs.rmSync(distPath,{recursive:true,force:true});}\"",
+    "previousVersion": "0.1.7",
+    "timestamp": "2026-02-06T10:54:32.941Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@factorialco/f0-react-native",
+    "version": "0.23.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/set-main.cjs dev && test -d lib/typescript/react-native/package && rm -rf lib/typescript/react-native/package || true",
+    "previousVersion": "0.22.0",
+    "timestamp": "2026-02-06T10:52:34.878Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
+    "packageName": "@factorialco/f0-react-native",
+    "version": "0.23.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/set-main.cjs build",
+    "previousVersion": "0.22.0",
+    "timestamp": "2026-02-06T10:52:34.875Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "aster-mcp",
+    "version": "0.1.12",
+    "scriptType": "postinstall",
+    "scriptContent": "npm rebuild better-sqlite3 2>/dev/null || true",
+    "previousVersion": "0.1.11",
+    "timestamp": "2026-02-06T10:52:00.359Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@moontooth/bilitool",
+    "version": "1.5.6",
+    "scriptType": "postbuild",
+    "scriptContent": "cp src/main.d.ts dist/main.d.ts && rm -rf dist/dto/ dist/types/ dist/__test__ && find dist -name \"*.dto.js\" -delete && find dist -name \"*.d.js\" -delete && cp LICENSE README.md package.json ./dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-06T10:51:23.858Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
+    "packageName": "@moontooth/bilitool",
+    "version": "1.5.6",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist/",
+    "previousVersion": null,
+    "timestamp": "2026-02-06T10:51:23.854Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
     "packageName": "@textway/tbchat-sdk",
     "version": "0.1.1-dev.e068b1e.0",
     "scriptType": "postbuild",
