@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@gatorsecurity/mcp-gateway",
+    "version": "0.3.0",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm -s typecheck",
+    "previousVersion": "0.2.0",
+    "timestamp": "2026-02-06T13:19:06.311Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ganintegrity/eslint-typescript",
+    "version": "1.3.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall",
+    "previousVersion": "1.3.1",
+    "timestamp": "2026-02-06T13:18:44.307Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "create-crx-app-plus",
+    "version": "0.2.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs');const path=require('path');const pkg=require('./package.json');const distIndex=path.join(__dirname,'dist','index.js');if(!fs.existsSync(distIndex)){console.error('ERROR: dist/index.js not found after build!');process.exit(1);}fs.writeFileSync('./dist/package.json',JSON.stringify({...pkg,bin:{'create-crx-app-plus':'./dist/index.js'}},null,2));const templatesSrc=path.join(__dirname,'..','..','templates');const templatesDest=path.join(__dirname,'templates');if(fs.existsSync(templatesSrc)){function copyDir(src,dest){if(!fs.existsSync(dest))fs.mkdirSync(dest,{recursive:true});const entries=fs.readdirSync(src,{withFileTypes:true});for(const entry of entries){if(entry.name==='node_modules')continue;const srcPath=path.join(src,entry.name);const destPath=path.join(dest,entry.name);if(entry.isDirectory()){copyDir(srcPath,destPath);}else{fs.copyFileSync(srcPath,destPath);}}}copyDir(templatesSrc,templatesDest);}\"",
+    "previousVersion": "0.2.0",
+    "timestamp": "2026-02-06T13:17:52.364Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "clawalytics",
+    "version": "0.6.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.5.0",
+    "timestamp": "2026-02-06T13:17:32.294Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "recdelete",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-06T13:17:06.165Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "create-crx-app-plus",
     "version": "0.2.0",
     "scriptType": "postbuild",
