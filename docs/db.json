@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@path58/n8n-mcp",
+    "version": "0.1.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/fix-esm-imports.mjs dist && (head -1 dist/mcp/server.js | grep -q '^#!/usr/bin/env node' || (printf '#!/usr/bin/env node\\n' | cat - dist/mcp/server.js > dist/mcp/server.tmp && mv dist/mcp/server.tmp dist/mcp/server.js)) && chmod +x dist/mcp/server.js && node scripts/bundle-mcp.mjs",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-02-06T19:02:36.805Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@figma/esbuild-runner",
+    "version": "2.2.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean && npm run lint",
+    "previousVersion": null,
+    "timestamp": "2026-02-06T19:02:09.512Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "eslint-plugin-trpc-duplication",
+    "version": "0.1.6",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run build && node dist/cli.js cache --if-needed",
+    "previousVersion": "0.1.5",
+    "timestamp": "2026-02-06T19:01:28.163Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "videojs-flashls-source-handler",
     "version": "1.1.2",
     "scriptType": "prebuild",
