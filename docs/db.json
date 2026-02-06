@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@textway/tbchat-sdk",
+    "version": "0.1.1-dev.e068b1e.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node ./scripts/obfuscate.mjs",
+    "previousVersion": "0.1.1-dev.dc533a7.0",
+    "timestamp": "2026-02-06T08:56:48.885Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "assetprobe",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "npx playwright install chromium",
+    "previousVersion": null,
+    "timestamp": "2026-02-06T08:56:46.642Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "made-refine",
+    "version": "0.1.0-beta.5",
+    "scriptType": "prebuild",
+    "scriptContent": "mkdir -p dist && tailwindcss -i ./src/styles.css -o ./dist/styles.css -m",
+    "previousVersion": "0.1.0-beta.4",
+    "timestamp": "2026-02-06T08:56:04.075Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "happy-codec",
     "version": "1.0.0",
     "scriptType": "prebuild",
