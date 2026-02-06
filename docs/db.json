@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@hed-hog/core",
+    "version": "0.0.136",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm run clean && pnpm exec ts-node ../../scripts/build-dependencies.ts libraries/core",
+    "previousVersion": "0.0.135",
+    "timestamp": "2026-02-06T02:45:37.041Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@stella-studio/ck",
+    "version": "1.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "echo '\n✅ stlck installed! Try: stlck update\n'",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-02-06T02:44:44.215Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@codewithmehmet/nessra-cli",
     "version": "0.1.0",
     "scriptType": "postinstall",
