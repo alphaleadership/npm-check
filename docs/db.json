@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "happy-codec",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm run check && pnpm run lint",
+    "previousVersion": null,
+    "timestamp": "2026-02-06T08:17:28.907Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "devtopai",
     "version": "1.0.1",
     "scriptType": "postinstall",
