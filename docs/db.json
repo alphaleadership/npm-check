@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "zod-inquirer",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/index.js dist/index.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-06T05:19:15.624Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@hed-hog/core",
     "version": "0.0.136",
     "scriptType": "prebuild",
