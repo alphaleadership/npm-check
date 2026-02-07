@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "make-mcp-server",
+    "version": "1.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-07T14:34:40.728Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "mupengism",
     "version": "1.4.0",
     "scriptType": "postinstall",
