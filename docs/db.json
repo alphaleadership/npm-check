@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@iflow-mcp/inventra-notebooklm-mcp-zh",
+    "version": "1.2.1",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-07T02:41:14.365Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@iflow-mcp/adbc99-ai-bible",
+    "version": "1.0.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node fix-dependency.js",
+    "previousVersion": "1.0.2",
+    "timestamp": "2026-02-07T02:40:14.535Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@path58/n8n-mcp",
     "version": "0.1.1",
     "scriptType": "postbuild",
