@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@jsonstudio/rcc",
+    "version": "0.89.1804",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/ensure-cli-executable.mjs",
+    "previousVersion": "0.89.1803",
+    "timestamp": "2026-02-07T08:41:18.220Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@jsonstudio/rcc",
+    "version": "0.89.1804",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/ensure-cli-executable.mjs",
+    "previousVersion": "0.89.1803",
+    "timestamp": "2026-02-07T08:41:18.216Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@workpace/design-system",
     "version": "1.0.9",
     "scriptType": "prebuild",
