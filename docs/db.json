@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@shurainc/baileys",
+    "version": "3.0.2",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-07T22:37:03.420Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "skillsup",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-02-07T22:36:00.550Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "lashcode",
+    "version": "0.0.12",
+    "scriptType": "postinstall",
+    "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-07T22:34:39.636Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@memberjunction/a2aserver",
     "version": "4.0.0",
     "scriptType": "prebuild",
