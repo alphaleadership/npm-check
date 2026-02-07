@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "mupengism",
+    "version": "1.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node cli.js init --silent",
+    "previousVersion": "1.3.0",
+    "timestamp": "2026-02-07T13:06:18.540Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "hungry-ghost-hive",
     "version": "0.18.2",
     "scriptType": "postinstall",
