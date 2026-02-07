@@ -1,5 +1,65 @@
 [
   {
+    "packageName": "@memberjunction/a2aserver",
+    "version": "4.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "mj codegen manifest --exclude-packages @memberjunction --output ./src/generated/class-registrations-manifest.ts || echo 'Warning: mj codegen manifest not available, using existing manifest'",
+    "previousVersion": "3.4.0",
+    "timestamp": "2026-02-07T20:38:34.286Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@memberjunction/ai-mcp-server",
+    "version": "4.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "mj codegen manifest --exclude-packages @memberjunction --output ./src/generated/class-registrations-manifest.ts || echo 'Warning: mj codegen manifest not available, using existing manifest'",
+    "previousVersion": "3.4.0",
+    "timestamp": "2026-02-07T20:38:30.536Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@memberjunction/server-bootstrap",
+    "version": "4.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "mj codegen manifest --output ./src/generated/mj-class-registrations.ts || echo 'Warning: mj codegen manifest not available, using existing manifest'",
+    "previousVersion": "3.4.0",
+    "timestamp": "2026-02-07T20:37:39.692Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@memberjunction/server-bootstrap-lite",
+    "version": "4.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "if [ -f .needs-manifest-rebuild ]; then rm .needs-manifest-rebuild && (mj codegen manifest --exclude-packages @memberjunction/communication --exclude-packages @memberjunction/content-autotagging --exclude-packages @memberjunction/entity-communications --exclude-packages @memberjunction/queue --exclude-packages @memberjunction/storage --exclude-packages @memberjunction/server --output ./src/generated/mj-class-registrations.ts && tsc && tsc-alias -f || echo 'Warning: mj codegen manifest not available, manifest will be generated on next build'); fi",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-02-07T20:37:38.687Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@memberjunction/server-bootstrap-lite",
+    "version": "4.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "if [ -d dist ]; then mj codegen manifest --exclude-packages @memberjunction/communication --exclude-packages @memberjunction/content-autotagging --exclude-packages @memberjunction/entity-communications --exclude-packages @memberjunction/queue --exclude-packages @memberjunction/storage --exclude-packages @memberjunction/server --output ./src/generated/mj-class-registrations.ts || echo 'Warning: mj codegen manifest not available, using existing manifest'; else touch .needs-manifest-rebuild; fi",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-02-07T20:37:38.684Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@oroinc/json-api-sdk-generator",
+    "version": "0.1.0",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-02-07T20:37:11.392Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "claude-brain",
     "version": "0.15.0",
     "scriptType": "postinstall",
