@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "hungry-ghost-hive",
+    "version": "0.18.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.18.1",
+    "timestamp": "2026-02-07T10:36:45.359Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@jsonstudio/rcc",
     "version": "0.89.1804",
     "scriptType": "postbuild",
