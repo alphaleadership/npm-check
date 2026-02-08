@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "worktree-flow",
+    "version": "0.0.3",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli.js",
+    "previousVersion": "0.0.2",
+    "timestamp": "2026-02-08T07:02:00.957Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@easynet/agent-tool-buildin",
+    "version": "0.0.32",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run build --prefix ../agent-tool 2>/dev/null || true",
+    "previousVersion": "0.0.31",
+    "timestamp": "2026-02-08T07:01:58.850Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@omhc-mbut/baileys",
     "version": "2.0.3",
     "scriptType": "preinstall",
