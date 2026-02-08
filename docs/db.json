@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@cedvict/http-guardian-rx",
+    "version": "0.1.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm -w @cedvict/http-guardian run build",
+    "previousVersion": null,
+    "timestamp": "2026-02-08T20:37:06.493Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "hive-react-document-viewer",
     "version": "0.1.0",
     "scriptType": "postinstall",
