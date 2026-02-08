@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@omhc-mbut/baileys",
+    "version": "2.0.3",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-08T05:28:44.859Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@flux-lang/viewer",
     "version": "0.1.6-canary.d6b2ac7aa",
     "scriptType": "prebuild",
