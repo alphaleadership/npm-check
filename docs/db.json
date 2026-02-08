@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "react-native-superconfig",
+    "version": "0.9.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/generate-config.js",
+    "previousVersion": "0.8.0",
+    "timestamp": "2026-02-08T22:37:21.915Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@cedvict/http-guardian-rx",
     "version": "0.1.1",
     "scriptType": "prebuild",
