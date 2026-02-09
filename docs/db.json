@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "mcp-firewall",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-09T09:03:21.104Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "just-memory",
     "version": "5.0.0",
     "scriptType": "postinstall",
