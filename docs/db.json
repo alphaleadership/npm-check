@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@stacksjs/gitit",
+    "version": "0.2.2",
+    "scriptType": "postinstall",
+    "scriptContent": "bunx git-hooks",
+    "previousVersion": "0.2.1",
+    "timestamp": "2026-02-09T15:01:32.795Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@modrinth-ts/lib",
+    "version": "2.2.3",
+    "scriptType": "postinstall",
+    "scriptContent": "bun run scripts/setup.ts",
+    "previousVersion": "2.1.0",
+    "timestamp": "2026-02-09T15:01:06.915Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@munchi_oy/react",
     "version": "1.2.5",
     "scriptType": "prebuild",
