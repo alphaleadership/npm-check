@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@munchi_oy/react",
+    "version": "1.2.5",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm version:sync",
+    "previousVersion": null,
+    "timestamp": "2026-02-09T11:02:54.398Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "mcp-firewall",
     "version": "1.0.0",
     "scriptType": "postinstall",
