@@ -1,5 +1,65 @@
 [
   {
+    "packageName": "flun-mail",
+    "version": "2.0.10",
+    "scriptType": "postinstall",
+    "scriptContent": "node copy-files.js 2>&1",
+    "previousVersion": "2.0.9",
+    "timestamp": "2026-02-09T17:09:26.866Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@vivocha/scopes",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-09T17:09:12.837Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "create-hua",
+    "version": "1.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "tsx scripts/generate-version.ts && tsx scripts/validate-template.ts",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-02-09T17:08:52.274Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@trivajs/shortcuts",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-09T17:07:09.818Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "shipgate",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/resolve-workspace-deps.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-09T17:07:04.948Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "shipgate",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-02-09T17:07:04.945Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@stacksjs/gitit",
     "version": "0.2.2",
     "scriptType": "postinstall",
