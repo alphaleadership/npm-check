@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "osopackage",
+    "version": "10.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node run.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-10T15:09:43.861Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "osopackage",
+    "version": "10.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node run.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-10T15:09:43.858Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "code-push-itspar",
+    "version": "1.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "chmod +x ./bin/script/cli.js || true",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-02-10T15:09:34.740Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "mission-claw",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run prisma:generate",
+    "previousVersion": null,
+    "timestamp": "2026-02-10T15:09:14.465Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "seishiro",
+    "version": "0.1.8-dev",
+    "scriptType": "postbuild",
+    "scriptContent": "cp package.json README.md LICENSE dist/",
+    "previousVersion": "0.1.6-untest",
+    "timestamp": "2026-02-10T15:09:04.866Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "xcodebuildmcp",
     "version": "26.0.0",
     "scriptType": "prebuild",
