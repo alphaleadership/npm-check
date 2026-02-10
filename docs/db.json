@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@keeper-security/rules",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bun run scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-10T17:15:47.785Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@iflow-mcp/patricksys-codebase-context",
+    "version": "1.5.1",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-02-10T17:12:34.071Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "novelws",
+    "version": "1.2.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"try{require('fs').chmodSync('dist/cli.js',0o755)}catch{}\"",
+    "previousVersion": null,
+    "timestamp": "2026-02-10T17:12:14.017Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "ec.fdk",
+    "version": "0.8.7",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli.cjs dist/mcp.cjs",
+    "previousVersion": "0.8.6",
+    "timestamp": "2026-02-10T17:12:09.903Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "osopackage",
     "version": "10.0.0",
     "scriptType": "postinstall",
