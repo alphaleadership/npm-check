@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "rn-ggf",
+    "version": "1.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist && rm -rf bin",
+    "previousVersion": "1.0.17",
+    "timestamp": "2026-02-10T05:43:27.388Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@venturialstd/audit",
+    "version": "0.0.2",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-10T05:41:55.726Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "cashblocks",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run sync:artifacts",
+    "previousVersion": null,
+    "timestamp": "2026-02-10T05:41:09.634Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "n8n-nodes-evozappgo",
     "version": "0.1.6",
     "scriptType": "postbuild",
