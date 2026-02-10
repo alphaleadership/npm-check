@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "kinetic-sql",
+    "version": "1.0.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "1.0.3",
+    "timestamp": "2026-02-10T11:03:25.999Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2622-950c915adb2bf08cbdfa808458573a652abf6535",
     "version": "2.73.0",
     "scriptType": "postbuild",
