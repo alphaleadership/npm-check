@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "n8n-nodes-evozappgo",
+    "version": "0.1.6",
+    "scriptType": "postbuild",
+    "scriptContent": "node ./scripts/copy-assets.js",
+    "previousVersion": "0.1.5",
+    "timestamp": "2026-02-10T03:18:11.697Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "homebridge-eufy-security",
     "version": "4.4.2-beta.13",
     "scriptType": "prebuild",
