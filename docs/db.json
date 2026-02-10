@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "xcodebuildmcp",
+    "version": "26.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"const fs = require('fs'); const pkg = require('./package.json'); fs.writeFileSync('src/version.ts', \\`export const version = '\\${pkg.version}';\\nexport const templateVersion = '\\${pkg.templateVersion}';\\n\\`)\"",
+    "previousVersion": "2.0.1",
+    "timestamp": "2026-02-10T13:43:54.052Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "kinetic-sql",
     "version": "1.0.4",
     "scriptType": "postinstall",
