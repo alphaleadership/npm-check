@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@instructure/apollo-link-deep-dedup",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "npm run bundle",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T17:15:25.221Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@instructure/apollo-link-deep-dedup",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T17:15:25.217Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@iflow-mcp/growilabs-growi-mcp-server",
     "version": "1.2.0",
     "scriptType": "prebuild",
