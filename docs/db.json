@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@siisee11/discode",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./postinstall.mjs",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-02-11T20:48:58.992Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@instructure/apollo-link-deep-dedup",
     "version": "1.0.0",
     "scriptType": "postbuild",
