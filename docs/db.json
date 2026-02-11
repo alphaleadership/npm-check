@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2624-da5f1d226ddce64a47670c2b74df74d70057d671",
+    "version": "2.74.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T11:01:19.588Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2630-718957f76d08f982f21936c1199d2fba74dc0109",
+    "version": "2.73.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T11:01:03.861Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@codeinput/codeinput",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T11:01:01.322Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@fzed51/git-tool",
     "version": "0.1.0",
     "scriptType": "postbuild",
