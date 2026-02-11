@@ -1,5 +1,85 @@
 [
   {
+    "packageName": "@fzed51/git-tool",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/git-commit.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T07:14:54.929Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@in-co-sandbox/api-endpoints",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean && npm run format:check && tsc --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T07:14:51.387Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@in-co-sandbox/api-client-core",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean && npm run format:check && tsc --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T07:14:43.027Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "claude-aspm-scan",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T07:14:40.230Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@in-co-sandbox/api-client-generator",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "copyfiles -u 1 ./templates/**/* dist/templates/",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T07:14:39.291Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@in-co-sandbox/api-client-generator",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean && npm run format:check && tsc --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T07:14:39.287Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@in-co-sandbox/kyc-api-client",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean && npm run format:check && tsc --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-02-11T07:14:34.150Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@salesforce/webapp-experimental",
+    "version": "1.23.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/copy-templates.cjs",
+    "previousVersion": "1.22.1",
+    "timestamp": "2026-02-11T07:14:19.116Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@joclaim/browser-extension-sdk",
     "version": "0.1.0",
     "scriptType": "prebuild",
