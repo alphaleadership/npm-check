@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "payload-discussions",
+    "version": "0.0.2",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -f src/_common 2>/dev/null; pnpm typecheck",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-02-11T22:38:43.454Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "payload-invitations",
+    "version": "0.0.2",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -f src/_common 2>/dev/null; pnpm typecheck",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-02-11T22:38:41.931Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@siisee11/discode",
     "version": "0.1.1",
     "scriptType": "postinstall",
