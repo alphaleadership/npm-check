@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@voidmob/mcp",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-12T17:08:45.477Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@smg-automotive/components",
+    "version": "25.16.0-chakra-v3.1",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run typegen",
+    "previousVersion": "25.16.0-add-phone-transparent-lock-icons.1",
+    "timestamp": "2026-02-12T17:07:37.879Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@ibm/plex-serif-variable",
     "version": "2.0.0",
     "scriptType": "postinstall",
