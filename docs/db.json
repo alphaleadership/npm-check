@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@tealhealth/storybook",
+    "version": "1.2.140",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/bundle-all-dts.mjs && node scripts/generate-export.mjs",
+    "previousVersion": "1.2.140-alpha.232.17",
+    "timestamp": "2026-02-12T02:54:47.279Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@git-arbiter/arbiter",
+    "version": "0.1.1-beta.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-12T02:54:09.528Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "payload-discussions",
     "version": "0.0.2",
     "scriptType": "prebuild",
