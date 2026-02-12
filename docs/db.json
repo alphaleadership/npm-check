@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@canonical/maas-ui",
+    "version": "1.1.1",
+    "scriptType": "postbuild",
+    "scriptContent": "mkdir -p dist && tar -C build -czvf dist/maas-ui-v$npm_package_version.tar.gz .",
+    "previousVersion": null,
+    "timestamp": "2026-02-12T19:14:50.487Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@voidmob/mcp",
     "version": "0.1.0",
     "scriptType": "postbuild",
