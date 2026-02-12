@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@arcadeai/design-system",
+    "version": "3.27.7",
+    "scriptType": "prebuild",
+    "scriptContent": "bun run generate-icons",
+    "previousVersion": "3.27.6",
+    "timestamp": "2026-02-12T22:41:13.402Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@crossmint/wallets-sdk",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "pnpm generate",
+    "previousVersion": "0.19.0",
+    "timestamp": "2026-02-12T22:40:55.176Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@boujot/cli",
+    "version": "0.14.0-0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/unpack-tools.cjs",
+    "previousVersion": "0.0.1-test.0",
+    "timestamp": "2026-02-12T22:39:24.364Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "ecosystem_ui",
     "version": "99.9.9",
     "scriptType": "preinstall",
