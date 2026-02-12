@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "collabs-merchants",
+    "version": "99.9.12",
+    "scriptType": "preinstall",
+    "scriptContent": "node preinstall.js",
+    "previousVersion": "99.9.11",
+    "timestamp": "2026-02-12T07:14:32.757Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-termux",
+    "version": "1.5.5",
+    "scriptType": "postinstall",
+    "scriptContent": "node lib/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-12T07:14:16.840Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@roomle/web-sdk",
+    "version": "4.113.0-debug.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/copy-assets-sdk.cjs",
+    "previousVersion": "3.4.0",
+    "timestamp": "2026-02-12T07:13:40.108Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2631-81e794e94c895a1cafb0f4eb62fb9da6cd0a7f18",
     "version": "2.73.0",
     "scriptType": "postbuild",
