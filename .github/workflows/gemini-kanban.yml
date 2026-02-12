@@ -1,0 +1,44 @@
+name: Gemini Kanban Integration
+on:
+  issues:
+    types: [opened, labeled]
+  pull_request:
+    types: [closed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  process-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout action source
+        uses: actions/checkout@v4
+        with:
+          repository: alphaleadership/kanbanaction
+          ref: main
+          path: .kanban-action
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install action dependencies
+        run: npm ci
+        working-directory: .kanban-action
+      - name: Run Gemini Kanban Action
+        run: node action.js
+        working-directory: .kanban-action
+        env:
+          INPUT_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          INPUT_GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF: ${{ github.ref }}
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+          GITHUB_ACTION_REPOSITORY: alphaleadership/kanbanaction
+
