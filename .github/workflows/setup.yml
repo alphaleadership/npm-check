@@ -1,0 +1,20 @@
+name: Setup Gemini Kanban
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Kanban Workflows
+        uses: alphaleadership/kanbanaction@main
+        with:
+          gemini-api-key: ${{ secrets.GEMINI_API_KEY }}
+          github-token: ${{ secrets.GH_PAT }} # Utilisez un PAT ici
+          install-workflows: 'true'
