@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@ibm/plex-serif-variable",
+    "version": "2.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "ibmtelemetry --config=telemetry.yml",
+    "previousVersion": null,
+    "timestamp": "2026-02-12T14:58:02.203Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@scheduler-systems/gal-run",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-12T14:56:18.426Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2606-f91c574f2d2d13c8230523e58d0799d772ece7f4",
     "version": "2.74.0",
     "scriptType": "postbuild",
