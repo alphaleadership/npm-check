@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "polotno-node",
+    "version": "2.15.11",
+    "scriptType": "postinstall",
+    "scriptContent": "test -d .git && patch-package || true",
+    "previousVersion": "2.15.9",
+    "timestamp": "2026-02-13T14:52:30.786Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "shopify-store-mcp",
     "version": "1.0.2",
     "scriptType": "postinstall",
