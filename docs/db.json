@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "jspsych-sokoban",
+    "version": "0.0.2",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/compare/index.browser.min.js compare.min.js && cp dist/edit/index.browser.min.js edit.min.js && cp dist/rate/index.browser.min.js rate.min.js && cp dist/select/index.browser.min.js select.min.js && cp dist/solve/index.browser.min.js solve.min.js && cp dist/all/index.browser.min.js all.min.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-13T02:56:04.104Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "jspsych-sokoban",
+    "version": "0.0.2",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"const pkg = require('./package.json'); require('fs').writeFileSync('src/version.ts', 'export const version = \\\"' + pkg.version + '\\\";\\n')\"",
+    "previousVersion": null,
+    "timestamp": "2026-02-13T02:56:04.093Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "slopcannon",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "echo '#!/usr/bin/env bun' | cat - ./dist/cli.js > ./dist/cli.tmp && mv ./dist/cli.tmp ./dist/cli.js && chmod +x ./dist/cli.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-13T02:55:41.579Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "@arcadeai/design-system",
     "version": "3.27.7",
     "scriptType": "prebuild",
