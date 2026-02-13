@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "madmod",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm build:clean",
+    "previousVersion": null,
+    "timestamp": "2026-02-13T19:04:26.270Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@kortix/sandbox",
+    "version": "0.4.1",
+    "scriptType": "postinstall",
+    "scriptContent": "bash postinstall.sh",
+    "previousVersion": null,
+    "timestamp": "2026-02-13T19:03:56.709Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@blockstreamgl/gl-sdk",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs'),path=require('path');const map={'gl-sdk-napi.linux-x64-gnu.node':'linux-x64-gnu','gl-sdk-napi.linux-arm64-gnu.node':'linux-arm64-gnu','gl-sdk-napi.linux-x64-musl.node':'linux-x64-musl','gl-sdk-napi.darwin-x64.node':'darwin-x64','gl-sdk-napi.darwin-arm64.node':'darwin-arm64','gl-sdk-napi.win32-x64-msvc.node':'win32-x64-msvc','gl-sdk-napi.win32-arm64-msvc.node':'win32-arm64-msvc'};fs.readdirSync('.').filter(f=>f.endsWith('.node')).forEach(f=>{const p=map[f];if(p){const d=path.join('npm',p);fs.mkdirSync(d,{recursive:true});fs.copyFileSync(f,path.join(d,f));console.log('✓',f,'->','npm/'+p+'/')}})\"",
+    "previousVersion": null,
+    "timestamp": "2026-02-13T19:01:35.539Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "open-model-selector",
     "version": "0.1.0",
     "scriptType": "prebuild",
