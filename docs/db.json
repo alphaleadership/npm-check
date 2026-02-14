@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@codeimplants/app-core",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-02-14T18:48:48.275Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "stark-os",
+    "version": "0.11.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-14T18:48:29.707Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@cle-does-things/jake",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./pre-install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-14T18:47:56.467Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "promptspeak-mcp-server",
+    "version": "0.2.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-02-14T18:47:40.976Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@factiii/stack",
     "version": "0.1.2",
     "scriptType": "prebuild",
