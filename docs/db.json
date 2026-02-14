@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "spark-agent-launcher",
+    "version": "0.1.6",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-14T10:36:23.194Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bobby_z/openspec",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-14T10:35:37.442Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "hardstop",
     "version": "1.4.3",
     "scriptType": "postinstall",
