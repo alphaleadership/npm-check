@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@opentil/cli",
+    "version": "1.11.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/copy-skill.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-14T13:06:01.639Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ansvar/slovenian-law-mcp",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "test -d dist || npm run build || true",
+    "previousVersion": null,
+    "timestamp": "2026-02-14T13:05:34.265Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "spark-agent-launcher",
     "version": "0.1.6",
     "scriptType": "postinstall",
