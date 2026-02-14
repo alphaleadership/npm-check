@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2640-680c860aea76c4d4ce928cc1b4e86e2980d33261",
+    "version": "2.75.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-14T06:57:59.424Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@themoltnet/cli",
     "version": "0.4.0",
     "scriptType": "postinstall",
