@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@themoltnet/cli",
+    "version": "0.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-14T02:43:47.616Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "lens-engine",
+    "version": "0.1.20",
+    "scriptType": "postinstall",
+    "scriptContent": "echo '\\n  Run \"lens start\" to launch the daemon (auto-starts on login).\\n'",
+    "previousVersion": "0.1.19",
+    "timestamp": "2026-02-14T02:42:05.343Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@iamweird/planfix-api-client",
     "version": "1.5.3",
     "scriptType": "prebuild",
