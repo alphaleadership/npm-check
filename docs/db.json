@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "hardstop",
+    "version": "1.4.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.js",
+    "previousVersion": "1.4.2",
+    "timestamp": "2026-02-14T08:42:19.354Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "xibecode",
+    "version": "0.3.8",
+    "scriptType": "postinstall",
+    "scriptContent": "npx playwright install chromium",
+    "previousVersion": "0.3.5",
+    "timestamp": "2026-02-14T08:42:17.017Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "create-fs-app",
+    "version": "2.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/index.js",
+    "previousVersion": "1.1.10",
+    "timestamp": "2026-02-14T08:42:01.664Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2640-680c860aea76c4d4ce928cc1b4e86e2980d33261",
     "version": "2.75.0",
     "scriptType": "postbuild",
