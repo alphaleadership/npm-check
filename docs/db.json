@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "thepopebot",
+    "version": "1.2.18",
+    "scriptType": "postinstall",
+    "scriptContent": "if [ -f bin/postinstall.js ]; then node bin/postinstall.js; fi",
+    "previousVersion": "1.2.17",
+    "timestamp": "2026-02-15T20:36:08.259Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@iamjariwala/react-doc-viewer",
     "version": "1.6.3",
     "scriptType": "postinstall",
