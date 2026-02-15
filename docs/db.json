@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@zookanalytics/keystone-workflows",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "sh ./scripts/postinstall.sh",
+    "previousVersion": null,
+    "timestamp": "2026-02-15T02:55:45.456Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "clearctx",
     "version": "3.0.0",
     "scriptType": "postinstall",
