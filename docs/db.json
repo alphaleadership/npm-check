@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "sysml-v2-lsp",
+    "version": "0.1.5",
+    "scriptType": "postinstall",
+    "scriptContent": "[ -f tsconfig.json ] && [ -d clients/vscode ] && cd clients/vscode && npm install && cd ../.. && cd server && npm install || true",
+    "previousVersion": "0.1.4",
+    "timestamp": "2026-02-15T13:08:01.697Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@bastani/atomic",
     "version": "0.4.6",
     "scriptType": "postinstall",
