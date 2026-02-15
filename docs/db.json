@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@solibo/solibo-query",
+    "version": "1.0.44",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm prettier && pnpm lint:fix",
+    "previousVersion": null,
+    "timestamp": "2026-02-15T08:43:02.983Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@kadi.build/tunnel-client",
     "version": "0.3.0",
     "scriptType": "postinstall",
