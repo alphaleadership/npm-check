@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@iamjariwala/react-doc-viewer",
+    "version": "1.6.3",
+    "scriptType": "postinstall",
+    "scriptContent": "npx patch-package",
+    "previousVersion": "1.6.2",
+    "timestamp": "2026-02-15T16:39:55.576Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@daniel.stefan/metalink",
     "version": "1.3.2",
     "scriptType": "postinstall",
