@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@daniel.stefan/metalink",
+    "version": "1.3.2",
+    "scriptType": "postinstall",
+    "scriptContent": "./scripts/install-git-hooks.sh",
+    "previousVersion": "1.3.1",
+    "timestamp": "2026-02-15T14:36:57.400Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@alessiofrittoli/fetcher",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall/index.js",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-02-15T14:36:05.217Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@milenyumai/film-kit",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"import('./build/postinstall.js').then(m=>m.runPostinstall()).catch(()=>{})\"",
+    "previousVersion": null,
+    "timestamp": "2026-02-15T14:35:58.844Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "sysml-v2-lsp",
     "version": "0.1.5",
     "scriptType": "postinstall",
