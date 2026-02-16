@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@secr/cli",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp -r src/completions dist/",
+    "previousVersion": null,
+    "timestamp": "2026-02-16T22:38:57.893Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "react-svg-inliner",
+    "version": "1.2.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./postinstall.js",
+    "previousVersion": "1.2.2",
+    "timestamp": "2026-02-16T22:38:19.293Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@houseofwolvesllc/claude-scrum-skill",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-16T22:37:37.660Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "claude-permissions-hook",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-16T22:37:33.529Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@zvapor-dev/vapors-cli",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/add-shebang.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-16T22:37:24.857Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@sanzxcode/baileys",
     "version": "7.0.1",
     "scriptType": "preinstall",
