@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@chenpeiyuan/electron-message",
+    "version": "1.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist .tsbuildinfo",
+    "previousVersion": null,
+    "timestamp": "2026-02-16T18:56:07.543Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@myth-finance/dualstake-ts-sdk",
     "version": "3.3.8",
     "scriptType": "prebuild",
