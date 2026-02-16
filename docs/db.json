@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "forge-cc",
+    "version": "0.1.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": "0.1.7",
+    "timestamp": "2026-02-16T05:40:33.072Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@uistate/router",
     "version": "1.0.1",
     "scriptType": "postinstall",
