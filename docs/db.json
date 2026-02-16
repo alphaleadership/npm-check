@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@uipath/uipath-typescript",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": "1.0.0-beta.18",
+    "timestamp": "2026-02-16T09:00:22.832Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@hanworks/utils",
     "version": "1.0.0",
     "scriptType": "postinstall",
