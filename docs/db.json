@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@exer7um/eslint-config",
+    "version": "2.2.5",
+    "scriptType": "postinstall",
+    "scriptContent": "husky",
+    "previousVersion": "2.2.4",
+    "timestamp": "2026-02-16T10:56:47.701Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@uipath/uipath-typescript",
     "version": "1.0.0",
     "scriptType": "prebuild",
