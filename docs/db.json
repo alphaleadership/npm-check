@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@sanzxcode/baileys",
+    "version": "7.0.1",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-16T20:42:08.271Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "configcat-monday-app",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-16T20:40:37.756Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@chenpeiyuan/electron-message",
     "version": "1.0.1",
     "scriptType": "prebuild",
