@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@myth-finance/dualstake-ts-sdk",
+    "version": "3.3.8",
+    "scriptType": "prebuild",
+    "scriptContent": "concurrently 'npx @algorandfoundation/algokit-client-generator generate -m minimal -a ../artifacts/contract.arc32.json -o src/generated/dualstake-contract-client.ts' 'npx @algorandfoundation/algokit-client-generator generate -m minimal -a ../artifacts/registry.arc32.json -o src/generated/registry-contract-client.ts'",
+    "previousVersion": "3.3.8-beta1",
+    "timestamp": "2026-02-16T14:54:04.714Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@exer7um/eslint-config",
     "version": "2.2.5",
     "scriptType": "postinstall",
