@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "graphdb-workbench",
+    "version": "10.5.1",
+    "scriptType": "postbuild",
+    "scriptContent": "npm run license-report && copyfiles -V -f license-checker/license-checker-static.json dist/",
+    "previousVersion": "10.0.0-M2-1",
+    "timestamp": "2026-02-17T14:58:53.737Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "promptcode",
+    "version": "1.2.6",
+    "scriptType": "postinstall",
+    "scriptContent": "node script/install-binary.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-17T14:57:57.185Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@anjishnusengupta/ny-cli",
+    "version": "3.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "echo '\\nRun ny-cli to start watching anime!\\n'",
+    "previousVersion": null,
+    "timestamp": "2026-02-17T14:56:11.487Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@platforma-open/soedinglab.software-mmseqs2",
+    "version": "1.18.0",
+    "scriptType": "prebuild",
+    "scriptContent": "bash -c 'for d in dld/*/; do cp -r data/ \"$d/data/\"; done'",
+    "previousVersion": "1.17.2",
+    "timestamp": "2026-02-17T14:55:51.934Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@rankingcoach/vanguard",
     "version": "1.0.1",
     "scriptType": "postinstall",
