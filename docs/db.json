@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@rljson/bs",
+    "version": "0.0.21",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm run test",
+    "previousVersion": "0.0.20",
+    "timestamp": "2026-02-17T07:09:24.005Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@od-oneapp/db-prisma",
     "version": "2026.1.1301",
     "scriptType": "postinstall",
