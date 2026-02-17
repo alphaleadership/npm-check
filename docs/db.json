@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@rankingcoach/vanguard",
+    "version": "1.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run vanguard:clean-assets",
+    "previousVersion": null,
+    "timestamp": "2026-02-17T10:58:44.618Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "claude-session-analyzer",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-17T10:57:24.775Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@aia-irecruit/ui-library",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-17T10:55:30.743Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@aia-irecruit/ui-library",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node scripts/preinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-17T10:55:30.740Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mudrock/gcli",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node gcli.js --version || echo 'Binary will be downloaded on first use'",
+    "previousVersion": null,
+    "timestamp": "2026-02-17T10:55:25.244Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@rljson/db",
     "version": "0.0.14",
     "scriptType": "prebuild",
