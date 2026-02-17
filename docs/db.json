@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@od-oneapp/db-prisma",
+    "version": "2026.1.1301",
+    "scriptType": "postinstall",
+    "scriptContent": "pnpm db:generate:clean || ([ -z \"$SKIP_DOPPLER\" ] && echo 'ℹ️  Setup incomplete for local development: Run doppler:pull && pnpm db:generate:clean' || true)",
+    "previousVersion": null,
+    "timestamp": "2026-02-17T05:25:16.989Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@contractspec/lib.video-gen",
     "version": "1.42.0",
     "scriptType": "prebuild",
