@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "conductor-opencode",
+    "version": "1.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-02-17T22:42:20.449Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "react-native-umui",
     "version": "1.7.97",
     "scriptType": "postbuild",
