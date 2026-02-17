@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "react-native-umui",
+    "version": "1.7.97",
+    "scriptType": "postbuild",
+    "scriptContent": "npm run obfuscate && npm run clean-maps",
+    "previousVersion": "1.7.19",
+    "timestamp": "2026-02-17T19:07:59.825Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "graphdb-workbench",
     "version": "10.5.1",
     "scriptType": "postbuild",
