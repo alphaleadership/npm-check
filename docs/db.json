@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@usecontextlayer/pgx",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-18T02:51:22.097Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "lexauto-tool-manager",
+    "version": "1.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "sh ./scripts/setup.sh",
+    "previousVersion": "1.0.1",
+    "timestamp": "2026-02-18T02:50:31.557Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "conductor-opencode",
     "version": "1.0.1",
     "scriptType": "postinstall",
