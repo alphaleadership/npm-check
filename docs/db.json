@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "beachviber",
+    "version": "1.0.34",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-18T20:51:01.835Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@yousali/codetok",
     "version": "0.2.1-canary.20260219012136",
     "scriptType": "postinstall",
