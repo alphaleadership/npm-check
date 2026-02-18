@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@arkv/logger",
+    "version": "0.1.1",
+    "scriptType": "postbuild",
+    "scriptContent": "echo '{\"type\":\"commonjs\"}' > dist/cjs/package.json && echo '{\"type\":\"module\"}' > dist/esm/package.json",
+    "previousVersion": null,
+    "timestamp": "2026-02-18T17:15:16.411Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@arkv/logger",
+    "version": "0.1.1",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-18T17:15:16.407Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "buildrunner-opt",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node init.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-18T17:14:42.591Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@apexcli/core",
+    "version": "0.5.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs'),p=require('path');fs.mkdirSync(p.join('dist','mcp'),{recursive:true});fs.copyFileSync(p.join('src','mcp','catalog.json'),p.join('dist','mcp','catalog.json'))\"",
+    "previousVersion": "0.4.0",
+    "timestamp": "2026-02-18T17:13:13.444Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "n8n-nodes-psm",
+    "version": "0.1.6",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-02-18T17:12:54.452Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "exine",
     "version": "0.1.1",
     "scriptType": "postinstall",
