@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@yousali/codetok",
+    "version": "0.2.1-canary.20260219012136",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-18T19:08:34.917Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@arkv/logger",
     "version": "0.1.1",
     "scriptType": "postbuild",
