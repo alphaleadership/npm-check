@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "n8n-nodes-psm",
+    "version": "0.1.2",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-02-18T10:56:21.016Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@golee/nestjs-otel",
+    "version": "6.2.0-span",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf lib",
+    "previousVersion": null,
+    "timestamp": "2026-02-18T10:55:36.109Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "cypress-cucumber-api",
     "version": "2.0.0",
     "scriptType": "postinstall",
