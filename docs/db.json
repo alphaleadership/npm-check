@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "payload-smart-deletion",
+    "version": "1.0.3",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm check:types",
+    "previousVersion": "1.0.2",
+    "timestamp": "2026-02-19T05:25:07.154Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "payload-invitations",
+    "version": "0.1.2",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm typecheck",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-02-19T05:24:57.097Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@liyu1981/inspect-http-proxy-plus",
+    "version": "0.0.0-dev",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install-binary.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-19T05:24:49.802Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@mediaron/react-spinners",
     "version": "0.1.4",
     "scriptType": "postbuild",
