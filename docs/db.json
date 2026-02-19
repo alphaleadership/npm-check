@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "claude-code-tracker",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bash ./install.sh",
+    "previousVersion": null,
+    "timestamp": "2026-02-19T07:10:18.576Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "payload-smart-deletion",
     "version": "1.0.3",
     "scriptType": "prebuild",
