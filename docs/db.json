@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "ammplify-cli",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "tsx src/abi/extract-abis.ts",
+    "previousVersion": null,
+    "timestamp": "2026-02-19T14:56:32.620Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@extra-wallet/hd-derivations",
+    "version": "1.0.0-beta.5",
+    "scriptType": "postinstall",
+    "scriptContent": "patch-package",
+    "previousVersion": "1.0.0-beta.4",
+    "timestamp": "2026-02-19T14:56:20.606Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "react-dropzone-truffle",
     "version": "100.27.9",
     "scriptType": "postinstall",
