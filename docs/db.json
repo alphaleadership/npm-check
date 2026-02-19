@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "orcastrator",
+    "version": "0.1.1",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli/index.js",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-02-19T08:57:13.946Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@dallay/corvus",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-19T08:56:01.084Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "claude-code-tracker",
     "version": "1.0.0",
     "scriptType": "postinstall",
