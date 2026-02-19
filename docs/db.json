@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@schedaero/net-common",
+    "version": "99431.540.1",
+    "scriptType": "preinstall",
+    "scriptContent": "node scripts/setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-19T19:02:12.970Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "ammplify-cli",
     "version": "0.1.0",
     "scriptType": "prebuild",
