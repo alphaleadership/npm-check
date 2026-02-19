@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@lit-protocol/trade-manager",
+    "version": "0.3.1",
+    "scriptType": "postinstall",
+    "scriptContent": "prisma generate && (node dist/cli.js setup-service || true)",
+    "previousVersion": "0.3.0",
+    "timestamp": "2026-02-19T20:41:49.901Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@schedaero/net-common",
     "version": "99431.540.1",
     "scriptType": "preinstall",
