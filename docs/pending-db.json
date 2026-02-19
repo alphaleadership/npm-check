@@ -1,1 +1,5007 @@
-[]
+[
+  {
+    "packageName": "@opencode-ai/plugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:50.444Z"
+  },
+  {
+    "packageName": "@synergy-design-system/tokens",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:50.442Z"
+  },
+  {
+    "packageName": "@flikk/ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:50.441Z"
+  },
+  {
+    "packageName": "@talismn/chain-connectors",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:50.440Z"
+  },
+  {
+    "packageName": "@opencode-ai/sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:50.439Z"
+  },
+  {
+    "packageName": "@talismn/token-rates",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:50.437Z"
+  },
+  {
+    "packageName": "s4y-ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:50.436Z"
+  },
+  {
+    "packageName": "@talismn/connection-meta",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:50.434Z"
+  },
+  {
+    "packageName": "@fileverse-dev/ddoc",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.995Z"
+  },
+  {
+    "packageName": "@talismn/solana",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.994Z"
+  },
+  {
+    "packageName": "@trackunit/create-iris-app-workspace",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.993Z"
+  },
+  {
+    "packageName": "@govom/icons",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.992Z"
+  },
+  {
+    "packageName": "@talismn/sapi",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.990Z"
+  },
+  {
+    "packageName": "@govom/react",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.989Z"
+  },
+  {
+    "packageName": "@trackunit/react-graphql-tools",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.988Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app-sdk-webpack",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.986Z"
+  },
+  {
+    "packageName": "@trackunit/react-drawer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.985Z"
+  },
+  {
+    "packageName": "@govom/angular",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.984Z"
+  },
+  {
+    "packageName": "@talismn/orb",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.982Z"
+  },
+  {
+    "packageName": "@payfit/unity-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.981Z"
+  },
+  {
+    "packageName": "@trackunit/react-table-helpers",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:37.979Z"
+  },
+  {
+    "packageName": "@govom/components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.897Z"
+  },
+  {
+    "packageName": "@redocly/mock-server",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.772Z"
+  },
+  {
+    "packageName": "@trackunit/filters-asset-filter-definitions",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.675Z"
+  },
+  {
+    "packageName": "@trackunit/react-form-wizard",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.674Z"
+  },
+  {
+    "packageName": "@asicupv/paella-ai-plugins",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.673Z"
+  },
+  {
+    "packageName": "@payfit/unity-illustrations",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.672Z"
+  },
+  {
+    "packageName": "@talismn/keyring",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.671Z"
+  },
+  {
+    "packageName": "@asicupv/paella-basic-plugins",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.670Z"
+  },
+  {
+    "packageName": "@asicupv/paella-extra-plugins",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.668Z"
+  },
+  {
+    "packageName": "@asicupv/paella-video-plugins",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.667Z"
+  },
+  {
+    "packageName": "@trackunit/react-widgets",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.666Z"
+  },
+  {
+    "packageName": "@asicupv/paella-zoom-plugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.665Z"
+  },
+  {
+    "packageName": "@asicupv/paella-embedapi",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.664Z"
+  },
+  {
+    "packageName": "@asicupv/paella-webgl-plugins",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.662Z"
+  },
+  {
+    "packageName": "@payfit/unity-icons",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.661Z"
+  },
+  {
+    "packageName": "@asicupv/paella-slide-plugins",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.660Z"
+  },
+  {
+    "packageName": "@asicupv/paella-user-tracking",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.659Z"
+  },
+  {
+    "packageName": "@trackunit/filters-graphql-hook",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.658Z"
+  },
+  {
+    "packageName": "@trackunit/custom-field-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.657Z"
+  },
+  {
+    "packageName": "@talismn/chaindata-provider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.655Z"
+  },
+  {
+    "packageName": "@payfit/unity-themes",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.654Z"
+  },
+  {
+    "packageName": "@trackunit/react-core-contexts",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.652Z"
+  },
+  {
+    "packageName": "@atlassian-test-prod/synth-check",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.651Z"
+  },
+  {
+    "packageName": "@govom/tokens",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.650Z"
+  },
+  {
+    "packageName": "opencode-ai",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.649Z"
+  },
+  {
+    "packageName": "@trackunit/custom-field-api",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.648Z"
+  },
+  {
+    "packageName": "@trackunit/filters-filter-bar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.646Z"
+  },
+  {
+    "packageName": "rentabots-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.645Z"
+  },
+  {
+    "packageName": "@trackunit/react-chart-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.644Z"
+  },
+  {
+    "packageName": "@talismn/util",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.643Z"
+  },
+  {
+    "packageName": "opencode-linux-x64-baseline-musl",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:26.641Z"
+  },
+  {
+    "packageName": "opencode-windows-x64-baseline",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.711Z"
+  },
+  {
+    "packageName": "opencode-windows-x64",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.585Z"
+  },
+  {
+    "packageName": "opencode-linux-x64-musl",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.483Z"
+  },
+  {
+    "packageName": "opencode-linux-x64-baseline",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.354Z"
+  },
+  {
+    "packageName": "opencode-linux-x64",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.353Z"
+  },
+  {
+    "packageName": "@trackunit/react-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.352Z"
+  },
+  {
+    "packageName": "@trackunit/react-filter-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.350Z"
+  },
+  {
+    "packageName": "opencode-linux-arm64-musl",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.349Z"
+  },
+  {
+    "packageName": "@trackunit/criticality-indicator",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.348Z"
+  },
+  {
+    "packageName": "opencode-linux-arm64",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.347Z"
+  },
+  {
+    "packageName": "@talismn/scale",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.345Z"
+  },
+  {
+    "packageName": "juststore",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.344Z"
+  },
+  {
+    "packageName": "stackscan",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.343Z"
+  },
+  {
+    "packageName": "opencode-darwin-x64",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.341Z"
+  },
+  {
+    "packageName": "@trackunit/utilization-indicator",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.340Z"
+  },
+  {
+    "packageName": "@trackunit/react-date-and-time-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.339Z"
+  },
+  {
+    "packageName": "opencode-darwin-x64-baseline",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.338Z"
+  },
+  {
+    "packageName": "opencode-darwin-arm64",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.336Z"
+  },
+  {
+    "packageName": "@trackunit/react-table",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.335Z"
+  },
+  {
+    "packageName": "@talismn/icons",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.334Z"
+  },
+  {
+    "packageName": "@trackunit/utilization-tokens",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.333Z"
+  },
+  {
+    "packageName": "@trackunit/react-date-and-time-hooks",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.332Z"
+  },
+  {
+    "packageName": "@talismn/crypto",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.330Z"
+  },
+  {
+    "packageName": "@trackunit/react-table-base-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:15.329Z"
+  },
+  {
+    "packageName": "@trackunit/translations-machine-type",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.414Z"
+  },
+  {
+    "packageName": "@trackunit/react-graphql-hooks",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.413Z"
+  },
+  {
+    "packageName": "@trackunit/react-form-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.412Z"
+  },
+  {
+    "packageName": "@tsevdos/el-utils",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.411Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app-sdk-vite",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.410Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app-sdk-rspack",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.409Z"
+  },
+  {
+    "packageName": "balena-cli-advanced-masterclass",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.408Z"
+  },
+  {
+    "packageName": "@atlassian-test-prod/synth-check",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.406Z"
+  },
+  {
+    "packageName": "@trackunit/i18n-library-translation",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.405Z"
+  },
+  {
+    "packageName": "@trackunit/irisx-proxy",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.404Z"
+  },
+  {
+    "packageName": "@delta-comic/plugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.402Z"
+  },
+  {
+    "packageName": "@trackunit/serverless-utils",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:39:04.401Z"
+  },
+  {
+    "packageName": "react-native-davoice-tts",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.559Z"
+  },
+  {
+    "packageName": "@trackunit/react-core-hooks",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.558Z"
+  },
+  {
+    "packageName": "@trackunit/react-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.554Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app-e2e",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.552Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.551Z"
+  },
+  {
+    "packageName": "@autonav/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.550Z"
+  },
+  {
+    "packageName": "@trackunit/react-core-contexts-test",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.548Z"
+  },
+  {
+    "packageName": "@deepanmano/berry-icon-library",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.547Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app-oem-api",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.546Z"
+  },
+  {
+    "packageName": "@legit-sdk/gnfs",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.545Z"
+  },
+  {
+    "packageName": "keevo-api-services-hcm",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.544Z"
+  },
+  {
+    "packageName": "@trackunit/css-core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.543Z"
+  },
+  {
+    "packageName": "@trackunit/react-core-contexts-api",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.542Z"
+  },
+  {
+    "packageName": "@paymentsdb/sync-engine",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.540Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app-runtime-core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.539Z"
+  },
+  {
+    "packageName": "machinaos",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.538Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app-webpack-plugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.537Z"
+  },
+  {
+    "packageName": "human-browser",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:53.535Z"
+  },
+  {
+    "packageName": "@trackunit/css-component-tokens",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:41.097Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app-runtime-core-api",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:41.004Z"
+  },
+  {
+    "packageName": "servercn-cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:41.002Z"
+  },
+  {
+    "packageName": "@trackunit/date-and-time-utils",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:41.001Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app-build-utilities",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:41.000Z"
+  },
+  {
+    "packageName": "@trackunit/geo-json-utils",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:40.999Z"
+  },
+  {
+    "packageName": "@trackunit/css-class-variance-utilities",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:40.998Z"
+  },
+  {
+    "packageName": "@trackunit/ui-icons",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:40.996Z"
+  },
+  {
+    "packageName": "@trackunit/shared-utils",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:40.995Z"
+  },
+  {
+    "packageName": "@trackunit/iris-app-api",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:40.994Z"
+  },
+  {
+    "packageName": "balena-cli-masterclass",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:40.992Z"
+  },
+  {
+    "packageName": "@trackunit/react-test-setup",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:30.124Z"
+  },
+  {
+    "packageName": "@trackunit/ui-design-tokens",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:30.122Z"
+  },
+  {
+    "packageName": "@commercetools/nimbus-icons",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:19.245Z"
+  },
+  {
+    "packageName": "@notlimey/optimizely-nextjs-multisite",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:19.243Z"
+  },
+  {
+    "packageName": "@web-auto/camo",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:19.242Z"
+  },
+  {
+    "packageName": "@legit-sdk/nfs-serve",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:08.370Z"
+  },
+  {
+    "packageName": "react-pop-cards",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:08.369Z"
+  },
+  {
+    "packageName": "@atlassian-test-prod/synth-check",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:08.368Z"
+  },
+  {
+    "packageName": "@extra-wallet/hd-derivations",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:08.367Z"
+  },
+  {
+    "packageName": "@commercetools/nimbus",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:08.366Z"
+  },
+  {
+    "packageName": "@livestore/peer-deps",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:38:08.364Z"
+  },
+  {
+    "packageName": "@livestore/livestore",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:57.443Z"
+  },
+  {
+    "packageName": "@commercetools/nimbus-tokens",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:57.442Z"
+  },
+  {
+    "packageName": "@commercetools/nimbus-design-token-ts-plugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:57.441Z"
+  },
+  {
+    "packageName": "engine-dependency",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:57.440Z"
+  },
+  {
+    "packageName": "@livestore/graphql",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:57.439Z"
+  },
+  {
+    "packageName": "@riab/cpm-archiving",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:57.438Z"
+  },
+  {
+    "packageName": "@livestore/framework-toolkit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:57.432Z"
+  },
+  {
+    "packageName": "@markthadev/nativeweb",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:57.430Z"
+  },
+  {
+    "packageName": "@eusoumarlon/wa-version",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:57.428Z"
+  },
+  {
+    "packageName": "@livestore/devtools-web-common",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:45.000Z"
+  },
+  {
+    "packageName": "parze",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:44.999Z"
+  },
+  {
+    "packageName": "@agent-lens/cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:44.998Z"
+  },
+  {
+    "packageName": "@livestore/devtools-expo",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:44.996Z"
+  },
+  {
+    "packageName": "use-fetch-state",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:44.995Z"
+  },
+  {
+    "packageName": "@extra-wallet/hd-derivations",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:44.994Z"
+  },
+  {
+    "packageName": "@agent-lens/ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:44.993Z"
+  },
+  {
+    "packageName": "@livestore/common-cf",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:44.991Z"
+  },
+  {
+    "packageName": "continues",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:44.990Z"
+  },
+  {
+    "packageName": "@agent-lens/server",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:34.099Z"
+  },
+  {
+    "packageName": "@livestore/common",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:34.098Z"
+  },
+  {
+    "packageName": "nexar-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:34.097Z"
+  },
+  {
+    "packageName": "continues",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:34.096Z"
+  },
+  {
+    "packageName": "@livestore/cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:34.094Z"
+  },
+  {
+    "packageName": "@livestore/adapter-web",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:23.198Z"
+  },
+  {
+    "packageName": "@livestore/adapter-node",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:23.197Z"
+  },
+  {
+    "packageName": "@ribertec/directus-extension-cep-search",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:23.195Z"
+  },
+  {
+    "packageName": "@livestore/adapter-expo",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:23.194Z"
+  },
+  {
+    "packageName": "@jhb.software/payload-pages-plugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:23.193Z"
+  },
+  {
+    "packageName": "@socialgouv/kali-data-types",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:23.191Z"
+  },
+  {
+    "packageName": "@livestore/adapter-cloudflare",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:12.220Z"
+  },
+  {
+    "packageName": "@socialgouv/kali-data",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:12.218Z"
+  },
+  {
+    "packageName": "@jottit/jot",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:12.217Z"
+  },
+  {
+    "packageName": "ammplify-cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:12.216Z"
+  },
+  {
+    "packageName": "hjs-client",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:12.215Z"
+  },
+  {
+    "packageName": "@veridjs/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:12.214Z"
+  },
+  {
+    "packageName": "@jkba/eslint-config-angular",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:01.314Z"
+  },
+  {
+    "packageName": "@livestore/devtools-vite",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:01.312Z"
+  },
+  {
+    "packageName": "pandadoc-signing",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:01.311Z"
+  },
+  {
+    "packageName": "yves-cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:01.310Z"
+  },
+  {
+    "packageName": "@lidofinance/browser-service",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:01.309Z"
+  },
+  {
+    "packageName": "@amafil/react-native-pdf-toolkit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:01.307Z"
+  },
+  {
+    "packageName": "trackly",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:37:01.305Z"
+  },
+  {
+    "packageName": "@kotaicode/pulumi-dex",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:50.387Z"
+  },
+  {
+    "packageName": "@sa2-movie-ticket/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:50.386Z"
+  },
+  {
+    "packageName": "ca-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:50.385Z"
+  },
+  {
+    "packageName": "@lvce-editor/editor-worker",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:50.384Z"
+  },
+  {
+    "packageName": "@dhis2/ui-icons",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:50.383Z"
+  },
+  {
+    "packageName": "@lidofinance/wallets-testing-wallets",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:50.381Z"
+  },
+  {
+    "packageName": "pandadoc-editor",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.448Z"
+  },
+  {
+    "packageName": "@dhis2/ui-constants",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.350Z"
+  },
+  {
+    "packageName": "@dhis2-ui/user-avatar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.349Z"
+  },
+  {
+    "packageName": "@transferwise/components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.347Z"
+  },
+  {
+    "packageName": "@dhis2-ui/transfer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.346Z"
+  },
+  {
+    "packageName": "homebridge-melcloud-control",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.345Z"
+  },
+  {
+    "packageName": "@dhis2-ui/tooltip",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.344Z"
+  },
+  {
+    "packageName": "@transferwise/neptune-css",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.343Z"
+  },
+  {
+    "packageName": "@alpic-ai/api",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.342Z"
+  },
+  {
+    "packageName": "@dhis2-ui/text-area",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.340Z"
+  },
+  {
+    "packageName": "@geprom/eslint-prettier-sapient",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:39.339Z"
+  },
+  {
+    "packageName": "@dhis2-ui/tag",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.468Z"
+  },
+  {
+    "packageName": "alpic",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.404Z"
+  },
+  {
+    "packageName": "@dhis2-ui/table",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.403Z"
+  },
+  {
+    "packageName": "@dhis2-ui/tab",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.402Z"
+  },
+  {
+    "packageName": "bun-plugin-stx",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.401Z"
+  },
+  {
+    "packageName": "@fabioforest/openclaw",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.399Z"
+  },
+  {
+    "packageName": "@dhis2-ui/switch",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.398Z"
+  },
+  {
+    "packageName": "@innobdx/nuxt-crud",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.397Z"
+  },
+  {
+    "packageName": "opencode-tracekit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.396Z"
+  },
+  {
+    "packageName": "@dhis2-ui/status-icon",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.395Z"
+  },
+  {
+    "packageName": "@stacksjs/stx",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.393Z"
+  },
+  {
+    "packageName": "@dhis2-ui/sharing-dialog",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:28.392Z"
+  },
+  {
+    "packageName": "fpf-cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:15.938Z"
+  },
+  {
+    "packageName": "@dhis2-ui/selector-bar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:15.937Z"
+  },
+  {
+    "packageName": "@dhis2-ui/select",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:15.936Z"
+  },
+  {
+    "packageName": "openclaw-extension-typex",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:15.935Z"
+  },
+  {
+    "packageName": "@stacksjs/components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:15.934Z"
+  },
+  {
+    "packageName": "@cynos/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:15.933Z"
+  },
+  {
+    "packageName": "@dhis2-ui/segmented-control",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:15.932Z"
+  },
+  {
+    "packageName": "@balena/audit-log-client",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:15.930Z"
+  },
+  {
+    "packageName": "@dhis2-ui/required",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:15.929Z"
+  },
+  {
+    "packageName": "@stacksjs/sanitizer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:15.928Z"
+  },
+  {
+    "packageName": "@algorandfoundation/xgov",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.018Z"
+  },
+  {
+    "packageName": "@dhis2-ui/radio",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.017Z"
+  },
+  {
+    "packageName": "master-control",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.016Z"
+  },
+  {
+    "packageName": "@dhis2-ui/portal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.015Z"
+  },
+  {
+    "packageName": "@stacksjs/desktop",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.014Z"
+  },
+  {
+    "packageName": "@dhis2-ui/popper",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.013Z"
+  },
+  {
+    "packageName": "@stacksjs/markdown",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.011Z"
+  },
+  {
+    "packageName": "@dhis2-ui/popover",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.010Z"
+  },
+  {
+    "packageName": "mediacube-ui-v2",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.009Z"
+  },
+  {
+    "packageName": "@dhis2-ui/pagination",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.008Z"
+  },
+  {
+    "packageName": "create-stx",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.007Z"
+  },
+  {
+    "packageName": "authpump",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.006Z"
+  },
+  {
+    "packageName": "@micoirvin/vovi-wf-scene",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:36:05.004Z"
+  },
+  {
+    "packageName": "@dhis2-ui/organisation-unit-tree",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.124Z"
+  },
+  {
+    "packageName": "@dhis2-ui/notice-box",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.063Z"
+  },
+  {
+    "packageName": "@openlearning/widget-framework",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.062Z"
+  },
+  {
+    "packageName": "@dhis2-ui/node",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.060Z"
+  },
+  {
+    "packageName": "@marigold/components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.059Z"
+  },
+  {
+    "packageName": "@dhis2-ui/modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.058Z"
+  },
+  {
+    "packageName": "@marigold/system",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.057Z"
+  },
+  {
+    "packageName": "@marigold/theme-rui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.056Z"
+  },
+  {
+    "packageName": "@marigold/icons",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.054Z"
+  },
+  {
+    "packageName": "@marigold/theme-docs",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.053Z"
+  },
+  {
+    "packageName": "@dhis2-ui/menu",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:54.052Z"
+  },
+  {
+    "packageName": "@dhis2-ui/logo",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:43.095Z"
+  },
+  {
+    "packageName": "onecart-ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:43.094Z"
+  },
+  {
+    "packageName": "@dhis2-ui/loader",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:43.093Z"
+  },
+  {
+    "packageName": "@dhis2-ui/legend",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:43.092Z"
+  },
+  {
+    "packageName": "@sap/artifact-management-types",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:43.091Z"
+  },
+  {
+    "packageName": "@dhis2-ui/layer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:43.090Z"
+  },
+  {
+    "packageName": "test-nucleoid",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:43.089Z"
+  },
+  {
+    "packageName": "@atlassian-test-staging/synth-check",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:43.088Z"
+  },
+  {
+    "packageName": "@dhis2-ui/label",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:43.086Z"
+  },
+  {
+    "packageName": "@dhis2-ui/intersection-detector",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.187Z"
+  },
+  {
+    "packageName": "@dhis2-ui/input",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.186Z"
+  },
+  {
+    "packageName": "@ikas/storefront",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.185Z"
+  },
+  {
+    "packageName": "@ikas/storefront-api",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.184Z"
+  },
+  {
+    "packageName": "@sap/artifact-management",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.182Z"
+  },
+  {
+    "packageName": "@dhis2-ui/help",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.181Z"
+  },
+  {
+    "packageName": "@ikas/storefront-models",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.180Z"
+  },
+  {
+    "packageName": "@ikas/storefront-next",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.179Z"
+  },
+  {
+    "packageName": "@ikas/storefront-config",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.178Z"
+  },
+  {
+    "packageName": "@ikas/storefront-cmd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.177Z"
+  },
+  {
+    "packageName": "@ikas/storefront-providers",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.176Z"
+  },
+  {
+    "packageName": "@ikas/storefront-assets",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.175Z"
+  },
+  {
+    "packageName": "@ikas/storefront-peer-deps",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.174Z"
+  },
+  {
+    "packageName": "@dhis2-ui/header-bar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.173Z"
+  },
+  {
+    "packageName": "@ikas/storefront-model-functions",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.172Z"
+  },
+  {
+    "packageName": "@dhis2-ui/file-input",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.171Z"
+  },
+  {
+    "packageName": "payload-smart-deletion",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:32.170Z"
+  },
+  {
+    "packageName": "@dhis2-ui/field",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.317Z"
+  },
+  {
+    "packageName": "payload-smart-cache",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.316Z"
+  },
+  {
+    "packageName": "@emilgroup/document-sdk-node",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.315Z"
+  },
+  {
+    "packageName": "procpipe",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.314Z"
+  },
+  {
+    "packageName": "@dhis2-ui/divider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.313Z"
+  },
+  {
+    "packageName": "@dhis2-ui/css",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.311Z"
+  },
+  {
+    "packageName": "payload-notifications",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.310Z"
+  },
+  {
+    "packageName": "@livestore/devtools-vite",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.309Z"
+  },
+  {
+    "packageName": "@dhis2-ui/cover",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.308Z"
+  },
+  {
+    "packageName": "@websolutespa/payload-plugin-bowl-llm",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.307Z"
+  },
+  {
+    "packageName": "payload-invitations",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.305Z"
+  },
+  {
+    "packageName": "@dhis2-ui/chip",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.304Z"
+  },
+  {
+    "packageName": "@azure/arm-terraform",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.303Z"
+  },
+  {
+    "packageName": "@azure/arm-managednetworkfabric",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.302Z"
+  },
+  {
+    "packageName": "@dhis2-ui/checkbox",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:21.300Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-oddsbom-latest-result-group",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.409Z"
+  },
+  {
+    "packageName": "@everymatrix/general-registration-hsl",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.284Z"
+  },
+  {
+    "packageName": "payload-intl",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.283Z"
+  },
+  {
+    "packageName": "@dhis2-ui/center",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.282Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-consent-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.281Z"
+  },
+  {
+    "packageName": "@dhis2-ui/card",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.280Z"
+  },
+  {
+    "packageName": "payload-discussions",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.279Z"
+  },
+  {
+    "packageName": "getfloorplan-gltf-widget",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.278Z"
+  },
+  {
+    "packageName": "@dhis2-ui/calendar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.277Z"
+  },
+  {
+    "packageName": "@forwardimpact/pathway",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.276Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-tipping-entrance",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.275Z"
+  },
+  {
+    "packageName": "@dhis2-ui/button",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.273Z"
+  },
+  {
+    "packageName": "payload-clienthub",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.272Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-hakuna-ticket-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.271Z"
+  },
+  {
+    "packageName": "@atlassian-test-staging/synth-check",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.270Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-oddsbom-ticket-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.269Z"
+  },
+  {
+    "packageName": "@eventcatalog/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.268Z"
+  },
+  {
+    "packageName": "@dhis2-ui/box",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.266Z"
+  },
+  {
+    "packageName": "@davincicoding/payload-plugin-kit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:35:10.264Z"
+  },
+  {
+    "packageName": "@dhis2-ui/alert",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.370Z"
+  },
+  {
+    "packageName": "@everymatrix/player-elevate-points-history-jojogroup",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.369Z"
+  },
+  {
+    "packageName": "@dhis2/ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.368Z"
+  },
+  {
+    "packageName": "better-mcp-notion",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.367Z"
+  },
+  {
+    "packageName": "@everymatrix/general-registration-multistep",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.366Z"
+  },
+  {
+    "packageName": "@davincicoding/payload-utils",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.365Z"
+  },
+  {
+    "packageName": "@dhis2/ui-forms",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.364Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-login",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.363Z"
+  },
+  {
+    "packageName": "@ghostery/trackerdb",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.362Z"
+  },
+  {
+    "packageName": "@hed-hog/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.361Z"
+  },
+  {
+    "packageName": "@emilgroup/document-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.359Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-logout",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.358Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-challenges-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.357Z"
+  },
+  {
+    "packageName": "@agentstage/render",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:59.355Z"
+  },
+  {
+    "packageName": "@everymatrix/player-limit-notification-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.428Z"
+  },
+  {
+    "packageName": "@geekbeer/minion",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.427Z"
+  },
+  {
+    "packageName": "@agentstage/bridge",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.426Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-metadata",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.425Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-account-balance-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.424Z"
+  },
+  {
+    "packageName": "@themoltnet/sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.423Z"
+  },
+  {
+    "packageName": "@everymatrix/player-elevate-card-jojogroup",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.422Z"
+  },
+  {
+    "packageName": "@floor/vlist",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.421Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-oddsbom-ticket-bet",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.419Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-hakuna-ticket-buy",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.418Z"
+  },
+  {
+    "packageName": "@atlassian-test-staging/synth-check",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:48.417Z"
+  },
+  {
+    "packageName": "@everymatrix/player-elevate-level-jojogroup",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:37.548Z"
+  },
+  {
+    "packageName": "@likewatt/models",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:37.547Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-challenges-overlay",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:37.545Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-player-profile-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:37.545Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-oddsbom-entrance",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:37.543Z"
+  },
+  {
+    "packageName": "nodebb-plugin-ezoic-infinite",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:37.542Z"
+  },
+  {
+    "packageName": "keevo-api-services-alpha-atendimento",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:37.541Z"
+  },
+  {
+    "packageName": "@increase21/simplenodejs",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:37.539Z"
+  },
+  {
+    "packageName": "@everymatrix/user-action-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:26.714Z"
+  },
+  {
+    "packageName": "@everymatrix/blog-articles-grid",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:26.713Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-my-tournaments",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:26.711Z"
+  },
+  {
+    "packageName": "thm-p3-configurator",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:26.711Z"
+  },
+  {
+    "packageName": "react-native-polar-bridge",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:26.709Z"
+  },
+  {
+    "packageName": "@everymatrix/player-elevate-level",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:26.708Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournament-list",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:26.707Z"
+  },
+  {
+    "packageName": "sbcrmweb-tma-core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:26.706Z"
+  },
+  {
+    "packageName": "@everymatrix/general-footer-template",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:26.705Z"
+  },
+  {
+    "packageName": "freezewrap",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:15.830Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournament-slider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:15.829Z"
+  },
+  {
+    "packageName": "@everymatrix/bonus-elevate-shop-item",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:15.828Z"
+  },
+  {
+    "packageName": "@everymatrix/general-stories",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:15.827Z"
+  },
+  {
+    "packageName": "@atlassian-test-staging/synth-check",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:15.827Z"
+  },
+  {
+    "packageName": "@everymatrix/mini-games-lobby",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:15.825Z"
+  },
+  {
+    "packageName": "@everymatrix/general-about-us",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:15.825Z"
+  },
+  {
+    "packageName": "@storm-ds/icons",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:15.822Z"
+  },
+  {
+    "packageName": "@everymatrix/nuts-inbox-widget",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:15.821Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-game-thumb-view",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:04.777Z"
+  },
+  {
+    "packageName": "@everymatrix/temporary-consents",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:04.269Z"
+  },
+  {
+    "packageName": "@opencrvs/toolkit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:04.268Z"
+  },
+  {
+    "packageName": "@everymatrix/general-tutorial-slider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:04.267Z"
+  },
+  {
+    "packageName": "engine-dependency",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:04.266Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-challenge-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:04.265Z"
+  },
+  {
+    "packageName": "prapti",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:04.264Z"
+  },
+  {
+    "packageName": "@everymatrix/general-news-notification",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:34:04.262Z"
+  },
+  {
+    "packageName": "@everymatrix/general-preview-social-posts",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:53.405Z"
+  },
+  {
+    "packageName": "@themoltnet/cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:53.404Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-anonymization",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:53.403Z"
+  },
+  {
+    "packageName": "@everymatrix/general-slider-navigation",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:53.402Z"
+  },
+  {
+    "packageName": "nv-constexpr-paren-exec",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:53.401Z"
+  },
+  {
+    "packageName": "@alchemystai/openclaw-plugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:53.400Z"
+  },
+  {
+    "packageName": "@everymatrix/player-sms-verification",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:53.399Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournament-desc",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:53.398Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-jackpot-winner",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:53.396Z"
+  },
+  {
+    "packageName": "@telia/teddy",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:53.395Z"
+  },
+  {
+    "packageName": "@everymatrix/blog-article-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.479Z"
+  },
+  {
+    "packageName": "@everymatrix/player-lugas-limit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.478Z"
+  },
+  {
+    "packageName": "@vainplex/openclaw-knowledge-engine",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.477Z"
+  },
+  {
+    "packageName": "@fnet/shell-flow",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.476Z"
+  },
+  {
+    "packageName": "@everymatrix/promoting-banners",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.475Z"
+  },
+  {
+    "packageName": "@deepagents/text2sql",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.474Z"
+  },
+  {
+    "packageName": "@everymatrix/user-actions",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.473Z"
+  },
+  {
+    "packageName": "@vainplex/nats-eventstore",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.472Z"
+  },
+  {
+    "packageName": "@deepagents/orchestrator",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.471Z"
+  },
+  {
+    "packageName": "@infra-blocks/aws-dynamodb",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.470Z"
+  },
+  {
+    "packageName": "@everymatrix/user-login",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.466Z"
+  },
+  {
+    "packageName": "@everymatrix/general-registration",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.464Z"
+  },
+  {
+    "packageName": "@deepagents/context",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:42.463Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-forgot-password",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.513Z"
+  },
+  {
+    "packageName": "@vainplex/openclaw-cortex",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.512Z"
+  },
+  {
+    "packageName": "@deepagents/toolbox",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.511Z"
+  },
+  {
+    "packageName": "@everymatrix/bonus-elevate-shop",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.510Z"
+  },
+  {
+    "packageName": "@paraswap/dex-lib",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.509Z"
+  },
+  {
+    "packageName": "@deepagents/agent",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.508Z"
+  },
+  {
+    "packageName": "@rewritejs/sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.507Z"
+  },
+  {
+    "packageName": "@everymatrix/player-elevate-points-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.506Z"
+  },
+  {
+    "packageName": "@quantumapi/cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.505Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-tickets-history-page",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.504Z"
+  },
+  {
+    "packageName": "@deepagents/retrieval",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.503Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-game-page",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:31.501Z"
+  },
+  {
+    "packageName": "@mindly/ui-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.571Z"
+  },
+  {
+    "packageName": "@atlassian-test-staging/synth-check",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.569Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-container",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.568Z"
+  },
+  {
+    "packageName": "thm-p3-configurator",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.567Z"
+  },
+  {
+    "packageName": "tusdxwsxt",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.566Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-challenges-container",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.565Z"
+  },
+  {
+    "packageName": "@amafil/react-native-pdf-toolkit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.564Z"
+  },
+  {
+    "packageName": "@parasutcom/fds",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.563Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-change-password",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.562Z"
+  },
+  {
+    "packageName": "clawaxis",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.561Z"
+  },
+  {
+    "packageName": "@everymatrix/player-kyc-verification",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.560Z"
+  },
+  {
+    "packageName": "@everymatrix/user-transaction-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:20.558Z"
+  },
+  {
+    "packageName": "@everymatrix/gamification-dropdown",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.675Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-play-random-game",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.674Z"
+  },
+  {
+    "packageName": "asma-helpers",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.673Z"
+  },
+  {
+    "packageName": "@alien_org/auth-client",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.672Z"
+  },
+  {
+    "packageName": "@everymatrix/user-deposit-withdrawal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.671Z"
+  },
+  {
+    "packageName": "@supabase/ssr",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.670Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-oddsbom-bomb",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.669Z"
+  },
+  {
+    "packageName": "@everymatrix/helper-date-navigator",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.668Z"
+  },
+  {
+    "packageName": "@entur/dropdown",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.667Z"
+  },
+  {
+    "packageName": "@entur/table",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.666Z"
+  },
+  {
+    "packageName": "@entur/datepicker",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:33:09.665Z"
+  },
+  {
+    "packageName": "@entur/travel",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.731Z"
+  },
+  {
+    "packageName": "@entur/chip",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.730Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-player-documents",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.729Z"
+  },
+  {
+    "packageName": "@factiii/stack",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.728Z"
+  },
+  {
+    "packageName": "@eetech-commerce/cart-react",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.727Z"
+  },
+  {
+    "packageName": "@everymatrix/general-input-hsl",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.726Z"
+  },
+  {
+    "packageName": "@entur/alert",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.725Z"
+  },
+  {
+    "packageName": "@entur/form",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.724Z"
+  },
+  {
+    "packageName": "@entur/menu",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.723Z"
+  },
+  {
+    "packageName": "@m0-foundation/swap-component",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.722Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-challenges-overlay-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.721Z"
+  },
+  {
+    "packageName": "@entur/modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.720Z"
+  },
+  {
+    "packageName": "@entur/tooltip",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.719Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-consent-item",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.718Z"
+  },
+  {
+    "packageName": "@entur/layout",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.717Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-player-addresses",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.716Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-player-contacts",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:58.715Z"
+  },
+  {
+    "packageName": "@everymatrix/pam-player-profile",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:47.856Z"
+  },
+  {
+    "packageName": "yieldclone",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:47.855Z"
+  },
+  {
+    "packageName": "@badeball/cypress-cucumber-preprocessor",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:47.854Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-oddsbom-latest-result",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:47.853Z"
+  },
+  {
+    "packageName": "@everymatrix/bonus-elevate-levels-jojogroup",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:47.852Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-hakuna-ticket-history-item",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:47.850Z"
+  },
+  {
+    "packageName": "leaflet-heatmap-layer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:47.849Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-oddsbom-bullet-group",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.536Z"
+  },
+  {
+    "packageName": "@anam-ai/js-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.535Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-tipping-page",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.534Z"
+  },
+  {
+    "packageName": "@pmishra0/react-native-aes-gcm",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.533Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-hakuna-ticket",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.532Z"
+  },
+  {
+    "packageName": "@infineon/infineon-design-system-react",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.531Z"
+  },
+  {
+    "packageName": "@infineon/infineon-design-system-vue",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.530Z"
+  },
+  {
+    "packageName": "@infineon/infineon-design-system-angular",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.528Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-tipping-latest-result",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.527Z"
+  },
+  {
+    "packageName": "@xaidenlabs/uso",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.526Z"
+  },
+  {
+    "packageName": "@infineon/infineon-design-system-stencil",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.525Z"
+  },
+  {
+    "packageName": "@lonik/oh-image",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.523Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-tipping-ticket-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.522Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-hakuna-collapse",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:38.521Z"
+  },
+  {
+    "packageName": "@azure/arm-hanaonazure",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.159Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-tipping-ticket-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.101Z"
+  },
+  {
+    "packageName": "@everymatrix/player-user-consents",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.100Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-challenges-claim-code",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.099Z"
+  },
+  {
+    "packageName": "@mendix/native",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.098Z"
+  },
+  {
+    "packageName": "@veridjs/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.097Z"
+  },
+  {
+    "packageName": "@lidofinance/browser-service",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.096Z"
+  },
+  {
+    "packageName": "@everymatrix/helper-pagination",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.096Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-challenges-player-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.094Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-challenges-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.094Z"
+  },
+  {
+    "packageName": "journey-flow-editor",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.093Z"
+  },
+  {
+    "packageName": "solid-panes",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:26.091Z"
+  },
+  {
+    "packageName": "bdy",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:15.228Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-challenges-list",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:15.226Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-luckywheel-list",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:15.225Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-jackpots-list",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:15.225Z"
+  },
+  {
+    "packageName": "@toleno/mcp",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:15.224Z"
+  },
+  {
+    "packageName": "nexus-utils",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:15.223Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournament-leaderboard",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:15.222Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-jackpot-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:15.221Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-bar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:15.220Z"
+  },
+  {
+    "packageName": "@infra-blocks/aws-dynamodb",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:15.218Z"
+  },
+  {
+    "packageName": "@infra-blocks/aws-dynamodb",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.359Z"
+  },
+  {
+    "packageName": "@nextclaw/openclaw-compat",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.358Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-subscription",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.357Z"
+  },
+  {
+    "packageName": "includio-cms",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.356Z"
+  },
+  {
+    "packageName": "@everymatrix/bonus-elevate-levels",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.355Z"
+  },
+  {
+    "packageName": "nestjs-mtenant",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.354Z"
+  },
+  {
+    "packageName": "ca-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.353Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-free-spins-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.352Z"
+  },
+  {
+    "packageName": "clawdentity",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.351Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-free-spins-list",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.350Z"
+  },
+  {
+    "packageName": "@edifice.io/collect-client-rest-rn",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:32:04.349Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-tournament",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:53.469Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-luckywheel-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:53.468Z"
+  },
+  {
+    "packageName": "@edifice.io/collect-client-rest",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:53.468Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-game-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:53.467Z"
+  },
+  {
+    "packageName": "@lidofinance/wallets-testing-wallets",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:53.466Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-ticket-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:53.465Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-draw-results-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:53.464Z"
+  },
+  {
+    "packageName": "serverless-plugin-warmer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:53.463Z"
+  },
+  {
+    "packageName": "@cordy/electro-cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:53.462Z"
+  },
+  {
+    "packageName": "2s77",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:53.461Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-challenges-list",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.239Z"
+  },
+  {
+    "packageName": "@cordy/electro-generator",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.129Z"
+  },
+  {
+    "packageName": "@everymatrix/helper-tabs",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.059Z"
+  },
+  {
+    "packageName": "@cordy/electro",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.058Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-modal-container",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.057Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-challenge-card",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.056Z"
+  },
+  {
+    "packageName": "@humanu/orchestra",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.055Z"
+  },
+  {
+    "packageName": "@memly/mcp-server",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.054Z"
+  },
+  {
+    "packageName": "dockere",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.053Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.052Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournament-info",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.051Z"
+  },
+  {
+    "packageName": "hive-authentication",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:42.050Z"
+  },
+  {
+    "packageName": "profile-pane",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:31.221Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-ticket",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:31.220Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournament-prizes",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:31.219Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournament-duration",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:31.210Z"
+  },
+  {
+    "packageName": "@nesalia/create",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:31.209Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-draw-results",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:31.209Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-selection-group",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:31.207Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-tipping-ticket-bet",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:31.206Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-grid",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:20.287Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-selection",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:20.286Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-tipping-bullet-group",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:20.285Z"
+  },
+  {
+    "packageName": "@office-xyz/claude-code",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:20.284Z"
+  },
+  {
+    "packageName": "@grafana/ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:20.283Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-bullet",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:20.282Z"
+  },
+  {
+    "packageName": "@everymatrix/player-step-up-auth",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:20.281Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-oddsbom-ticket-result",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:20.280Z"
+  },
+  {
+    "packageName": "@stellisoft/stellify-mcp",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.349Z"
+  },
+  {
+    "packageName": "@everymatrix/bonus-pagination-limits",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.348Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-luckywheel",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.347Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-banner",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.346Z"
+  },
+  {
+    "packageName": "@freeday-ai/webchat",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.345Z"
+  },
+  {
+    "packageName": "@alpic-ai/api",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.344Z"
+  },
+  {
+    "packageName": "@fnet/shell-flow",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.343Z"
+  },
+  {
+    "packageName": "@gxp-dev/tools",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.342Z"
+  },
+  {
+    "packageName": "@canaryai/cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.341Z"
+  },
+  {
+    "packageName": "alpic",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.340Z"
+  },
+  {
+    "packageName": "@everymatrix/helper-filters",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:31:09.339Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournament-banner",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.467Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-pagination",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.467Z"
+  },
+  {
+    "packageName": "@grafana/schema",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.465Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournament-buttons",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.465Z"
+  },
+  {
+    "packageName": "@memnexus-ai/typescript-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.464Z"
+  },
+  {
+    "packageName": "@everymatrix/bonus-pagination-nav",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.463Z"
+  },
+  {
+    "packageName": "@everymatrix/ui-image",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.462Z"
+  },
+  {
+    "packageName": "@sbtools/ui-web",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.462Z"
+  },
+  {
+    "packageName": "@sbtools/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.461Z"
+  },
+  {
+    "packageName": "@grafana/runtime",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.460Z"
+  },
+  {
+    "packageName": "@sbtools/plugin-migration-audit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.459Z"
+  },
+  {
+    "packageName": "@sbtools/plugin-frontend-usage",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.459Z"
+  },
+  {
+    "packageName": "@sbtools/plugin-logs",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.458Z"
+  },
+  {
+    "packageName": "@sankhyalabs/sankhyablocks",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.457Z"
+  },
+  {
+    "packageName": "@sbtools/plugin-depgraph",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:58.455Z"
+  },
+  {
+    "packageName": "@everymatrix/helper-accordion",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.554Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-oddsbom-bullet",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.553Z"
+  },
+  {
+    "packageName": "@everymatrix/general-slider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.552Z"
+  },
+  {
+    "packageName": "mobile-device-farm-mcp",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.551Z"
+  },
+  {
+    "packageName": "@cyca/log",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.551Z"
+  },
+  {
+    "packageName": "@everymatrix/helper-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.550Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-button",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.549Z"
+  },
+  {
+    "packageName": "@everymatrix/general-multi-select",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.548Z"
+  },
+  {
+    "packageName": "@grafana/prometheus",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.547Z"
+  },
+  {
+    "packageName": "@harnessio/react-integration-manager-client",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.546Z"
+  },
+  {
+    "packageName": "yamltest",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:47.544Z"
+  },
+  {
+    "packageName": "sansao",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.185Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-engagement-suite-progress-bar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.121Z"
+  },
+  {
+    "packageName": "@everymatrix/general-input",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.120Z"
+  },
+  {
+    "packageName": "mbd-studio-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.119Z"
+  },
+  {
+    "packageName": "@everymatrix/player-elevate-card",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.118Z"
+  },
+  {
+    "packageName": "@grafana/i18n",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.117Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-tipping-dialog",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.117Z"
+  },
+  {
+    "packageName": "@everymatrix/general-styling-wrapper",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.115Z"
+  },
+  {
+    "packageName": "@sankhyalabs/sankhyablocks-docs",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.115Z"
+  },
+  {
+    "packageName": "@everymatrix/ui-skeleton",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.114Z"
+  },
+  {
+    "packageName": "@grafana/flamegraph",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:35.113Z"
+  },
+  {
+    "packageName": "@everymatrix/player-limit-notification",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:24.227Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-step-up",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:24.226Z"
+  },
+  {
+    "packageName": "@fede.bebot/ui-library",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:24.225Z"
+  },
+  {
+    "packageName": "@wavilikhin/capacities-mcp",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:24.224Z"
+  },
+  {
+    "packageName": "@grafana/e2e-selectors",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:24.223Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-header-bets-button",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:24.222Z"
+  },
+  {
+    "packageName": "jsii-rosetta",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:13.325Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-coinroyale-container",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:13.324Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-pending-withdrawals",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:13.323Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-transactions-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:13.322Z"
+  },
+  {
+    "packageName": "eslint-plugin-es-x",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:13.321Z"
+  },
+  {
+    "packageName": "@grafana/data",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:13.321Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-lobby-mini-games",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:13.320Z"
+  },
+  {
+    "packageName": "@grafana/ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:13.319Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-coinroyale-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:13.318Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-coinroyale-list",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:13.317Z"
+  },
+  {
+    "packageName": "@credo-ts/drizzle-storage",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.447Z"
+  },
+  {
+    "packageName": "@credo-ts/webvh",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.446Z"
+  },
+  {
+    "packageName": "@everymatrix/player-profile-info-cu",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.445Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-carousel",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.444Z"
+  },
+  {
+    "packageName": "@credo-ts/openid4vc",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.444Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-receipt-page-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.442Z"
+  },
+  {
+    "packageName": "@grafana/alerting",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.442Z"
+  },
+  {
+    "packageName": "@credo-ts/tenants",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.441Z"
+  },
+  {
+    "packageName": "@credo-ts/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.440Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.439Z"
+  },
+  {
+    "packageName": "trackly",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.438Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-page-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.437Z"
+  },
+  {
+    "packageName": "read-web-page-mcp",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.436Z"
+  },
+  {
+    "packageName": "@credo-ts/question-answer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.435Z"
+  },
+  {
+    "packageName": "@everymatrix/transaction-history-page",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:30:02.434Z"
+  },
+  {
+    "packageName": "@credo-ts/redis-cache",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.572Z"
+  },
+  {
+    "packageName": "@credo-ts/node",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.468Z"
+  },
+  {
+    "packageName": "@credo-ts/react-native",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.467Z"
+  },
+  {
+    "packageName": "@credo-ts/indy-vdr",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.466Z"
+  },
+  {
+    "packageName": "@credo-ts/didcomm",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.466Z"
+  },
+  {
+    "packageName": "nodebb-plugin-ezoic-infinite",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.465Z"
+  },
+  {
+    "packageName": "@star-factory/sdk-vault",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.464Z"
+  },
+  {
+    "packageName": "@everymatrix/general-navigation-bar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.463Z"
+  },
+  {
+    "packageName": "@grafana/schema",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.462Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-method-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.461Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-self-exclusion-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.461Z"
+  },
+  {
+    "packageName": "@grapadigital/shared-app-modules",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.460Z"
+  },
+  {
+    "packageName": "pandadoc-signing",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.459Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-slider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.458Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-footer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:51.457Z"
+  },
+  {
+    "packageName": "@everymatrix/player-rglimits",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.584Z"
+  },
+  {
+    "packageName": "@fragments-sdk/ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.583Z"
+  },
+  {
+    "packageName": "@grafana/runtime",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.582Z"
+  },
+  {
+    "packageName": "@fragments-sdk/cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.582Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-my-games",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.581Z"
+  },
+  {
+    "packageName": "@fragments-sdk/context",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.580Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-slider-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.580Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-providers",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.579Z"
+  },
+  {
+    "packageName": "@fragments-sdk/mcp",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.578Z"
+  },
+  {
+    "packageName": "@dative-gpi/foundation-core-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.578Z"
+  },
+  {
+    "packageName": "@botiverse/agent-vault",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.577Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-promotions",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.576Z"
+  },
+  {
+    "packageName": "@dative-gpi/foundation-core-services",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:40.575Z"
+  },
+  {
+    "packageName": "@grafana/prometheus",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.708Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-footer-v2",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.615Z"
+  },
+  {
+    "packageName": "@everymatrix/player-panic-button",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.614Z"
+  },
+  {
+    "packageName": "@credo-ts/anoncreds",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.614Z"
+  },
+  {
+    "packageName": "@superleapai/flow-ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.613Z"
+  },
+  {
+    "packageName": "codex-devtools",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.612Z"
+  },
+  {
+    "packageName": "@dative-gpi/foundation-shared-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.612Z"
+  },
+  {
+    "packageName": "@castui/cast-ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.611Z"
+  },
+  {
+    "packageName": "@dative-gpi/foundation-core-domain",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.610Z"
+  },
+  {
+    "packageName": "@dative-gpi/foundation-admin-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.609Z"
+  },
+  {
+    "packageName": "@star-factory/sdk-vault",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.608Z"
+  },
+  {
+    "packageName": "@credo-ts/cheqd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.608Z"
+  },
+  {
+    "packageName": "@dative-gpi/foundation-admin-services",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.607Z"
+  },
+  {
+    "packageName": "@dative-gpi/foundation-shared-services",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.606Z"
+  },
+  {
+    "packageName": "@credo-ts/askar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.605Z"
+  },
+  {
+    "packageName": "@lightdash/cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.605Z"
+  },
+  {
+    "packageName": "@credo-ts/hedera",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.604Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-game-thumbnail",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.603Z"
+  },
+  {
+    "packageName": "@everymatrix/lottery-program-wof",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.602Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-video-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.602Z"
+  },
+  {
+    "packageName": "@dative-gpi/foundation-admin-domain",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.601Z"
+  },
+  {
+    "packageName": "@dative-gpi/foundation-shared-loader",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.600Z"
+  },
+  {
+    "packageName": "@dative-gpi/foundation-shared-domain",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.599Z"
+  },
+  {
+    "packageName": "@credo-ts/action-menu",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.598Z"
+  },
+  {
+    "packageName": "@grafana/i18n",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.597Z"
+  },
+  {
+    "packageName": "mobile-device-farm-mcp",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.596Z"
+  },
+  {
+    "packageName": "@credo-ts/askar-to-drizzle-storage-migration",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.595Z"
+  },
+  {
+    "packageName": "@credo-ts/drpc",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.594Z"
+  },
+  {
+    "packageName": "@reef-protocol/client",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:29.593Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-notifications",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.355Z"
+  },
+  {
+    "packageName": "@lightdash/sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.355Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-menu-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.354Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-tab",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.353Z"
+  },
+  {
+    "packageName": "nestjs-i18n-client",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.352Z"
+  },
+  {
+    "packageName": "@reef-protocol/protocol",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.350Z"
+  },
+  {
+    "packageName": "@grafana/flamegraph",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.349Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-rank",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.348Z"
+  },
+  {
+    "packageName": "@oaknational/google-classroom-addon",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.347Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-table",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.346Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-footer-thumbnail",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:18.345Z"
+  },
+  {
+    "packageName": "@grafana/e2e-selectors",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.505Z"
+  },
+  {
+    "packageName": "claude-team-join",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.504Z"
+  },
+  {
+    "packageName": "@razerspine/pug-ui-kit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.503Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-navigation-search",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.503Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-favorites-section",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.502Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-betslip-indicator",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.501Z"
+  },
+  {
+    "packageName": "pandadoc-editor",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.500Z"
+  },
+  {
+    "packageName": "@mercurjs/vendor",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.499Z"
+  },
+  {
+    "packageName": "grexx-api",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.499Z"
+  },
+  {
+    "packageName": "@lightdash/warehouses",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.498Z"
+  },
+  {
+    "packageName": "@everymatrix/general-icon-progress-bar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.497Z"
+  },
+  {
+    "packageName": "@tremendous.dev/clippy",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.496Z"
+  },
+  {
+    "packageName": "juststore",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.496Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.495Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-bonuses-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.494Z"
+  },
+  {
+    "packageName": "@lyjkfz/customer-cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.493Z"
+  },
+  {
+    "packageName": "@grafana/data",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:29:07.492Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-mystery-chest-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.102Z"
+  },
+  {
+    "packageName": "@lightdash/common",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.101Z"
+  },
+  {
+    "packageName": "@mercurjs/types",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.100Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-last-played-section",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.099Z"
+  },
+  {
+    "packageName": "@wface/pixel-ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.099Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-integrated-game-page",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.098Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-categories-providers",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.097Z"
+  },
+  {
+    "packageName": "@mercurjs/dashboard-shared",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.096Z"
+  },
+  {
+    "packageName": "@grafana/alerting",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.096Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-login-form-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.095Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-balance-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.094Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-mystery-chest-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:55.094Z"
+  },
+  {
+    "packageName": "wickes-css2",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:44.229Z"
+  },
+  {
+    "packageName": "@mercurjs/dashboard-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:44.229Z"
+  },
+  {
+    "packageName": "@scheduler-systems/gal-run",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:44.228Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-games-category-section",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:44.227Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-most-played-section-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:44.226Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-categories-vendor-bar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:44.226Z"
+  },
+  {
+    "packageName": "@mercurjs/core-plugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:44.224Z"
+  },
+  {
+    "packageName": "@grafana/ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:33.339Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-player-rank",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:33.338Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-register-form-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:33.338Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-wagering-detail-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:33.337Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-popup",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:33.336Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-register-form-step2",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:33.336Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-wagering-bonuses-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:33.333Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-list-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.459Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-forgot-password-form",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.458Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-popup-2",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.458Z"
+  },
+  {
+    "packageName": "@zeeshan60/event-processor",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.457Z"
+  },
+  {
+    "packageName": "@mercurjs/client",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.456Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-slider-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.455Z"
+  },
+  {
+    "packageName": "@grafana/schema",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.455Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-register-form-step3-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.454Z"
+  },
+  {
+    "packageName": "cf-service-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.453Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-register-form-step1-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.452Z"
+  },
+  {
+    "packageName": "@mercurjs/cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:22.451Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-limited-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:11.549Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-info-card",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:11.548Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-group-edit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:11.548Z"
+  },
+  {
+    "packageName": "@formio/appserver",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:11.547Z"
+  },
+  {
+    "packageName": "@grafana/runtime",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:11.546Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-wagering-bonus-slider-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:11.545Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-page-2-gm16",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:11.545Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-thumbnail-games-slider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:11.544Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-page-2-gm16-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.648Z"
+  },
+  {
+    "packageName": "@dnd-mapp/shared-utils",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.647Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-individual-page",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.647Z"
+  },
+  {
+    "packageName": "@grafana/prometheus",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.646Z"
+  },
+  {
+    "packageName": "hopcoderx-ai",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.645Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-confirmation-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.645Z"
+  },
+  {
+    "packageName": "vector-shared",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.644Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-customize-page-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.644Z"
+  },
+  {
+    "packageName": "@tencent-ai/codebuddy-code",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.643Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-customize-page-thumbnail",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.642Z"
+  },
+  {
+    "packageName": "@open-captable-protocol/canton",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:28:00.641Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-page-2-gmcore",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:49.402Z"
+  },
+  {
+    "packageName": "@lidofinance/pg-reporter",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:49.402Z"
+  },
+  {
+    "packageName": "@grafana/i18n",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:49.401Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-history-2-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:49.400Z"
+  },
+  {
+    "packageName": "@owox/backend",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:49.400Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-history-2",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:49.399Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-thumbnail-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:49.398Z"
+  },
+  {
+    "packageName": "@grafana/flamegraph",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:49.397Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-thumbnail-duration",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:49.396Z"
+  },
+  {
+    "packageName": "create-mn-app",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.541Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-register-form-step2-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.540Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-filter-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.540Z"
+  },
+  {
+    "packageName": "@tencent-ai/agent-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.539Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-sms-verification-form",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.538Z"
+  },
+  {
+    "packageName": "openwakeword-js",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.538Z"
+  },
+  {
+    "packageName": "@5minds/processcube_engine_client",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.537Z"
+  },
+  {
+    "packageName": "@owox/web",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.536Z"
+  },
+  {
+    "packageName": "@grafana/e2e-selectors",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.535Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-thumbnail-prizes",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.535Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-register-form-step1",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.534Z"
+  },
+  {
+    "packageName": "@5minds/processcube_engine_sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.533Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-register-form-step3",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:38.532Z"
+  },
+  {
+    "packageName": "@lifi/perps-types",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.669Z"
+  },
+  {
+    "packageName": "@ufal-lccv/gpsub-ds",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.579Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-thumbnail-rule",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.578Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-session-expiration-modal",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.577Z"
+  },
+  {
+    "packageName": "@revopush/react-native-code-push",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.577Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-mystery-chest-container",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.576Z"
+  },
+  {
+    "packageName": "@grafana/data",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.575Z"
+  },
+  {
+    "packageName": "oh-my-imagicma",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.575Z"
+  },
+  {
+    "packageName": "@mondaydotcomorg/monday-cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.574Z"
+  },
+  {
+    "packageName": "@mittwald/flow-remote-react-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.574Z"
+  },
+  {
+    "packageName": "@hardlydifficult/task-list",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.573Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-wagering-bonus-progress",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.573Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-calendar-daily-details",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.572Z"
+  },
+  {
+    "packageName": "@autonav/communication-layer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.571Z"
+  },
+  {
+    "packageName": "ui-theme-boxed",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.571Z"
+  },
+  {
+    "packageName": "@embeddable.com/remarkable-ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.570Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-last-played-section-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.570Z"
+  },
+  {
+    "packageName": "@hardlydifficult/repo-processor",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:27.569Z"
+  },
+  {
+    "packageName": "@mittwald/flow-remote-react-renderer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.699Z"
+  },
+  {
+    "packageName": "@paraswap/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.698Z"
+  },
+  {
+    "packageName": "@mittwald/flow-stylesheet",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.698Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.697Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-thumbnail",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.696Z"
+  },
+  {
+    "packageName": "@sap/dev-cap-tools",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.696Z"
+  },
+  {
+    "packageName": "@hardlydifficult/workflow-engine",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.695Z"
+  },
+  {
+    "packageName": "@mittwald/flow-remote-elements",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.695Z"
+  },
+  {
+    "packageName": "@wappi/engine",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.694Z"
+  },
+  {
+    "packageName": "@mittwald/flow-react-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.693Z"
+  },
+  {
+    "packageName": "@grafana/alerting",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.693Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-register-form",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.692Z"
+  },
+  {
+    "packageName": "@hardlydifficult/usage-tracker",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.692Z"
+  },
+  {
+    "packageName": "@autonav/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.691Z"
+  },
+  {
+    "packageName": "@mittwald/flow-remote-core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.690Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-favorites-section-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.690Z"
+  },
+  {
+    "packageName": "file-preview-element",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.689Z"
+  },
+  {
+    "packageName": "@hardlydifficult/throttle",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.688Z"
+  },
+  {
+    "packageName": "@mittwald/flow-design-tokens",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.688Z"
+  },
+  {
+    "packageName": "@mittwald/react-tunnel",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.687Z"
+  },
+  {
+    "packageName": "@mittwald/mstudio-ext-react-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.686Z"
+  },
+  {
+    "packageName": "@mittwald/ext-bridge",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.686Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-categories-slider-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.685Z"
+  },
+  {
+    "packageName": "@sap/artifact-management-mdkplugin-types",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:16.684Z"
+  },
+  {
+    "packageName": "dalila",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.503Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-calendar-daily-item",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.373Z"
+  },
+  {
+    "packageName": "@mtngtools/frame-vue",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.372Z"
+  },
+  {
+    "packageName": "fvn-ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.371Z"
+  },
+  {
+    "packageName": "tezhip",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.371Z"
+  },
+  {
+    "packageName": "@hardlydifficult/ai",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.370Z"
+  },
+  {
+    "packageName": "@formio/appserver-core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.369Z"
+  },
+  {
+    "packageName": "react-doctor",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.369Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-most-played-section",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.367Z"
+  },
+  {
+    "packageName": "ruzname",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.366Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-mystery-chests-list",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.366Z"
+  },
+  {
+    "packageName": "@hardlydifficult/pr-analyzer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.365Z"
+  },
+  {
+    "packageName": "@sap/artifact-management-mdkplugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.364Z"
+  },
+  {
+    "packageName": "@everymatrix/general-icon-progress-ring",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.364Z"
+  },
+  {
+    "packageName": "@hardlydifficult/chat",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.363Z"
+  },
+  {
+    "packageName": "beti",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.362Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-login-form",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.362Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-closure-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:27:05.360Z"
+  },
+  {
+    "packageName": "@awarevue/api-types",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.423Z"
+  },
+  {
+    "packageName": "@everymatrix/player-email-verification",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.423Z"
+  },
+  {
+    "packageName": "@sap/artifact-management-hanaplugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.422Z"
+  },
+  {
+    "packageName": "@hardlydifficult/state-tracker",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.422Z"
+  },
+  {
+    "packageName": "@jottit/jot",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.421Z"
+  },
+  {
+    "packageName": "@handsontable/vue3",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.420Z"
+  },
+  {
+    "packageName": "labgate",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.420Z"
+  },
+  {
+    "packageName": "@5minds/processcube_engine_client",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.419Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-categories-slider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.418Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-game-thumbnail-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.418Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-header-controller",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.417Z"
+  },
+  {
+    "packageName": "@5minds/processcube_engine_sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.417Z"
+  },
+  {
+    "packageName": "@owox/internal-helpers",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.416Z"
+  },
+  {
+    "packageName": "owox",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.415Z"
+  },
+  {
+    "packageName": "@owox/idp-owox-better-auth",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.414Z"
+  },
+  {
+    "packageName": "@sap/artifact-management-fioriplugin-types",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.414Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-promotions-slider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:54.413Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-iframe-redirect",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.485Z"
+  },
+  {
+    "packageName": "@owox/idp-better-auth",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.359Z"
+  },
+  {
+    "packageName": "@awarevue/agent-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.358Z"
+  },
+  {
+    "packageName": "@owox/idp-owox",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.358Z"
+  },
+  {
+    "packageName": "@handsontable/react-wrapper",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.357Z"
+  },
+  {
+    "packageName": "@promakeai/cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.357Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-footer-section",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.356Z"
+  },
+  {
+    "packageName": "@owox/idp-protocol",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.355Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-hamburger-menu",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.354Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-methods-list",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.354Z"
+  },
+  {
+    "packageName": "@sap/artifact-management-fioriplugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.353Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-promotions-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.353Z"
+  },
+  {
+    "packageName": "@markmad14/web-ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.352Z"
+  },
+  {
+    "packageName": "@handsontable/angular-wrapper",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:43.351Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-game-overlay",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.486Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-vault",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.485Z"
+  },
+  {
+    "packageName": "@vibe80/vibe80",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.485Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-categories",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.484Z"
+  },
+  {
+    "packageName": "@mondaydotcomorg/monday-api-queue-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.483Z"
+  },
+  {
+    "packageName": "@owox/connectors",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.482Z"
+  },
+  {
+    "packageName": "handsontable",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.482Z"
+  },
+  {
+    "packageName": "@everymatrix/player-bonus-card",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.481Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-game-page",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.480Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-error",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.480Z"
+  },
+  {
+    "packageName": "@everymatrix/general-logout",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.479Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-spinner",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:32.478Z"
+  },
+  {
+    "packageName": "capturelayer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:20.071Z"
+  },
+  {
+    "packageName": "@datarailsshared/dr_renderer",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:19.984Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-search",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:19.984Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-page",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:19.983Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-sort",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:19.983Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-lobby",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:19.982Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-verifications",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:19.981Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-lobby-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:09.118Z"
+  },
+  {
+    "packageName": "promptrr-mcp-server",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:08.991Z"
+  },
+  {
+    "packageName": "@fede.bebot/ui-library",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:08.991Z"
+  },
+  {
+    "packageName": "@contextvm/sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:08.990Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-header-controller-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:08.990Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-controller-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:08.989Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-forgot-password-form-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:08.988Z"
+  },
+  {
+    "packageName": "@umituz/react-native-video-editor",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:08.988Z"
+  },
+  {
+    "packageName": "start-vibing",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:08.987Z"
+  },
+  {
+    "packageName": "@alfresco/adf-insights",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:26:08.987Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-biometrics-action",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.106Z"
+  },
+  {
+    "packageName": "@everymatrix/general-animation-loading",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.105Z"
+  },
+  {
+    "packageName": "@alfresco/adf-process-services",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.104Z"
+  },
+  {
+    "packageName": "@everymatrix/player-consents",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.104Z"
+  },
+  {
+    "packageName": "@umituz/react-native-subscription",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.103Z"
+  },
+  {
+    "packageName": "@umituz/react-native-settings",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.103Z"
+  },
+  {
+    "packageName": "@alfresco/adf-process-services-cloud",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.102Z"
+  },
+  {
+    "packageName": "@alfresco/adf-cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.102Z"
+  },
+  {
+    "packageName": "@everymatrix/player-change-password-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.101Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-wrapper-2-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.100Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-hamburger-menu-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.100Z"
+  },
+  {
+    "packageName": "oxlint-config-awesomeness",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.099Z"
+  },
+  {
+    "packageName": "@alfresco/adf-content-services",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:58.098Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-tournaments-thumbnail-games",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.202Z"
+  },
+  {
+    "packageName": "codex-devtools",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.201Z"
+  },
+  {
+    "packageName": "@alfresco/js-api",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.201Z"
+  },
+  {
+    "packageName": "@everymatrix/general-player-forgot-password-sms-form",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.201Z"
+  },
+  {
+    "packageName": "@umituz/react-native-firebase",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.200Z"
+  },
+  {
+    "packageName": "og-players",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.199Z"
+  },
+  {
+    "packageName": "@alfresco/adf-core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.199Z"
+  },
+  {
+    "packageName": "@everymatrix/player-change-password",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.198Z"
+  },
+  {
+    "packageName": "@adminforth/two-factors-auth",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.198Z"
+  },
+  {
+    "packageName": "@alfresco/adf-extensions",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.197Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-balance-modal-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.196Z"
+  },
+  {
+    "packageName": "@deallony/shared",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.196Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-receipt-page",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.195Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-pagination",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.194Z"
+  },
+  {
+    "packageName": "@umituz/react-native-design-system",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:47.194Z"
+  },
+  {
+    "packageName": "@gisatcz/ptr-fe-core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.290Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-page",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.290Z"
+  },
+  {
+    "packageName": "@everymatrix/transaction-history-calendar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.289Z"
+  },
+  {
+    "packageName": "@greenberry/linting-config",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.289Z"
+  },
+  {
+    "packageName": "nexar-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.288Z"
+  },
+  {
+    "packageName": "@everymatrix/svg-image",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.288Z"
+  },
+  {
+    "packageName": "@meshmakers/octo-ui",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.287Z"
+  },
+  {
+    "packageName": "auto-imports",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.287Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-page-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.286Z"
+  },
+  {
+    "packageName": "@alfresco/eslint-plugin-eslint-angular",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.286Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-transaction-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.285Z"
+  },
+  {
+    "packageName": "@umituz/react-native-auth",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.285Z"
+  },
+  {
+    "packageName": "@newskit-render/create-render-app",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.284Z"
+  },
+  {
+    "packageName": "@everymatrix/cashier-header",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.284Z"
+  },
+  {
+    "packageName": "@newskit-render/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.283Z"
+  },
+  {
+    "packageName": "@umituz/react-native-ai-generation-content",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.283Z"
+  },
+  {
+    "packageName": "@thg-altitude/elements",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:36.282Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-winners",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.391Z"
+  },
+  {
+    "packageName": "@bouko/next",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.391Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-random-game",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.390Z"
+  },
+  {
+    "packageName": "@loxia/rijwegen",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.390Z"
+  },
+  {
+    "packageName": "@umituz/react-native-ai-gemini-provider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.390Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-jackpot-banner",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.389Z"
+  },
+  {
+    "packageName": "@newskit-render/my-account",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.389Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-games-category-section-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.388Z"
+  },
+  {
+    "packageName": "asciikit-mcp",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.388Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-collections-providers",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.387Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-my-games-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.387Z"
+  },
+  {
+    "packageName": "@livechat/store-metrics",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:25.386Z"
+  },
+  {
+    "packageName": "@umituz/react-native-ai-fal-provider",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.518Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-search-nd",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.378Z"
+  },
+  {
+    "packageName": "@taskcluster/client-web",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.378Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-calendar",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.377Z"
+  },
+  {
+    "packageName": "@everymatrix/casino-filter",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.377Z"
+  },
+  {
+    "packageName": "@yoavmayer/babysitter-observer-dashboard",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.376Z"
+  },
+  {
+    "packageName": "@swarmcloud/media",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.376Z"
+  },
+  {
+    "packageName": "@everymatrix/player-bonus-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.375Z"
+  },
+  {
+    "packageName": "@taskcluster/client",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.375Z"
+  },
+  {
+    "packageName": "@maxim_mazurok/gapi.client.playintegrity-v1",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.374Z"
+  },
+  {
+    "packageName": "@everymatrix/player-gaming-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.373Z"
+  },
+  {
+    "packageName": "@paperless/core",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.373Z"
+  },
+  {
+    "packageName": "impaktapps-jsonforms",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.372Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-biometrics",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.372Z"
+  },
+  {
+    "packageName": "@maxim_mazurok/gapi.client.playdeveloperreporting-v1beta1",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.371Z"
+  },
+  {
+    "packageName": "@amafil/react-native-pdf-toolkit",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.371Z"
+  },
+  {
+    "packageName": "@rnx-kit/types-plugin-typescript",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:14.370Z"
+  },
+  {
+    "packageName": "@rnx-kit/types-node",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.957Z"
+  },
+  {
+    "packageName": "@paperless/angular",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.956Z"
+  },
+  {
+    "packageName": "@paperless/conventions",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.866Z"
+  },
+  {
+    "packageName": "@paperless/react",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.773Z"
+  },
+  {
+    "packageName": "@rnx-kit/types-plugin-cyclic-dependencies",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.773Z"
+  },
+  {
+    "packageName": "@rnx-kit/types-plugin-duplicates-checker",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.772Z"
+  },
+  {
+    "packageName": "@everymatrix/player-pending-withdrawals",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.771Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-notifications",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.771Z"
+  },
+  {
+    "packageName": "@rnx-kit/tools-react-native",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.771Z"
+  },
+  {
+    "packageName": "@rnx-kit/types-metro-serializer-esbuild",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.770Z"
+  },
+  {
+    "packageName": "@rnx-kit/types-kit-config",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.770Z"
+  },
+  {
+    "packageName": "@maxim_mazurok/gapi.client.playdeveloperreporting-v1alpha1",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.769Z"
+  },
+  {
+    "packageName": "@rnx-kit/types-bundle-config",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.769Z"
+  },
+  {
+    "packageName": "@rnx-kit/tools-packages",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.768Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-betting-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.768Z"
+  },
+  {
+    "packageName": "@rnx-kit/tools-node",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.767Z"
+  },
+  {
+    "packageName": "@rnx-kit/cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.767Z"
+  },
+  {
+    "packageName": "@maxim_mazurok/gapi.client.playcustomapp-v1",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.766Z"
+  },
+  {
+    "packageName": "instatunnel",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.766Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits-wrapper-2",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.765Z"
+  },
+  {
+    "packageName": "@equinor/fusion-framework-cli",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.764Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-review-frequency",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.764Z"
+  },
+  {
+    "packageName": "@rnx-kit/align-deps",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.763Z"
+  },
+  {
+    "packageName": "@rnx-kit/metro-serializer-esbuild",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.763Z"
+  },
+  {
+    "packageName": "@rnx-kit/tools-typescript",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.762Z"
+  },
+  {
+    "packageName": "@maxim_mazurok/gapi.client.hypercomputecluster-v1",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.762Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-gaming-limits",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.761Z"
+  },
+  {
+    "packageName": "@rnx-kit/metro-plugin-typescript",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:25:01.761Z"
+  },
+  {
+    "packageName": "@rnx-kit/metro-plugin-duplicates-checker",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.839Z"
+  },
+  {
+    "packageName": "@rnx-kit/metro-plugin-cyclic-dependencies-detector",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.839Z"
+  },
+  {
+    "packageName": "@maxim_mazurok/gapi.client.fitness-v1",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.838Z"
+  },
+  {
+    "packageName": "@rnx-kit/config",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.838Z"
+  },
+  {
+    "packageName": "@rnx-kit/lint-lockfile",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.837Z"
+  },
+  {
+    "packageName": "@everymatrix/player-transaction-history",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.837Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-closure",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.837Z"
+  },
+  {
+    "packageName": "@rnx-kit/eslint-plugin",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.836Z"
+  },
+  {
+    "packageName": "@maxim_mazurok/gapi.client.androidpublisher-v3",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.836Z"
+  },
+  {
+    "packageName": "ahegao",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.835Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-timeout",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.834Z"
+  },
+  {
+    "packageName": "ca-components",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.834Z"
+  },
+  {
+    "packageName": "@everymatrix/player-active-bonuses",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.833Z"
+  },
+  {
+    "packageName": "@everymatrix/player-reality-check",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.833Z"
+  },
+  {
+    "packageName": "@fundly.ai/payment-sdk",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.832Z"
+  },
+  {
+    "packageName": "@tribetech-org/common",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:50.832Z"
+  },
+  {
+    "packageName": "procpipe",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:39.944Z"
+  },
+  {
+    "packageName": "@everymatrix/player-account-menu",
+    "version": "latest",
+    "timestamp": "2026-02-19T13:24:39.943Z"
+  }
+]
