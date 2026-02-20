@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@f5xc-salesdemos/api-mcp",
+    "version": "2.1.17-2602192245",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run generate:version",
+    "previousVersion": null,
+    "timestamp": "2026-02-20T02:45:15.711Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@lit-protocol/trade-manager",
     "version": "0.3.1",
     "scriptType": "postinstall",
