@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@synergenius/flow-weaver",
+    "version": "0.2.0",
+    "scriptType": "postbuild",
+    "scriptContent": "npx tsx scripts/postbuild.ts",
+    "previousVersion": null,
+    "timestamp": "2026-02-20T10:51:55.416Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@powpegtest/powpeg",
     "version": "10.2.0",
     "scriptType": "preinstall",
