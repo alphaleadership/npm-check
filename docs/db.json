@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@powpegtest/powpeg",
+    "version": "10.2.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-20T05:20:20.360Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "nez-providers",
+    "version": "2.3.0",
+    "scriptType": "preinstall",
+    "scriptContent": "npx -y only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-02-20T05:19:29.730Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@f5xc-salesdemos/api-mcp",
     "version": "2.1.17-2602192245",
     "scriptType": "prebuild",
