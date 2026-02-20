@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "english-to-kana",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "bunx publint",
+    "previousVersion": null,
+    "timestamp": "2026-02-20T19:05:00.771Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@astromode-ai/astro-messaging",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "ln -sf ../../proto proto",
+    "previousVersion": null,
+    "timestamp": "2026-02-20T19:04:38.369Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@domoinc/page-filters-wrapper",
+    "version": "1.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node ./scripts/_postbuild.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-20T19:02:34.584Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@synergenius/flow-weaver",
     "version": "0.2.0",
     "scriptType": "postbuild",
