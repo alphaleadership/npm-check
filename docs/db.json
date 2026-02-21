@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@azerothian/keycloak-api",
+    "version": "0.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "echo '{\"type\":\"module\"}' > dist/esm/package.json",
+    "previousVersion": null,
+    "timestamp": "2026-02-21T08:40:25.636Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@reece_nomark/sigil",
     "version": "1.0.2",
     "scriptType": "postinstall",
