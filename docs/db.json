@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "voicecc",
+    "version": "1.0.11",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"const fs=require('fs');try{fs.writeFileSync('/dev/tty','\\n========================================\\n            VOICECC INSTALLED\\n========================================\\n\\n  Run voicecc to start the dashboard.\\n\\n')}catch(e){}\"",
+    "previousVersion": "1.0.10",
+    "timestamp": "2026-02-21T20:34:37.050Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "@qurvo/sdk-node",
     "version": "0.0.6",
     "scriptType": "prebuild",
