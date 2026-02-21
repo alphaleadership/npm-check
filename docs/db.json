@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@qurvo/sdk-node",
+    "version": "0.0.6",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"const p=require('./package.json'); require('fs').writeFileSync('src/version.ts', 'export const SDK_VERSION = \\'' + p.version + '\\';\\n')\"",
+    "previousVersion": "0.0.5",
+    "timestamp": "2026-02-21T14:34:20.240Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@qurvo/sdk-browser",
+    "version": "0.0.6",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"const p=require('./package.json'); require('fs').writeFileSync('src/version.ts', 'export const SDK_VERSION = \\'' + p.version + '\\';\\n')\"",
+    "previousVersion": "0.0.5",
+    "timestamp": "2026-02-21T14:34:19.576Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "@bixai/create-agent-sdk-starter",
     "version": "1.1.2",
     "scriptType": "postbuild",
