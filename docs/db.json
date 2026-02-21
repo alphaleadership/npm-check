@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@reece_nomark/sigil",
+    "version": "1.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install-binary.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-21T05:09:41.014Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@jackjackstudios/ambiance-cli",
     "version": "0.3.0",
     "scriptType": "prebuild",
