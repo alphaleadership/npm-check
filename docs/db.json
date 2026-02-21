@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@jackjackstudios/ambiance-cli",
+    "version": "0.3.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run create-build-lock && npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-02-21T02:39:15.730Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@znemz/cfn-include",
+    "version": "4.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "4.3.2",
+    "timestamp": "2026-02-21T02:39:09.025Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "loops-cli",
+    "version": "0.1.4",
+    "scriptType": "postinstall",
+    "scriptContent": "echo '\n✓ loops-cli installed. Run: loops init <project-name>\n'",
+    "previousVersion": "0.1.3",
+    "timestamp": "2026-02-21T02:37:59.016Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "english-to-kana",
     "version": "0.1.0",
     "scriptType": "postbuild",
