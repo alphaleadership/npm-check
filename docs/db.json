@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@fcannizzaro/exocommand",
+    "version": "1.1.1",
+    "scriptType": "postbuild",
+    "scriptContent": "bun scripts/postbuild.ts",
+    "previousVersion": null,
+    "timestamp": "2026-02-22T20:38:12.165Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@playwright-manager/reporter",
+    "version": "0.5.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli.js",
+    "previousVersion": "0.4.0",
+    "timestamp": "2026-02-22T20:38:07.848Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@ansvar/brazil-law-mcp",
     "version": "1.0.3",
     "scriptType": "postinstall",
