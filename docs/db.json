@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@ansvar/brazil-law-mcp",
+    "version": "1.0.3",
+    "scriptType": "postinstall",
+    "scriptContent": "test -d dist || npm run build || true",
+    "previousVersion": null,
+    "timestamp": "2026-02-22T18:49:06.168Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ansvar/chinese-law-mcp",
+    "version": "1.1.2",
+    "scriptType": "postinstall",
+    "scriptContent": "test -d dist || npm run build || true",
+    "previousVersion": null,
+    "timestamp": "2026-02-22T18:49:05.381Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ansvar/ghana-law-mcp",
+    "version": "1.1.2",
+    "scriptType": "postinstall",
+    "scriptContent": "test -d dist || npm run build || true",
+    "previousVersion": null,
+    "timestamp": "2026-02-22T18:49:04.191Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ansvar/thailand-law-mcp",
+    "version": "1.1.2",
+    "scriptType": "postinstall",
+    "scriptContent": "test -d dist || npm run build || true",
+    "previousVersion": null,
+    "timestamp": "2026-02-22T18:49:02.924Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "tsgonest",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-22T18:48:16.345Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@fylgja/breadcrumbs",
     "version": "2.0.0",
     "scriptType": "prebuild",
