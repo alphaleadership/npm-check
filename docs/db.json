@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@fylgja/breadcrumbs",
+    "version": "2.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npx sass --no-source-map src:./",
+    "previousVersion": "1.1.1",
+    "timestamp": "2026-02-22T16:41:20.173Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ansvar/india-law-mcp",
+    "version": "1.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "test -d dist || npm run build || true",
+    "previousVersion": null,
+    "timestamp": "2026-02-22T16:40:59.304Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "stark-os",
     "version": "0.11.9",
     "scriptType": "postinstall",
