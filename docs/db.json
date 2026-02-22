@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "hopcoderx-ai",
+    "version": "1.0.44",
+    "scriptType": "postinstall",
+    "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-22T06:58:46.511Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@vibecodetown/mcp-server",
+    "version": "1.4.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/sync-third-party-notices.mjs && node scripts/clean-build.mjs",
+    "previousVersion": "1.3.1",
+    "timestamp": "2026-02-22T06:58:42.709Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "documentation-hub",
+    "version": "5.7.2",
+    "scriptType": "postinstall",
+    "scriptContent": "electron-builder install-app-deps",
+    "previousVersion": null,
+    "timestamp": "2026-02-22T06:58:40.412Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "voicecc",
     "version": "1.0.11",
     "scriptType": "postinstall",
