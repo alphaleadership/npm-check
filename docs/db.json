@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "grafana-bridge",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "npx playwright install chromium",
+    "previousVersion": null,
+    "timestamp": "2026-02-23T09:01:06.163Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "cmx-sdk",
+    "version": "0.2.15",
+    "scriptType": "postbuild",
+    "scriptContent": "rm -rf dist/styles && cp -r src/mdx/styles dist/styles",
+    "previousVersion": "0.2.14",
+    "timestamp": "2026-02-23T08:59:58.631Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
+    "packageName": "@priyashpatil/rift",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-23T08:59:34.408Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@builderius/ai-builder",
     "version": "1.0.3",
     "scriptType": "postinstall",
