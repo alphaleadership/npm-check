@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@harperfast/harper-pro",
+    "version": "5.0.0-alpha.2",
+    "scriptType": "prebuild",
+    "scriptContent": "date",
+    "previousVersion": null,
+    "timestamp": "2026-02-23T20:57:46.455Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@squidcloud/mail",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "del-cli dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-23T20:57:44.706Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@squidcloud/salesforce",
+    "version": "0.0.7",
+    "scriptType": "prebuild",
+    "scriptContent": "del-cli dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-23T20:57:43.549Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@ogment-ai/cli",
     "version": "0.3.2",
     "scriptType": "postinstall",
