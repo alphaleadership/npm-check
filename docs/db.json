@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@tableslayer/ui",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "svelte-kit sync && pnpm run package",
+    "previousVersion": null,
+    "timestamp": "2026-02-23T22:54:08.809Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "manifest",
+    "version": "5.6.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist public",
+    "previousVersion": "5.5.0",
+    "timestamp": "2026-02-23T22:52:50.185Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@dokploy/trpc-openapi",
+    "version": "3.1.0-beta.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node rename.js",
+    "previousVersion": "0.0.8",
+    "timestamp": "2026-02-23T22:52:45.960Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "resourcespace-mcp-server",
+    "version": "1.1.1",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": "1.1.0",
+    "timestamp": "2026-02-23T22:51:52.128Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@harperfast/harper-pro",
     "version": "5.0.0-alpha.2",
     "scriptType": "prebuild",
