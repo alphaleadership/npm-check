@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "prompsit-cli",
+    "version": "26.224.1816",
+    "scriptType": "preinstall",
+    "scriptContent": "node scripts/check-node-version.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-24T19:16:00.482Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "oh-my-enhanced-plus-plus",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-24T19:15:44.135Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "obsidian-git-livesync",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs'); ['dist/cli.js','dist/cli.cjs'].forEach(f=>{const c=fs.readFileSync(f,'utf8');if(!c.startsWith('#!'))fs.writeFileSync(f,'#!/usr/bin/env node\\n'+c);});\"",
+    "previousVersion": null,
+    "timestamp": "2026-02-24T19:12:56.674Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "notion-cli-go",
     "version": "0.2.0",
     "scriptType": "postinstall",
