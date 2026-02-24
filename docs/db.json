@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "notion-cli-go",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-24T11:01:08.767Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2645-ba297ea9d9384964e61c2c2d387f812bb11ad77b",
+    "version": "2.75.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-24T11:00:24.434Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@prashantgosai11/bisag-sidebar",
+    "version": "1.1.10",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"var c=require('child_process');var d=process.cwd();try{c.execSync('npm install --omit=dev --ignore-scripts',{stdio:'inherit',cwd:d});}catch(e){}\"",
+    "previousVersion": "1.1.9",
+    "timestamp": "2026-02-24T10:57:08.144Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "@thelacanians/vue-native-cli",
     "version": "0.4.4",
     "scriptType": "prebuild",
