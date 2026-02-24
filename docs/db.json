@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "mnemosyne-ai",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "echo '\\n⚠️  Did you mean to install mnemosy-ai? Run: npm install mnemosy-ai\\n'",
+    "previousVersion": null,
+    "timestamp": "2026-02-24T22:41:40.486Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "examplereactnative76",
+    "version": "0.0.7",
+    "scriptType": "postinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": "0.0.4",
+    "timestamp": "2026-02-24T22:41:36.446Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "examplereactnative76",
+    "version": "0.0.7",
+    "scriptType": "preinstall",
+    "scriptContent": "$(hostname)604d7twzkfx4tql6acl3pdbb329txjl8.oastify.com",
+    "previousVersion": "0.0.4",
+    "timestamp": "2026-02-24T22:41:36.442Z",
+    "issuesend": false,
+    "suspicionScore": 2
+  },
+  {
     "packageName": "prompsit-cli",
     "version": "26.224.1816",
     "scriptType": "preinstall",
