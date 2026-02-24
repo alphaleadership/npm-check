@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@thelacanians/vue-native-cli",
+    "version": "0.4.4",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf native && cp -r ../../native native",
+    "previousVersion": "0.4.3",
+    "timestamp": "2026-02-24T09:00:35.011Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
+    "packageName": "@mtkn/mega-agent",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run prisma:generate",
+    "previousVersion": null,
+    "timestamp": "2026-02-24T09:00:12.306Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "agent-browser-stealth",
     "version": "0.14.0",
     "scriptType": "postinstall",
