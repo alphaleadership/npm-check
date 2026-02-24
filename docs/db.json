@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@tihlde/sdk",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-02-24T02:49:38.724Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "sideseat",
+    "version": "1.0.11",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": "1.0.9",
+    "timestamp": "2026-02-24T02:48:30.202Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "vibesql-mail-mcp",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-24T02:48:28.180Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@tableslayer/ui",
     "version": "0.0.1",
     "scriptType": "postinstall",
