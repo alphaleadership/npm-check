@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "agent-browser-stealth",
+    "version": "0.14.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-24T07:14:12.634Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "unified-markdown",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.3.0",
+    "timestamp": "2026-02-24T07:11:13.437Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@tihlde/sdk",
     "version": "0.0.1",
     "scriptType": "postinstall",
