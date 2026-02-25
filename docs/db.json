@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "a3stack",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/cli.js bin/a3stack.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-25T02:50:03.868Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "mnemosyne-ai",
     "version": "1.0.0",
     "scriptType": "postinstall",
