@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "nyttt-baileys",
+    "version": "1.0.1",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-25T15:01:41.822Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@polymorphism-tech/morph-spec",
+    "version": "4.8.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node src/scripts/global-install.js",
+    "previousVersion": "4.7.2",
+    "timestamp": "2026-02-25T14:58:31.095Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@xuxu7777xu/aimcp",
     "version": "0.1.0",
     "scriptType": "postinstall",
