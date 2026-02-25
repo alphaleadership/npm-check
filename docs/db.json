@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@baerae-zkap/design-system",
+    "version": "0.1.21",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": "0.1.20",
+    "timestamp": "2026-02-25T07:13:07.658Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@waits/lively-cli",
+    "version": "0.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-25T07:11:42.681Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "symlx",
+    "version": "0.1.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/postinstall.js",
+    "previousVersion": "0.1.3",
+    "timestamp": "2026-02-25T07:11:28.831Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "symlx",
+    "version": "0.1.4",
+    "scriptType": "preinstall",
+    "scriptContent": "node dist/preinstall.js",
+    "previousVersion": "0.1.3",
+    "timestamp": "2026-02-25T07:11:28.826Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "a3stack",
     "version": "0.1.0",
     "scriptType": "postbuild",
