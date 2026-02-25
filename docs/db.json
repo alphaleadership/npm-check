@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@bobby_z/phspec",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-25T09:00:28.003Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mmmbuto/gemini-cli-termux",
+    "version": "0.30.5-termux",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.cjs || true",
+    "previousVersion": "0.30.4-termux",
+    "timestamp": "2026-02-25T09:00:26.067Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@baerae-zkap/design-system",
     "version": "0.1.21",
     "scriptType": "postinstall",
