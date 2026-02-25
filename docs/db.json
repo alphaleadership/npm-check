@@ -1,5 +1,135 @@
 [
   {
+    "packageName": "@iobroker/ws",
+    "version": "3.0.5",
+    "scriptType": "postbuild",
+    "scriptContent": "esm2cjs --in build/esm --out build/cjs -l error",
+    "previousVersion": "3.0.4",
+    "timestamp": "2026-02-25T17:17:32.614Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-auto-complete-component",
+    "version": "2.5.0",
+    "scriptType": "postbuild",
+    "scriptContent": "mkdir build && cp -r dist loader package.json build/",
+    "previousVersion": "2.4.1",
+    "timestamp": "2026-02-25T17:14:39.973Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-auto-complete-component",
+    "version": "2.5.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf build dist loader",
+    "previousVersion": "2.4.1",
+    "timestamp": "2026-02-25T17:14:39.970Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-breadcrumb",
+    "version": "2.3.0",
+    "scriptType": "postbuild",
+    "scriptContent": "mkdir build && cp -r dist loader package.json build/",
+    "previousVersion": "2.2.0",
+    "timestamp": "2026-02-25T17:14:39.075Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-breadcrumb",
+    "version": "2.3.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf build dist loader",
+    "previousVersion": "2.2.0",
+    "timestamp": "2026-02-25T17:14:39.072Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-copy",
+    "version": "2.3.0",
+    "scriptType": "postbuild",
+    "scriptContent": "mkdir build && cp -r dist loader package.json build/",
+    "previousVersion": "2.2.0",
+    "timestamp": "2026-02-25T17:14:37.945Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-copy",
+    "version": "2.3.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf build dist loader",
+    "previousVersion": "2.2.0",
+    "timestamp": "2026-02-25T17:14:37.942Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-modal",
+    "version": "2.3.0",
+    "scriptType": "postbuild",
+    "scriptContent": "mkdir build && cp -r dist loader package.json build/",
+    "previousVersion": "2.2.0",
+    "timestamp": "2026-02-25T17:14:35.866Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-modal",
+    "version": "2.3.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf build dist loader",
+    "previousVersion": "2.2.0",
+    "timestamp": "2026-02-25T17:14:35.863Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-privacy",
+    "version": "1.4.0",
+    "scriptType": "postbuild",
+    "scriptContent": "mkdir build && cp -r dist loader package.json build/",
+    "previousVersion": "1.3.2",
+    "timestamp": "2026-02-25T17:14:34.429Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-privacy",
+    "version": "1.4.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf build dist loader",
+    "previousVersion": "1.3.2",
+    "timestamp": "2026-02-25T17:14:34.426Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-radio",
+    "version": "2.3.0",
+    "scriptType": "postbuild",
+    "scriptContent": "mkdir build && cp -r dist loader package.json build/",
+    "previousVersion": "2.2.0",
+    "timestamp": "2026-02-25T17:14:33.028Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wizsolucoes/wiz-radio",
+    "version": "2.3.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf build dist loader",
+    "previousVersion": "2.2.0",
+    "timestamp": "2026-02-25T17:14:33.024Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "nyttt-baileys",
     "version": "1.0.1",
     "scriptType": "preinstall",
