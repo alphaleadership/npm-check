@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@exem-ui/react",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm generate",
+    "previousVersion": null,
+    "timestamp": "2026-02-26T17:10:12.000Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "macos-wechat-cli",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-26T17:07:53.864Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "aether-colony",
+    "version": "5.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "bash bin/validate-package.sh 2>/dev/null || true",
+    "previousVersion": "3.1.17",
+    "timestamp": "2026-02-26T17:07:48.972Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@obinexusmk2/nexus-search",
+    "version": "0.4.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/verify-build.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-26T17:07:19.709Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@obinexusmk2/nexus-search",
+    "version": "0.4.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-02-26T17:07:19.705Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@rolldown/wasi",
     "version": "1.0.0-beta.7-commit.faf9dd3",
     "scriptType": "preinstall",
