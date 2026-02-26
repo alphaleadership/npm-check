@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2617-1ba153bb857847a38da387fc56bf5e0ffca7b31d",
+    "version": "2.75.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-26T10:59:35.250Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@t0ken.ai/memoryx-openclaw-plugin",
+    "version": "2.2.18",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/update-version.cjs",
+    "previousVersion": "2.2.17",
+    "timestamp": "2026-02-26T10:56:51.132Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "storybook-addon-designbook",
     "version": "0.0.1",
     "scriptType": "prebuild",
