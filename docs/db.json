@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "storybook-addon-designbook",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-02-26T08:59:04.291Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "supun-baileyz",
+    "version": "1.0.1",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-26T08:58:40.198Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2625-81776ab18fcdd74bc429b243988a0e57a676a1ae",
+    "version": "2.75.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-26T08:58:30.352Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "xingshu-coder",
+    "version": "0.14.0-0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/unpack-tools.cjs",
+    "previousVersion": "0.11.5",
+    "timestamp": "2026-02-26T08:58:29.230Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "reddit-lurker",
     "version": "1.0.0",
     "scriptType": "postinstall",
