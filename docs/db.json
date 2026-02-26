@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "xn-fe-tools",
+    "version": "1.4.1",
+    "scriptType": "postinstall",
+    "scriptContent": "simple-git-hooks",
+    "previousVersion": "1.4.0",
+    "timestamp": "2026-02-26T02:44:32.863Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@wireio/protoc-gen-solana",
     "version": "1.0.3",
     "scriptType": "postinstall",
