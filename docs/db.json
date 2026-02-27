@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@antseed/provider-openai",
+    "version": "0.1.4",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-27T10:51:23.998Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@kinde-oss/kinde-typescript-sdk",
+    "version": "2.14.0-8",
+    "scriptType": "prebuild",
+    "scriptContent": "node sdk-version.js && rimraf dist dist-cjs",
+    "previousVersion": "2.14.0-0",
+    "timestamp": "2026-02-27T10:51:13.945Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "hypertube-binaries",
+    "version": "0.0.2",
+    "scriptType": "prebuild",
+    "scriptContent": "node-gyp rebuild",
+    "previousVersion": null,
+    "timestamp": "2026-02-27T10:50:11.296Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "hypertube-binaries",
+    "version": "0.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-27T10:50:11.292Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "ae-cvss-calculator",
     "version": "1.0.11",
     "scriptType": "postbuild",
