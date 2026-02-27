@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2623-a023a77c5fcbb7ab82d62d19c2127e91441e30b6",
+    "version": "2.75.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-27T05:19:16.748Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@posthog/wizard",
     "version": "1.35.2",
     "scriptType": "prebuild",
