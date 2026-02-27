@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@posthog/wizard",
+    "version": "1.35.2",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm clean && node scripts/generate-version.js",
+    "previousVersion": "1.35.1",
+    "timestamp": "2026-02-27T02:44:09.957Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "coa-service-sdk",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs'); const f='dist/bin/coa-deploy.js'; const c=fs.readFileSync(f,'utf8'); if(!c.startsWith('#!')) fs.writeFileSync(f,'#!/usr/bin/env node\\n'+c);\"",
+    "previousVersion": null,
+    "timestamp": "2026-02-27T02:43:21.672Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "@8btc/trace-log",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-27T02:43:10.523Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "yuji-baileys",
     "version": "4.0.1",
     "scriptType": "preinstall",
