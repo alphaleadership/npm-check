@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@ackagent/web-sdk",
+    "version": "0.0.7",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm generate:types",
+    "previousVersion": null,
+    "timestamp": "2026-02-27T07:05:02.245Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@rookiestar/eng-lang-tutor",
+    "version": "1.2.7",
+    "scriptType": "postinstall",
+    "scriptContent": "echo '\\n✅ eng-lang-tutor installed successfully!\\n\\n📋 Next step: Install Python dependencies\\n   eng-lang-tutor-setup --venv\\n\\n💡 This creates a virtual environment at ~/.venvs/eng-lang-tutor\\n'",
+    "previousVersion": "1.2.6",
+    "timestamp": "2026-02-27T07:04:20.092Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "next-server-theme",
+    "version": "1.5.4",
+    "scriptType": "postinstall",
+    "scriptContent": "$npm_execpath run ./dist/cli/index.js || echo",
+    "previousVersion": "1.5.3",
+    "timestamp": "2026-02-27T07:04:17.731Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2623-a023a77c5fcbb7ab82d62d19c2127e91441e30b6",
     "version": "2.75.0",
     "scriptType": "postbuild",
