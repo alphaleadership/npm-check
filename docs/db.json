@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "stickers-formatter",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-27T16:54:42.867Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "claude-code-workflow",
+    "version": "7.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs');['ccw/bin/ccw.js','ccw/bin/ccw-mcp.js'].forEach(f=>{try{fs.chmodSync(f,0o755)}catch{}})\"",
+    "previousVersion": "6.3.54",
+    "timestamp": "2026-02-27T16:54:03.282Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "claude-code-workflow",
+    "version": "7.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "(npm rebuild better-sqlite3 || echo [CCW] better-sqlite3 rebuild skipped) && (npm rebuild node-pty || echo [CCW] node-pty rebuild skipped)",
+    "previousVersion": "6.3.54",
+    "timestamp": "2026-02-27T16:54:03.278Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@antseed/provider-openai",
     "version": "0.1.4",
     "scriptType": "prebuild",
