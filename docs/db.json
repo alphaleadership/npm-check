@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@ajperezbau/vue-msw-devtools",
+    "version": "0.1.0",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-02-28T22:32:03.397Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@generacy-ai/agency",
+    "version": "0.0.0-preview-20260228204303",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm generate:schemas",
+    "previousVersion": null,
+    "timestamp": "2026-02-28T22:31:39.035Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "surabails",
     "version": "1.6.0",
     "scriptType": "preinstall",
