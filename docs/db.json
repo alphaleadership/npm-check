@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2647-c2fae522c31ece8cca24a16ac74b0dc18258f177",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-02-28T08:39:41.329Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@supejs/supe",
     "version": "1.0.2",
     "scriptType": "postinstall",
