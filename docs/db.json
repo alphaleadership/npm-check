@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@dmsdc-ai/aigentry-brain",
+    "version": "0.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/aigentry-brain-setup.mjs || true",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-02-28T04:59:10.014Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@juicyllama/repo",
     "version": "0.5.4",
     "scriptType": "postinstall",
