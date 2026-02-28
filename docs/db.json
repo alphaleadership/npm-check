@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "sky-enet",
+    "version": "0.1.5",
+    "scriptType": "prebuild",
+    "scriptContent": "prebuildify --napi --strip --target 18.0.0 --target 20.0.0 --target 22.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-02-28T13:02:25.433Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "sky-enet",
+    "version": "0.1.5",
+    "scriptType": "postinstall",
+    "scriptContent": "node-gyp-build",
+    "previousVersion": null,
+    "timestamp": "2026-02-28T13:02:25.429Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mkrz/cocon",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist && mkdir -p dist",
+    "previousVersion": null,
+    "timestamp": "2026-02-28T13:01:53.979Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "autoui-mcp",
     "version": "0.1.0",
     "scriptType": "postinstall",
