@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@supejs/supe",
+    "version": "1.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "sh -c 'chmod +x bin/* || true'",
+    "previousVersion": "1.0.1",
+    "timestamp": "2026-02-28T06:51:24.725Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@jlongo78/agent-spaces",
+    "version": "0.3.12",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.js",
+    "previousVersion": "0.3.6",
+    "timestamp": "2026-02-28T06:51:22.487Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "another-discord-vision",
+    "version": "2.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "2.0.0",
+    "timestamp": "2026-02-28T06:51:13.443Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@dmsdc-ai/aigentry-brain",
     "version": "0.0.2",
     "scriptType": "postinstall",
