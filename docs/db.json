@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "autoui-mcp",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./bin/install.js",
+    "previousVersion": null,
+    "timestamp": "2026-02-28T10:33:00.448Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2647-c2fae522c31ece8cca24a16ac74b0dc18258f177",
     "version": "2.75.1",
     "scriptType": "postbuild",
