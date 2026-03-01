@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "naughty-package",
+    "version": "1.0.2",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-01T06:57:13.232Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@restforge357/restforge",
     "version": "1.13.4",
     "scriptType": "preinstall",
