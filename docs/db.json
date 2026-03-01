@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@opta/opta-cli",
+    "version": "0.5.0-alpha.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node --eval \"const s=require('fs').statSync('dist/index.js');if(s.size===0){console.error('FATAL: dist/index.js is empty — tsup --clean was interrupted');process.exit(1)}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-01T13:04:59.432Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@ernham/brain-cli",
     "version": "1.0.0",
     "scriptType": "postinstall",
