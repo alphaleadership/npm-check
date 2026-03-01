@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@restforge357/restforge",
+    "version": "1.13.4",
+    "scriptType": "preinstall",
+    "scriptContent": "node scripts/check-install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-01T05:20:24.517Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "dct-dula-baileys",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-01T05:20:07.255Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@kilospark/nairo",
+    "version": "0.0.9",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./dist/postinstall.js",
+    "previousVersion": "0.0.8",
+    "timestamp": "2026-03-01T05:19:57.564Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@apple-pie/slice",
     "version": "0.0.0",
     "scriptType": "prebuild",
