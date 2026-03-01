@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@apple-pie/slice",
+    "version": "0.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-01T03:17:05.708Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@proletariat/cli",
+    "version": "0.3.47",
+    "scriptType": "postinstall",
+    "scriptContent": "npm rebuild better-sqlite3 && node ./bin/validate-better-sqlite3.cjs",
+    "previousVersion": "0.3.46",
+    "timestamp": "2026-03-01T03:16:38.517Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@ajperezbau/vue-msw-devtools",
     "version": "0.1.0",
     "scriptType": "preinstall",
