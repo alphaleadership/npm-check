@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "knowfun-cli",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "chmod +x ./scripts/knowfun-cli.sh",
+    "previousVersion": null,
+    "timestamp": "2026-03-01T18:45:00.892Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "gspeak",
     "version": "0.0.3",
     "scriptType": "prebuild",
