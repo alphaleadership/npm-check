@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@agent-relay/dashboard",
+    "version": "2.0.84",
+    "scriptType": "postbuild",
+    "scriptContent": "rm -rf ../dashboard-server/out && cp -r out ../dashboard-server/out",
+    "previousVersion": "2.0.83-beta.0",
+    "timestamp": "2026-03-02T07:08:53.055Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
     "packageName": "pjctx",
     "version": "0.1.0",
     "scriptType": "postinstall",
