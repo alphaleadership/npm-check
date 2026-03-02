@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "bullmq-publish-lambda",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "../../node_modules/.bin/del build",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T22:38:27.627Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bubblav/ai-chatbot-angular",
+    "version": "1.0.5",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"const fs=require('fs'); const pkg=require('./package.json'); delete pkg.exports; fs.writeFileSync('./package.json', JSON.stringify(pkg, null, 2));\"",
+    "previousVersion": "1.0.4",
+    "timestamp": "2026-03-02T22:37:03.853Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "squidclaw",
+    "version": "0.5.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node lib/postinstall.js",
+    "previousVersion": "0.4.4",
+    "timestamp": "2026-03-02T22:35:51.485Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "effortless-aws-cli",
     "version": "0.1.0",
     "scriptType": "prebuild",
