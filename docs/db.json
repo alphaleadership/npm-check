@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "proofshot",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"try { require('child_process').execSync('agent-browser install', { stdio: 'inherit' }) } catch(e) { console.log('Note: Run agent-browser install to set up Chromium') }\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T10:57:17.641Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@soberis/gkd-subscription",
+    "version": "0.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "simple-git-hooks",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T10:55:51.702Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@akashic/server-engine-data-types",
     "version": "6.0.100",
     "scriptType": "prebuild",
