@@ -1,5 +1,85 @@
 [
   {
+    "packageName": "@disciple.tools/web-components",
+    "version": "0.8.10",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run skills",
+    "previousVersion": "0.8.9",
+    "timestamp": "2026-03-02T14:33:04.766Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bsolute/imask",
+    "version": "7.7.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run lint -- --quiet && rimraf --glob \"{dist,esm}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T14:32:04.663Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bsolute/imask-react",
+    "version": "7.7.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run lint -- --quiet && rimraf --glob \"{dist,esm}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T14:32:03.262Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bsolute/imask-solid",
+    "version": "7.7.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run lint -- --quiet && rimraf --glob \"{dist,esm}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T14:32:00.943Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bsolute/imask-svelte",
+    "version": "7.7.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run lint -- --quiet && rimraf --glob \"{dist,esm}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T14:31:59.914Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bsolute/imask-vue",
+    "version": "7.7.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run lint -- --quiet && rimraf --glob \"{dist,esm}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T14:31:58.989Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bsolute/imask-react-native",
+    "version": "7.7.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run lint -- --quiet && rimraf --glob \"{dist,esm}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T14:31:57.819Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "andale",
+    "version": "0.6.0",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm clean",
+    "previousVersion": "0.5.11",
+    "timestamp": "2026-03-02T14:31:34.744Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@nativescript-community/ui-persistent-bottomsheet",
     "version": "1.0.0",
     "scriptType": "postinstall",
