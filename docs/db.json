@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@akashic/server-engine-data-types",
+    "version": "6.0.100",
+    "scriptType": "prebuild",
+    "scriptContent": "run-s clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T08:58:03.290Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@akashic/cast-util",
+    "version": "1.0.97",
+    "scriptType": "prebuild",
+    "scriptContent": "run-s clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T08:58:01.955Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "witty-diagnosis-agent",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T08:56:37.177Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2659-ff7c71cb1aab79a5ed3cbdf50a995c0d77c19d2c",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-02T08:56:03.301Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@agent-relay/dashboard",
     "version": "2.0.84",
     "scriptType": "postbuild",
