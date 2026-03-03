@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@iflow-mcp/edicarloslds-businessmap-mcp",
+    "version": "2.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T07:02:49.534Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "ai-agent-session-center",
     "version": "2.4.0",
     "scriptType": "postinstall",
