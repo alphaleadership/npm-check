@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@imtf/react-double-scrollbar",
+    "version": "0.0.15",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T02:49:30.533Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@imtf/react-components",
+    "version": "0.8.0",
+    "scriptType": "prebuild",
+    "scriptContent": "yarn install && yarn run clearGeneratedFiles",
+    "previousVersion": "0.7.4",
+    "timestamp": "2026-03-03T02:49:17.353Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "bullmq-publish-lambda",
     "version": "0.1.0",
     "scriptType": "prebuild",
