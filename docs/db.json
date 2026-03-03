@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "gigabot",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"import('./bin/postinstall.js').catch(()=>{})\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T10:53:52.808Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "@instinctx_dev/neuro-skill-obsidian",
     "version": "1.0.0",
     "scriptType": "postinstall",
