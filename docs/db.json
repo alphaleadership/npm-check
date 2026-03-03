@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "ai-agent-session-center",
+    "version": "2.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.js && (electron-rebuild -f -w better-sqlite3,node-pty || true)",
+    "previousVersion": "2.3.5",
+    "timestamp": "2026-03-03T05:19:24.878Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "kaali-dev",
+    "version": "0.1.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.mjs",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-03-03T05:19:14.137Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@iflow-mcp/orangebread-speclinter-mcp",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T05:18:47.635Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2662-9d947f791abac7f5db6f7c809a252b18e93bfce9",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T05:17:37.410Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@imtf/react-double-scrollbar",
     "version": "0.0.15",
     "scriptType": "prebuild",
