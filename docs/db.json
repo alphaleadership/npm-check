@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "helius-mcp",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node -p \"'export const version = \\'' + require('./package.json').version + '\\';'\" > src/version.ts",
+    "previousVersion": "0.5.3",
+    "timestamp": "2026-03-03T22:38:01.674Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@randan/tg-logger",
     "version": "1.0.4",
     "scriptType": "prebuild",
