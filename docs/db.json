@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@randan/tg-logger",
+    "version": "1.0.4",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist tsconfig.build.tsbuildinfo",
+    "previousVersion": "1.0.3",
+    "timestamp": "2026-03-03T19:03:47.470Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@ketryx/cli",
     "version": "0.1.0-alpha.1",
     "scriptType": "postinstall",
