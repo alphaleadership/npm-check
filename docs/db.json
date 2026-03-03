@@ -1,5 +1,65 @@
 [
   {
+    "packageName": "@ketryx/cli",
+    "version": "0.1.0-alpha.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T14:57:22.933Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "jbrowse-plugin-protein3d",
+    "version": "0.2.0",
+    "scriptType": "prebuild",
+    "scriptContent": "yarn clean && yarn fetch-molstar-css",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-03-03T14:57:06.895Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "fusion-internal-common-drzak",
+    "version": "99.9.9",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T14:55:42.788Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "tradepmr-api-utils-drzak",
+    "version": "99.9.9",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T14:54:21.871Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "tradepmr-fusion-core-drzak",
+    "version": "99.9.9",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T14:54:19.815Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@concom/cli",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T14:54:07.910Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "gigabot",
     "version": "1.0.0",
     "scriptType": "postinstall",
