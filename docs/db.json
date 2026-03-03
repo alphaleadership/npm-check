@@ -1,5 +1,105 @@
 [
   {
+    "packageName": "@instinctx_dev/neuro-skill-obsidian",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T08:54:52.307Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@instinctx_dev/neuro-skill-onenote",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T08:54:51.470Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@instinctx_dev/neuro-skill-openai-image-gen",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T08:54:50.742Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@instinctx_dev/neuro-skill-openai-whisper",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T08:54:49.566Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@instinctx_dev/neuro-skill-openai-whisper-api",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T08:54:48.752Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@instinctx_dev/neuro-skill-openhue",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T08:54:47.422Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@instinctx_dev/neuro-skill-oracle",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T08:54:45.643Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2625-6e375c19833a05ef8b6d2bad2125d507bf3b8d81",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-03T08:54:27.865Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@huray/eslint-config-next",
+    "version": "0.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-03T08:54:03.728Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@huray/eslint-config-react",
+    "version": "0.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-03T08:54:00.586Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@iflow-mcp/edicarloslds-businessmap-mcp",
     "version": "2.1.0",
     "scriptType": "postbuild",
