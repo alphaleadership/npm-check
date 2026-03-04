@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "luxy-quran",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T05:11:51.176Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "helius-mcp",
     "version": "1.0.0",
     "scriptType": "prebuild",
