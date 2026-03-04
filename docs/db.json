@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "react-pinmark",
+    "version": "0.1.2",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/cjs/index.css dist/index.css && cp dist/cjs/index.css.map dist/index.css.map && node -e \"const f='dist/esm/components/CommentOverlay.js';require('fs').writeFileSync(f,require('fs').readFileSync(f,'utf8').replace(/^import.*\\.css.*\\n/m,''))\"",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-03-04T06:59:50.455Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@settinghead/voiceforge",
+    "version": "0.3.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node src/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T06:59:45.996Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "luxy-quran",
     "version": "1.0.0",
     "scriptType": "postinstall",
