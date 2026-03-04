@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@wgu-edu/wgu-icons",
+    "version": "31.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T20:44:00.788Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@basecamp-cms/basecamp-cms-types",
+    "version": "1.0.5",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"require('fs').rmSync('./payload-types.ts', {force: true})\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T20:39:53.739Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@basecamp-cms/basecamp-cms-types",
+    "version": "1.0.5",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"require('fs').cpSync('../../src/payload-types-export.ts', './payload-types.ts')\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T20:39:53.735Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "@get-wrecked/overlay",
     "version": "1.0.22",
     "scriptType": "preinstall",
