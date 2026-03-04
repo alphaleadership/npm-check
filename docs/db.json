@@ -1,5 +1,115 @@
 [
   {
+    "packageName": "blackbeards-navigator",
+    "version": "9999.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:42:44.879Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "blackbeards-navigator",
+    "version": "9999.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:42:44.875Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "sirens-lament",
+    "version": "9999.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:42:39.212Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "sirens-lament",
+    "version": "9999.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:42:39.208Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "gunpowder-ghost",
+    "version": "9999.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:42:34.819Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "gunpowder-ghost",
+    "version": "9999.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:42:34.815Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "jest-expect-jsonschema",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist/",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:40:05.845Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
+    "packageName": "siren-lament",
+    "version": "9999.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:39:44.935Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "siren-lament",
+    "version": "9999.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:39:44.930Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "blackbeard-navigator",
+    "version": "9999.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:39:39.650Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "blackbeard-navigator",
+    "version": "9999.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node postinstall.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T22:39:39.646Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@wgu-edu/wgu-icons",
     "version": "31.0.0",
     "scriptType": "preinstall",
