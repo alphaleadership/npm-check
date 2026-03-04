@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@get-wrecked/overlay",
+    "version": "1.0.22",
+    "scriptType": "preinstall",
+    "scriptContent": "node build.js && exit 0",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T16:59:33.899Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@privateid/ultrapass-web-sdk",
+    "version": "1.7.0",
+    "scriptType": "postbuild",
+    "scriptContent": "npm run generate-wasm-manifest",
+    "previousVersion": "1.6.1",
+    "timestamp": "2026-03-04T16:59:33.052Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2625-b8319f970467100365bc2345870eedab23062393",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T16:59:29.719Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@herowcode/utils",
+    "version": "1.4.8",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/sync-exports.cjs",
+    "previousVersion": "1.3.5",
+    "timestamp": "2026-03-04T16:59:21.319Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@capivv/cli",
     "version": "0.1.3",
     "scriptType": "postinstall",
