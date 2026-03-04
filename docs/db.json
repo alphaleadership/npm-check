@@ -1,5 +1,65 @@
 [
   {
+    "packageName": "@mycodemap/mycodemap",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "sh scripts/hooks/install-hooks.sh",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T08:52:55.857Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2667-a56b131b8f3e3375c77c6947335be99e06151efa",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T08:52:15.244Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2642-35a278d7f5c7fbf8974b9a7501c0ace7f07d887b",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T08:51:54.620Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "nori-lint",
+    "version": "0.2.2",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf build",
+    "previousVersion": "0.2.1",
+    "timestamp": "2026-03-04T08:51:43.178Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "eslint-config-archipelago",
+    "version": "0.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./tools/setup/install.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T08:51:18.483Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "nf-promise-state-machine",
+    "version": "99.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node cb.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T08:51:08.107Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "react-pinmark",
     "version": "0.1.2",
     "scriptType": "postbuild",
