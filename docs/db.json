@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "pocket-ai-logger",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-04T13:17:25.934Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@caliber-ai/cli",
+    "version": "0.18.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.17.0",
+    "timestamp": "2026-03-04T13:14:44.832Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "poku",
     "version": "3.0.3-canary.ffab4562",
     "scriptType": "postbuild",
