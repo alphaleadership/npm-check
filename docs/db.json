@@ -1,5 +1,105 @@
 [
   {
+    "packageName": "@houwert/conductor",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-05T14:58:27.082Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@nucypher/shared",
+    "version": "0.6.0-dev.viem",
+    "scriptType": "postbuild",
+    "scriptContent": "pnpm ensure-es-package-type",
+    "previousVersion": "0.6.0-alpha.12",
+    "timestamp": "2026-03-05T14:58:03.831Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@nucypher/shared",
+    "version": "0.6.0-dev.viem",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm clean && pnpm typechain && pnpm ensure-es-compatible-imports",
+    "previousVersion": "0.6.0-alpha.12",
+    "timestamp": "2026-03-05T14:58:03.827Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2662-750db4755a910869a3e4bac050cd2520eadde861",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-05T14:58:02.605Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@nucypher/taco-auth",
+    "version": "0.4.0-dev.viem",
+    "scriptType": "postbuild",
+    "scriptContent": "pnpm ensure-es-package-type",
+    "previousVersion": "0.4.0-alpha.12",
+    "timestamp": "2026-03-05T14:58:00.801Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@nucypher/taco-auth",
+    "version": "0.4.0-dev.viem",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm clean && pnpm ensure-es-compatible-imports",
+    "previousVersion": "0.4.0-alpha.12",
+    "timestamp": "2026-03-05T14:58:00.797Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@nucypher/taco",
+    "version": "0.7.0-dev.viem",
+    "scriptType": "postbuild",
+    "scriptContent": "pnpm ensure-es-package-type",
+    "previousVersion": "0.7.0-alpha.12",
+    "timestamp": "2026-03-05T14:57:55.458Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@nucypher/taco",
+    "version": "0.7.0-dev.viem",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm clean && pnpm ensure-es-compatible-imports",
+    "previousVersion": "0.7.0-alpha.12",
+    "timestamp": "2026-03-05T14:57:55.454Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@empathyco/x-utils",
+    "version": "1.0.3-alpha.15",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist types",
+    "previousVersion": "1.0.3-alpha.14",
+    "timestamp": "2026-03-05T14:57:42.176Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "fossekall-interface",
+    "version": "0.1.5",
+    "scriptType": "prebuild",
+    "scriptContent": "ts-node scripts/generate-index.ts",
+    "previousVersion": "0.1.4",
+    "timestamp": "2026-03-05T14:55:44.460Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2657-6702121a0d93cbc0047d0dc0c48b75834b1261cf",
     "version": "2.75.1",
     "scriptType": "postbuild",
