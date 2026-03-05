@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@neuroverseos/governance",
+    "version": "0.1.2",
+    "scriptType": "prebuild",
+    "scriptContent": "mkdir -p dist/worlds",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-03-05T20:50:12.681Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@houwert/conductor",
     "version": "0.1.0",
     "scriptType": "postinstall",
