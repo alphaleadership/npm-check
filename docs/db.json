@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@splashcodex/api-key-manager",
+    "version": "5.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('\\n\\x1b[32m🌟 Successfully installed @splashcodex/api-key-manager v5.0!\\x1b[0m\\n\\x1b[36m📚 Documentation: https://www.npmjs.com/package/@splashcodex/ApiKeyManager\\x1b[0m\\n\\x1b[33m🚀 Quick Start:\\x1b[0m\\n   import { GeminiManager } from \\'@splashcodex/api-key-manager/presets/gemini\\';\\n   const gemini = GeminiManager.getInstance().data;\\n')\"",
+    "previousVersion": "5.0.0",
+    "timestamp": "2026-03-05T02:44:42.781Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@glitch_package/glitch",
+    "version": "0.4.0",
+    "scriptType": "postbuild",
+    "scriptContent": "npm run build:content-script",
+    "previousVersion": null,
+    "timestamp": "2026-03-05T02:43:42.146Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@glitch_package/glitch",
+    "version": "0.4.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/create-icons.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-05T02:43:42.142Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "blackbeards-navigator",
     "version": "9999.0.0",
     "scriptType": "postinstall",
