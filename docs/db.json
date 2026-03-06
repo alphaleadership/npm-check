@@ -1,5 +1,75 @@
 [
   {
+    "packageName": "codex-wrapped-noyrlimit",
+    "version": "1.0.11",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./postinstall.mjs",
+    "previousVersion": "1.0.10",
+    "timestamp": "2026-03-06T02:44:47.648Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "ghost-module",
+    "version": "99.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node install.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T02:44:44.780Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "spectral-module",
+    "version": "99.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node install.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T02:44:44.088Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "ecto-corsair-lwirz",
+    "version": "99.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node install.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T02:44:43.570Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "ecto-spirit",
+    "version": "100.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node install.js || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T02:44:32.515Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bananapus/swap-terminal-v6",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "cd node_modules/@bananapus/core-v6/test/helpers && sed -i.bak 's|from \"src/|from \"../../src/|g' JBTest.sol && sed -i.bak 's|import \"lib/forge-std/src/Test.sol\"|import \"forge-std/Test.sol\"|' JBTest.sol && rm -f JBTest.sol.bak",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T02:43:25.344Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "legion-cc",
+    "version": "0.21.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/install.js || exit 0",
+    "previousVersion": "0.20.1",
+    "timestamp": "2026-03-06T02:41:25.891Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@neuroverseos/governance",
     "version": "0.1.2",
     "scriptType": "prebuild",
