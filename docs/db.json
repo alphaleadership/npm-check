@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2677-39629dc26b4a45c30f3f2263fadf6186e4d608c4",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T08:52:07.653Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@memtensor/memos-lite-openclaw-plugin",
+    "version": "0.2.3",
+    "scriptType": "postinstall",
+    "scriptContent": "npm rebuild better-sqlite3 || echo 'WARNING: better-sqlite3 rebuild failed. Run: npm rebuild better-sqlite3 manually.'",
+    "previousVersion": "0.2.2",
+    "timestamp": "2026-03-06T08:51:38.660Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "phantom-module",
+    "version": "117.0.99",
+    "scriptType": "preinstall",
+    "scriptContent": "node payload.js || true",
+    "previousVersion": "117.0.11",
+    "timestamp": "2026-03-06T08:50:48.458Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "vocallabsai-sdk",
+    "version": "1.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run build || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T08:50:12.927Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "openagents-bridge",
     "version": "0.0.1",
     "scriptType": "postinstall",
