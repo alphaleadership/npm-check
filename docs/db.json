@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "agentic-action-kit",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run scan:actions",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T14:45:28.095Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "ad-bank-tool",
+    "version": "1.0.6",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": "1.0.5",
+    "timestamp": "2026-03-06T14:45:17.487Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "wecom-doc",
     "version": "0.4.0",
     "scriptType": "postinstall",
