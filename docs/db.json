@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2662-c9ccb82a4d8a95a78e8e7c9740345735aad391b6",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T05:14:22.035Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "okx-web3-skills",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "echo '\\n  okx-web3-skills installed!\\n  Skills: okx-aave, okx-uniswap, okx-polymarket\\n  CLI: npx okx-dapps <protocol> <action> [options]\\n  MCP: npx okx-dapps (no args)\\n'",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T05:13:27.080Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2657-817d6cc1321907cf81985c71055112ffd578b86c",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T05:13:11.738Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "codex-wrapped-noyrlimit",
     "version": "1.0.11",
     "scriptType": "postinstall",
