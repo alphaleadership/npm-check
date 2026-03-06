@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "dh-remixer-sdk",
+    "version": "0.0.20-da06463",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall/index.mjs",
+    "previousVersion": "0.0.20-c3b3571",
+    "timestamp": "2026-03-06T16:54:05.147Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "agentic-action-kit",
     "version": "0.0.1",
     "scriptType": "prebuild",
