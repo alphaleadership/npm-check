@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "openagents-bridge",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node lib/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T07:02:46.575Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openagent-bridge",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node lib/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T07:02:39.981Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2662-c9ccb82a4d8a95a78e8e7c9740345735aad391b6",
     "version": "2.75.1",
     "scriptType": "postbuild",
