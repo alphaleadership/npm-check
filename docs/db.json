@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "wecom-doc",
+    "version": "0.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/postinstall.js",
+    "previousVersion": "0.3.0",
+    "timestamp": "2026-03-06T10:50:49.611Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2642-6fa222d7bfa2320a0751e674a42be748ce359351",
+    "version": "2.75.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-06T10:50:22.695Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "js-shared",
+    "version": "1.0.5",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist types",
+    "previousVersion": "1.0.4",
+    "timestamp": "2026-03-06T10:48:59.484Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2677-39629dc26b4a45c30f3f2263fadf6186e4d608c4",
     "version": "2.75.1",
     "scriptType": "postbuild",
