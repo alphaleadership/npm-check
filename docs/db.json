@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "squirl-client",
+    "version": "1.0.0-ss-squirl-poc.4",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-07T20:35:55.756Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "sebi-cli",
+    "version": "1.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "prisma generate",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-03-07T20:35:42.232Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@yasserkhanorg/e2e-agents",
+    "version": "0.3.5",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli.js",
+    "previousVersion": "0.3.4",
+    "timestamp": "2026-03-07T20:35:17.174Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@thecorporation/server",
+    "version": "26.3.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": "26.3.2",
+    "timestamp": "2026-03-07T20:35:03.105Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "opencode-huge-agents",
     "version": "0.1.0",
     "scriptType": "postinstall",
