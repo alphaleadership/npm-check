@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@tacxou/nestjs_module_factorydrive",
+    "version": "1.1.6",
+    "scriptType": "postbuild",
+    "scriptContent": "bun build:type && bun build:cpr",
+    "previousVersion": null,
+    "timestamp": "2026-03-07T05:04:28.295Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@tacxou/nestjs_module_factorydrive",
+    "version": "1.1.6",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-07T05:04:28.291Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "dongshan",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node npm/install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-07T05:03:24.352Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@rfoerthe/killp",
     "version": "1.0.17",
     "scriptType": "postinstall",
