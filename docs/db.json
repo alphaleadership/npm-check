@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "opencode-huge-agents",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('opencode-huge-agents installed with 3 agents: refactor, ask, exec'); console.log('To continue setup, run: npx opencode-huge-agents install'); console.log('With Bun: bunx opencode-huge-agents install');\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-07T18:45:28.210Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "squirl-client",
+    "version": "1.0.0-ss-squirl-poc.2",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-07T18:45:09.146Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@slnc/ifchange",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-07T18:44:43.809Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "n8n-nodes-appflowy-imp",
+    "version": "1.0.5",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-03-07T18:44:36.771Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "lgtmai",
     "version": "0.0.7",
     "scriptType": "postinstall",
