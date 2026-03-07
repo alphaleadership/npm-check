@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "lgtmai",
+    "version": "0.0.7",
+    "scriptType": "postinstall",
+    "scriptContent": "prisma generate --schema=backend/prisma/schema.prisma",
+    "previousVersion": "0.0.6",
+    "timestamp": "2026-03-07T10:31:59.718Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@yossydev/entire",
     "version": "0.5.0",
     "scriptType": "postinstall",
