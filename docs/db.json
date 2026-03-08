@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "skilltags",
+    "version": "2.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./bin/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-08T10:35:00.675Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "constack",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "bunx skiller apply",
+    "previousVersion": null,
+    "timestamp": "2026-03-08T10:34:40.837Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "bitart-generator",
     "version": "0.1.1",
     "scriptType": "postinstall",
