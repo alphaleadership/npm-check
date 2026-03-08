@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "bitart-generator",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-08T08:41:01.729Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@semiont/backend",
     "version": "0.2.36",
     "scriptType": "postinstall",
