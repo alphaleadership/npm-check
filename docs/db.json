@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@semiont/backend",
+    "version": "0.2.36",
+    "scriptType": "postinstall",
+    "scriptContent": "prisma generate",
+    "previousVersion": null,
+    "timestamp": "2026-03-08T05:13:26.434Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "driftguard-mcp",
     "version": "0.1.10",
     "scriptType": "postinstall",
