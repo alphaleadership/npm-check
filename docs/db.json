@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@notoperations/clio-manage-cli",
+    "version": "0.1.7",
+    "scriptType": "postinstall",
+    "scriptContent": "node src/postinstall.js",
+    "previousVersion": "0.1.6",
+    "timestamp": "2026-03-09T10:55:21.243Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "universal-agent-memory",
+    "version": "6.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "echo '\n✨ Run: npx universal-agent-memory init --interactive'",
+    "previousVersion": "6.1.1",
+    "timestamp": "2026-03-09T10:54:16.588Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@numsy/numsy",
     "version": "1.0.2",
     "scriptType": "prebuild",
