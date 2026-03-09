@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@alxploit/alxbug",
+    "version": "3.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run patch:apply",
+    "previousVersion": null,
+    "timestamp": "2026-03-09T02:50:07.876Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "plugin-data-source-mssql",
     "version": "1.9.48",
     "scriptType": "postbuild",
