@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@numsy/numsy",
+    "version": "1.0.2",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-09T08:56:10.464Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2671-b679a97aa9882939ce080f09f20dd56399095320",
+    "version": "2.76.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-09T08:55:57.686Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "python-automation-kit",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "echo 'python-automation-kit installed! Entry point: _moc.md'",
+    "previousVersion": null,
+    "timestamp": "2026-03-09T08:55:18.292Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2666-38dcf6520c088b37ef235612bf7fb42acab9d209",
     "version": "2.76.0",
     "scriptType": "postbuild",
