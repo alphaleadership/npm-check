@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@arroyc/project-status-report-agent",
+    "version": "1.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "1.1.0",
+    "timestamp": "2026-03-09T05:22:18.013Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2678-0b93d7bf287375326fb9e2cfcb6c1a5992be05d4",
+    "version": "2.76.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-09T05:22:07.012Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@alxploit/alxbug",
     "version": "3.0.0",
     "scriptType": "postinstall",
