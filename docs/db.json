@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "cyrus-mcp-tools",
+    "version": "0.3.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"try { require('fs').chmodSync('./dist/index.js', '755') } catch (e) {}\"",
+    "previousVersion": "0.2.31",
+    "timestamp": "2026-03-10T05:15:16.809Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "codexmono",
+    "version": "1.0.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-10T05:15:16.180Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "cangjie_help",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/download-assets.js && cmd /c setup-knowledge-base.bat",
+    "previousVersion": null,
+    "timestamp": "2026-03-10T05:14:57.484Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "crypto-audit-tool",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node scripts/preinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-10T05:14:05.982Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "coder1-bridge-cli",
+    "version": "1.2.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"try { require('node-pty'); console.log('✅ node-pty compiled successfully - interactive mode enabled'); } catch(e) { console.warn('⚠️  node-pty failed to compile - interactive mode disabled'); console.warn('   To fix: Install build tools (Xcode on macOS, build-essential on Linux)'); }\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-10T05:12:59.834Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "unified-red",
     "version": "2.7.0",
     "scriptType": "postinstall",
