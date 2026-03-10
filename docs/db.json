@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "cangjie-dev",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node download-assets.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-10T08:57:19.855Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2684-4e7174ee02059e50fe3bb4d669eea160f8557435",
+    "version": "2.76.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-10T08:57:04.653Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "mcp-server-apple-events",
+    "version": "1.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": "1.2.0",
+    "timestamp": "2026-03-10T08:55:06.795Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "track-my-prompts",
     "version": "0.1.0",
     "scriptType": "prebuild",
