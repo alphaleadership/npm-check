@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "blueprint-tsa",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"if (require('fs').existsSync('dist/install/postinstall.js')) require('./dist/install/postinstall.js')\"",
+    "previousVersion": "1.0.4",
+    "timestamp": "2026-03-10T19:04:27.131Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "bini-router",
+    "version": "1.0.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"try{require('nitropack/package.json')}catch{console.log('\\x1b[33m⚠️  Nitro not found. If you plan to use API routes, install with: pnpm add nitropack -D\\x1b[0m')}\"",
+    "previousVersion": "1.0.7",
+    "timestamp": "2026-03-10T19:02:51.360Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "isolated-vm",
+    "version": "6.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/run-prebuild.js",
+    "previousVersion": "6.0.2",
+    "timestamp": "2026-03-10T19:01:21.823Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "clawatch",
+    "version": "1.0.23",
+    "scriptType": "postinstall",
+    "scriptContent": "echo 'ClaWatch installed successfully (pure WASM — no native build needed)'",
+    "previousVersion": "1.0.22",
+    "timestamp": "2026-03-10T19:00:58.557Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "bitwrench",
     "version": "2.0.15",
     "scriptType": "prebuild",
