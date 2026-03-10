@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@codeyam/codeyam-cli",
+    "version": "0.1.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/npm-post-install.cjs",
+    "previousVersion": "0.1.7",
+    "timestamp": "2026-03-10T22:39:48.185Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@cytoscape-web/api-types",
+    "version": "0.1.0-alpha.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs');fs.copyFileSync('src/mf-declarations.d.ts','dist/mf-declarations.d.ts');const p='dist/index.d.ts';const c=fs.readFileSync(p,'utf8');const r='/// <reference path=\\\"./mf-declarations.d.ts\\\" />\\n';if(!c.startsWith(r))fs.writeFileSync(p,r+c);\"",
+    "previousVersion": "0.1.0-alpha.0",
+    "timestamp": "2026-03-10T22:38:37.976Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@iflow-mcp/mr-wolf-gb-jasperreports-mcp-server",
+    "version": "1.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-10T22:36:50.767Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@hed-hog/address",
+    "version": "0.0.2",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm exec ts-node ../../scripts/build-dependencies.ts libraries/address",
+    "previousVersion": null,
+    "timestamp": "2026-03-10T22:36:36.987Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "blueprint-tsa",
     "version": "1.1.0",
     "scriptType": "postinstall",
