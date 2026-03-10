@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "unified-red",
+    "version": "2.7.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall",
+    "previousVersion": "2.6.2",
+    "timestamp": "2026-03-10T02:41:19.797Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "unified-red",
+    "version": "2.7.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node scripts/preinstall",
+    "previousVersion": "2.6.2",
+    "timestamp": "2026-03-10T02:41:19.793Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mldotink/ink-cli",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-10T02:41:12.097Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@pikku/addon-todos",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "pikku all",
+    "previousVersion": null,
+    "timestamp": "2026-03-10T02:40:49.252Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@pikku/addon-emails",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "pikku all",
+    "previousVersion": null,
+    "timestamp": "2026-03-10T02:40:48.270Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "rbin-otimize-os",
     "version": "2.0.2",
     "scriptType": "postinstall",
