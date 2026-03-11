@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "algorilla",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-11T14:58:43.579Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "hardhat2-config",
+    "version": "99.1.15",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-11T14:57:17.662Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@copilot-swarm/core",
+    "version": "0.0.51",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.0.50",
+    "timestamp": "2026-03-11T14:57:15.425Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@guochenbing/openspec-cn",
     "version": "1.2.0-2",
     "scriptType": "postinstall",
