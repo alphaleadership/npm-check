@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "unity-mcp-bridge",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-11T05:16:35.468Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bobbin/cli",
+    "version": "0.1.3",
+    "scriptType": "postinstall",
+    "scriptContent": "cc -o dist/set-winsize src/native/set-winsize.c 2>/dev/null || true",
+    "previousVersion": "0.1.2",
+    "timestamp": "2026-03-11T05:16:33.114Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@jshookmcp/jshook",
+    "version": "0.1.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.cjs",
+    "previousVersion": "0.1.7",
+    "timestamp": "2026-03-11T05:16:15.025Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@iflow-mcp/antonpk1-excalidraw-mcp-app",
+    "version": "0.3.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup-bun.mjs || echo 'setup-bun.mjs failed or not available'",
+    "previousVersion": null,
+    "timestamp": "2026-03-11T05:15:09.575Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@xin9min9/edithai-cli",
     "version": "1.1.4",
     "scriptType": "postinstall",
