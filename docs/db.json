@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@guochenbing/openspec-cn",
+    "version": "1.2.0-2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-11T13:19:49.501Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "tom-scream",
+    "version": "1.0.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node src/setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-11T13:19:39.729Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "starkfi",
     "version": "0.3.1",
     "scriptType": "postinstall",
