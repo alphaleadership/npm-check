@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "lint-builder",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node test.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-11T19:08:01.213Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@scimate/scicli",
+    "version": "0.0.58",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./npm/postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-11T19:06:32.173Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@steerprotocol/data-connector-loader",
+    "version": "3.2.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/fix-node-modules.js",
+    "previousVersion": "3.1.1",
+    "timestamp": "2026-03-11T19:05:34.931Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@scalable.software/localizer",
     "version": "0.0.1",
     "scriptType": "postbuild",
