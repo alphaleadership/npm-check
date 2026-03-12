@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@punch-in/buffet-modern",
+    "version": "3.3.11",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf build",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T07:06:26.206Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@punch-in/buffet-modern-core",
+    "version": "3.3.11",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf build",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T07:06:25.065Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@punch-in/buffet-modern-custom",
+    "version": "3.3.11",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf build",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T07:06:23.664Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@tienne/gestalt",
+    "version": "0.1.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp -r agents dist/ && cp -r skills dist/ && chmod +x dist/bin/gestalt.js",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-03-12T07:06:08.554Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "cangjie_help",
     "version": "1.1.0",
     "scriptType": "postinstall",
