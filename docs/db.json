@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "cangjie_help",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-03-12T05:20:33.264Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@iflow-mcp/pleaseprompto-notebooklm-mcp",
+    "version": "1.2.1",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T05:19:45.549Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@inverse-finance/vesting-contracts",
+    "version": "5.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T05:19:16.465Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@zairakai/js-utils",
     "version": "1.0.0",
     "scriptType": "postinstall",
