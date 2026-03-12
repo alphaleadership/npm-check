@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@bitaccess/altavista-client-node",
+    "version": "4.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean && npm run lint && npm run format",
+    "previousVersion": "3.21.2",
+    "timestamp": "2026-03-12T13:22:25.699Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "xiaozuoassistant",
+    "version": "0.1.48",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/init-app-home.cjs || true && cp node_modules/@lancedb/lancedb-darwin-x64/lancedb.darwin-x64.node node_modules/@lancedb/lancedb/dist/ 2>/dev/null || true && npm rebuild better-sqlite3",
+    "previousVersion": "0.1.47",
+    "timestamp": "2026-03-12T13:22:20.698Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "cjhelper",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T13:21:25.561Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "twitch.dashboard.core",
     "version": "99.3.15",
     "scriptType": "preinstall",
