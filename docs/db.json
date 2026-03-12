@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "xiaozuo-claw",
+    "version": "0.1.29",
+    "scriptType": "postinstall",
+    "scriptContent": "cp node_modules/@lancedb/lancedb-darwin-x64/lancedb.darwin-x64.node node_modules/@lancedb/lancedb/dist/ 2>/dev/null || true && npm rebuild better-sqlite3",
+    "previousVersion": "0.1.20",
+    "timestamp": "2026-03-12T08:56:26.727Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "opencode-disabler",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "bun scripts/postbuild.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T08:55:41.057Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@punch-in/buffet-modern",
     "version": "3.3.11",
     "scriptType": "prebuild",
