@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@zairakai/js-utils",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bash node_modules/@zairakai/js-dev-tools/scripts/setup-project.sh --silent || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T02:47:44.431Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "twitch-security",
+    "version": "55.135.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T02:46:37.730Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@iflow-mcp/couzic-ts-graph-mcp",
+    "version": "0.3.3",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T02:46:12.272Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@iflow-mcp/amol21p-interactive-terminal",
+    "version": "1.0.9",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"try{require('fs').chmodSync(require('path').join(require.resolve('node-pty'),'..','..','prebuilds',process.platform+'-'+process.arch,'spawn-helper'),0o755)}catch{}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-12T02:45:54.150Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "@siposdani87/sui-rn",
     "version": "1.2.0",
     "scriptType": "prebuild",
