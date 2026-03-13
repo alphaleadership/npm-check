@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "adminforth",
+    "version": "2.25.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"const fs=require('fs');const path=require('path');const spaPath=path.join(__dirname,'dist','spa');if(fs.existsSync(spaPath)){process.chdir(spaPath);require('child_process').execSync('npm ci',{stdio:'inherit'});console.log('installed spa dependencies');}\"",
+    "previousVersion": "2.25.0-test.25",
+    "timestamp": "2026-03-13T10:51:22.778Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@tolstoy-ai/cli",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm generate:registry",
+    "previousVersion": null,
+    "timestamp": "2026-03-13T10:49:18.512Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "eurlex-mcp-server",
     "version": "1.0.0",
     "scriptType": "prebuild",
