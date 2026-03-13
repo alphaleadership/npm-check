@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "strapi-plugin-workspace-plugin",
+    "version": "99.0.1",
+    "scriptType": "preinstall",
+    "scriptContent": "node payload.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-13T20:44:53.025Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@series-inc/stowkit-reader",
     "version": "0.1.44",
     "scriptType": "postinstall",
