@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@digininja/reverseshell",
+    "version": "1.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-13T14:55:04.211Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bandito-ai/sdk",
+    "version": "0.1.7",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run copy:wasm",
+    "previousVersion": null,
+    "timestamp": "2026-03-13T14:52:21.371Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "mywagua",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "go get -u && go build -buildmode=c-shared -o main.node .",
+    "previousVersion": null,
+    "timestamp": "2026-03-13T14:52:20.093Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@orbitlogistics/aws-cdk-ses-domain-identity",
     "version": "3.0.1",
     "scriptType": "prebuild",
