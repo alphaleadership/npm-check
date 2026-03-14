@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "omegon",
+    "version": "0.6.3",
+    "scriptType": "preinstall",
+    "scriptContent": "sh ./scripts/preinstall.sh",
+    "previousVersion": "0.6.1",
+    "timestamp": "2026-03-14T16:41:47.669Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@kaspersky/hexa-ui-core",
+    "version": "0.17.3",
+    "scriptType": "postinstall",
+    "scriptContent": "npm audit",
+    "previousVersion": "0.17.2",
+    "timestamp": "2026-03-14T16:41:30.055Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "yqctl",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T16:41:24.214Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "teamcopilot",
+    "version": "0.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "prisma generate --schema prisma/schema.prisma",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-14T16:40:58.787Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@reference-ui/core",
     "version": "0.0.1",
     "scriptType": "prebuild",
