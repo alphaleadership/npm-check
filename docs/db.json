@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@ibnmaher/halk",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf -rf dist",
+    "previousVersion": "0.0.0",
+    "timestamp": "2026-03-14T10:37:32.375Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "test_pkg_forppe",
     "version": "1.0.0",
     "scriptType": "preinstall",
