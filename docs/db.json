@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@runframe/mcp-server",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('\\n  \\x1b[36mRunframe MCP server installed.\\x1b[0m\\n  1. Get your API key: https://runframe.io/settings\\n  2. Add it to your MCP client config as RUNFRAME_API_KEY\\n  Docs: https://github.com/runframe/mcp-server\\n')\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T20:38:01.205Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "fluid-platinum-ui",
+    "version": "1.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "mkdir -p dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T20:37:44.405Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "pdf-live",
     "version": "1.0.20",
     "scriptType": "postbuild",
