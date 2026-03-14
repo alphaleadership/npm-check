@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@reference-ui/core",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "tsx src/system/build/primitives/index.ts && tsx src/system/build/styled/index.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T14:37:39.199Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "nexus-prime",
+    "version": "3.12.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"const fs=require('fs'); const p='dist/postinstall-bootstrap.js'; if (fs.existsSync(p)) { import('./'+p); }\"",
+    "previousVersion": "3.11.0",
+    "timestamp": "2026-03-14T14:37:19.333Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "vibetrace",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./bin/vibetrace.js auto-setup || true",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-03-14T14:37:09.600Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "amanexfujimiya-baileys",
     "version": "8.6.22",
     "scriptType": "preinstall",
