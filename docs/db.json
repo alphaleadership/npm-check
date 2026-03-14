@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "skillsgate",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.mjs",
+    "previousVersion": "0.1.9",
+    "timestamp": "2026-03-14T07:00:21.302Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "cli-time-warp",
+    "version": "0.2.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('\\n  \\u23f3 cli-time-warp installed!\\n\\n  \\u2192 Run: cli-time-warp list\\n  \\u2192 Gallery: https://designdropdevappddwlabs.redtree-3f30498a.westus2.azurecontainerapps.io/design-drop/preview/db961897-ccd5-4a21-8763-13e2ca067440\\n')\"",
+    "previousVersion": "0.2.7",
+    "timestamp": "2026-03-14T06:59:48.508Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@rawsql-ts/testkit-sqlite",
+    "version": "1.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/install-better-sqlite3.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T06:59:45.356Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@we-scrum/cli",
     "version": "1.0.0",
     "scriptType": "preinstall",
