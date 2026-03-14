@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "amanexfujimiya-baileys",
+    "version": "8.6.22",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T13:10:08.976Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "triflux",
+    "version": "4.1.3",
+    "scriptType": "preinstall",
+    "scriptContent": "node scripts/preinstall.mjs",
+    "previousVersion": "4.1.1",
+    "timestamp": "2026-03-14T13:09:21.152Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@jait/gateway",
+    "version": "0.1.70",
+    "scriptType": "prebuild",
+    "scriptContent": "bun run --filter @jait/web build && bun run bundle-web",
+    "previousVersion": "0.1.68",
+    "timestamp": "2026-03-14T13:08:44.925Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@ibnmaher/halk",
     "version": "0.0.1",
     "scriptType": "prebuild",
