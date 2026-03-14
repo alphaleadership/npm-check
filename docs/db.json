@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@soulgift/oracle",
+    "version": "1.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "prisma generate",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T22:36:03.873Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@steamlab/steam-client",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "test -f .git/config && husky || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T22:35:53.033Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@anandsrinivasan2/leak-assert",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run build:wasm || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T22:35:12.678Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "silicon-browser",
+    "version": "0.20.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-14T22:35:07.128Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@harmoniclabs/monaco-editor",
+    "version": "0.52.0",
+    "scriptType": "postinstall",
+    "scriptContent": "ts-node ./build/postinstall",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-03-14T22:34:48.363Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@runframe/mcp-server",
     "version": "0.1.0",
     "scriptType": "postinstall",
