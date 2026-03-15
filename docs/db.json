@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "grepmax",
+    "version": "0.7.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-15T08:49:52.293Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "grepmax",
+    "version": "0.7.0",
+    "scriptType": "prebuild",
+    "scriptContent": "mkdir -p dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-15T08:49:52.288Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "voice-router-dev",
+    "version": "0.8.1",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm openapi:fix-specs && pnpm openapi:fix && pnpm openapi:sync-soniox-languages && pnpm openapi:sync-soniox-models && pnpm openapi:sync-speechmatics-languages && pnpm openapi:sync-azure-locales && pnpm openapi:sync-deepgram-languages && pnpm openapi:sync-deepgram-models && pnpm openapi:sync-openai-models && pnpm openapi:sync-elevenlabs-languages && pnpm openapi:sync-elevenlabs-models",
+    "previousVersion": "0.8.0",
+    "timestamp": "2026-03-15T08:49:25.858Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ulpi/browse",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bunx playwright install chromium",
+    "previousVersion": null,
+    "timestamp": "2026-03-15T08:49:00.282Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@promise2/eslint-config",
     "version": "0.4.0",
     "scriptType": "postinstall",
