@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@promise2/eslint-config",
+    "version": "0.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "simple-git-hooks",
+    "previousVersion": "0.3.0",
+    "timestamp": "2026-03-15T07:10:33.054Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "ankh.md",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bash src/scripts/build/install.sh",
+    "previousVersion": null,
+    "timestamp": "2026-03-15T07:09:27.675Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "camoufox-browser",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-15T07:09:11.868Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@reactzero/datepicker",
     "version": "0.1.1",
     "scriptType": "postbuild",
