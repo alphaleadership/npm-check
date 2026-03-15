@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@reactzero/datepicker",
+    "version": "0.1.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs');const css=fs.readFileSync('dist/style.css','utf8');if(css.includes('@import')){console.error('ERROR: CSS still contains @import');process.exit(1);}const js=fs.readFileSync('dist/index.js','utf8');console.log('Build OK — JS:',Math.round(js.length/1024)+'kB, CSS:',Math.round(css.length/1024)+'kB');\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-15T03:20:25.826Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "@soulgift/oracle",
     "version": "1.0.1",
     "scriptType": "postinstall",
