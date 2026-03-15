@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@zecho/baileys-mod",
+    "version": "2.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-15T18:53:48.959Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "lwazi",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-15T18:53:09.389Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "arkaan-amane-baileys",
+    "version": "8.7.10",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-15T18:52:21.680Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@kuangshu/srdt",
     "version": "1.1.1",
     "scriptType": "postinstall",
