@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "n8n-nodes-crawl4ai-plus",
+    "version": "5.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": "4.0.0",
+    "timestamp": "2026-03-15T22:37:30.215Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "electron-wns",
+    "version": "0.0.7",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/auto-rebuild.js",
+    "previousVersion": "0.0.6",
+    "timestamp": "2026-03-15T22:36:24.960Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "pakon-planar-raw-converter",
+    "version": "1.0.0-beta.20260315-06",
+    "scriptType": "postinstall",
+    "scriptContent": "node index.js --postinstall || true",
+    "previousVersion": "1.0.0-beta.20260315-03",
+    "timestamp": "2026-03-15T22:35:46.319Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "birds-vs-bats",
     "version": "1.0.0",
     "scriptType": "postinstall",
