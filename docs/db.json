@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "9remote",
+    "version": "0.1.49",
+    "scriptType": "postinstall",
+    "scriptContent": "node cli/scripts/install.js || true",
+    "previousVersion": "0.1.48",
+    "timestamp": "2026-03-15T13:10:08.259Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@zephrui/mcp-server",
+    "version": "0.1.2",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/bundle-zephr.mjs",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-03-15T13:09:51.089Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "grepmax",
     "version": "0.7.0",
     "scriptType": "postbuild",
