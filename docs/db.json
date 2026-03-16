@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "portfolio-ds",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "mkdir -p dist && cp src/tokens/tokens.css dist/styles.css",
+    "previousVersion": null,
+    "timestamp": "2026-03-16T13:47:51.656Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "noname089",
+    "version": "3.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-16T13:47:21.062Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@corevisor/cv",
     "version": "0.1.1",
     "scriptType": "postinstall",
