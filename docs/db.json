@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@sentinel-agents/sentinel",
+    "version": "0.7.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-16T03:22:42.349Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sentinel-agents/openclaw-plugin",
+    "version": "0.7.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.7.3",
+    "timestamp": "2026-03-16T03:22:41.008Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "n8n-nodes-crawl4ai-plus",
     "version": "5.0.0",
     "scriptType": "preinstall",
