@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@luis-eduardo-bo/ruflo-cli",
+    "version": "3.5.15-fix.1",
+    "scriptType": "preinstall",
+    "scriptContent": "node bin/preinstall.cjs || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-16T17:15:05.659Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "schrute",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/sync-version.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-16T17:14:48.406Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "unusual-whales-skill",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-16T17:13:40.635Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "portfolio-ds",
     "version": "1.0.0",
     "scriptType": "prebuild",
