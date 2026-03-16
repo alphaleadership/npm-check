@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@corevisor/cv",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-16T09:11:38.952Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "vovk",
+    "version": "3.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x ./bin/index.mjs",
+    "previousVersion": "3.0.0-draft.475",
+    "timestamp": "2026-03-16T09:11:07.545Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@campxdev/pdfme",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "./scripts/link-workspaces.sh",
+    "previousVersion": null,
+    "timestamp": "2026-03-16T09:08:45.638Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "okan-call",
     "version": "0.1.0",
     "scriptType": "postinstall",
