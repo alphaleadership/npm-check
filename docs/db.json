@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@iflow-mcp/kalyangupta12-database-lookup-protocol",
+    "version": "1.1.8",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs'); const p='dist/cli/index.js'; if(fs.existsSync(p)){let c=fs.readFileSync(p,'utf8'); if(!c.startsWith('#!/usr/bin/env node')){fs.writeFileSync(p,'#!/usr/bin/env node\\n'+c);}}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-17T07:14:48.310Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "iflow-okx-agent-trade-kit",
     "version": "1.2.4",
     "scriptType": "postinstall",
