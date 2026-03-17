@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@iflow-mcp/azoraqua-minestom-mcp",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-17T11:02:28.349Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@microsoft/agents-a365-observability",
+    "version": "0.1.0-preview.121",
+    "scriptType": "prebuild",
+    "scriptContent": "node -p \"'export const LIB_VERSION = ' + JSON.stringify(require('./package.json').version) + ';'\" > src/version.ts",
+    "previousVersion": "0.1.0-preview.119",
+    "timestamp": "2026-03-17T10:59:22.068Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "pakon-planar-raw-converter",
+    "version": "1.0.0-beta.20260316-06",
+    "scriptType": "postinstall",
+    "scriptContent": "node index.js --postinstall || true",
+    "previousVersion": "1.0.0-beta.3",
+    "timestamp": "2026-03-17T10:59:07.609Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@volcengine/cli",
     "version": "1.0.39",
     "scriptType": "postinstall",
