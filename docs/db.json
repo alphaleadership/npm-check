@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2704-7a8b8ca7d4d3e908213a27c21758e71ec12e8754",
+    "version": "2.77.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-17T15:09:30.493Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@iflow-mcp/bbssppllvv-apple-docs-mcp-server",
+    "version": "2.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-17T15:07:11.170Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@iflow-mcp/azoraqua-minestom-mcp",
     "version": "1.0.0",
     "scriptType": "prebuild",
