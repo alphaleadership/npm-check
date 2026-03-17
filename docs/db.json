@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "xcode-copilot-server",
+    "version": "4.0.6",
+    "scriptType": "postinstall",
+    "scriptContent": "patch-package",
+    "previousVersion": "4.0.5",
+    "timestamp": "2026-03-17T22:44:11.757Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@dropins/build-tools",
+    "version": "1.1.0-beta.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp ./package.json ./dist",
+    "previousVersion": "1.1.0-alpha-20260317205809",
+    "timestamp": "2026-03-17T22:43:45.802Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2711-d13cfcfe08a83fa392d5d33815812e80af82d0be",
+    "version": "2.77.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-17T22:42:06.142Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "octagon-mcp",
     "version": "1.1.0",
     "scriptType": "prebuild",
