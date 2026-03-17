@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@linkup-ai/abap-ai",
+    "version": "2.2.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/postinstall.js || true",
+    "previousVersion": "2.2.2",
+    "timestamp": "2026-03-17T02:46:54.327Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "svelte-audit",
     "version": "1.0.2",
     "scriptType": "postinstall",
