@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "iflow-okx-agent-trade-kit",
+    "version": "1.2.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js || exit 0",
+    "previousVersion": null,
+    "timestamp": "2026-03-17T05:27:39.273Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "notebooklm-client",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/setup-curl.mjs || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-17T05:26:56.282Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@iflow-mcp/wyre-technology-autotask-mcp",
+    "version": "2.12.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-17T05:24:44.507Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@linkup-ai/abap-ai",
     "version": "2.2.4",
     "scriptType": "postinstall",
