@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@volcengine/cli",
+    "version": "1.0.39",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-17T09:03:05.073Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "xcraft-core-bus",
+    "version": "5.6.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node lib/postinstall.js",
+    "previousVersion": "5.6.2",
+    "timestamp": "2026-03-17T09:02:54.477Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "utoo",
+    "version": "1.0.16",
+    "scriptType": "postinstall",
+    "scriptContent": "sh ./postinstall.sh",
+    "previousVersion": "1.0.15",
+    "timestamp": "2026-03-17T09:01:30.740Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wjhm/music-meta",
+    "version": "0.2.2",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/index.cjs",
+    "previousVersion": "0.2.1",
+    "timestamp": "2026-03-17T09:01:00.779Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@iflow-mcp/kalyangupta12-database-lookup-protocol",
     "version": "1.1.8",
     "scriptType": "postbuild",
