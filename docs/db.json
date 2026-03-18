@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@joelrd01/llama-cpp-qwen2.5-0.5b-shard-18",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node sync.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T22:43:05.597Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sesamespace/sesame",
+    "version": "0.2.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.mjs",
+    "previousVersion": "0.2.7",
+    "timestamp": "2026-03-18T22:42:33.999Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@joelrd01/llama-cpp-qwen2.5-0.5b-shard-17",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node sync.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T22:40:51.859Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "nstantpage-agent",
     "version": "0.6.0",
     "scriptType": "postinstall",
