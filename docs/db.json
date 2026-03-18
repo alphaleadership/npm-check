@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "nstantpage-agent",
+    "version": "0.6.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": "0.5.34",
+    "timestamp": "2026-03-18T19:17:10.050Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "paperclip-plugin-discord",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node ../../../scripts/ensure-plugin-build-deps.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T19:15:39.672Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@releva-ai/sdk-react-native",
+    "version": "0.0.2",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/sync-version.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T19:15:25.166Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "nsfwjs",
     "version": "4.3.0",
     "scriptType": "prebuild",
