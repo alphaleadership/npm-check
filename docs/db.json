@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@gem_squared/setup",
+    "version": "1.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/gem2-setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T09:00:49.383Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2715-8d7077180e627709a0f6d4655f3530c980d2fc76",
     "version": "2.77.0",
     "scriptType": "postbuild",
