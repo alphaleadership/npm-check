@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2715-8d7077180e627709a0f6d4655f3530c980d2fc76",
+    "version": "2.77.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T07:13:27.551Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "bugbounty-test-123",
     "version": "99.1.0",
     "scriptType": "preinstall",
