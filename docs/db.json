@@ -1,5 +1,75 @@
 [
   {
+    "packageName": "@depup/zodios",
+    "version": "5.1.0-depup.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf lib",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T02:53:22.846Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@depup/ultra-runner",
+    "version": "3.10.5-depup.0",
+    "scriptType": "prebuild",
+    "scriptContent": "yarn clean && yarn lint && yarn test",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T02:53:15.786Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@circleback/cli",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T02:53:10.675Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@depup/unleash-client",
+    "version": "6.10.1-depup.0",
+    "scriptType": "prebuild",
+    "scriptContent": "del-cli --force lib",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T02:53:07.376Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@depup/elastic__elasticsearch",
+    "version": "9.3.4-depup.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean-build && npm run generate-version && npm run lint",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T02:52:54.281Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@stripe/sync-engine",
+    "version": "0.1.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean && npm run build:functions",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T02:52:51.421Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@layr-labs/eigenx",
+    "version": "0.2.6-dev",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-18T02:52:15.243Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "xcode-copilot-server",
     "version": "4.0.6",
     "scriptType": "postinstall",
