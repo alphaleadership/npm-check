@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@c-d-cc/reap",
+    "version": "0.3.5",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.cjs",
+    "previousVersion": "0.3.4",
+    "timestamp": "2026-03-19T10:53:19.642Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "playstore-cli",
     "version": "1.0.2",
     "scriptType": "postinstall",
