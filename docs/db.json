@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@depup/react-ga4",
+    "version": "2.1.0-depup.0",
+    "scriptType": "postbuild",
+    "scriptContent": "tsc src/index.js --declaration --allowJs --emitDeclarationOnly --outDir types",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T02:55:40.134Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@depup/react-colorful",
+    "version": "5.6.1-depup.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cpy dist/index.module.js dist --rename=index.mjs && cpy dist/index.module.js.map dist --rename=index.mjs.map",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T02:55:30.179Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@joelrd01/llama-cpp-qwen2.5-0.5b-shard-19",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node sync.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T02:55:23.583Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mantra-ai/cli",
+    "version": "0.6.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.6.0",
+    "timestamp": "2026-03-19T02:54:05.150Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@yandex-cloud/mcp",
+    "version": "0.1.1-beta.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/postinstall.js",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-03-19T02:53:28.226Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@joelrd01/llama-cpp-qwen2.5-0.5b-shard-18",
     "version": "1.0.0",
     "scriptType": "postinstall",
