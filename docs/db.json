@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "playstore-cli",
+    "version": "1.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T08:55:46.108Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@searchhive/mcp-server",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "echo '\n🔧 Configure your SearchHive API key:\n   export SEARCHHIVE_API_KEY=sk_live_your_key_here\n\n📚 Documentation: https://searchhive.com/docs/integrations/mcp\n'",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T08:55:34.142Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@spokenly/audio-player",
+    "version": "0.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "copyfiles -u 1 src/styles.css dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T08:55:24.479Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2701-88d556fdcc804443d693fb5bd1766f5723ef2915",
+    "version": "2.77.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T08:54:46.619Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "tb-order-sync",
     "version": "0.4.2",
     "scriptType": "postinstall",
