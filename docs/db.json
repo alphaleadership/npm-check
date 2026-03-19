@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@depup/jsqr",
+    "version": "1.4.0-depup.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T05:27:14.388Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@depup/react-ga4",
     "version": "2.1.0-depup.0",
     "scriptType": "postbuild",
