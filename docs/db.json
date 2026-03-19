@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@champpaba/gslide",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bash scripts/postinstall.sh",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T19:11:34.152Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@samuilsp111/n8n-nodes-alfa-crm",
+    "version": "0.1.19",
+    "scriptType": "postbuild",
+    "scriptContent": "mkdir -p dist/nodes/AlfaCrmClient && cp dist/components/AlfaCrmClient/*.js dist/nodes/AlfaCrmClient/ && cp src/components/AlfaCrmClient/alfacrm.svg dist/nodes/AlfaCrmClient/",
+    "previousVersion": "0.1.18",
+    "timestamp": "2026-03-19T19:11:28.681Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "cast-code",
+    "version": "1.0.27",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"var f=require('fs'),p=require('path').join(process.cwd(),'node_modules','deepagents','node_modules','uuid');try{f.existsSync(p)&&f.rmSync(p,{recursive:true,force:true})}catch(e){}\"",
+    "previousVersion": "1.0.26",
+    "timestamp": "2026-03-19T19:10:31.981Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@bluera/vue-threejs",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"require('node:fs').copyFileSync('../../README.md','README.md')\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T19:10:28.288Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@letta-ai/letta-code",
+    "version": "0.19.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall-patches.js || echo letta: vendor patches skipped && node -e \"try{require('fs').chmodSync(require('path').join(require.resolve('node-pty/package.json'),'../prebuilds/darwin-arm64/spawn-helper'),0o755)}catch(e){}\" || true",
+    "previousVersion": "0.19.3",
+    "timestamp": "2026-03-19T19:10:11.630Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "eb-player",
     "version": "2.0.2",
     "scriptType": "postbuild",
