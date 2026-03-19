@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "eb-player",
+    "version": "2.0.2",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/build/eb-player.css dist/ && cp src/core/css/theme-*.css dist/build/ && cp src/core/css/theme-*.css dist/ && tsx scripts/size-check.ts && tsx scripts/check-no-vue.ts",
+    "previousVersion": "2.0.1",
+    "timestamp": "2026-03-19T15:00:50.787Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2716-1d9c74759d366c6ae0f3d7e2ed6f74a19b374253",
+    "version": "2.77.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T15:00:47.467Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ev-tech/eva-container-api",
+    "version": "7.7.7",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T14:58:25.068Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "arkanalyzer",
+    "version": "1.0.86",
+    "scriptType": "prebuild",
+    "scriptContent": "node script/npmInstall.js",
+    "previousVersion": "1.0.85",
+    "timestamp": "2026-03-19T14:58:01.540Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "definable-ai",
+    "version": "0.0.0-ci-202603151845",
+    "scriptType": "postinstall",
+    "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-19T14:57:29.005Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@c-d-cc/reap",
     "version": "0.3.5",
     "scriptType": "postinstall",
