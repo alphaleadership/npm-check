@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@elicecontents/content-ui",
+    "version": "1.1.2",
+    "scriptType": "prebuild",
+    "scriptContent": "run-p clean",
+    "previousVersion": "1.1.2-rc.31",
+    "timestamp": "2026-03-20T08:54:09.359Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@getfly-ui/svg",
+    "version": "0.0.11",
+    "scriptType": "prebuild",
+    "scriptContent": "shx rm -rf src/generated && shx rm -rf dist && tsx scripts/generate-icons.ts",
+    "previousVersion": "0.0.10",
+    "timestamp": "2026-03-20T08:53:02.198Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
+    "packageName": "@getfly-ui/svg",
+    "version": "0.0.11",
+    "scriptType": "preinstall",
+    "scriptContent": "tsx scripts/generate-icons.ts",
+    "previousVersion": "0.0.10",
+    "timestamp": "2026-03-20T08:53:02.194Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@galaxy-ds/core",
     "version": "3.0.0",
     "scriptType": "prebuild",
