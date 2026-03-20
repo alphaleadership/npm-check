@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2704-5d038b9a3823b1448e79a35a2994a6cbe83a8142",
+    "version": "2.77.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-20T16:56:48.765Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@selfpentest/pentest-my-ci",
+    "version": "1.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-20T16:56:45.575Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "recoder-code",
+    "version": "2.5.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('\\\\n🚀 Recoder Code v2.4.5 installed successfully!\\\\n\\\\n✅ Quick Start: recoder-code\\\\n🔧 Setup Wizard: recoder-code --setup\\\\n🤖 40+ AI Models with Tool Calling Support\\\\n💡 Get Free API Key: https://openrouter.ai/keys\\\\n📚 Documentation: https://recoder.xyz\\\\n')\"",
+    "previousVersion": "2.5.3",
+    "timestamp": "2026-03-20T16:55:52.027Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "wp-studio",
     "version": "1.7.7-alpha1",
     "scriptType": "postinstall",
