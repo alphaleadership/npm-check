@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "wp-studio",
+    "version": "1.7.7-alpha1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall-npm.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-20T14:56:03.196Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@treet/redux-mock-store",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "$npm_execpath run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-20T14:55:47.809Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-orcha",
+    "version": "2026.320.1453",
+    "scriptType": "postinstall",
+    "scriptContent": "test -d ui && npm install --prefix ui || true",
+    "previousVersion": "2026.320.321",
+    "timestamp": "2026-03-20T14:54:11.254Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@venusprotocol/venus-protocol",
+    "version": "10.2.0-xaum.1",
+    "scriptType": "postinstall",
+    "scriptContent": "yarn patch-package",
+    "previousVersion": "10.2.0-slim-dev.4",
+    "timestamp": "2026-03-20T14:53:55.980Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "context-mode",
     "version": "1.0.35",
     "scriptType": "postinstall",
