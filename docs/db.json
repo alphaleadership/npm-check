@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@galaxy-ds/core",
+    "version": "3.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": "3.0.0-beta.4",
+    "timestamp": "2026-03-20T07:07:49.879Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "bilibit",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/check-deps.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-20T07:06:48.009Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2665-ab667012c4c1a6836df5eb1394aa44bd699db878",
+    "version": "2.77.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-20T07:06:39.042Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@triggator/public-nav-embed",
+    "version": "1.0.24",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run build -w @triggator/auth -w @triggator/shared-style-package -w @triggator/ui-icons -w @triggator/ui -w @triggator/navbar --prefix ../../../",
+    "previousVersion": "1.0.23",
+    "timestamp": "2026-03-20T07:06:12.078Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@neilton2026/stealth-client",
     "version": "1.0.2",
     "scriptType": "postinstall",
