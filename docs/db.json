@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "context-mode",
+    "version": "1.0.35",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"process.env.OPENCLAW_STATE_DIR && console.log('\\n  OpenClaw detected. Run: npm run install:openclaw\\n')\"",
+    "previousVersion": "1.0.34",
+    "timestamp": "2026-03-20T13:19:05.840Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "@contractspec/integration.harness-runtime",
+    "version": "0.2.0",
+    "scriptType": "prebuild",
+    "scriptContent": "contractspec-bun-build prebuild",
+    "previousVersion": null,
+    "timestamp": "2026-03-20T13:17:57.940Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@contractspec/lib.harness",
+    "version": "0.2.0",
+    "scriptType": "prebuild",
+    "scriptContent": "contractspec-bun-build prebuild",
+    "previousVersion": null,
+    "timestamp": "2026-03-20T13:17:33.143Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@maxaiagent/widget-sdk",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/index.global.js ../../public/sdk.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-20T13:16:47.325Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@contractspec/biome-config",
+    "version": "3.8.0",
+    "scriptType": "prebuild",
+    "scriptContent": "bun run sync:artifacts && contractspec-bun-build prebuild",
+    "previousVersion": null,
+    "timestamp": "2026-03-20T13:16:34.937Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "loongbot",
     "version": "0.0.5",
     "scriptType": "postbuild",
