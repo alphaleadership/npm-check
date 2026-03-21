@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "pipeline-doctor",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-21T08:44:27.675Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "safe-url-validator",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node lib/telemetry.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-21T08:44:23.915Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@qqbrowser/baileys-no-git",
+    "version": "7.0.0-rc.10",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-21T08:43:29.988Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@love19861018/wecom-openclaw-plugin",
+    "version": "1.0.10",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-21T08:43:00.487Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@gkoreli/ghx",
     "version": "2.0.2",
     "scriptType": "postinstall",
