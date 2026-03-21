@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "dxs-stas-sdk",
+    "version": "3.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/clean-dist.mjs",
+    "previousVersion": "2.1.0",
+    "timestamp": "2026-03-21T16:39:57.142Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@techsologic/unolock-agent",
+    "version": "0.1.43",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/install-binary.js",
+    "previousVersion": "0.1.42",
+    "timestamp": "2026-03-21T16:39:17.003Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "characterai-poc",
     "version": "1.0.0",
     "scriptType": "preinstall",
