@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "ata-validator",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "prebuildify --napi --strip",
+    "previousVersion": null,
+    "timestamp": "2026-03-21T20:36:49.205Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "openclaw-self-learning-skill",
     "version": "3.0.2",
     "scriptType": "postinstall",
