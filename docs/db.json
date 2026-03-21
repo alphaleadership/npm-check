@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "openclaw-self-learning-skill",
+    "version": "3.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-21T18:48:53.497Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "dxs-stas-sdk",
     "version": "3.0.0",
     "scriptType": "prebuild",
