@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "infer-cli",
+    "version": "0.0.5",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": "0.0.4",
+    "timestamp": "2026-03-21T10:36:46.074Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "pipeline-doctor",
     "version": "1.0.0",
     "scriptType": "prebuild",
