@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@gkoreli/ghx",
+    "version": "2.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": "2.0.0",
+    "timestamp": "2026-03-21T05:10:17.109Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@diagrammo/dgmo",
     "version": "0.6.2",
     "scriptType": "postinstall",
