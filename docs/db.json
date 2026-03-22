@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@kosta-electreon/native-aws-kcl-ts",
+    "version": "3.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T16:41:10.282Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "selection-hook",
+    "version": "2.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run prebuild:win && npm run prebuild:mac && npm run prebuild:linux",
+    "previousVersion": "1.0.13",
+    "timestamp": "2026-03-22T16:40:44.780Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "sougasystem",
     "version": "0.20.0",
     "scriptType": "postinstall",
