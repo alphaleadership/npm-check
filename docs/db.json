@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2704-9e519f6764c5fbb60b3ca0477604f576f2e5d8cc",
+    "version": "2.77.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T05:22:06.937Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@edcalderon/versioning",
+    "version": "1.5.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/post-install.js",
+    "previousVersion": "1.5.0",
+    "timestamp": "2026-03-22T05:21:58.696Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@kio_ai/aicli-switch",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T05:21:50.077Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@winsznx/react",
     "version": "0.1.1",
     "scriptType": "prebuild",
