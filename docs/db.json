@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@alleyway/add-tradingview-alerts-tool",
+    "version": "4.1.6-ci.176.0",
+    "scriptType": "postinstall",
+    "scriptContent": "npx @puppeteer/browsers install chrome@stable",
+    "previousVersion": "4.1.6-ci.175.0",
+    "timestamp": "2026-03-23T11:02:09.784Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@agentxin-ai/agentxin-sdk",
+    "version": "0.0.3",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T11:02:00.191Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@agentxin-ai/utils",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T11:01:49.300Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@slycode/slycode",
+    "version": "0.2.18",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"const fs=require('fs'),path=require('path'); const d=path.join(__dirname,'..','node-pty','prebuilds'); if(!fs.existsSync(d))process.exit(0); fs.readdirSync(d).filter(f=>f.startsWith('darwin')).forEach(f=>{const h=path.join(d,f,'spawn-helper'); if(fs.existsSync(h))fs.chmodSync(h,0o755);})\"",
+    "previousVersion": "0.2.17",
+    "timestamp": "2026-03-23T11:01:16.843Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@kosta-electreon/native-aws-kcl-ts",
+    "version": "3.0.5",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T11:00:53.772Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "mag-memory",
     "version": "0.1.0",
     "scriptType": "postinstall",
