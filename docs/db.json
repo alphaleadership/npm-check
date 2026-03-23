@@ -1,5 +1,255 @@
 [
   {
+    "packageName": "buzzme",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/postbuild.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:42:44.574Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/backblaze-b2",
+    "version": "0.9.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:42:21.476Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/bunny",
+    "version": "0.5.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:42:20.787Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/fivetran",
+    "version": "1.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:42:20.028Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/momento",
+    "version": "0.2.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:42:18.579Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/onepassword",
+    "version": "2.1.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:42:16.267Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/supabase",
+    "version": "1.4.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": "0.0.3",
+    "timestamp": "2026-03-23T22:42:14.852Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/airbyte",
+    "version": "0.6.5",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:52.271Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/axiom",
+    "version": "1.3.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:51.404Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/crunchybridge",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:48.253Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/dominos",
+    "version": "0.2.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:44.169Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/fly",
+    "version": "0.1.17",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:43.194Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/hetzner-dns",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:42.590Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/ionoscloud",
+    "version": "6.6.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:41.628Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/koyeb",
+    "version": "0.1.11",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:40.565Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/latitudesh",
+    "version": "1.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:39.572Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/launchdarkly",
+    "version": "2.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:38.153Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/netlify",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:36.988Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/railway",
+    "version": "0.4.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:36.076Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/render",
+    "version": "1.3.6",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:35.256Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/retool",
+    "version": "0.0.7",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:33.874Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/singlestore",
+    "version": "0.1.0-alpha.10",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:32.279Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/statsig",
+    "version": "2.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:31.636Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/timescale",
+    "version": "1.15.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:30.486Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@sst-provider/twilio",
+    "version": "0.26.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T22:40:29.400Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@pinchtab/semantic",
     "version": "0.1.0",
     "scriptType": "postinstall",
