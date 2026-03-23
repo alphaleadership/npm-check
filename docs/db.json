@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@swarmify/agents-mcp",
+    "version": "0.2.14",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.2.13",
+    "timestamp": "2026-03-23T19:08:05.278Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@elisoncampos/local-router",
+    "version": "0.2.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/write-node-path.js",
+    "previousVersion": "0.2.0",
+    "timestamp": "2026-03-23T19:06:15.575Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@intuned/cli",
+    "version": "0.1.1-beta.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('To get started, run intuned --help')\"",
+    "previousVersion": "0.1.1-beta.0",
+    "timestamp": "2026-03-23T19:05:17.894Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "orbital-command",
     "version": "0.1.0",
     "scriptType": "postinstall",
