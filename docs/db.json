@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@pinchtab/semantic",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T20:48:32.775Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wireio/wire-protobuf-bundler",
+    "version": "1.0.8",
+    "scriptType": "postinstall",
+    "scriptContent": "pnpm run dist",
+    "previousVersion": "1.0.7",
+    "timestamp": "2026-03-23T20:46:26.217Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wireio/protoc-gen-solidity",
+    "version": "1.0.8",
+    "scriptType": "postinstall",
+    "scriptContent": "pnpm run dist",
+    "previousVersion": "1.0.7",
+    "timestamp": "2026-03-23T20:46:03.732Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@swarmify/agents-mcp",
     "version": "0.2.14",
     "scriptType": "postinstall",
