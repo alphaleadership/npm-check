@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "mag-memory",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T09:10:08.173Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "barong-ts",
+    "version": "1.0.3",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs = require('fs'); const p = 'dist/cli.js'; fs.writeFileSync(p, '#!/usr/bin/env node\\n' + fs.readFileSync(p));\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T09:10:02.418Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "@muggleai/works",
+    "version": "2.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T09:09:46.927Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2438-984f6b6fea7aeda1faf55b5e4e1d1be5dface0d3",
+    "version": "2.77.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T09:09:41.149Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@apitally/cli",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-23T09:08:53.973Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "smh-js-sdk",
     "version": "1.0.5",
     "scriptType": "prebuild",
