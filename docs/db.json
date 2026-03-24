@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@openbee/openbee",
+    "version": "1.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "1.0.0",
+    "timestamp": "2026-03-24T07:18:00.149Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "claude-code-hwp-mcp",
+    "version": "0.3.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node --input-type=commonjs -e \"try{require('child_process').execSync('python -c \\\"import pyhwpx\\\"',{stdio:'ignore'})}catch(e){console.log('\\n[claude-code-hwp-mcp] pyhwpx 미설치. 실행하세요: pip install pyhwpx pywin32\\n')}\"",
+    "previousVersion": "0.2.2",
+    "timestamp": "2026-03-24T07:17:45.606Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "rust-rpa",
+    "version": "0.2.0-beta.7",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/postbuild.cjs",
+    "previousVersion": "0.2.0-beta.5",
+    "timestamp": "2026-03-24T07:17:39.636Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@rhino-design/vue",
+    "version": "1.0.0-alpha.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run guard:no-ui-libs",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-03-24T07:14:57.572Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@voidique/kaku",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-24T07:14:49.021Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "bun-assemblyscript",
     "version": "0.1.0",
     "scriptType": "postinstall",
