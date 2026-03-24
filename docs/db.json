@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "bun-assemblyscript",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "bun run ./src/install/index.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-24T02:46:37.687Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wavv/video",
+    "version": "2.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "cat package.json | node ../prebuild.js > src/version.ts",
+    "previousVersion": "1.2.0",
+    "timestamp": "2026-03-24T02:46:29.284Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@kovic_fan/realibox-ui-sdk",
+    "version": "0.1.2",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/obfuscate-dist.mjs",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-03-24T02:46:20.332Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "create-mock-api-from-types",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "chmod +x dist/cli.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-24T02:46:09.943Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "buzzme",
     "version": "1.0.0",
     "scriptType": "postbuild",
