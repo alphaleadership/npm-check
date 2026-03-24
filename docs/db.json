@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "pagerunner",
+    "version": "0.2.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-24T15:08:52.539Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mozgbrasil/node-web-components",
+    "version": "1.0.56",
+    "scriptType": "postinstall",
+    "scriptContent": "echo \"postinstall $npm_package_name\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-24T15:08:25.163Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@acrodata/gradient-parser",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-24T15:07:58.565Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "browserwire",
     "version": "0.2.1",
     "scriptType": "postinstall",
