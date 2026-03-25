@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@m37labs/mightyclaw",
+    "version": "2026.3.27",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/npm-postinstall-banner.mjs",
+    "previousVersion": "2026.3.26",
+    "timestamp": "2026-03-25T22:48:44.255Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "lemmafit",
+    "version": "0.2.3",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./cli/sync.js && node ./cli/download-dafny2js.js && node ./lib/download-dafny.js && node ./cli/check-claimcheck.js",
+    "previousVersion": "0.2.2",
+    "timestamp": "2026-03-25T22:46:54.571Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@digitalsac/digisocket",
     "version": "8.0.10",
     "scriptType": "preinstall",
