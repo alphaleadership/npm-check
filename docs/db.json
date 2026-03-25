@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2704-5cccc1c1498373b083b339feafb7d550aa3c4bbd",
+    "version": "2.77.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T13:43:33.724Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@edirect/alert",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T13:42:36.009Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2704-199dee8645a3fd7fc762529b8e7984ac490be1c2",
+    "version": "2.77.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T13:41:14.372Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@doist/twist-cli",
+    "version": "2.18.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "2.18.0",
+    "timestamp": "2026-03-25T13:40:43.412Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2736-61c5b13a8b3ebb5d3e3ef9956393c928fa90fb67",
     "version": "2.77.1",
     "scriptType": "postbuild",
