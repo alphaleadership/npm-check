@@ -1,5 +1,65 @@
 [
   {
+    "packageName": "teleclaw",
+    "version": "1.0.0-beta.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node --input-type=module -e \"import{execSync as e}from'child_process';try{e('npm install --no-audit --no-fund',{cwd:'web',stdio:'inherit'})}catch(x){}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T19:09:39.024Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@aj-shadow/actorjs-app",
+    "version": "0.0.0-aj-beta.221",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"try{require('./npm-post-install.js')}catch(e){console.log(e);}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T19:08:59.405Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@mayankg0324/mcp-server-harvest",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "tsc --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T19:08:31.031Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@surething/cockpit",
+    "version": "1.0.174",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T19:07:16.892Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@surething/cockpit",
+    "version": "1.0.173",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T19:06:00.058Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ork-sh/cli",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "chmod +x bin/index.js bin/ork-darwin-amd64",
+    "previousVersion": "0.1.5",
+    "timestamp": "2026-03-25T19:05:48.937Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@wgarrido/mcp-browser",
     "version": "1.0.0",
     "scriptType": "postbuild",
