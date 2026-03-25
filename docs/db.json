@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2736-61c5b13a8b3ebb5d3e3ef9956393c928fa90fb67",
+    "version": "2.77.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T11:00:44.199Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "lazygitrs",
+    "version": "0.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T11:00:39.722Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "sdd-pi",
+    "version": "2.42.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/link-workspace-packages.cjs && node scripts/ensure-workspace-builds.cjs && node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T11:00:24.453Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wgarrido/mcp-browser",
+    "version": "2.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"try{require('fs').chmodSync('dist/index.js',0o755)}catch{}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-25T10:58:16.660Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "clawminer-skill",
     "version": "1.2.0",
     "scriptType": "postinstall",
