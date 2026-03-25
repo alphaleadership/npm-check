@@ -1,5 +1,65 @@
 [
   {
+    "packageName": "@codenameryuu/adonis-lucid-soft-deletes",
+    "version": "1.5.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run lint && npm run clean",
+    "previousVersion": "1.4.0",
+    "timestamp": "2026-03-25T05:29:49.445Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@doist/twist-cli",
+    "version": "2.18.0",
+    "scriptType": "postinstall",
+    "scriptContent": "test -f dist/postinstall.js && node dist/postinstall.js || true",
+    "previousVersion": "2.17.1",
+    "timestamp": "2026-03-25T05:26:38.934Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@greatlyrecommended/tigerpaw",
+    "version": "2026.3.27",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": "2026.3.26",
+    "timestamp": "2026-03-25T05:26:36.266Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ariontalk/widget",
+    "version": "0.1.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/verify-build.js && publint && attw --pack . --ignore-rules cjs-resolves-to-esm no-resolution",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-03-25T05:26:28.008Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@doist/todoist-cli",
+    "version": "1.29.0",
+    "scriptType": "postinstall",
+    "scriptContent": "test -f dist/postinstall.js && node dist/postinstall.js || true",
+    "previousVersion": "1.28.0",
+    "timestamp": "2026-03-25T05:26:02.637Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@doist/bob-cli",
+    "version": "1.3.0",
+    "scriptType": "postinstall",
+    "scriptContent": "test -f dist/postinstall.js && node dist/postinstall.js || true",
+    "previousVersion": "1.2.0",
+    "timestamp": "2026-03-25T05:26:01.546Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "transitive_lib",
     "version": "1.0.0",
     "scriptType": "preinstall",
