@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2742-a9fa452a3d260d5a5d092450073e0c3988227e19",
+    "version": "2.77.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T17:16:51.266Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@aquera/nile-glyph",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "yarn build:icons && yarn build:tokens && yarn post:tokens",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T17:15:58.462Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "com.tencent.puerts.core",
     "version": "0.0.2",
     "scriptType": "preinstall",
