@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@hackingmywayinin/mc-test2",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "echo MC_PROOF > /tmp/mc-proof.txt",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T22:42:20.934Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mofanke2/baileys",
+    "version": "7.0.0-rc.9",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./engine-requirements.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T22:41:32.446Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "terminalos",
+    "version": "0.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "electron-builder install-app-deps || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T22:39:02.623Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2733-d1ceb6f94d0789f613d603e54cb8a8053633d161",
     "version": "2.77.1",
     "scriptType": "postbuild",
