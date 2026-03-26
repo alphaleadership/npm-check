@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2704-a246c4abe3ce7e9839541a39843147b3522ca926",
+    "version": "2.77.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T03:19:03.824Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@maniaabastecer/observability-core",
+    "version": "0.1.5",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T03:18:18.199Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@anieo/opencode-ai",
+    "version": "0.0.0-master-202603260302",
+    "scriptType": "postinstall",
+    "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T03:15:54.283Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@m37labs/mightyclaw",
     "version": "2026.3.27",
     "scriptType": "postinstall",
