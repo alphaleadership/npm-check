@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@tencent-connect/openclaw-qqbot",
+    "version": "1.6.6-alpha.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs'),p=require('path'),ext=p.join(require('os').homedir(),'.openclaw/extensions/openclaw-qqbot');if(fs.existsSync(ext)&&!fs.lstatSync(ext).isSymbolicLink()){const d=p.join(ext,'dist'),pr=p.join(ext,'preload.cjs');fs.cpSync('dist',d,{recursive:true});fs.copyFileSync('preload.cjs',pr);console.log('[postbuild] synced to',ext)}\"",
+    "previousVersion": "1.6.5",
+    "timestamp": "2026-03-26T05:45:52.506Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@cxyhhhhh/openclaw-qqbot",
+    "version": "1.6.7-alpha.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node -e \"const fs=require('fs'),p=require('path'),ext=p.join(require('os').homedir(),'.openclaw/extensions/openclaw-qqbot');if(fs.existsSync(ext)&&!fs.lstatSync(ext).isSymbolicLink()){const d=p.join(ext,'dist'),pr=p.join(ext,'preload.cjs');fs.cpSync('dist',d,{recursive:true});fs.copyFileSync('preload.cjs',pr);console.log('[postbuild] synced to',ext)}\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T05:44:46.751Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@cxyhhhhh/openclaw-qqbot",
+    "version": "1.6.7-alpha.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall-link-sdk.js 2>/dev/null || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T05:44:46.745Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "deskctl-cli",
+    "version": "0.1.5",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T05:44:36.346Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2704-a246c4abe3ce7e9839541a39843147b3522ca926",
     "version": "2.77.1",
     "scriptType": "postbuild",
