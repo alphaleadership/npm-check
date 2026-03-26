@@ -1,5 +1,75 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2733-d1ceb6f94d0789f613d603e54cb8a8053633d161",
+    "version": "2.77.1",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T20:46:56.062Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "pi-messenger-swarm",
+    "version": "0.17.8",
+    "scriptType": "postinstall",
+    "scriptContent": "simple-git-hooks",
+    "previousVersion": "0.17.7",
+    "timestamp": "2026-03-26T20:46:30.160Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wire-dsl/mcp-server",
+    "version": "0.1.1",
+    "scriptType": "prebuild",
+    "scriptContent": "node ../../scripts/embed-fonts.js",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-03-26T20:45:19.226Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "claude-code-scanner",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "echo '✓ Run: npx claude-code-scanner init'",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T20:44:13.484Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@grayhaven/sandcastle",
+    "version": "0.1.9",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js || true",
+    "previousVersion": "0.1.8",
+    "timestamp": "2026-03-26T20:43:43.626Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mainlayer/cli",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node dist/postinstall/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-26T20:43:05.741Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@personize/cli",
+    "version": "0.2.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node -e \"console.log('\\n  Personize CLI installed.\\n  Run: personize setup\\n  Docs: https://personize.ai/technical-guide\\n')\"",
+    "previousVersion": "0.2.3",
+    "timestamp": "2026-03-26T20:43:04.311Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2742-a9fa452a3d260d5a5d092450073e0c3988227e19",
     "version": "2.77.1",
     "scriptType": "postbuild",
