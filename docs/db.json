@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "agent-workspace-mcp",
+    "version": "0.1.4",
+    "scriptType": "prebuild",
+    "scriptContent": "tsx src/scripts/sync-version.ts",
+    "previousVersion": "0.1.3",
+    "timestamp": "2026-03-26T07:23:30.996Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@tencent-connect/openclaw-qqbot",
     "version": "1.6.6-alpha.1",
     "scriptType": "postbuild",
