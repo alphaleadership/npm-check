@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "naverworks",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-27T03:19:14.700Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@hackingmywayinin/mc-test2",
     "version": "1.0.0",
     "scriptType": "preinstall",
