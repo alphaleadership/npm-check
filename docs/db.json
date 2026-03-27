@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "terminalos",
+    "version": "0.6.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/fix-permissions.js",
+    "previousVersion": "0.6.3",
+    "timestamp": "2026-03-27T19:07:55.504Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "occt-wasm",
+    "version": "0.1.1",
+    "scriptType": "prebuild",
+    "scriptContent": "cp ../dist/occt-wasm.js ../dist/occt-wasm.wasm dist/ 2>/dev/null || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-27T19:07:28.537Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "mcp-context-sync",
+    "version": "1.0.19",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"const p=require('./package.json');require('fs').writeFileSync('src/version.ts','export const VERSION = '+JSON.stringify(p.version)+';\\n')\"",
+    "previousVersion": "1.0.18",
+    "timestamp": "2026-03-27T19:05:27.028Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "@degausai/wonda",
     "version": "0.0.1",
     "scriptType": "postinstall",
