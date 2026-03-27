@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@companion-ai/feynman",
+    "version": "0.2.15",
+    "scriptType": "preinstall",
+    "scriptContent": "node ./scripts/check-node-version.mjs",
+    "previousVersion": "0.2.14",
+    "timestamp": "2026-03-27T22:41:25.654Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "terminalos",
     "version": "0.6.4",
     "scriptType": "postinstall",
