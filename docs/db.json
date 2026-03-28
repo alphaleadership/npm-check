@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "auth0-token-vault-cli",
+    "version": "0.1.0",
+    "scriptType": "postbuild",
+    "scriptContent": "shx chmod +x dist/*.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T02:49:56.821Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "auth0-token-vault-cli",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run check",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T02:49:56.815Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@companion-ai/feynman",
     "version": "0.2.15",
     "scriptType": "preinstall",
