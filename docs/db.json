@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@shadanai/openclaw",
+    "version": "2026.3.28",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.mjs",
+    "previousVersion": "2026.3.27",
+    "timestamp": "2026-03-28T05:25:25.642Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@gmod/bam",
+    "version": "7.1.20",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm clean",
+    "previousVersion": "7.1.19",
+    "timestamp": "2026-03-28T05:25:03.236Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "free-code-ai",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T05:24:16.641Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ezark-publish/agentdesk-mcp",
+    "version": "1.0.0",
+    "scriptType": "postbuild",
+    "scriptContent": "grep -q '^#!/usr/bin/env node' dist/index.js || (echo '#!/usr/bin/env node' | cat - dist/index.js > /tmp/agentdesk-mcp-shebang.js && mv /tmp/agentdesk-mcp-shebang.js dist/index.js) && chmod +x dist/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T05:23:59.045Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
     "packageName": "auth0-token-vault-cli",
     "version": "0.1.0",
     "scriptType": "postbuild",
