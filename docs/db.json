@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "vforclaude",
+    "version": "0.3.84",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/build-license.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T22:38:17.836Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@skozub/backend-identity",
     "version": "1.0.0",
     "scriptType": "prebuild",
