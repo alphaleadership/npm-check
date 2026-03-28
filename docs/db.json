@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@llinn/ccstatusline",
+    "version": "2.3.0",
+    "scriptType": "postbuild",
+    "scriptContent": "bun run scripts/replace-version.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T07:08:39.793Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "codymaster",
+    "version": "4.4.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "4.3.0",
+    "timestamp": "2026-03-28T07:08:28.948Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "automatey",
+    "version": "0.1.7",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.1.6",
+    "timestamp": "2026-03-28T07:07:58.900Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@shadanai/openclaw",
     "version": "2026.3.28",
     "scriptType": "postinstall",
