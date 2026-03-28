@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "keyjey",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./scripts/postinstall.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T08:52:31.668Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@llinn/ccstatusline",
     "version": "2.3.0",
     "scriptType": "postbuild",
