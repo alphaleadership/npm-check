@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "@skozub/backend-identity",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rimraf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T20:44:29.555Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "pixi-glyphs",
+    "version": "5.1.5",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/fix-rpt2-filter.js",
+    "previousVersion": "5.1.4",
+    "timestamp": "2026-03-28T20:43:42.892Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "fireworks-ai",
+    "version": "0.0.0-dev-202603281859",
+    "scriptType": "postinstall",
+    "scriptContent": "bun ./postinstall.mjs || node ./postinstall.mjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T20:43:07.793Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "badgerclaw",
+    "version": "1.4.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.1.10",
+    "timestamp": "2026-03-28T20:42:39.479Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "idle-arcade",
+    "version": "0.2.1",
+    "scriptType": "postinstall",
+    "scriptContent": "echo 'Run idle-arcade setup to configure hooks' 2>/dev/null || true",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-03-28T20:40:38.538Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "context-foundry",
     "version": "3.0.8",
     "scriptType": "postinstall",
