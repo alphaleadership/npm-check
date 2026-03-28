@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "drail",
+    "version": "0.0.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T13:12:13.023Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@a5c-ai/babysitter-codex",
+    "version": "0.1.6-staging.f079a57a",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.js",
+    "previousVersion": "0.1.6-staging.ee25a34f",
+    "timestamp": "2026-03-28T13:12:02.126Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "autoshipment-public-front",
+    "version": "99.99.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-28T13:11:44.503Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "npmamzs",
+    "version": "1.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node index.js",
+    "previousVersion": "1.1.0",
+    "timestamp": "2026-03-28T13:11:43.384Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "keyjey",
     "version": "0.1.0",
     "scriptType": "postinstall",
