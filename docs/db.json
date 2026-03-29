@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@ndriadev/vite-plugin-monitor",
+    "version": "1.0.1",
+    "scriptType": "postbuild",
+    "scriptContent": "node scripts/verify-build.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-29T14:41:36.758Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ndriadev/vite-plugin-monitor",
+    "version": "1.0.1",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm run clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-29T14:41:36.753Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "bolt-agent",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-29T14:41:26.840Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@coldsurf/ocean-road-mcp",
     "version": "0.2.0",
     "scriptType": "prebuild",
