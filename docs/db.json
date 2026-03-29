@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "opengstack",
+    "version": "0.14.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install-commands.js",
+    "previousVersion": "0.13.10",
+    "timestamp": "2026-03-29T03:25:07.938Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "react-native-litert-lm",
+    "version": "0.3.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.2.2",
+    "timestamp": "2026-03-29T03:25:04.514Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@lifeaitools/clauth",
+    "version": "1.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": "0.7.6",
+    "timestamp": "2026-03-29T03:24:40.336Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "vforclaude",
     "version": "0.3.84",
     "scriptType": "prebuild",
