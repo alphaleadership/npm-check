@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "centurion-tours-cli",
+    "version": "1.0.0",
+    "scriptType": "prebuild",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-29T18:57:10.168Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@jti/typst-template",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-29T18:56:17.618Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "10x-chat",
+    "version": "0.10.1",
+    "scriptType": "postinstall",
+    "scriptContent": "npx patchright install chromium 2>/dev/null || npx playwright install chromium 2>/dev/null || true",
+    "previousVersion": "0.10.0",
+    "timestamp": "2026-03-29T18:56:14.839Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@ifc-lite/bcf",
     "version": "1.15.1",
     "scriptType": "prebuild",
