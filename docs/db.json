@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@coldsurf/ocean-road-mcp",
+    "version": "0.2.0",
+    "scriptType": "prebuild",
+    "scriptContent": "pnpm run generate-data",
+    "previousVersion": null,
+    "timestamp": "2026-03-29T13:12:54.312Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@stless/cif",
+    "version": "1.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "npm run verify",
+    "previousVersion": null,
+    "timestamp": "2026-03-29T13:12:35.441Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@lynovratech/baileys",
     "version": "1.0.11",
     "scriptType": "postinstall",
