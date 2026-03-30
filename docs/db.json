@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@esmalley/ts-utils",
+    "version": "6.2.2",
+    "scriptType": "prebuild",
+    "scriptContent": "node scripts/generate-exports.js",
+    "previousVersion": "6.2.1",
+    "timestamp": "2026-03-30T03:29:15.756Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@raysonmeng/agentbridge",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.cjs",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T03:28:39.375Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "tukuai",
     "version": "0.1.0",
     "scriptType": "postinstall",
