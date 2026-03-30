@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "egova-urbanpro-web",
+    "version": "0.0.1",
+    "scriptType": "preinstall",
+    "scriptContent": "npx only-allow pnpm",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T11:11:46.045Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "repomap-ai",
+    "version": "0.1.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T11:11:28.440Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2749-d5dddde3ebc6774a5abd3edda25e658c47925cb1",
+    "version": "2.78.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T11:10:45.046Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@xbg.solutions/frontend-core",
+    "version": "1.1.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/copy-skills.cjs",
+    "previousVersion": "1.1.1",
+    "timestamp": "2026-03-30T11:09:55.019Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@seamapi/url-search-params-parser",
     "version": "0.0.1",
     "scriptType": "postbuild",
