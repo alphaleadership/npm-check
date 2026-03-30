@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2733-03a7045a4fd8b0bb7856b8dc49c6b4cfcadce48f",
+    "version": "2.78.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T22:49:51.502Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "dyvix-ui",
+    "version": "0.0.9",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run dyvix:build",
+    "previousVersion": "0.0.8-alpha.2",
+    "timestamp": "2026-03-30T22:47:55.725Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@midaz/cli",
+    "version": "0.3.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T22:46:18.260Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@bernierllc/nevar-loop-detector",
     "version": "0.1.0",
     "scriptType": "prebuild",
