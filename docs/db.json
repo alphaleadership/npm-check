@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2678-0ef312240e0cfcc3b3a0a75c091699e47345e107",
+    "version": "2.78.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T06:06:09.102Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "facecog-liveness-showcase",
+    "version": "0.0.1",
+    "scriptType": "postinstall",
+    "scriptContent": "patch-package",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T06:05:35.354Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@esmalley/ts-utils",
     "version": "6.2.2",
     "scriptType": "prebuild",
