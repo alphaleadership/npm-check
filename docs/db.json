@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@amethyst-labs/quickcli",
+    "version": "2.6.0-alpha.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node install.js",
+    "previousVersion": "2.1.0-beta.0",
+    "timestamp": "2026-03-30T15:18:00.920Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heroui-pro/react",
+    "version": "1.0.0-alpha.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./pre/postinstall/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T15:14:40.974Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "heroui-native-pro",
+    "version": "1.0.0-alpha.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node ./pre/postinstall/index.js",
+    "previousVersion": "0.0.1-alpha.0",
+    "timestamp": "2026-03-30T15:13:58.601Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@liangmi/ghm",
     "version": "0.0.1",
     "scriptType": "preinstall",
