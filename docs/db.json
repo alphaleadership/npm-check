@@ -1,5 +1,105 @@
 [
   {
+    "packageName": "@bernierllc/nevar-loop-detector",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-30T20:58:36.972Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2733-ff5b84c1493e3368e3d67b3ecce69b98b28a2c08",
+    "version": "2.78.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T20:58:06.373Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bernierllc/nevar-loop-controller",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-30T20:57:59.596Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bernierllc/nevar-mixin-bridge",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-30T20:57:36.107Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bernierllc/nevar-storage",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-30T20:57:22.890Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bernierllc/nevar-engine",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-30T20:57:12.946Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2704-2563f28f87abd57d0ba8bfbc8f8f2885e0f0f74c",
+    "version": "2.78.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-30T20:56:56.613Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bernierllc/nevar-adapter-prisma",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-30T20:56:46.828Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bernierllc/nevar-audit-logger",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-30T20:55:47.913Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bernierllc/nevar-lifecycle-events",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "npm run clean",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-03-30T20:55:30.140Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@bernierllc/nevar-circuit-breaker",
     "version": "0.1.0",
     "scriptType": "prebuild",
