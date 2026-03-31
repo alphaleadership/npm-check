@@ -1,5 +1,2685 @@
 [
   {
+    "packageName": "@willbooster/oxlint-config",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "prettify",
+    "scriptContent": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,java,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test{-,/}fixtures/**\" || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:32.267Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@willbooster/oxlint-config",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "format",
+    "scriptContent": "sort-package-json && yarn prettify",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:32.261Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@willbooster/oxlint-config",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "cleanup",
+    "scriptContent": "yarn format",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:32.254Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@willbooster/oxlint-config",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "check-for-ai",
+    "scriptContent": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:32.248Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@willbooster/oxlint-config",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "check-all-for-ai",
+    "scriptContent": "yarn check-for-ai && yarn test",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:32.240Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@willbooster/oxfmt-config",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "prettify",
+    "scriptContent": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,java,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test{-,/}fixtures/**\" || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:26.828Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@willbooster/oxfmt-config",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "format",
+    "scriptContent": "sort-package-json && yarn prettify",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:26.822Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@willbooster/oxfmt-config",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "cleanup",
+    "scriptContent": "yarn format",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:26.815Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@willbooster/oxfmt-config",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "check-for-ai",
+    "scriptContent": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:26.809Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@willbooster/oxfmt-config",
+    "version": "0.0.0-semantically-released",
+    "scriptType": "check-all-for-ai",
+    "scriptContent": "yarn check-for-ai && yarn test",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:26.801Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bluelovers/opencode-arise",
+    "version": "0.1.18",
+    "scriptType": "sort-package-json",
+    "scriptContent": "yarn-tool sort",
+    "previousVersion": "0.1.16",
+    "timestamp": "2026-03-31T13:58:25.406Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bluelovers/opencode-arise",
+    "version": "0.1.18",
+    "scriptType": "ncu",
+    "scriptContent": "yarn-tool ncu -u",
+    "previousVersion": "0.1.16",
+    "timestamp": "2026-03-31T13:58:25.399Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "piccli",
+    "version": "0.2.0",
+    "scriptType": "test",
+    "scriptContent": "vitest run",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-03-31T13:58:23.497Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "n8n-nodes-pdfvector",
+    "version": "2.0.2",
+    "scriptType": "prepublishOnly",
+    "scriptContent": "n8n-node prerelease",
+    "previousVersion": "0.8.4",
+    "timestamp": "2026-03-31T13:58:12.758Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "n8n-nodes-pdfvector",
+    "version": "2.0.2",
+    "scriptType": "release",
+    "scriptContent": "n8n-node release",
+    "previousVersion": "0.8.4",
+    "timestamp": "2026-03-31T13:58:12.751Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "n8n-nodes-pdfvector",
+    "version": "2.0.2",
+    "scriptType": "lint:fix",
+    "scriptContent": "n8n-node lint --fix",
+    "previousVersion": "0.8.4",
+    "timestamp": "2026-03-31T13:58:12.745Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "n8n-nodes-pdfvector",
+    "version": "2.0.2",
+    "scriptType": "lint",
+    "scriptContent": "n8n-node lint",
+    "previousVersion": "0.8.4",
+    "timestamp": "2026-03-31T13:58:12.738Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "n8n-nodes-pdfvector",
+    "version": "2.0.2",
+    "scriptType": "dev",
+    "scriptContent": "n8n-node dev",
+    "previousVersion": "0.8.4",
+    "timestamp": "2026-03-31T13:58:12.732Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "n8n-nodes-pdfvector",
+    "version": "2.0.2",
+    "scriptType": "build:watch",
+    "scriptContent": "tsc --watch",
+    "previousVersion": "0.8.4",
+    "timestamp": "2026-03-31T13:58:12.725Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "n8n-nodes-pdfvector",
+    "version": "2.0.2",
+    "scriptType": "build",
+    "scriptContent": "n8n-node build",
+    "previousVersion": "0.8.4",
+    "timestamp": "2026-03-31T13:58:12.718Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@segment/clear-images",
+    "version": "1.0.0",
+    "scriptType": "test",
+    "scriptContent": "make test",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:12.153Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-angular-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "pr-codesandbox-auto",
+    "scriptContent": "node ../../../scripts/pr-codesandbox-auto/change-package-name.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:10.922Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-angular-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:major",
+    "scriptContent": "node ../../../scripts/publish-version.js major",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:10.916Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-angular-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:minor",
+    "scriptContent": "node ../../../scripts/publish-version.js minor",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:10.909Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-angular-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:patch",
+    "scriptContent": "node ../../../scripts/publish-version.js patch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:10.903Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-angular-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "release",
+    "scriptContent": "../../node_modules/@angular/cli/bin/ng.js build vega-angular",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:10.897Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-angular-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "stencil-postbuild",
+    "scriptContent": "node ./src/scripts/stencil-post-build-script.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:10.889Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "pr-codesandbox-auto",
+    "scriptContent": "node ../scripts/pr-codesandbox-auto/change-package-name.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:10.004Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "override-type",
+    "scriptContent": "node ./src/scripts/override-component-native-event-type.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.998Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:major",
+    "scriptContent": "node ../scripts/publish-version.js major",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.987Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:minor",
+    "scriptContent": "node ../scripts/publish-version.js minor",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.980Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:patch",
+    "scriptContent": "node ../scripts/publish-version.js patch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.974Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "release",
+    "scriptContent": "npm run build",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.968Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "rollup",
+    "scriptContent": "rollup -c",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.962Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "tsc",
+    "scriptContent": "tsc -p .",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.956Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "compile",
+    "scriptContent": "npm run tsc",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.949Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "clean",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.943Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "build",
+    "scriptContent": "npm run clean && npm run compile && npm run override-type",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.936Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-react-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "stencil-postbuild",
+    "scriptContent": "node ./src/scripts/stencil-post-build-script.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:09.930Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-vue-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "pr-codesandbox-auto",
+    "scriptContent": "node ../scripts/pr-codesandbox-auto/change-package-name.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.875Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-vue-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:major",
+    "scriptContent": "node ../scripts/publish-version.js major",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.868Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-vue-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:minor",
+    "scriptContent": "node ../scripts/publish-version.js minor",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.862Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-vue-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:patch",
+    "scriptContent": "node ../scripts/publish-version.js patch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.856Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-vue-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "release",
+    "scriptContent": "npm run build",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.850Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-vue-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "watch",
+    "scriptContent": "tsc --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.843Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-vue-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "build",
+    "scriptContent": "tsc -p .",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.837Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-vue-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "stencil-postbuild",
+    "scriptContent": "rm -rf ./dist && git checkout -- ./src/vue-component-lib/utils.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.830Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "check-feature-flags",
+    "scriptContent": "node ./scripts/check-feature-flags.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.169Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "build-feature-flags",
+    "scriptContent": "node ./scripts/build-feature-flags.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.163Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "build-components-type-definition",
+    "scriptContent": "npx typedoc src/types/public-api.ts --json docs/components-type-definition.json",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.156Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "build-components-definition",
+    "scriptContent": "npm run setup:base && npx stencil build -- --docs-json docs/components-definition.json",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.150Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "pr-codesandbox-auto",
+    "scriptContent": "node ../scripts/pr-codesandbox-auto/change-package-name.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.144Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "build-migration",
+    "scriptContent": "node ./scripts/build-migration.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.138Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "clean:test:visual:pipeline",
+    "scriptContent": "NODE_ENV=pipeline npm run clean:test:visual",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.132Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "clean:test:visual",
+    "scriptContent": "node scripts/visual-test-screenshot-handle.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.125Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:major",
+    "scriptContent": "node ../scripts/publish-version.js major",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.119Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:minor",
+    "scriptContent": "node ../scripts/publish-version.js minor",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.113Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "publish:patch",
+    "scriptContent": "node ../scripts/publish-version.js patch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.106Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "release",
+    "scriptContent": "npm run build && npm run build-storybook && npm run build-migration && npm run clean:test:visual",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.100Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "pre-release",
+    "scriptContent": "npm run build && npm run check-feature-flags && npm run clean:test:visual && npm run test:visual && npm run test:base:coverage-silent && npm run lint",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.094Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "postbuild-storybook",
+    "scriptContent": "mkdir -p storybook-static/vega && cp dist/vega/vega.css storybook-static/vega/vega.css",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.088Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "build-storybook",
+    "scriptContent": "build-storybook --quiet",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.082Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "storybook",
+    "scriptContent": "start-storybook -p 6006 -s dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.075Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "prestorybook",
+    "scriptContent": "npm run build",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.069Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "generate",
+    "scriptContent": "stencil generate",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.063Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "test:base:watch-all",
+    "scriptContent": "npm run test:base -- --watchAll",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.057Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "test:base:coverage-silent",
+    "scriptContent": "npm run test:base -- --coverage --silent",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.045Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "test:base:coverage",
+    "scriptContent": "npm run test:base -- --coverage",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.039Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "test:visual:pipeline",
+    "scriptContent": "NODE_ENV=pipeline npm run test:visual",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.032Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "test:visual",
+    "scriptContent": "npm run setup && stencil test --e2e --screenshot -c stencil.visual.e2e.config.ts --silent",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.026Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "test:hover-case",
+    "scriptContent": "npm run setup && stencil test --e2e -- .hover.e2e.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.020Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "test:single-case",
+    "scriptContent": "npm run test:base -- --testNamePattern",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.014Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "test:single-suite",
+    "scriptContent": "npm run test:base -- ",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.008Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "test:base",
+    "scriptContent": "npm run setup && stencil test --spec --e2e -c stencil.test.config.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:05.002Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "debug",
+    "scriptContent": "npm run prepare:postcss -- -w | npm run build:base -- --dev --watch --serve --debug --no-cache",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.995Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "start",
+    "scriptContent": "npm run prepare:postcss -- -w | npm run build:base -- --watch --serve",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.989Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "postbuild:SRI",
+    "scriptContent": "node ./scripts/subresource-integrity/sri-setup.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.983Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "postbuild:dist-check",
+    "scriptContent": "node ./scripts/components-dynamic-import-path-validation.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.977Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "postbuild:react",
+    "scriptContent": "npm run stencil-postbuild --prefix ../vega-react",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.971Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "postbuild:vue",
+    "scriptContent": "npm run stencil-postbuild --prefix ../vega-vue",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.965Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "postbuild:angular",
+    "scriptContent": "npm run stencil-postbuild --prefix ../vega-angular-workspace/projects/vega-angular",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.958Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "postbuild:ensure-dist-dts",
+    "scriptContent": "node ./scripts/ensure-dist-dts.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.952Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.945Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "lint",
+    "scriptContent": "npm run setup && npm run lint:build-bundles && npm run lint:ts:export-type && npm run lint:ts:strict && npm run lint:ts:base && npm run lint:prettier && npm run lint:eslint && npm run lint:e2e-module && npm run lint:test-case",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.939Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "lint:test-case",
+    "scriptContent": "node scripts/test-case-vaildation.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.933Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "lint:prettier",
+    "scriptContent": "npx prettier -c .",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.927Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "lint:eslint",
+    "scriptContent": "npx eslint --max-warnings=0 src",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.921Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "lint:build-bundles",
+    "scriptContent": "node scripts/build-bundles-config.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.909Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "lint:e2e-module",
+    "scriptContent": "node scripts/e2e-test-module-validation.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.903Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "lint:ts:export-type",
+    "scriptContent": "yarn generate-export-type && tsc -p ./tsconfig.type-check.json --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.897Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "lint:ts:strict",
+    "scriptContent": "tsc -p ./tsconfig.strict.json --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.891Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "lint:ts:base",
+    "scriptContent": "tsc -p ./tsconfig.json --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.884Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "build",
+    "scriptContent": "npm run build:base -- --docs && node scripts/update-toobigrc-for-new-files-only.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.878Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "build:base",
+    "scriptContent": "npx patch-package && npm run setup && npx stencil build",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.872Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "setup",
+    "scriptContent": "npm run prepare:patches && npm run setup:base",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.866Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "setup:base",
+    "scriptContent": "npm run prepare:style-folder && npm run prepare:adapaters && npm run prepare:postcss && yarn generate-export-components-types",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.859Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "prepare:patches",
+    "scriptContent": "npx patch-package",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.853Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "prepare:style-folder",
+    "scriptContent": "mkdir -p style",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.847Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "prepare:adapaters",
+    "scriptContent": "node ./scripts/auto-generate-angular-vue-two-way-binding-adapters && npx prettier -w ./src/value-model-adapters",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.841Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "prepare:postcss",
+    "scriptContent": "npx postcss design_tokens/postcss/vega.css -o design_tokens/postcss/build.css",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.835Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "generate-export-components-types",
+    "scriptContent": "node ./scripts/generate-export-components-types.js && npx prettier -w ./src/types/components.type.d.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.826Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "generate-export-type",
+    "scriptContent": "node ./scripts/generate-export-types-checking.js && npx prettier -w ./src/types/test/exported-type.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.816Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-848f8a71d754a7385e9bfe2f9f698a75c0a76dcc",
+    "version": "2.78.0",
+    "scriptType": "consume-design-token",
+    "scriptContent": "node ./scripts/consume_vega_design_output.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:58:04.805Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@segment/consent-manager",
+    "version": "5.8.1",
+    "scriptType": "build",
+    "scriptContent": "concurrently --names \"commonjs,esm,standalone\" \"yarn run build-commonjs\" \"yarn run build-esm\" \"yarn run build-standalone\"",
+    "previousVersion": "5.7.0",
+    "timestamp": "2026-03-31T13:58:01.972Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@segment/consent-manager",
+    "version": "5.8.1",
+    "scriptType": "lint",
+    "scriptContent": "eslint \"src/**/*.{ts,tsx}\"",
+    "previousVersion": "5.7.0",
+    "timestamp": "2026-03-31T13:58:01.966Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-awareness-plugin-github-watcher",
+    "version": "0.3.0",
+    "scriptType": "prepublishOnly",
+    "scriptContent": "tsc -p ../tsconfig.build.json --noEmit false",
+    "previousVersion": "0.2.0",
+    "timestamp": "2026-03-31T13:57:41.263Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-awareness-plugin-pr-pilot",
+    "version": "0.3.0",
+    "scriptType": "prepublishOnly",
+    "scriptContent": "tsc -p ../tsconfig.build.json --noEmit false",
+    "previousVersion": "0.2.0",
+    "timestamp": "2026-03-31T13:57:37.223Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-awareness-plugin-server-health",
+    "version": "0.3.0",
+    "scriptType": "prepublishOnly",
+    "scriptContent": "tsc -p ../tsconfig.build.json --noEmit false",
+    "previousVersion": "0.2.0",
+    "timestamp": "2026-03-31T13:57:34.436Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@dt-frames/ui",
+    "version": "4.0.3",
+    "scriptType": "prepublishOnly",
+    "scriptContent": "node ../../scripts/prepare-publish.js",
+    "previousVersion": "4.0.2",
+    "timestamp": "2026-03-31T13:57:13.876Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "vibelens",
+    "version": "2.1.3",
+    "scriptType": "test:all",
+    "scriptContent": "vitest run && playwright test",
+    "previousVersion": "2.1.2",
+    "timestamp": "2026-03-31T13:57:08.137Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "vibelens",
+    "version": "2.1.3",
+    "scriptType": "test:e2e",
+    "scriptContent": "playwright test",
+    "previousVersion": "2.1.2",
+    "timestamp": "2026-03-31T13:57:08.131Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@dt-frames/vite",
+    "version": "4.0.3",
+    "scriptType": "prepublishOnly",
+    "scriptContent": "node ../../scripts/prepare-publish.js",
+    "previousVersion": "4.0.2",
+    "timestamp": "2026-03-31T13:57:06.563Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@masko/cli",
+    "version": "0.1.0",
+    "scriptType": "start",
+    "scriptContent": "node dist/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:54.863Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@masko/cli",
+    "version": "0.1.0",
+    "scriptType": "dev",
+    "scriptContent": "tsc --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:54.857Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@masko/cli",
+    "version": "0.1.0",
+    "scriptType": "build",
+    "scriptContent": "tsc",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:54.850Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mridang/semantic-release-oci",
+    "version": "1.0.0",
+    "scriptType": "lint:fix",
+    "scriptContent": "npx eslint . --fix",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:49.096Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mridang/semantic-release-oci",
+    "version": "1.0.0",
+    "scriptType": "lint",
+    "scriptContent": "npx eslint .",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:49.090Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mridang/semantic-release-oci",
+    "version": "1.0.0",
+    "scriptType": "format:check",
+    "scriptContent": "prettier --check .",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:49.084Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mridang/semantic-release-oci",
+    "version": "1.0.0",
+    "scriptType": "format",
+    "scriptContent": "prettier --write .",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:49.078Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mridang/semantic-release-oci",
+    "version": "1.0.0",
+    "scriptType": "test:debug",
+    "scriptContent": "jest --verbose --config=jest.config.mjs --runInBand --detectOpenHandles",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:49.072Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mridang/semantic-release-oci",
+    "version": "1.0.0",
+    "scriptType": "test:watch",
+    "scriptContent": "npm run test -- --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:49.066Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mridang/semantic-release-oci",
+    "version": "1.0.0",
+    "scriptType": "test",
+    "scriptContent": "jest --verbose --config=jest.config.mjs --runInBand",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:49.060Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mridang/semantic-release-oci",
+    "version": "1.0.0",
+    "scriptType": "build",
+    "scriptContent": "tsc",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:49.054Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@mridang/semantic-release-oci",
+    "version": "1.0.0",
+    "scriptType": "prepack",
+    "scriptContent": "tsc",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:49.048Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "g-draft",
+    "version": "0.1.1",
+    "scriptType": "lint:fix",
+    "scriptContent": "biome lint --write --unsafe && biome format --write ",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-03-31T13:56:47.655Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "build:dashboard",
+    "scriptContent": "cd packages/dashboard && pnpm build",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.586Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.580Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "release",
+    "scriptContent": "npm run version:sync && npm run build:all-platforms && npm publish",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.574Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "build:docker",
+    "scriptContent": "docker build -t agent-browser-builder -f docker/Dockerfile.build .",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.567Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "build:all-platforms",
+    "scriptContent": "npm run version:sync && (npm run build:linux & npm run build:windows & wait) && npm run build:macos",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.561Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "build:windows",
+    "scriptContent": "npm run version:sync && docker compose -f docker/docker-compose.yml run --rm build-windows",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.555Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "build:macos",
+    "scriptContent": "npm run version:sync && (cargo build --release --manifest-path cli/Cargo.toml --target aarch64-apple-darwin & cargo build --release --manifest-path cli/Cargo.toml --target x86_64-apple-darwin & wait) && cp cli/target/aarch64-apple-darwin/release/agent-browser bin/agent-browser-darwin-arm64 && cp cli/target/x86_64-apple-darwin/release/agent-browser bin/agent-browser-darwin-x64",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.549Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "build:linux",
+    "scriptContent": "npm run version:sync && docker compose -f docker/docker-compose.yml run --rm build-linux",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.543Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "build:native",
+    "scriptContent": "npm run version:sync && cargo build --release --manifest-path cli/Cargo.toml && node scripts/copy-native.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.537Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "version",
+    "scriptContent": "npm run version:sync && git add cli/Cargo.toml",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.531Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-browser-mapper",
+    "version": "0.24.0",
+    "scriptType": "version:sync",
+    "scriptContent": "node scripts/sync-version.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:43.524Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "wtfdev",
+    "version": "0.1.0",
+    "scriptType": "start",
+    "scriptContent": "node dist/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:39.314Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "wtfdev",
+    "version": "0.1.0",
+    "scriptType": "test:watch",
+    "scriptContent": "vitest",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:39.308Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "wtfdev",
+    "version": "0.1.0",
+    "scriptType": "test",
+    "scriptContent": "vitest run",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:39.301Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "wtfdev",
+    "version": "0.1.0",
+    "scriptType": "dev",
+    "scriptContent": "tsc --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:39.295Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "wtfdev",
+    "version": "0.1.0",
+    "scriptType": "build",
+    "scriptContent": "tsc",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:39.289Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "require-addon",
+    "version": "1.2.0",
+    "scriptType": "format",
+    "scriptContent": "prettier --write .",
+    "previousVersion": "1.1.0",
+    "timestamp": "2026-03-31T13:56:36.012Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "require-addon",
+    "version": "1.2.0",
+    "scriptType": "lint",
+    "scriptContent": "prettier --check .",
+    "previousVersion": "1.1.0",
+    "timestamp": "2026-03-31T13:56:36.005Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "granite-mem",
+    "version": "0.1.4",
+    "scriptType": "test:coverage",
+    "scriptContent": "vitest run --coverage",
+    "previousVersion": "0.1.3",
+    "timestamp": "2026-03-31T13:56:34.419Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "check:bundled-channel-config-metadata",
+    "scriptContent": "node --import tsx scripts/generate-bundled-channel-config-metadata.ts --check",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.442Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:perf:update-timings:extensions",
+    "scriptContent": "node scripts/test-update-timings.mjs --config vitest.extensions.config.ts",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.436Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:docker:live-cli-backend",
+    "scriptContent": "bash scripts/test-live-cli-backend-docker.sh",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.430Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:voicecall:closedloop",
+    "scriptContent": "node scripts/test-voicecall-closedloop.mjs",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.424Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:startup:bench:update",
+    "scriptContent": "node scripts/test-update-cli-startup-bench.mjs",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.418Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:docker:live-acp-bind",
+    "scriptContent": "bash scripts/test-live-acp-bind-docker.sh",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.412Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:startup:bench:smoke",
+    "scriptContent": "node --import tsx scripts/bench-cli-startup.ts --preset real --case gatewayStatusJson --runs 1 --warmup 0 --output .artifacts/cli-startup-bench-smoke.json",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.406Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:startup:bench:check",
+    "scriptContent": "node scripts/test-cli-startup-bench-budget.mjs",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.400Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:docker:mcp-channels",
+    "scriptContent": "bash scripts/e2e/mcp-channels-docker.sh",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.394Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "plugin-sdk:facades:check",
+    "scriptContent": "node scripts/generate-plugin-sdk-facades.mjs --check",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.388Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "docs:check-links:anchors",
+    "scriptContent": "node scripts/docs-link-audit.mjs --anchors",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.382Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:startup:bench:save",
+    "scriptContent": "node --import tsx scripts/bench-cli-startup.ts --preset all --runs 5 --warmup 1 --output .artifacts/cli-startup-bench-all.json",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.376Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:contracts:channels",
+    "scriptContent": "OPENCLAW_TEST_PROFILE=serial pnpm exec vitest run --config vitest.contracts.config.ts src/channels/plugins/contracts",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.369Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:contracts:plugins",
+    "scriptContent": "OPENCLAW_TEST_PROFILE=serial pnpm exec vitest run --config vitest.contracts.config.ts src/plugins/contracts",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.363Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "plugin-sdk:facades:gen",
+    "scriptContent": "node scripts/generate-plugin-sdk-facades.mjs --write",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.357Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:docker:openwebui",
+    "scriptContent": "bash scripts/e2e/openwebui-docker.sh",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.351Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "config:channels:check",
+    "scriptContent": "node --import tsx scripts/generate-bundled-channel-config-metadata.ts --check",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.340Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "config:channels:gen",
+    "scriptContent": "node --import tsx scripts/generate-bundled-channel-config-metadata.ts --write",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.334Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:startup:bench",
+    "scriptContent": "node --import tsx scripts/bench-cli-startup.ts",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.328Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "build:strict-smoke",
+    "scriptContent": "pnpm canvas:a2ui:bundle && node scripts/tsdown-build.mjs && node scripts/runtime-postbuild.mjs && node scripts/build-stamp.mjs && pnpm build:plugin-sdk:dts && node --import tsx scripts/write-plugin-sdk-entry-dts.ts && node scripts/check-plugin-sdk-exports.mjs",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.322Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:changed:max",
+    "scriptContent": "node scripts/test-parallel.mjs --profile max --changed origin/main",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.316Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "plugin-sdk:usage",
+    "scriptContent": "node --import tsx scripts/analyze-plugin-sdk-usage.ts",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.310Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "canon:check:json",
+    "scriptContent": "node scripts/canon.mjs check --json",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.304Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:extensions",
+    "scriptContent": "node scripts/test-parallel.mjs --surface extensions",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.298Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:docker:all",
+    "scriptContent": "pnpm test:docker:live-models && pnpm test:docker:live-gateway && pnpm test:docker:openwebui && pnpm test:docker:onboard && pnpm test:docker:gateway-network && pnpm test:docker:mcp-channels && pnpm test:docker:qr && pnpm test:docker:doctor-switch && pnpm test:docker:plugins && pnpm test:docker:cleanup",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.292Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:channels",
+    "scriptContent": "node scripts/test-parallel.mjs --surface channels",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.286Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "release:check",
+    "scriptContent": "pnpm check:base-config-schema && pnpm check:bundled-channel-config-metadata && pnpm check:bundled-provider-auth-env-vars && pnpm config:docs:check && pnpm plugin-sdk:check-exports && pnpm plugin-sdk:facades:check && pnpm plugin-sdk:api:check && node scripts/stage-bundled-plugin-runtime-deps.mjs && pnpm ui:build && node --import tsx scripts/release-check.ts",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.280Z",
+    "issuesend": false,
+    "suspicionScore": 9
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "canon:enforce",
+    "scriptContent": "node scripts/canon.mjs enforce --json",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.274Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "ts-topology",
+    "scriptContent": "node --import tsx scripts/ts-topology.ts",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.268Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:serial",
+    "scriptContent": "node scripts/test-parallel.mjs --profile serial",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.262Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall-bundled-plugins.mjs",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.256Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "canon:check",
+    "scriptContent": "node scripts/canon.mjs check",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.250Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:live",
+    "scriptContent": "node scripts/test-live.mjs",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.245Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "test:max",
+    "scriptContent": "node scripts/test-parallel.mjs --profile max",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.240Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "lint:fix",
+    "scriptContent": "node scripts/run-oxlint.mjs --fix && pnpm format",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.235Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "check",
+    "scriptContent": "pnpm check:no-conflict-markers && pnpm check:host-env-policy:swift && pnpm tsgo && pnpm lint && pnpm lint:webhook:no-low-level-body-read && pnpm lint:auth:no-pairing-store-group && pnpm lint:auth:pairing-account-scope",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.230Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "build",
+    "scriptContent": "pnpm canvas:a2ui:bundle && node scripts/tsdown-build.mjs && node scripts/runtime-postbuild.mjs && node scripts/build-stamp.mjs && pnpm build:plugin-sdk:dts && node --import tsx scripts/write-plugin-sdk-entry-dts.ts && node scripts/check-plugin-sdk-exports.mjs && node --import tsx scripts/canvas-a2ui-copy.ts && node --import tsx scripts/copy-hook-metadata.ts && node --import tsx scripts/copy-export-html-templates.ts && node --import tsx scripts/write-build-info.ts && node --import tsx scripts/write-cli-startup-metadata.ts && node --import tsx scripts/write-cli-compat.ts",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.225Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "tsgo",
+    "scriptContent": "node scripts/run-tsgo.mjs",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.220Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "openclaw-aimlapi",
+    "version": "2026.3.31-beta.1",
+    "scriptType": "lint",
+    "scriptContent": "node scripts/run-oxlint.mjs",
+    "previousVersion": "2026.3.24",
+    "timestamp": "2026-03-31T13:56:33.215Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "bare-querystring",
+    "version": "1.0.0",
+    "scriptType": "test",
+    "scriptContent": "standard && bare test.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:31.366Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/arcium-codama",
+    "version": "2.0.0",
+    "scriptType": "typecheck",
+    "scriptContent": "tsc --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:28.913Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/arcium-codama",
+    "version": "2.0.0",
+    "scriptType": "clean",
+    "scriptContent": "rm -rf dist node_modules/.cache",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:28.908Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
+    "packageName": "@umbra-privacy/arcium-codama",
+    "version": "2.0.0",
+    "scriptType": "build:watch",
+    "scriptContent": "tsup --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:28.903Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/arcium-codama",
+    "version": "2.0.0",
+    "scriptType": "build",
+    "scriptContent": "tsup",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:28.898Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/umbra-codama",
+    "version": "2.0.0",
+    "scriptType": "typecheck",
+    "scriptContent": "tsc --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:27.793Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/umbra-codama",
+    "version": "2.0.0",
+    "scriptType": "clean",
+    "scriptContent": "rm -rf dist node_modules/.cache",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:27.788Z",
+    "issuesend": false,
+    "suspicionScore": 3
+  },
+  {
+    "packageName": "@umbra-privacy/umbra-codama",
+    "version": "2.0.0",
+    "scriptType": "build:watch",
+    "scriptContent": "tsup --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:27.783Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/umbra-codama",
+    "version": "2.0.0",
+    "scriptType": "build",
+    "scriptContent": "tsup",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:27.777Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "fontdue-sanity-sync",
+    "version": "0.1.0",
+    "scriptType": "typecheck",
+    "scriptContent": "tsc --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:25.862Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "fontdue-sanity-sync",
+    "version": "0.1.0",
+    "scriptType": "dev",
+    "scriptContent": "tsc -p tsconfig.json --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:25.857Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "fontdue-sanity-sync",
+    "version": "0.1.0",
+    "scriptType": "build",
+    "scriptContent": "tsc -p tsconfig.json",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:25.852Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/indexer-write-service-client",
+    "version": "2.0.0",
+    "scriptType": "test:watch",
+    "scriptContent": "vitest",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:25.397Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/indexer-write-service-client",
+    "version": "2.0.0",
+    "scriptType": "test",
+    "scriptContent": "vitest run",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:25.392Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/indexer-write-service-client",
+    "version": "2.0.0",
+    "scriptType": "typecheck",
+    "scriptContent": "tsc --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:25.388Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/indexer-write-service-client",
+    "version": "2.0.0",
+    "scriptType": "dev",
+    "scriptContent": "tsup --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:25.383Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@umbra-privacy/indexer-write-service-client",
+    "version": "2.0.0",
+    "scriptType": "build",
+    "scriptContent": "tsup",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:25.377Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@orbitshift/mcp-server",
+    "version": "0.1.0",
+    "scriptType": "start",
+    "scriptContent": "node index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:23.383Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "picorules-adapter-fhir",
+    "version": "0.1.0",
+    "scriptType": "clean",
+    "scriptContent": "rm -rf dist",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:13.684Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "picorules-adapter-fhir",
+    "version": "0.1.0",
+    "scriptType": "type-check",
+    "scriptContent": "tsc --noEmit",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:13.680Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "picorules-adapter-fhir",
+    "version": "0.1.0",
+    "scriptType": "format",
+    "scriptContent": "prettier --write src/**/*.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:13.675Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "picorules-adapter-fhir",
+    "version": "0.1.0",
+    "scriptType": "lint",
+    "scriptContent": "eslint src/**/*.ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:13.670Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "picorules-adapter-fhir",
+    "version": "0.1.0",
+    "scriptType": "test:watch",
+    "scriptContent": "vitest",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:13.665Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "picorules-adapter-fhir",
+    "version": "0.1.0",
+    "scriptType": "test",
+    "scriptContent": "vitest run",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:13.660Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "picorules-adapter-fhir",
+    "version": "0.1.0",
+    "scriptType": "build",
+    "scriptContent": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:56:13.654Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "modbus-connect",
+    "version": "3.9.2-beta",
+    "scriptType": "test",
+    "scriptContent": "node test-crc.js",
+    "previousVersion": "3.2.0",
+    "timestamp": "2026-03-31T13:56:08.826Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "modbus-connect",
+    "version": "3.9.2-beta",
+    "scriptType": "build",
+    "scriptContent": "rimraf dist && tsc",
+    "previousVersion": "3.2.0",
+    "timestamp": "2026-03-31T13:56:08.821Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@dt-frames/icons",
+    "version": "4.0.3",
+    "scriptType": "prepublishOnly",
+    "scriptContent": "node ../../../scripts/prepare-publish.js",
+    "previousVersion": "4.0.2",
+    "timestamp": "2026-03-31T13:56:05.124Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@canopylabsai/orpheus-tts",
+    "version": "0.1.0",
+    "scriptType": "publish:package",
+    "scriptContent": "bash scripts/publish-npm.sh",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:57.156Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@canopylabsai/orpheus-tts",
+    "version": "0.1.0",
+    "scriptType": "test:parallel",
+    "scriptContent": "node examples/test_orpheus_connect_by_voice_parallel.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:57.151Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@canopylabsai/orpheus-tts",
+    "version": "0.1.0",
+    "scriptType": "test:voice",
+    "scriptContent": "node examples/test_orpheus_connect_by_voice.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:57.146Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "cursor-memory",
+    "version": "1.0.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.cjs",
+    "previousVersion": "1.0.1",
+    "timestamp": "2026-03-31T13:55:55.602Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "nestjs-devtools-mcp",
+    "version": "0.1.8",
+    "scriptType": "test",
+    "scriptContent": "jest",
+    "previousVersion": "0.1.1",
+    "timestamp": "2026-03-31T13:55:54.255Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "react-spotlight-onboard",
+    "version": "1.0.0",
+    "scriptType": "prepublishOnly",
+    "scriptContent": "pnpm build",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:44.837Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "react-spotlight-onboard",
+    "version": "1.0.0",
+    "scriptType": "lint",
+    "scriptContent": "eslint . --max-warnings 0",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:44.832Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "react-spotlight-onboard",
+    "version": "1.0.0",
+    "scriptType": "dev",
+    "scriptContent": "tsup src/index.ts --format esm,cjs --dts --clean --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:44.827Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "react-spotlight-onboard",
+    "version": "1.0.0",
+    "scriptType": "build",
+    "scriptContent": "tsup src/index.ts --format esm,cjs --dts --clean",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:44.822Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "agent-eval-opencode",
+    "version": "0.10.1",
+    "scriptType": "lint",
+    "scriptContent": "biome check .",
+    "previousVersion": "0.10.0",
+    "timestamp": "2026-03-31T13:55:44.079Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "cmake-drive",
+    "version": "1.2.9",
+    "scriptType": "test",
+    "scriptContent": "prettier . --check",
+    "previousVersion": "1.2.8",
+    "timestamp": "2026-03-31T13:55:31.074Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wix/editor-react-types",
+    "version": "1.0.1",
+    "scriptType": "test-type-check",
+    "scriptContent": "tsc --project tsconfig.test.json",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:26.878Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wix/editor-react-types",
+    "version": "1.0.1",
+    "scriptType": "clean",
+    "scriptContent": "rm -rf coverage dist target tsconfig.tsbuildinfo",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:26.873Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wix/editor-react-types",
+    "version": "1.0.1",
+    "scriptType": "build",
+    "scriptContent": "tsc -b . --force",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:26.868Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wix/editor-react-types",
+    "version": "1.0.1",
+    "scriptType": "test",
+    "scriptContent": "yarn test-type-check && vitest --run",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:26.864Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@wix/editor-react-types",
+    "version": "1.0.1",
+    "scriptType": "lint",
+    "scriptContent": "yarn run -T lint:package $npm_package_name",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:26.858Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "smart-web-mcp",
+    "version": "0.7.9",
+    "scriptType": "test:file",
+    "scriptContent": "node --import tsx --test",
+    "previousVersion": "0.7.8",
+    "timestamp": "2026-03-31T13:55:24.378Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@clawplays/ospec-cli",
+    "version": "0.1.1",
+    "scriptType": "release:smoke",
+    "scriptContent": "node scripts/release-smoke.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:12.827Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@clawplays/ospec-cli",
+    "version": "0.1.1",
+    "scriptType": "validate",
+    "scriptContent": "node dist/cli/commands/validate.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:12.822Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@clawplays/ospec-cli",
+    "version": "0.1.1",
+    "scriptType": "index:rebuild",
+    "scriptContent": "node dist/tools/build-index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:12.817Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@clawplays/ospec-cli",
+    "version": "0.1.1",
+    "scriptType": "format",
+    "scriptContent": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:12.812Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@clawplays/ospec-cli",
+    "version": "0.1.1",
+    "scriptType": "lint",
+    "scriptContent": "eslint src tests --ext .ts",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:12.808Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@clawplays/ospec-cli",
+    "version": "0.1.1",
+    "scriptType": "test:run",
+    "scriptContent": "vitest --run",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:12.803Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@clawplays/ospec-cli",
+    "version": "0.1.1",
+    "scriptType": "test",
+    "scriptContent": "vitest",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:12.798Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@clawplays/ospec-cli",
+    "version": "0.1.1",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/postinstall.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:12.793Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@clawplays/ospec-cli",
+    "version": "0.1.1",
+    "scriptType": "dev",
+    "scriptContent": "tsc --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:12.788Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@clawplays/ospec-cli",
+    "version": "0.1.1",
+    "scriptType": "build",
+    "scriptContent": "tsc",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:55:12.782Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "mpdev",
+    "version": "0.1.0",
+    "scriptType": "publish:dry-run",
+    "scriptContent": "node bin/mpdev.js publish . --dry-run",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:54:53.481Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "mpdev",
+    "version": "0.1.0",
+    "scriptType": "start",
+    "scriptContent": "node bin/mpdev.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:54:53.476Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ledgerhq/hw-app-str",
+    "version": "8.0.0-nightly.0",
+    "scriptType": "watch",
+    "scriptContent": "tsc --watch",
+    "previousVersion": "7.7.0-nightly.20260331122518",
+    "timestamp": "2026-03-31T13:54:24.438Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ledgerhq/hw-app-str",
+    "version": "8.0.0-nightly.0",
+    "scriptType": "build",
+    "scriptContent": "tsc && tsc -m ES6 --outDir lib-es",
+    "previousVersion": "7.7.0-nightly.20260331122518",
+    "timestamp": "2026-03-31T13:54:24.433Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ledgerhq/hw-app-str",
+    "version": "8.0.0-nightly.0",
+    "scriptType": "lint",
+    "scriptContent": "eslint ./src --no-error-on-unmatched-pattern --ext .ts,.tsx --cache",
+    "previousVersion": "7.7.0-nightly.20260331122518",
+    "timestamp": "2026-03-31T13:54:24.428Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ledgerhq/live-common",
+    "version": "35.0.0-next.6",
+    "scriptType": "typecheck",
+    "scriptContent": "tsc --noEmit -p src/tsconfig.json",
+    "previousVersion": "34.67.0-nightly.20260331122518",
+    "timestamp": "2026-03-31T13:54:02.912Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ledgerhq/live-common",
+    "version": "35.0.0-next.6",
+    "scriptType": "lint:fix",
+    "scriptContent": "pnpm lint --fix",
+    "previousVersion": "34.67.0-nightly.20260331122518",
+    "timestamp": "2026-03-31T13:54:02.907Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ledgerhq/live-common",
+    "version": "35.0.0-next.6",
+    "scriptType": "ci-lint",
+    "scriptContent": "pnpm lint",
+    "previousVersion": "34.67.0-nightly.20260331122518",
+    "timestamp": "2026-03-31T13:54:02.902Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ledgerhq/live-common",
+    "version": "35.0.0-next.6",
+    "scriptType": "lint",
+    "scriptContent": "eslint src --cache",
+    "previousVersion": "34.67.0-nightly.20260331122518",
+    "timestamp": "2026-03-31T13:54:02.883Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@ledgerhq/live-common",
+    "version": "35.0.0-next.6",
+    "scriptType": "jest",
+    "scriptContent": "cross-env TZ=America/New_York jest",
+    "previousVersion": "34.67.0-nightly.20260331122518",
+    "timestamp": "2026-03-31T13:54:02.863Z",
+    "issuesend": false,
+    "suspicionScore": 5
+  },
+  {
+    "packageName": "qcc-agent-cli",
+    "version": "1.0.1",
+    "scriptType": "test:coverage",
+    "scriptContent": "jest --coverage",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:54:00.478Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "qcc-agent-cli",
+    "version": "1.0.1",
+    "scriptType": "lint:fix",
+    "scriptContent": "eslint src/ --fix",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:54:00.471Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "qcc-agent-cli",
+    "version": "1.0.1",
+    "scriptType": "start",
+    "scriptContent": "node bin/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:54:00.466Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "qcc-agent-cli",
+    "version": "1.0.1",
+    "scriptType": "test",
+    "scriptContent": "jest",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:54:00.461Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "qcc-agent-cli",
+    "version": "1.0.1",
+    "scriptType": "lint",
+    "scriptContent": "eslint src/",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:54:00.456Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "xml-encryption",
+    "version": "4.0.0",
+    "scriptType": "prepare",
+    "scriptContent": "husky",
+    "previousVersion": "3.1.0",
+    "timestamp": "2026-03-31T13:53:05.317Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@xane-ai/components",
+    "version": "1.0.1",
+    "scriptType": "prepare",
+    "scriptContent": "tsc -b --verbose && vite build",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:53:03.768Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@xane-ai/components",
+    "version": "1.0.1",
+    "scriptType": "preview",
+    "scriptContent": "vite preview",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:53:03.763Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@xane-ai/components",
+    "version": "1.0.1",
+    "scriptType": "lint",
+    "scriptContent": "eslint .",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:53:03.758Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@xane-ai/components",
+    "version": "1.0.1",
+    "scriptType": "build",
+    "scriptContent": "tsc -b --verbose && vite build",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:53:03.753Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@xane-ai/components",
+    "version": "1.0.1",
+    "scriptType": "dev",
+    "scriptContent": "vite",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:53:03.741Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "salesforce-mcp-lib",
+    "version": "1.0.3",
+    "scriptType": "lint",
+    "scriptContent": "tsc --noEmit",
+    "previousVersion": "1.0.2",
+    "timestamp": "2026-03-31T13:52:58.187Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "salesforce-mcp-lib",
+    "version": "1.0.3",
+    "scriptType": "test",
+    "scriptContent": "node --import tsx --test tests/**/*.test.ts",
+    "previousVersion": "1.0.2",
+    "timestamp": "2026-03-31T13:52:58.182Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "salesforce-mcp-lib",
+    "version": "1.0.3",
+    "scriptType": "build",
+    "scriptContent": "tsc",
+    "previousVersion": "1.0.2",
+    "timestamp": "2026-03-31T13:52:58.177Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@settlemint/dalp-sdk",
+    "version": "2.1.7",
+    "scriptType": "typecheck",
+    "scriptContent": "tsgo --noEmit",
+    "previousVersion": "2.1.7-main.23799584585",
+    "timestamp": "2026-03-31T13:52:55.636Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "codex-manager",
+    "version": "1.0.0",
+    "scriptType": "start",
+    "scriptContent": "node dist/index.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:52:52.504Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "codex-manager",
+    "version": "1.0.0",
+    "scriptType": "dev",
+    "scriptContent": "tsup src/index.ts --format esm --watch",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:52:52.499Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "codex-manager",
+    "version": "1.0.0",
+    "scriptType": "build",
+    "scriptContent": "tsup src/index.ts --format esm --clean --minify",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T13:52:52.494Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@rtsantos3/trellis-app",
+    "version": "0.15.0-alpha.6",
+    "scriptType": "release:alpha",
+    "scriptContent": "npm publish --tag alpha --access public",
+    "previousVersion": "0.15.0-alpha.4",
+    "timestamp": "2026-03-31T13:52:50.953Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@hero-design/rn-work-uikit",
+    "version": "2.0.0",
+    "scriptType": "build:types",
+    "scriptContent": "rollup -c rollup.config.mjs --configPlugin dts",
+    "previousVersion": "1.13.2-test-dispatch-downstream.0",
+    "timestamp": "2026-03-31T13:52:47.204Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@heartlandone/vega-sandbox-pr-2751-12b890b9a9ee801d9632b20f45e2f769f7bea1b9",
     "version": "2.78.0",
     "scriptType": "postbuild",
