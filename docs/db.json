@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "@divyanshi4635/claude-code-ui",
+    "version": "1.27.2",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/fix-node-pty.js",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T07:41:39.553Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@bottomlessmargaritas/doc-bar",
+    "version": "2.0.0",
+    "scriptType": "postinstall",
+    "scriptContent": "node bin/postinstall.js",
+    "previousVersion": "1.2.4",
+    "timestamp": "2026-03-31T07:41:16.292Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "screenci",
+    "version": "0.0.10",
+    "scriptType": "postbuild",
+    "scriptContent": "cp Dockerfile dist/",
+    "previousVersion": "0.0.9",
+    "timestamp": "2026-03-31T07:40:18.438Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@heartlandone/vega-sandbox-pr-2755-30e4e671f826c680357e87ff24265fe3a1fc9f01",
+    "version": "2.78.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T07:40:13.171Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@farisme/farisbaileys",
     "version": "5.5.5",
     "scriptType": "preinstall",
