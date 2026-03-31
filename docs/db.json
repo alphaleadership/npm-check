@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "@heartlandone/vega-sandbox-pr-2751-12b890b9a9ee801d9632b20f45e2f769f7bea1b9",
+    "version": "2.78.0",
+    "scriptType": "postbuild",
+    "scriptContent": "cp dist/vega/*.css style/ && npm run postbuild:SRI && npm run postbuild:ensure-dist-dts && npm run postbuild:angular && npm run postbuild:vue && npm run postbuild:react && npm run postbuild:dist-check",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T09:13:16.932Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "@seamflux/cli",
+    "version": "0.1.4",
+    "scriptType": "postinstall",
+    "scriptContent": "node scripts/install-bun.js",
+    "previousVersion": "0.1.3",
+    "timestamp": "2026-03-31T09:12:50.272Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
+    "packageName": "visit-baidu-package",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "echo 'preinstall' && exit 0",
+    "previousVersion": null,
+    "timestamp": "2026-03-31T09:11:51.447Z",
+    "issuesend": false,
+    "suspicionScore": 0
+  },
+  {
     "packageName": "@divyanshi4635/claude-code-ui",
     "version": "1.27.2",
     "scriptType": "postinstall",
