@@ -6,7 +6,7 @@ import { calculateSuspicionScore } from "./lib/suspicion.ts";
 import { saveFinding, updateFindingIssueStatus, type Finding, getFindings } from "./lib/db.ts";
 import { getConfig } from "./lib/config-db.ts";
 import { savePendingTask, removePendingTask,getPendingTasks } from "./lib/pending-db.ts";
-
+import { writeFileSync } from "fs";
 // This will be passed from the main thread
 export interface PackageJobData {
   packageName: string;
@@ -47,6 +47,15 @@ function hasScript(versionDoc: unknown, scriptName: string): boolean {
   if (!scripts || typeof scripts !== "object") return false;
   const val = scripts[scriptName];
   return typeof val === "string" && val.trim().length > 0;
+}
+
+function listScripts(versionDoc: unknown): string[] {
+  if (!versionDoc || typeof versionDoc !== "object") return [];
+  const doc = versionDoc as VersionDoc;
+  const scripts = doc.scripts;
+  if (!scripts || typeof scripts !== "object") return [];
+
+  return Object.keys(scripts);
 }
 
 function getScript(
@@ -93,6 +102,7 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
         let packument: Packument;
         try {
           packument = await fetchPackument(registryBaseUrl, actual.packageName);
+          //writeFileSync(`./packuments/${actual.packageName.replace(/\//g, "_")}.json`, JSON.stringify(packument, null, 2));
         } catch (e) {
           throw new Error(
             `packument fetch failed for ${actual.packageName}: ${getErrorMessage(e)}`,
@@ -133,8 +143,9 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
         const prevDoc = previous ? versions[previous] : undefined;
 
         const alerts: Alert[] = [];
-
-        for (const scriptType of ["preinstall", "postinstall","prebuild","postbuild"] as const) {
+        const listScriptsResult = listScripts(latestDoc)|| [];
+        console.log(listScriptsResult)
+        for (const scriptType of listScriptsResult) {
           const latestHas = hasScript(latestDoc, scriptType);
           const prevHas = prevDoc ? hasScript(prevDoc, scriptType) : false;
           const latestCmd = getScript(latestDoc, scriptType);

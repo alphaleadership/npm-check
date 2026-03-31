@@ -27,7 +27,7 @@ async function httpPostJson(
 ): Promise<void> {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
-
+  
   try {
     const response = await fetch(url, {
       method: "POST",
@@ -86,7 +86,7 @@ export async function createGitHubIssue(
   repoUrl: string,
   packageName: string,
   packageVersion: string,
-  scriptType: "preinstall" | "postinstall"|"prebuild" | "postbuild",
+  scriptType: string,
   scriptContent: string,
   suspicionScore: number,
   previousVersion: string | null = null,
@@ -161,7 +161,7 @@ This could be a security risk. Please investigate.
 }
 
 export type Alert = {
-  scriptType: "preinstall" | "postinstall" | "prebuild" | "postbuild";
+  scriptType: string;
   action: "added" | "changed";
   latestCmd: string;
   prevCmd: string | null;
@@ -184,7 +184,7 @@ export async function sendCombinedScriptAlertNotifications(
   const npmPackageUrl = `https://www.npmjs.com/package/${encodePackageNameForRegistry(packageName)}`;
 
   const successfulGithubAlerts: Alert[] = []; // Collect successful alerts
-
+  
   // Build combined Telegram message
   if (telegramBotToken && telegramChatId) {
     console.log("l'id du chat est "+telegramChatId);

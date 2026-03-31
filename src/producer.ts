@@ -11,6 +11,7 @@ import { setTimeout as delay } from "node:timers/promises";
   let is_shutting_down = false;
 import { savePendingTask, removePendingTask,getPendingTasks ,getTask} from "./lib/pending-db.ts";
 import {sendTelegramNotification} from "./lib/notifications.ts";
+import { getConfig, saveConfig } from "./lib/config-db.ts";
 
 export interface PackageJobData {
   packageName: string;
@@ -123,10 +124,10 @@ export async function startProducer(piscina: Piscina): Promise<void> {
   );
   const pollMs = Math.max(250, Number(process.env.POLL_MS || 1500));
 
-  let since: string | number | null = null;
+  const config = await getConfig();
+  let since: string | number | null = config.lastSeq ?? 0;
   let backoffMs = 1000;
 
-  since = await getInitialSince(replicateDbUrl);
   process.stdout.write(
     `[${nowIso()}] Producer starting: changes=${changesUrl} since=${since} limit=${changesLimit}\n`,
   );
@@ -135,12 +136,13 @@ export async function startProducer(piscina: Piscina): Promise<void> {
   // Run indefinitely.
   // eslint-disable-next-line no-constant-condition
   while (!is_shutting_down) {
-    if(await getPendingTasks().then(l => Array.from(l).length) > 1000){
+    const pendingCount = await getPendingTasks().then(l => Array.from(l).length);
+    if(pendingCount > 1000){
         process.stdout.write(
-            `[${nowIso()}] Pending tasks exceed 1000, pausing fetching new changes...\n`,
+            `[${nowIso()}] Pending tasks exceed 1000 (${pendingCount}), pausing fetching new changes...\n`,
         );
-        shutdown();
-        await delay(pollMs);
+        // Instead of shutdown, we just wait
+        await delay(pollMs * 5);
         continue;
     }
     try {
@@ -184,6 +186,8 @@ export async function startProducer(piscina: Piscina): Promise<void> {
       }
 
       since = changes.last_seq;
+      config.lastSeq = since;
+      await saveConfig(config);
 
       if (changes.results.length === 0) {
         await delay(pollMs);

@@ -1,10 +1,6 @@
 import { getConfig, saveConfig } from "./lib/config-db.ts";
 
-async function main() {
-    const args = process.argv.slice(2);
-    const command = args[0];
-    const username = args[1];
-
+export async function manageBlacklist(command: string, username: string) {
     if (!command || !username) {
         console.error("Usage: npm run blacklist <add|remove> <username>");
         return;
@@ -37,4 +33,8 @@ async function main() {
     }
 }
 
-main().catch(console.error);
+// Only run if called directly
+if (process.argv[1] === import.meta.filename) {
+    const args = process.argv.slice(2);
+    manageBlacklist(args[0], args[1]).catch(console.error);
+}

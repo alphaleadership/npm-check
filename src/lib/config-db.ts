@@ -4,6 +4,7 @@ const DB_PATH = "./docs/config.json";
 
 export interface Config {
   blacklistedAuthors: string[];
+  lastSeq?: string | number;
 }
 
 const db = new Db<Config>(DB_PATH);
