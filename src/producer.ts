@@ -163,6 +163,7 @@ export async function startProducer(piscina: Piscina): Promise<void> {
       console.log(`[${nowIso()}] Fetched ${changes.results.length} changes since ${since}.`);
       for (const row of changes.results) {
         if (!row || typeof row.id !== "string") continue;
+        if(row.deleted) continue; // skip deleted packages
         console.log(`[${nowIso()}] Queuing package: ${JSON.stringify(row)}`);
         const name = row.id;
         if (name.startsWith("_design/")) continue;
