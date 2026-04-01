@@ -153,10 +153,14 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
 
           if (latestHas && !prevHas) {
             const score = calculateSuspicionScore(latestCmd);
-            alerts.push({ scriptType, action: "added", latestCmd, prevCmd: null, suspicionScore: score });
+            if (score >= 10) {
+              alerts.push({ scriptType, action: "added", latestCmd, prevCmd: null, suspicionScore: score });
+            }
           } else if (latestHas && prevHas && latestCmd !== prevCmd) {
             const score = calculateSuspicionScore(latestCmd);
-            alerts.push({ scriptType, action: "changed", latestCmd, prevCmd, suspicionScore: score });
+            if (score >= 10) {
+              alerts.push({ scriptType, action: "changed", latestCmd, prevCmd, suspicionScore: score });
+            }
           }
         }
 

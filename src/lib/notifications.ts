@@ -261,11 +261,6 @@ export async function sendCombinedScriptAlertNotifications(
           continue;
         }
 
-        // Only send GitHub notification if suspicion score is high (extremely suspect)
-        if (alert.suspicionScore < 10) {
-          process.stdout.write(`[${nowIso()}] Skipping GitHub issue for ${packageName} ${alert.scriptType}: suspicion score ${alert.suspicionScore} is below threshold 10.\n`);
-          continue;
-        }
         try {
         await createGitHubIssue(
           octokit,
