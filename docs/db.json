@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@m860/react-skeleton",
+    "version": "0.0.1",
+    "scriptType": "win-dev",
+    "scriptContent": "set NODE_ENV=development&&webpack-dev-server --host 0.0.0.0 --inline --progress --colors --port 3000 --content-base src/",
+    "previousVersion": null,
+    "timestamp": "2026-04-02T22:40:46.897Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "@cond/sequelize",
     "version": "0.0.0-development",
     "scriptType": "cover-unit",
