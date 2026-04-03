@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@nfcampos/react-native-vector-icons",
+    "version": "4.1.1",
+    "scriptType": "build-entypo",
+    "scriptContent": "mkdir -p tmp/svg && curl https://dl.dropboxusercontent.com/u/4339492/entypo.zip > tmp/entypo.zip && unzip -j tmp/entypo.zip *.svg -x __MACOSX/* -d tmp/svg && fontcustom compile tmp/svg -o tmp -n Entypo -t css -h && node generate-icon tmp/Entypo.css --componentName=Entypo --fontFamily=Entypo --template=templates/separated-icon-set.tpl --glyphmap=glyphmaps/Entypo.json > Entypo.js && cp tmp/Entypo.ttf Fonts && rm -rf {tmp,.fontcustom-manifest.json}",
+    "previousVersion": null,
+    "timestamp": "2026-04-03T05:46:09.286Z",
+    "issuesend": true,
+    "suspicionScore": 11
+  },
+  {
     "packageName": "@mn-tech/sequelize",
     "version": "3.30.6",
     "scriptType": "cover-unit",
