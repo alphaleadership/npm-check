@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@mn-tech/sequelize",
+    "version": "3.30.6",
+    "scriptType": "cover-unit",
+    "scriptContent": "cross-env COVERAGE=true node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -t 30000 --ui tdd \"test/unit/**/*.test.js\" && node -e \"require('fs').renameSync('coverage/lcov.info', 'coverage/unit.info')\"",
+    "previousVersion": null,
+    "timestamp": "2026-04-03T03:17:48.593Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "@mn-tech/sequelize",
+    "version": "3.30.6",
+    "scriptType": "cover-integration",
+    "scriptContent": "cross-env COVERAGE=true node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -t 60000 --ui tdd \"test/integration/**/*.test.js\" && node -e \"require('fs').renameSync('coverage/lcov.info', 'coverage/integration.info')\"",
+    "previousVersion": null,
+    "timestamp": "2026-04-03T03:17:48.560Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "@m860/react-skeleton",
     "version": "0.0.1",
     "scriptType": "win-dev",
