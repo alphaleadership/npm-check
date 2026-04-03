@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@prunkstation/draft-js-editor",
+    "version": "0.0.1",
+    "scriptType": "dev",
+    "scriptContent": "NODE_ENV=development webpack-dev-server --host 127.0.0.1 --devtool eval --content-base dist/ --progress --colors --hot",
+    "previousVersion": null,
+    "timestamp": "2026-04-03T10:55:42.327Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "@nfcampos/react-native-vector-icons",
     "version": "4.1.1",
     "scriptType": "build-entypo",
