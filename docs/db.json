@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@thacker/stylesheet",
+    "version": "0.2.2",
+    "scriptType": "dev",
+    "scriptContent": " cross-env SS_ENV=development webpack-dev-server --content-base dist --inline --hot --no-info --colors --host 0.0.0.0",
+    "previousVersion": "0.2.1",
+    "timestamp": "2026-04-03T22:46:04.031Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "@prunkstation/draft-js-editor",
     "version": "0.0.1",
     "scriptType": "dev",
