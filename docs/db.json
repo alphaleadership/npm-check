@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "abigail-plugin-env",
+    "version": "0.0.0",
+    "scriptType": "cover:report",
+    "scriptContent": "node -e \"if(process.env.TRAVIS){}else{process.exit(1)}\" && codeclimate-test-reporter < coverage/lcov.info || echo skip coverage report",
+    "previousVersion": null,
+    "timestamp": "2026-04-04T10:44:00.818Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "@thacker/stylesheet",
     "version": "0.2.2",
     "scriptType": "dev",
