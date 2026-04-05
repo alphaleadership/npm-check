@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "angular-webpack-workflow",
+    "version": "12.1.0",
+    "scriptType": "server",
+    "scriptContent": "env SCHEME=http HOST=192.168.1.138:3012 DB_URL_COMPONENT=enterprise_dashboard_development_data WS_HOST=37.59.48.5:3020 webpack-dev-server --history-api-fallback --inline --progress --host 0.0.0.0",
+    "previousVersion": "12.0.10",
+    "timestamp": "2026-04-05T07:19:42.918Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "angular-srcs",
+    "version": "5.1.0-beta.2-yg.1",
+    "scriptType": "preinstall",
+    "scriptContent": "node -e \"if(process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('Please use Yarn instead of NPM to install dependencies. See: https://yarnpkg.com/lang/en/docs/install/')\"",
+    "previousVersion": null,
+    "timestamp": "2026-04-05T07:19:06.910Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "aeternity",
     "version": "0.1.1",
     "scriptType": "main",
