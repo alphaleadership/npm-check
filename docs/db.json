@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "apified",
+    "version": "0.2.2",
+    "scriptType": "test",
+    "scriptContent": "curl -i -H 'Accept: application/json' -H 'Content-Type: application/json' -X GET 'http://127.0.0.1:3000/mycoolfunction?number=01.01&anotherNumber=30'",
+    "previousVersion": "0.0.0",
+    "timestamp": "2026-04-05T14:42:56.876Z",
+    "issuesend": false,
+    "suspicionScore": 16
+  },
+  {
     "packageName": "angular-webpack-workflow",
     "version": "12.1.0",
     "scriptType": "server",
