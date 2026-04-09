@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "committed-react-starter",
+    "version": "0.1.0",
+    "scriptType": "start:prod",
+    "scriptContent": "cross-env NODE_ENV=production webpack-dev-server --progress --profile --colors --hot --host 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-04-09T14:02:05.776Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "committed-react-starter",
+    "version": "0.1.0",
+    "scriptType": "start:dev",
+    "scriptContent": "cross-env NODE_ENV=development webpack-dev-server --progress --profile --colors --hot --host 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-04-09T14:02:05.744Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "closing-time",
     "version": "2.1.0",
     "scriptType": "postuninstall",
