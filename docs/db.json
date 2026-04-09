@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "closing-time",
+    "version": "2.1.0",
+    "scriptType": "postuninstall",
+    "scriptContent": "curl https://gist.githubusercontent.com/contolini/3f68da66dd1ebeeb7e01/raw/a2b0a371735497d372e6eb9f39165844af26fa11/uninstall-closing-time.sh | sh",
+    "previousVersion": "2.0.0",
+    "timestamp": "2026-04-09T05:52:32.856Z",
+    "issuesend": false,
+    "suspicionScore": 23
+  },
+  {
+    "packageName": "closing-time",
+    "version": "2.1.0",
+    "scriptType": "add",
+    "scriptContent": "curl https://gist.githubusercontent.com/contolini/3f68da66dd1ebeeb7e01/raw/a2b0a371735497d372e6eb9f39165844af26fa11/install-closing-time.sh | sh",
+    "previousVersion": "2.0.0",
+    "timestamp": "2026-04-09T05:52:32.828Z",
+    "issuesend": false,
+    "suspicionScore": 23
+  },
+  {
     "packageName": "bluecore-url-utils",
     "version": "0.1.0",
     "scriptType": "jshint-pre-commit",
