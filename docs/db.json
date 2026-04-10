@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "cors-buster",
+    "version": "2.0.2",
+    "scriptType": "start",
+    "scriptContent": "cross-env micro --listen=tcp://0.0.0.0:$PORT",
+    "previousVersion": "2.0.1",
+    "timestamp": "2026-04-10T09:20:26.109Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "committed-react-starter",
     "version": "0.1.0",
     "scriptType": "start:prod",
