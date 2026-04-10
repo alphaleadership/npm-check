@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "craftyjs",
+    "version": "0.9.0",
+    "scriptType": "postinstall",
+    "scriptContent": "(node -e \"process.env.NODE_ENV !== 'production' && process.exit()\" && grunt copy:lib) || node -v",
+    "previousVersion": "0.8.0",
+    "timestamp": "2026-04-10T13:39:37.193Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "cors-buster",
     "version": "2.0.2",
     "scriptType": "start",
