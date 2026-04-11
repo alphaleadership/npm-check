@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "divine-math",
+    "version": "0.0.3",
+    "scriptType": "deploy",
+    "scriptContent": "npm config set registry http://192.168.10.79:8081/repository/npm-hosted/ && npm login && npm publish",
+    "previousVersion": null,
+    "timestamp": "2026-04-11T18:58:57.285Z",
+    "issuesend": false,
+    "suspicionScore": 12
+  },
+  {
     "packageName": "craftyjs",
     "version": "0.9.0",
     "scriptType": "postinstall",
