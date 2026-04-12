@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "sequelize-js",
+    "version": "0.0.1",
+    "scriptType": "cover-unit",
+    "scriptContent": "cross-env COVERAGE=true nyc --reporter=lcovonly mocha --require scripts/mocha-bootload -t 30000 --exit \"test/unit/**/*.test.js\" && node -e \"require('fs').renameSync('coverage/lcov.info', 'coverage/unit.info')\"",
+    "previousVersion": null,
+    "timestamp": "2026-04-12T20:47:38.062Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "sequelize-js",
+    "version": "0.0.1",
+    "scriptType": "cover-integration",
+    "scriptContent": "cross-env COVERAGE=true nyc --reporter=lcovonly mocha --require scripts/mocha-bootload -t 30000 --exit \"test/integration/**/*.test.js\" && node -e \"require('fs').renameSync('coverage/lcov.info', 'coverage/integration.info')\"",
+    "previousVersion": null,
+    "timestamp": "2026-04-12T20:47:38.033Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "ebp-theme-ace",
     "version": "1.0.0",
     "scriptType": "dev",
