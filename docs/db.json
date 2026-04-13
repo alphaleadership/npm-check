@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "ember-flickity",
+    "version": "0.2.0",
+    "scriptType": "prepare-release",
+    "scriptContent": "curl -sL https://raw.githubusercontent.com/travelbank/misc/master/scripts/prepare_release.sh | bash -s",
+    "previousVersion": "0.1.5",
+    "timestamp": "2026-04-13T03:41:03.950Z",
+    "issuesend": false,
+    "suspicionScore": 23
+  },
+  {
     "packageName": "sequelize-js",
     "version": "0.0.1",
     "scriptType": "cover-unit",
