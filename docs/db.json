@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "exiftool.pl",
+    "version": "10.53.0",
+    "scriptType": "download",
+    "scriptContent": "rm -rf vendor; curl -L https://downloads.sourceforge.net/project/exiftool/Image-ExifTool-10.53.tar.gz | tar xz; mv Image-ExifTool-10.53 vendor; cd vendor; ls | grep -v 'lib\\|exiftool' | xargs rm -r",
+    "previousVersion": "10.51.0",
+    "timestamp": "2026-04-14T11:11:54.769Z",
+    "issuesend": true,
+    "suspicionScore": 11
+  },
+  {
     "packageName": "et_phone_home",
     "version": "0.0.5",
     "scriptType": "postinstall",
