@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "given-html-report",
+    "version": "0.0.2-3",
+    "scriptType": "mvn",
+    "scriptContent": "rm -rf tmp && mkdir -p tmp && cd tmp && wget http://central.maven.org/maven2/com/tngtech/jgiven/jgiven-html5-report/0.8.1/jgiven-html5-report-0.8.1.jar",
+    "previousVersion": "0.0.2-2",
+    "timestamp": "2026-04-17T17:01:43.955Z",
+    "issuesend": true,
+    "suspicionScore": 11
+  },
+  {
     "packageName": "fluxdrive",
     "version": "0.0.11",
     "scriptType": "dev:mongo",
