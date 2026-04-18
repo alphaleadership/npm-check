@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "gulp-jsfy",
+    "version": "0.1.6-beta",
+    "scriptType": "prepublish",
+    "scriptContent": "node -e \"if(process.env.TRAVIS){}else{process.exit(1)}\" && npm run compile || echo skip prepublish",
+    "previousVersion": "0.1.6-alpha",
+    "timestamp": "2026-04-18T20:48:32.899Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "grn-skipper-gridfs",
     "version": "0.5.3",
     "scriptType": "test",
