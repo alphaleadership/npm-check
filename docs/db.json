@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "grn-skipper-gridfs",
+    "version": "0.5.3",
+    "scriptType": "test",
+    "scriptContent": "node -e \"require('skipper-adapter-tests')({module: require('./'), uri: process.env.URI});\"",
+    "previousVersion": null,
+    "timestamp": "2026-04-18T03:20:13.907Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "given-html-report",
     "version": "0.0.2-3",
     "scriptType": "mvn",
