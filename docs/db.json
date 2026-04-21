@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "is-appveyor",
+    "version": "1.0.0",
+    "scriptType": "debug",
+    "scriptContent": "node -e \"console.log(process.env);\"",
+    "previousVersion": null,
+    "timestamp": "2026-04-21T17:13:43.420Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "hanzen",
     "version": "0.0.0",
     "scriptType": "prepublish",
