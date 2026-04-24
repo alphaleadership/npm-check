@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "lively.server",
+    "version": "0.1.0",
+    "scriptType": "start",
+    "scriptContent": "$npm_node_execpath bin/start-server.js --port 9011 --hostname 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-04-24T20:58:43.583Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "liquify",
     "version": "0.0.1",
     "scriptType": "postinstall",
