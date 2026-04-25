@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "make-npm-env",
+    "version": "0.0.0",
+    "scriptType": "env",
+    "scriptContent": "node -e \"console.log(JSON.stringify(process.env))\"",
+    "previousVersion": null,
+    "timestamp": "2026-04-25T10:54:27.043Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "lively.server",
     "version": "0.1.0",
     "scriptType": "start",
