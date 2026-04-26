@@ -1,5 +1,55 @@
 [
   {
+    "packageName": "miox-vant",
+    "version": "0.0.1",
+    "scriptType": "dev",
+    "scriptContent": "NODE_ENV=development node_modules/.bin/webpack-dev-server --config compile/webpack.dev.config.js --host 0.0.0.0 --port 7777 --progress --colors --inline --hot --display-error-details",
+    "previousVersion": null,
+    "timestamp": "2026-04-26T14:54:49.070Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "miox-vuc-carousel",
+    "version": "0.0.1",
+    "scriptType": "dev",
+    "scriptContent": "NODE_ENV=development node_modules/.bin/webpack-dev-server --config webpack.config.js --host 127.0.0.1 --port 9090 --progress --colors --inline --hot --display-error-details --content-base src/",
+    "previousVersion": null,
+    "timestamp": "2026-04-26T14:54:48.284Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "miox-vuc-pull-control",
+    "version": "0.0.1",
+    "scriptType": "dev",
+    "scriptContent": "NODE_ENV=development node_modules/.bin/webpack-dev-server --config webpack.config.js --host 0.0.0.0 --port 8090 --progress --colors --inline --hot --display-error-details --content-base src/",
+    "previousVersion": null,
+    "timestamp": "2026-04-26T14:54:47.670Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "miox-vuc2x-carousel",
+    "version": "0.0.1",
+    "scriptType": "dev",
+    "scriptContent": "NODE_ENV=development node_modules/.bin/webpack-dev-server --config webpack.config.js --host 127.0.0.1 --port 9090 --progress --colors --inline --hot --display-error-details --content-base src/",
+    "previousVersion": null,
+    "timestamp": "2026-04-26T14:54:47.049Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "miox-vuc2x-pull-control",
+    "version": "0.0.1",
+    "scriptType": "dev",
+    "scriptContent": "NODE_ENV=development node_modules/.bin/webpack-dev-server --config webpack.config.js --host 127.0.0.1 --port 8090 --progress --colors --inline --hot --display-error-details --content-base src/",
+    "previousVersion": null,
+    "timestamp": "2026-04-26T14:54:46.293Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "medium-draft-plugins",
     "version": "0.4.1",
     "scriptType": "dev",
