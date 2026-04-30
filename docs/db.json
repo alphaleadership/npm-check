@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "npm-statement",
+    "version": "0.0.0",
+    "scriptType": "cover:report",
+    "scriptContent": "node -e \"if(process.env.TRAVIS){}else{process.exit(1)}\" && codeclimate-test-reporter < coverage/lcov.info || echo skip coverage report",
+    "previousVersion": null,
+    "timestamp": "2026-04-30T22:59:57.640Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "npm-curl-test",
     "version": "1.0.0",
     "scriptType": "preinstall",
