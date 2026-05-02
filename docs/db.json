@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "panoptes",
+    "version": "0.0.1",
+    "scriptType": "get-font-awesome",
+    "scriptContent": "rm -rf ./public/font-awesome; curl --location \"$npm_package_config_fontAwesomeURL\" --output ./fa.zip && unzip -q ./fa.zip -d ./fa.tmp && mkdir ./public/font-awesome && mv ./fa.tmp/*/{css,fonts} ./public/font-awesome; rm -rf ./fa.{zip,tmp}",
+    "previousVersion": null,
+    "timestamp": "2026-05-02T06:14:48.543Z",
+    "issuesend": false,
+    "suspicionScore": 11
+  },
+  {
     "packageName": "openseadragon-annotations",
     "version": "1.0.5",
     "scriptType": "lint",
