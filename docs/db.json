@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "phovea_bundle_lib",
+    "version": "0.1.0",
+    "scriptType": "prebuild",
+    "scriptContent": "node -e \"process.exit(process.env.PHOVEA_SKIP_TESTS === undefined?1:0)\" || npm run test",
+    "previousVersion": null,
+    "timestamp": "2026-05-02T19:12:25.913Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "panoptes",
     "version": "0.0.1",
     "scriptType": "get-font-awesome",
