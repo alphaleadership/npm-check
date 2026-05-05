@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "react-d3-graph",
+    "version": "2.6.0",
+    "scriptType": "functional",
+    "scriptContent": "cross-env CYPRESS_SANDBOX_URL=\"http://127.0.0.1:8888\" cypress run",
+    "previousVersion": "2.5.0",
+    "timestamp": "2026-05-05T06:25:36.672Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "react-append-to-body",
     "version": "2.0.26",
     "scriptType": "demo",
