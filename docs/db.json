@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "react-native-vector-icons-iconfont",
+    "version": "2.0.0",
+    "scriptType": "build-entypo",
+    "scriptContent": "mkdir -p tmp/svg && curl https://dl.dropboxusercontent.com/u/4339492/entypo.zip > tmp/entypo.zip && unzip -j tmp/entypo.zip *.svg -x __MACOSX/* -d tmp/svg && fontcustom compile tmp/svg -o tmp -n Entypo -t css -h && node bin/generate-icon tmp/Entypo.css --componentName=Entypo --fontFamily=Entypo --template=templates/separated-icon-set.tpl --glyphmap=glyphmaps/Entypo.json > Entypo.js && cp tmp/Entypo.ttf Fonts && rm -rf {tmp,.fontcustom-manifest.json}",
+    "previousVersion": "1.1.0",
+    "timestamp": "2026-05-06T03:54:19.378Z",
+    "issuesend": false,
+    "suspicionScore": 11
+  },
+  {
     "packageName": "react-logos",
     "version": "0.1.0",
     "scriptType": "dev",
