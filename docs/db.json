@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "redux-hermit",
+    "version": "0.2.0",
+    "scriptType": "cover:report",
+    "scriptContent": "node -e \"if(process.env.TRAVIS){}else{process.exit(1)}\" && codeclimate-test-reporter < coverage/lcov.info || echo skip coverage report",
+    "previousVersion": "0.1.0",
+    "timestamp": "2026-05-07T03:52:06.912Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "react-sortable-tree-psh",
     "version": "1.5.2",
     "scriptType": "storybook",
