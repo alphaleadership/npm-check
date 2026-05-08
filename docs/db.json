@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "saucelabs-finder",
+    "version": "0.0.0-alpha",
+    "scriptType": "prepublish",
+    "scriptContent": "node -e \"if(process.env.TRAVIS){}else{process.exit(1)}\" && npm run compile || echo skip prepublish",
+    "previousVersion": null,
+    "timestamp": "2026-05-08T23:03:22.489Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "saber-storage",
     "version": "2.0.0",
     "scriptType": "pretest",
