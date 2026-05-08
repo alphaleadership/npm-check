@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "rsuite-affix",
+    "version": "2.0.0",
+    "scriptType": "dev",
+    "scriptContent": "NODE_ENV=development webpack-dev-server  --inline --progress --colors --port 3100 --host 0.0.0.0 --devtool source-map",
+    "previousVersion": "1.1.2",
+    "timestamp": "2026-05-08T14:07:25.159Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "redux-hermit",
     "version": "0.2.0",
     "scriptType": "cover:report",
