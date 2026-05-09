@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "select-widget",
+    "version": "0.1.0",
+    "scriptType": "start",
+    "scriptContent": "webpack-dev-server --inline --hot --env.NODE_ENV=development --host 0.0.0.0",
+    "previousVersion": "0.0.3",
+    "timestamp": "2026-05-09T11:02:55.656Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "saucelabs-finder",
     "version": "0.0.0-alpha",
     "scriptType": "prepublish",
