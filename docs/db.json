@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "shb-slider",
+    "version": "0.0.3",
+    "scriptType": "start",
+    "scriptContent": "webpack-dev-server --env=dev --inline --host=0.0.0.0 --port=8030",
+    "previousVersion": "0.0.1",
+    "timestamp": "2026-05-09T17:06:21.026Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "sequelize-next",
     "version": "0.0.0-development",
     "scriptType": "cover-unit",
