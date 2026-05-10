@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "social-collaboration-widget",
+    "version": "0.1.5",
+    "scriptType": "start:prod",
+    "scriptContent": "cross-env NODE_ENV=production HOST=0.0.0.0 npm start",
+    "previousVersion": null,
+    "timestamp": "2026-05-10T15:01:15.178Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "social-collaboration-widget",
+    "version": "0.1.5",
+    "scriptType": "build:prod",
+    "scriptContent": "cross-env NODE_ENV=production HOST=0.0.0.0 npm run build",
+    "previousVersion": null,
+    "timestamp": "2026-05-10T15:01:15.146Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "skipper-gcs",
     "version": "0.3.1",
     "scriptType": "test",
