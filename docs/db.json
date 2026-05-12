@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "ixu-ui",
+    "version": "0.6.5",
+    "scriptType": "publish:snpm",
+    "scriptContent": "npm config set registry http://112.29.174.227:4873/ && npm publish --registry http://112.29.174.227:4873",
+    "previousVersion": null,
+    "timestamp": "2026-05-12T06:44:31.975Z",
+    "issuesend": false,
+    "suspicionScore": 12
+  },
+  {
     "packageName": "social-collaboration-widget",
     "version": "0.1.5",
     "scriptType": "start:prod",
