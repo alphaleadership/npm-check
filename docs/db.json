@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "ui-router-react",
+    "version": "0.5.0",
+    "scriptType": "dev",
+    "scriptContent": "cross-env NODE_ENV=development webpack-dev-server --host 0.0.0.0 --port 8000 --config webpack.example.js --history-api-fallback --content-base example",
+    "previousVersion": "0.4.0",
+    "timestamp": "2026-05-15T14:32:34.558Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "ui-manager",
+    "version": "0.0.0",
+    "scriptType": "delayed-open",
+    "scriptContent": "ping -n 6 127.0.0.1 >null && open http://localhost:2368",
+    "previousVersion": null,
+    "timestamp": "2026-05-15T14:31:51.407Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "ugnis-webgl",
+    "version": "0.0.1",
+    "scriptType": "start",
+    "scriptContent": "NODE_ENV=development webpack-dev-server --content-base ./build/ --hot --inline --host 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-05-15T14:31:17.368Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "teelogging",
     "version": "1.0.1",
     "scriptType": "preinstall",
