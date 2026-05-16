@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "vue-contact",
+    "version": "1.0.0",
+    "scriptType": "dev",
+    "scriptContent": "cross-env NODE_ENV=development webpack-dev-server --port 8091 --open http://127.0.0.1:8091 --hot --host 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-05-16T15:05:38.553Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "vue-bubble",
+    "version": "1.0.3",
+    "scriptType": "demo",
+    "scriptContent": "NODE_ENV=production webpack-dev-server --devtool eval --progress --config ./webpack.demo.config.js --colors --hot --inline -w --host 0.0.0.0",
+    "previousVersion": "1.0.2",
+    "timestamp": "2026-05-16T15:05:18.773Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "magic-service",
     "version": "1.0.1",
     "scriptType": "test",
