@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "yahoo-jp",
+    "version": "0.0.0",
+    "scriptType": "prepublish",
+    "scriptContent": "node -e \"if(process.env.TRAVIS){}else{process.exit(1)}\" && npm run compile || echo skip prepublish",
+    "previousVersion": null,
+    "timestamp": "2026-05-18T18:05:48.394Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "wgl",
     "version": "1.0.0",
     "scriptType": "serve",
