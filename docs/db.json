@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "z-control",
+    "version": "1.0.48",
+    "scriptType": "start",
+    "scriptContent": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --progress --colors --host 0.0.0.0 --port 3456 --config webpack.config.js",
+    "previousVersion": null,
+    "timestamp": "2026-05-18T23:14:12.106Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "yahoo-jp",
     "version": "0.0.0",
     "scriptType": "prepublish",
