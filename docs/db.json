@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@tafelnl/graphql-fields-list",
+    "version": "2.2.5",
+    "scriptType": "show:doc",
+    "scriptContent": "/usr/bin/env node -e \"require('open')('file://`pwd`/docs/index.html',{wait:false});\"",
+    "previousVersion": null,
+    "timestamp": "2026-05-26T16:02:05.811Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "@tafelnl/graphql-fields-list",
+    "version": "2.2.5",
+    "scriptType": "show:test",
+    "scriptContent": "/usr/bin/env node -e \"require('open')('file://`pwd`/coverage/index.html',{wait:false});\"",
+    "previousVersion": null,
+    "timestamp": "2026-05-26T16:02:05.783Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "sequelize-mariadb-json-fix",
     "version": "6.21.3",
     "scriptType": "cover-unit",
