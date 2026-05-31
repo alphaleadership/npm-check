@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "react-stockcharts-relative",
+    "version": "0.7.8",
+    "scriptType": "watch",
+    "scriptContent": "npm run clean && npm run modernizr && cross-env IP=0.0.0.0 PORT=8080 BABEL_ENV=watch webpack-dev-server --config config/webpack.config.js --env watch",
+    "previousVersion": null,
+    "timestamp": "2026-05-31T19:30:22.375Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "hel-react-remote",
     "version": "0.2.4",
     "scriptType": "set_home_page",
