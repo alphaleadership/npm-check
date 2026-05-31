@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "hel-react-remote",
+    "version": "0.2.4",
+    "scriptType": "set_home_page",
+    "scriptContent": "cross-env-shell HEL_APP_HOME_PAGE=http://127.0.0.1:8080",
+    "previousVersion": null,
+    "timestamp": "2026-05-31T14:01:33.603Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "zcontrolfix",
     "version": "1.6.3",
     "scriptType": "start1",
