@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "api-pms",
+    "version": "1.0.0",
+    "scriptType": "win",
+    "scriptContent": "@powershell -Command $env:DEBUG='krz:*'; nodemon lib/server.js",
+    "previousVersion": null,
+    "timestamp": "2026-06-01T17:56:10.661Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "@kie-tools/serverless-workflow-diagram-editor",
     "version": "0.23.0",
     "scriptType": "build:prod:win32",
