@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "@kie-tools/serverless-workflow-diagram-editor",
+    "version": "0.23.0",
+    "scriptType": "build:prod:win32",
+    "scriptContent": "pnpm lint && pnpm powershell \"mvn clean install `-DskipTests=$(build-env tests.run --not) `-Dmaven.test.failure.ignore=$(build-env tests.ignoreFailures) `-DskipITs=$(build-env integrationTests.run --not) `-Pno-showcase\" && pnpm dist",
+    "previousVersion": "0.22.0",
+    "timestamp": "2026-06-01T11:52:40.310Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "@kie-tools/serverless-workflow-diagram-editor",
+    "version": "0.23.0",
+    "scriptType": "build:dev:win32",
+    "scriptContent": "pnpm powershell \"mvn clean install `-DskipTests `-DskipITs=$(build-env global.build.testIT --not) `-Pno-showcase\" && pnpm dist",
+    "previousVersion": "0.22.0",
+    "timestamp": "2026-06-01T11:52:40.281Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "@bechara/nestjs-core",
     "version": "4.23.0",
     "scriptType": "example",
