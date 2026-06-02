@@ -1,5 +1,45 @@
 [
   {
+    "packageName": "fishx-remote-react-comps-ts",
+    "version": "2.0.0",
+    "scriptType": "set_home_page",
+    "scriptContent": "cross-env-shell HEL_APP_HOME_PAGE=http://127.0.0.1:8080",
+    "previousVersion": null,
+    "timestamp": "2026-06-02T21:19:36.593Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "@subqlmono/sequelize",
+    "version": "0.0.0-1",
+    "scriptType": "cover-unit",
+    "scriptContent": "cross-env COVERAGE=true nyc --reporter=lcovonly yarn mocha \"test/unit/**/*.test.[tj]s\" && node -e \"require('fs').renameSync('coverage/lcov.info', 'coverage/unit.info')\"",
+    "previousVersion": null,
+    "timestamp": "2026-06-02T21:19:04.982Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "@subqlmono/sequelize",
+    "version": "0.0.0-1",
+    "scriptType": "cover-integration",
+    "scriptContent": "cross-env COVERAGE=true nyc --reporter=lcovonly yarn mocha \"test/integration/**/*.test.[tj]s\" && node -e \"require('fs').renameSync('coverage/lcov.info', 'coverage/integration.info')\"",
+    "previousVersion": null,
+    "timestamp": "2026-06-02T21:19:04.954Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
+    "packageName": "igig",
+    "version": "0.0.1",
+    "scriptType": "start:ts-node-dev",
+    "scriptContent": "NODE_ENV=development TYPEORM_DIR=true ts-node-dev --inspect=0.0.0.0:7001 --ignore-watch node_modules -r tsconfig-paths-bootstrap.js --respawn --transpile-only ./src/main.ts",
+    "previousVersion": null,
+    "timestamp": "2026-06-02T21:18:04.380Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "y-grid-ant",
     "version": "1.0.0",
     "scriptType": "dev",
