@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "pwa-sharchat",
+    "version": "1.0.0",
+    "scriptType": "dev:jio",
+    "scriptContent": "cross-env NODE_ENV=development JIO_ENABLED=true webpack-dev-server --hot --progress --mode development --host 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-06-02T23:55:38.357Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "fishx-remote-react-comps-ts",
     "version": "2.0.0",
     "scriptType": "set_home_page",
