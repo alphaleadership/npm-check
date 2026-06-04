@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "packaging-service",
+    "version": "1.0.0",
+    "scriptType": "start:dev",
+    "scriptContent": "APP_NAME=packaging-service APP_ENV=development nodemon --exec node --inspect=0.0.0.0:9230 -r ts-node/register -r tsconfig-paths/register src/index.ts",
+    "previousVersion": null,
+    "timestamp": "2026-06-04T10:11:54.341Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "jsforce2",
+    "version": "1.11.1",
+    "scriptType": "prepublish",
+    "scriptContent": "node -e \"if(process.env.npm_package_version!==require('./lib/VERSION')){console.error('The pacakge.json version is not matching to ./lib/VERSION.js');process.exit(1)}\"",
+    "previousVersion": null,
+    "timestamp": "2026-06-04T10:11:25.661Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "pwa-sharchat",
     "version": "1.0.0",
     "scriptType": "dev:jio",
