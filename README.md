@@ -57,7 +57,7 @@ Malicious packages are screened and reported by myself. This project has led to 
 
 - **20 packages** have been reported
 - **19 packages** has been removed
-- **47 ultra suspect packages** have been detected by the suspicion score system
+- **157 ultra suspect packages** have been detected by the suspicion score system
 
 Including at least 6 instances of live malware:
 

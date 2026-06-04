@@ -137,9 +137,9 @@ export async function startProducer(piscina: Piscina): Promise<void> {
   // eslint-disable-next-line no-constant-condition
   while (!is_shutting_down) {
     const pendingCount = await getPendingTasks().then(l => Array.from(l).length);
-    if(pendingCount > 1000){
+    if(pendingCount > 100){
         process.stdout.write(
-            `[${nowIso()}] Pending tasks exceed 1000 (${pendingCount}), pausing fetching new changes...\n`,
+            `[${nowIso()}] Pending tasks exceed 100 (${pendingCount}), pausing fetching new changes...\n`,
         );
         // Instead of shutdown, we just wait
         await delay(pollMs * 5);
