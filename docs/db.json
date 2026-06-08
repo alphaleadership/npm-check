@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@alokagr07/react-stock-charts",
+    "version": "0.0.1",
+    "scriptType": "watch",
+    "scriptContent": "npm run clean && npm run modernizr && cross-env IP=0.0.0.0 PORT=8080 BABEL_ENV=watch webpack-dev-server --config config/webpack.config.js --env watch",
+    "previousVersion": null,
+    "timestamp": "2026-06-08T20:27:23.437Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "@agnsu/ts-get",
     "version": "1.1.3",
     "scriptType": "preinstall",
