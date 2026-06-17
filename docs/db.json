@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "etao-component",
+    "version": "2.7.6",
+    "scriptType": "dev",
+    "scriptContent": "cross-env NODE_ENV=development webpack-dev-server --open --hot --host 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-06-17T15:54:02.385Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "@misterazix/routing-controllers",
     "version": "0.9.0",
     "scriptType": "test:debug",
