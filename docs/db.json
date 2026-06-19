@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "react-gpplot",
+    "version": "0.0.1",
+    "scriptType": "site:develop",
+    "scriptContent": "cross-env PORT=8080 gatsby develop --open -H 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-06-19T18:03:56.506Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "etao-component",
     "version": "2.7.6",
     "scriptType": "dev",
