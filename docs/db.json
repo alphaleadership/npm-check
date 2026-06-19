@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "wujie-sy-hel-tpl-remote-vue-comp",
+    "version": "0.0.1",
+    "scriptType": "set_home_page",
+    "scriptContent": "cross-env-shell HEL_APP_HOME_PAGE=http://127.0.0.1:9001",
+    "previousVersion": null,
+    "timestamp": "2026-06-19T21:14:37.279Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "react-gplot",
+    "version": "0.0.1",
+    "scriptType": "site:develop",
+    "scriptContent": "cross-env PORT=8080 gatsby develop --open -H 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-06-19T21:14:05.618Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "react-gpplot",
     "version": "0.0.1",
     "scriptType": "site:develop",
