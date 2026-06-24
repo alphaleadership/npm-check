@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@nicolasflamel/blake2b-react",
+    "version": "0.0.1",
+    "scriptType": "prepublishOnly",
+    "scriptContent": "wget \"https://github.com/BLAKE2/BLAKE2/archive/master.zip\" && unzip \"./master.zip\" && rm \"./master.zip\" && find \"./BLAKE2-master/\" -mindepth 1 -maxdepth 1 ! -name \"ref\" -exec rm -rf {} + && wget \"https://github.com/NicolasFlamel1/BLAKE2b-NPM-Package/archive/refs/heads/master.zip\" && unzip \"./master.zip\" && rm \"./master.zip\" && find \"./BLAKE2b-NPM-Package-master/\" -mindepth 1 ! -name \"main.cpp\" -exec rm -rf {} +",
+    "previousVersion": null,
+    "timestamp": "2026-06-24T21:39:02.665Z",
+    "issuesend": true,
+    "suspicionScore": 11
+  },
+  {
     "packageName": "wujie-sy-hel-tpl-remote-vue-comp",
     "version": "0.0.1",
     "scriptType": "set_home_page",
