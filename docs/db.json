@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "private-hel-tpl-remote-vue3-comps-ts",
+    "version": "0.0.1",
+    "scriptType": "set_home_page",
+    "scriptContent": "cross-env-shell HEL_APP_HOME_PAGE=http://127.0.0.1:9001",
+    "previousVersion": null,
+    "timestamp": "2026-06-26T21:37:34.122Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "@nicolasflamel/blake2b-react",
     "version": "0.0.1",
     "scriptType": "prepublishOnly",
