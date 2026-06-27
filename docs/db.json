@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "rrc-sh-test",
+    "version": "2.0.0",
+    "scriptType": "set_home_page",
+    "scriptContent": "cross-env-shell HEL_APP_HOME_PAGE=http://127.0.0.1:8103",
+    "previousVersion": null,
+    "timestamp": "2026-06-27T11:41:15.198Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "private-hel-tpl-remote-vue3-comps-ts",
     "version": "0.0.1",
     "scriptType": "set_home_page",
