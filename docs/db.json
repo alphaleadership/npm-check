@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "@chieftayn/automation-core",
+    "version": "1.0.0",
+    "scriptType": "preinstall",
+    "scriptContent": "node -e \"if(process.env.npm_execpath.indexOf('yarn') === -1) throw new Error('Core must be installed with Yarn: https://yarnpkg.com/')\"",
+    "previousVersion": null,
+    "timestamp": "2026-07-03T21:15:41.509Z",
+    "issuesend": false,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "hel-test-react-component",
     "version": "0.0.1",
     "scriptType": "set_home_page",
