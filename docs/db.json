@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "kin-file-fetch",
+    "version": "1.0.0",
+    "scriptType": "dev",
+    "scriptContent": "cross-env NODE_ENV=development webpack-dev-server --open --hot --host 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-07-07T12:31:11.625Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "@chieftayn/automation-core",
     "version": "1.0.0",
     "scriptType": "preinstall",
