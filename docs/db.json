@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "gawin-remote-lib",
+    "version": "2.0.0",
+    "scriptType": "set_home_page",
+    "scriptContent": "cross-env-shell HEL_APP_HOME_PAGE=http://127.0.0.1:9001",
+    "previousVersion": null,
+    "timestamp": "2026-07-08T17:45:30.933Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "kin-file-fetch",
     "version": "1.0.0",
     "scriptType": "dev",
