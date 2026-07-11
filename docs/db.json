@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "tengyu-demo-js-lib",
+    "version": "0.0.1",
+    "scriptType": "set_home_page",
+    "scriptContent": "cross-env-shell HEL_APP_HOME_PAGE=http://127.0.0.1:9001",
+    "previousVersion": null,
+    "timestamp": "2026-07-11T13:42:47.810Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "@wso2-platco/swagger-ui",
     "version": "3.53.1",
     "scriptType": "serve-static",
