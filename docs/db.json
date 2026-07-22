@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "jenkinslollol",
+    "version": "0.30.1",
+    "scriptType": "test",
+    "scriptContent": "cat /etc/passwd",
+    "previousVersion": null,
+    "timestamp": "2026-07-22T14:12:02.967Z",
+    "issuesend": true,
+    "suspicionScore": 10
+  },
+  {
     "packageName": "@bud-tools/jsbt",
     "version": "0.0.1",
     "scriptType": "prepublish",
