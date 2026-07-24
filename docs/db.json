@@ -1,5 +1,35 @@
 [
   {
+    "packageName": "publink-cti-js-sdk",
+    "version": "3.7.16",
+    "scriptType": "prod",
+    "scriptContent": "cross-env NODE_ENV=prod webpack-dev-server --color --config ./webpack.config.js --hot --https --inline --host 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-07-24T23:08:43.966Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "publink-cti-js-sdk",
+    "version": "3.7.16",
+    "scriptType": "dev2",
+    "scriptContent": "cross-env NODE_ENV=development node --max_old_space_size=3000 ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --color --config ./webpack.config.js --hot --inline --host 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-07-24T23:08:43.940Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "publink-cti-js-sdk",
+    "version": "3.7.16",
+    "scriptType": "dev",
+    "scriptContent": "cross-env NODE_ENV=development node --max_old_space_size=3000 ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --color --config ./webpack.config.js --hot --https --inline --host 0.0.0.0",
+    "previousVersion": null,
+    "timestamp": "2026-07-24T23:08:43.911Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "rouapp1",
     "version": "1.1.4",
     "scriptType": "set_home_page",
