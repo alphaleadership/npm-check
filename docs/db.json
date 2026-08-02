@@ -1,5 +1,25 @@
 [
   {
+    "packageName": "pigeon-cluster-custom-marker",
+    "version": "0.0.6",
+    "scriptType": "start:inferno",
+    "scriptContent": "BABEL_ENV=inferno ./node_modules/.bin/webpack-dev-server --history-api-fallback --hot --host 0.0.0.0 --port 4040 --display-modules",
+    "previousVersion": null,
+    "timestamp": "2026-08-02T13:43:18.034Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
+    "packageName": "pigeon-cluster-custom-marker",
+    "version": "0.0.6",
+    "scriptType": "start:react",
+    "scriptContent": "BABEL_ENV=react ./node_modules/.bin/webpack-dev-server --history-api-fallback --hot --host 0.0.0.0 --port 4040 --display-modules",
+    "previousVersion": null,
+    "timestamp": "2026-08-02T13:43:18.007Z",
+    "issuesend": true,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "action-wtest",
     "version": "1.0.0",
     "scriptType": "lint",
