@@ -97,8 +97,6 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
  
 
     try {
-        process.stdout.write(`[${nowIso()}] Processing: ${actual.packageName}\n`);
-
         let packument: Packument;
         try {
           packument = await fetchPackument(registryBaseUrl, actual.packageName);
@@ -127,19 +125,19 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
           return;
         }
 
+        const timeRecord = packument.time && typeof packument.time === "object" ? (packument.time as Record<string, string>) : null;
+        const publishDate = timeRecord?.[latest] ?? null;
+
+        process.stdout.write(
+          `[${nowIso()}] Processing: ${actual.packageName}@${latest} (${publishDate ?? "unknown Date"}) - previous=${previous ?? "none"}\n`,
+        );
+
         // Check if we already processed this version
         const findings = await getFindings();
         if (findings.some(f => f.packageName === actual.packageName && f.version === latest)) {
           process.stdout.write(`[${nowIso()}] Skipping ${actual.packageName}@${latest}: already processed.\n`);
           return;
         }
-
-        const timeRecord = packument.time && typeof packument.time === "object" ? (packument.time as Record<string, string>) : null;
-        const publishDate = timeRecord?.[latest] ?? null;
-
-        process.stdout.write(
-          `[${nowIso()}] ${actual.packageName}: latest=${latest ?? "null"} (${publishDate ?? "unknown Date"}), previous=${previous ?? "null"}\n`,
-        );
 
         const versions = (packument.versions ?? {}) as Record<string, VersionDoc>;
         const latestDoc = versions[latest];
