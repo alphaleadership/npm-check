@@ -11,6 +11,7 @@ export interface Finding {
   timestamp: string;
   issuesend?: boolean;
   suspicionScore?: number;
+  publishDate?: string | null;
 }
 
 const db = new Db<Finding>(DB_PATH);

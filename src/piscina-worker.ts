@@ -134,8 +134,11 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
           return;
         }
 
+        const timeRecord = packument.time && typeof packument.time === "object" ? (packument.time as Record<string, string>) : null;
+        const publishDate = timeRecord?.[latest] ?? null;
+
         process.stdout.write(
-          `[${nowIso()}] ${actual.packageName}: latest=${latest ?? "null"}, previous=${previous ?? "null"}\n`,
+          `[${nowIso()}] ${actual.packageName}: latest=${latest ?? "null"} (${publishDate ?? "unknown Date"}), previous=${previous ?? "null"}\n`,
         );
 
         const versions = (packument.versions ?? {}) as Record<string, VersionDoc>;
@@ -168,7 +171,7 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
           const prevTxt = previous ? ` (prev: ${previous})` : " (first publish / unknown prev)";
           for (const alert of alerts) {
             process.stdout.write(
-              `[${nowIso()}] 🚨 MALICIOUS PACKAGE DETECTED (Score: ${alert.suspicionScore}): ${alert.scriptType} ${alert.action}: ${actual.packageName}@${latest}${prevTxt}\n` +
+              `[${nowIso()}] 🚨 MALICIOUS PACKAGE DETECTED (Score: ${alert.suspicionScore}): ${alert.scriptType} ${alert.action}: ${actual.packageName}@${latest}${prevTxt} (Published: ${publishDate ?? "unknown"})\n` +
                 (alert.action === "added"
                   ? `  ${alert.scriptType}: ${JSON.stringify(alert.latestCmd)}\n`
                   : `  Previous ${alert.scriptType}: ${JSON.stringify(alert.prevCmd)}\n` +
@@ -177,6 +180,7 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
           }
 
           // Save findings to db.json
+
           for (const alert of alerts) {
             const finding: Finding = {
               packageName: actual.packageName,
@@ -187,6 +191,7 @@ export default async function processPackage(actual: PackageJobData): Promise<vo
               timestamp: nowIso(),
               issuesend: false,
               suspicionScore: alert.suspicionScore,
+              publishDate,
             };
             await saveFinding(finding);
           }

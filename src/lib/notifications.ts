@@ -91,6 +91,7 @@ export async function createGitHubIssue(
   suspicionScore: number,
   previousVersion: string | null = null,
   previousScriptContent: string | null = null,
+  publishDate: string | null = null,
 ): Promise<void> {
   const url = new URL(repoUrl);
   const pathParts = url.pathname.split("/").filter(Boolean);
@@ -112,12 +113,13 @@ export async function createGitHubIssue(
 
   let issueBody: string;
   const suspicionText = `**Suspicion Score:** ${suspicionScore}/100`;
+  const publishDateText = publishDate ? `**Publish Date:** ${publishDate}\n` : "";
   if (isChanged) {
     issueBody = `
 The \`${scriptType}\` script was changed in version \`${packageVersion}\` of the package \`${packageName}\`.
 
 ${suspicionText}
-
+${publishDateText}
 **Previous version:** ${previousVersion ?? "none"}
 **Previous script:**
 \`\`\`
@@ -140,7 +142,7 @@ This could be a security risk. Please investigate.
 A new \`${scriptType}\` script was detected in version \`${packageVersion}\` of the package \`${packageName}\`.
 
 ${suspicionText}
-
+${publishDateText}
 **Script content:**
 \`\`\`
 ${scriptContent}
@@ -183,6 +185,9 @@ export async function sendCombinedScriptAlertNotifications(
   const githubToken = process.env.GITHUB_TOKEN;
   const npmPackageUrl = `https://www.npmjs.com/package/${encodePackageNameForRegistry(packageName)}`;
 
+  const timeRecord = packument.time && typeof packument.time === "object" ? (packument.time as Record<string, string>) : null;
+  const publishDate = timeRecord?.[latest] ?? null;
+
   const successfulGithubAlerts: Alert[] = []; // Collect successful alerts
   
   // Build combined Telegram message
@@ -204,6 +209,7 @@ export async function sendCombinedScriptAlertNotifications(
       const message =
         `🚨 <b>Security Alert: ${alerts.length} script change${alerts.length > 1 ? "s" : ""} detected</b>\n\n` +
         `Package: <code>${packageName}@${latest}</code>\n` +
+        (publishDate ? `Published at: <code>${publishDate}</code>\n` : "") +
         `<a href="${npmPackageUrl}">View on npm</a>\n` +
         `Previous version: ${previous ?? "none"}\n\n` +
         alertParts.join("\n\n");
@@ -232,6 +238,7 @@ export async function sendCombinedScriptAlertNotifications(
       const message =
         `🚨 **Security Alert: ${alerts.length} script change${alerts.length > 1 ? "s" : ""} detected**\n\n` +
         `**Package:** \`${packageName}@${latest}\`\n` +
+        (publishDate ? `**Published at:** \`${publishDate}\`\n` : "") +
         `**Previous version:** ${previous ?? "none"}\n\n` +
         alertParts.join("\n\n");
 
@@ -272,6 +279,7 @@ export async function sendCombinedScriptAlertNotifications(
           alert.suspicionScore,
           previous,
           alert.action === "changed" ? alert.prevCmd : null,
+          publishDate,
         );
         successfulGithubAlerts.push(alert); // Add to successful alerts
       } catch (e) {

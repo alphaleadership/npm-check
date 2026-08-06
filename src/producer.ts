@@ -96,24 +96,51 @@ const shutdown = () => {
   }
 export { shutdown };
 export async function startProducer(piscina: Piscina): Promise<void> {
-   
-   (async () => {
-    const list = await getPendingTasks();
-    sendTelegramNotification(process.env.TELEGRAM_BOT_TOKEN!, process.env.TELEGRAM_CHAT_ID!, "Démarrage du traitement des tâches en attente... taches en attente: "+(await getPendingTasks().then(l => Array.from(l).length)).toString());
-  for await (const num of list) {
-    console.log(num);
-    // Expected output: 1
-    const tache=await getTask();
-    if (tache){
-    await piscina.run(tache).catch(err => {
-            console.error(`[${nowIso()}] Piscina task failed for ${num.packageName  }: ${getErrorMessage(err)}`);
-          });} else {
-            process.stdout.write(`[${nowIso()}] No task retrieved for: ${num.packageName}\n`);
-          }
-          continue
-    // Closes iterator, triggers return
-  }
-})();
+  const maxConcurrency = Number(process.env.MAX_CONCURRENCY || 10);
+  let activeTasks = 0;
+
+  // Start the background pending tasks consumer loop
+  const processPendingQueue = async () => {
+    process.stdout.write(`[${nowIso()}] Starting background pending tasks consumer (concurrency=${maxConcurrency})...\n`);
+    
+    // Send startup notification with current pending count
+    const initialTasks = await getPendingTasks();
+    if (initialTasks.length > 0) {
+      sendTelegramNotification(
+        process.env.TELEGRAM_BOT_TOKEN!, 
+        process.env.TELEGRAM_CHAT_ID!, 
+        `Démarrage du traitement des tâches en attente... tâches en attente: ${initialTasks.length}`
+      ).catch(err => console.error("Failed to send Telegram notification:", err));
+    }
+
+    while (!is_shutting_down) {
+      if (activeTasks < maxConcurrency) {
+        const tache = await getTask();
+        if (tache) {
+          activeTasks++;
+          piscina.run(tache)
+            .catch(err => {
+              console.error(`[${nowIso()}] Piscina task failed for ${tache.packageName}: ${getErrorMessage(err)}`);
+            })
+            .finally(() => {
+              activeTasks--;
+            });
+        } else {
+          // No tasks, sleep for a bit
+          await delay(1000);
+        }
+      } else {
+        // Concurrency limit reached, wait for some tasks to complete
+        await delay(200);
+      }
+    }
+    process.stdout.write(`[${nowIso()}] Background consumer loop stopped.\n`);
+  };
+
+  processPendingQueue().catch(err => {
+    console.error(`[${nowIso()}] Background consumer error: ${getErrorMessage(err)}`);
+  });
+
   const replicateDbUrl =
     process.env.NPM_REPLICATE_DB_URL || DEFAULT_REPLICATE_DB_URL;
   const changesUrl = process.env.NPM_CHANGES_URL || DEFAULT_CHANGES_URL;
@@ -200,29 +227,9 @@ export async function startProducer(piscina: Piscina): Promise<void> {
       await delay(backoffMs);
       backoffMs = Math.min(backoffMs * 2, 30000);
     }
-  };
-   if (process.env.GITHUB_ACTIONS !== 'true') {
-  (async () => {
-    const list = await getPendingTasks();
-  for await (const num of list) {
-    console.log(num);
-    // Expected output: 1
-    const tache=await getTask();
-    if (tache){
-    await piscina.run(tache).catch(err => {
-            console.error(`[${nowIso()}] Piscina task failed for ${num.packageName  }: ${getErrorMessage(err)}`);
-          });} else {
-            process.stdout.write(`[${nowIso()}] No task retrieved for: ${num.packageName}\n`);
-          }
-          continue
-    // Closes iterator, triggers return
   }
-})();
-   }
  
   process.stdout.write(`[${nowIso()}] Producer has shut down.\n`);
-  return
-    
+  return;
 }
-
 

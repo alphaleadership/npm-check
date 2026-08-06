@@ -1,5 +1,15 @@
 [
   {
+    "packageName": "patient-api",
+    "version": "0.21.2-12",
+    "scriptType": "start",
+    "scriptContent": "SLACK_WEBHOOK_URI_BACKEND=https://hooks.slack.com/services/REDACTED MONITOR_SLACK_CHANNEL=#monitor_test MONITOR_EXCEPTION_CODES=client_not_connected,no_installations_found AWS_KEY=REDACTED AWS_SECRET=REDACTED NODE_ENV=system BASE_URL=http://10.0.0.10:8000 node --inspect srv/app-stage.js",
+    "previousVersion": null,
+    "timestamp": "2026-08-06T09:26:53.516Z",
+    "issuesend": false,
+    "suspicionScore": 13
+  },
+  {
     "packageName": "pigeon-cluster-custom-marker",
     "version": "0.0.6",
     "scriptType": "start:inferno",
